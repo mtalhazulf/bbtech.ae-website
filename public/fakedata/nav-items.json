@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"name": "Home",
+		"path": "/"
+	},
+	{
+		"id": 2,
+		"name": "Industries",
+		"path": "/industries"
+	},
+	{
+		"id": 3,
+		"name": "Solutions",
+		"path": "/solutions"
+	},
+	{
+		"id": 4,
+		"name": "Services",
+		"path": "/services",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "ERP Design & Development",
+				"icon": "tji-service-1",
+				"path": "/services/1"
+			},
+			{
+				"id": 2,
+				"name": "Web Design & Development",
+				"icon": "tji-service-2",
+				"path": "/services/2"
+			},
+			{
+				"id": 3,
+				"name": "Mobile App Development",
+				"icon": "tji-service-3",
+				"path": "/services/3"
+			},
+			{
+				"id": 4,
+				"name": "Graphic Design & Branding",
+				"icon": "tji-service-4",
+				"path": "/services/4"
+			},
+			{
+				"id": 5,
+				"name": "SEO & Digital Marketing",
+				"icon": "tji-service-5",
+				"path": "/services/5"
+			},
+			{
+				"id": 6,
+				"name": "Social WiFi",
+				"icon": "tji-service-6",
+				"path": "/services/6"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Contact",
+		"path": "/contact"
+	}
+]

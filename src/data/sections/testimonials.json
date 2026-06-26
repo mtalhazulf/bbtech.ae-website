@@ -1,0 +1,18 @@
+{
+	"testimonials2": {
+		"image": "/images/testimonial/testimonial-img.webp",
+		"titlePrefix": "Hear from Our ",
+		"titleHighlight": "Customer.",
+		"rating": "4.9",
+		"ratingText": "(80+ Clients Reviews)"
+	},
+	"testimonials10": {
+		"subTitle": "Clients Feedback",
+		"subTitleIcon": "tji-box",
+		"title": "Our Clients Share Their Success Stories.",
+		"shapes": [
+			"/images/shape/pattern-2.svg",
+			"/images/shape/pattern-3.svg"
+		]
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"subTitle": "Our Solutions",
+	"titlePrefix": "End-to-End Technology Solutions for Your ",
+	"titleHighlight": "Business.",
+	"items": [
+		{
+			"title": "ERP System",
+			"desc": "Customized ERP for any industry: consultancy, design, implementation, customization, and integration with third-party apps (Shopify, Magento, WooCommerce/WordPress, WhatsApp, Microsoft 365, POS).",
+			"icon": "tji-service-1"
+		},
+		{
+			"title": "ISMS – School System",
+			"desc": "A complete ERP solution purpose-built for educational institutions and schools.",
+			"icon": "tji-service-2"
+		},
+		{
+			"title": "Social WiFi",
+			"desc": "Turn your guest WiFi into a data-collection and marketing engine — capture insights and run targeted campaigns.",
+			"icon": "tji-worldwide"
+		},
+		{
+			"title": "Web Development",
+			"desc": "Custom web solutions that accelerate workflows and revenue, with API development, system integrations and SEO.",
+			"icon": "tji-service-3"
+		},
+		{
+			"title": "Mobile App Development",
+			"desc": "Custom iOS & Android apps with modern UI/UX, API integration and ongoing maintenance.",
+			"icon": "tji-service-4"
+		},
+		{
+			"title": "SEO & Digital Marketing",
+			"desc": "SEO, social media management, content marketing and Google Ads/PPC campaigns that grow your reach.",
+			"icon": "tji-growth"
+		},
+		{
+			"title": "Graphic Design & Branding",
+			"desc": "Visual branding, design and rebranding that tells your story and leaves a lasting impact.",
+			"icon": "tji-service-5"
+		},
+		{
+			"title": "Cloud & Healthcare Software",
+			"desc": "Cloud migration plus specialized healthcare/medical-centre software and ADHICS consultancy.",
+			"icon": "tji-service-6"
+		}
+	]
+}

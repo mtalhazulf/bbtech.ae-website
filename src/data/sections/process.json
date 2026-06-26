@@ -1,0 +1,32 @@
+{
+	"process4": {
+		"subTitle": "Our PROCESS",
+		"title": "Seamless Process and Great Results.",
+		"button": { "text": "Explore More", "url": "/about" },
+		"shapes": [
+			"/images/shape/pattern-2.svg",
+			"/images/shape/pattern-3.svg",
+			"/images/shape/h7-testimonial-shape-blur.svg"
+		],
+		"items": [
+			{
+				"id": 1,
+				"iconName": "tji-growth",
+				"title": "Discovery & Planning",
+				"desc": "We start by understanding your unique business needs, objectives and challenges, then map out a tailored technology roadmap to achieve them."
+			},
+			{
+				"id": 2,
+				"iconName": "tji-worldwide",
+				"title": "Design & Development",
+				"desc": "Our certified engineers turn the plan into reality — designing, building and integrating reliable software that fits your OS, browser and device."
+			},
+			{
+				"id": 3,
+				"iconName": "tji-complete",
+				"title": "Delivery & 24/7 Support",
+				"desc": "After launch we provide thorough testing and round-the-clock critical support, ensuring everything keeps running smoothly for your business."
+			}
+		]
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"services10": {
+		"subTitle": "Our Solutions",
+		"subTitleIcon": "tji-box",
+		"title": "Custom Software & Digital Solutions for Your Business.",
+		"button": { "text": "Explore More", "url": "/services" }
+	},
+	"servicesPrimary": {
+		"limit": 6
+	},
+	"servicesDetails": {
+		"mainImage": {
+			"src": "/images/service/service-details.webp",
+			"width": 870,
+			"height": 450
+		},
+		"title": "Transforming Customer: Tailored Solutions for Experiences.",
+		"paragraphs": [
+			"Recognize that exceptional customer experiences are at the heart of every successful business. Our Customer Experience Solutions are crafted to help you transform every interaction your customers have with your brand into a meaningful and positive experience. We believe that understanding the customer journey and providing personalized, seamless experiences can significantly enhance customer loyalty, satisfaction, and lifetime value.Our approach to customer experience is comprehensive and data-driven.",
+			"Our approach to customer experience is comprehensive and data-driven. We begin by assessing your current customer touchpoints, identifying areas for improvement, and using insights to develop strategies that meet your customers’ evolving needs. From optimizing digital platforms."
+		],
+		"checkList": [
+			"Personalization at Scale",
+			"Improved Customer Retention",
+			"Data-Driven Insights",
+			"Omni-channel Integration",
+			"Customer Retention",
+			"Support Optimization",
+			"Proactive Engagement"
+		],
+		"gallery": [
+			{
+				"src": "/images/service/service-3.webp",
+				"width": 420,
+				"height": 420,
+				"delay": ".3s"
+			},
+			{
+				"src": "/images/service/service-4.webp",
+				"width": 420,
+				"height": 420,
+				"delay": ".5s"
+			}
+		],
+		"rangeHeading": "Our Range of Customer Services",
+		"rangeParagraph": "At BB Tech, we don't just focus on solving customer problems—we focus on creating experiences that delight and build lasting relationships. Whether it's through improving customer service operations, leveraging technology, or designing more engaging digital experiences, our team is here to help you exceed your customers' expectations every time. We help you understand your customers deeply, optimize their experience.",
+		"detailsBoxes": [
+			{
+				"number": "01.",
+				"title": ["Increased Customer", "Satisfaction"],
+				"desc": "By prov consistent, personalized experience, customers are more likely to feel valued a satisfied, which directly.",
+				"delay": ".2s"
+			},
+			{
+				"number": "02.",
+				"title": ["Improved Operational", "Efficiency"],
+				"desc": "With our tools and strategies, your customer support teams can handle inquiries faster, while automated systems.",
+				"delay": ".4s"
+			},
+			{
+				"number": "03.",
+				"title": ["Insights for Continuous Improvement"],
+				"desc": "Our data-driven approach provides team with valuable insights into customer behavior, enabling to continual.",
+				"delay": ".6s"
+			}
+		],
+		"faqHeading": "Frequently asked questions",
+		"faqs": [
+			{
+				"id": "faq-1",
+				"question": "What is Customer Experience (CX) and why is it important?",
+				"answer": "Customer Experience (CX) refers to the overall impression a customer has of a business based on their interactions across various touchpoints—whether it’s a website visit, a customer support call, or an in-store purchase. It encompasses everything from ease of navigation and service quality to emotional connection and brand perception."
+			},
+			{
+				"id": "faq-2",
+				"question": "How can your Customer Experience Solutions benefit?",
+				"answer": "Our solutions optimize every touchpoint of the customer journey, ensuring seamless, personalized, and meaningful interactions. The benefits include improved customer satisfaction, higher retention rates, stronger brand loyalty, and actionable insights to continuously improve your customer engagement strategies. We help integrate these channels so customers feel valued."
+			},
+			{
+				"id": "faq-3",
+				"question": "How do you personalize the customer experience?",
+				"answer": "Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery."
+			},
+			{
+				"id": "faq-4",
+				"question": "What kind of tools do you use to improve customer experience?",
+				"answer": "Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery."
+			},
+			{
+				"id": "faq-5",
+				"question": "How do you collect customer feedback?",
+				"answer": "Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery."
+			},
+			{
+				"id": "faq-6",
+				"question": "Can you help improve our customer support system?",
+				"answer": "Getting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery."
+			}
+		],
+		"sidebarTitle": "More Services",
+		"sidebarLimit": 6
+	},
+	"serviceDetailsMain": {
+		"fallbackTitle": "Service Details",
+		"breadcrumbs": [{ "name": "Services", "path": "/services" }]
+	}
+}

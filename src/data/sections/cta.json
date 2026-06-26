@@ -1,0 +1,15 @@
+{
+	"cta": {
+		"title": "Let’s Build Future Together.",
+		"buttonDelay": ".6s",
+		"button": { "text": "Get Started Now", "url": "/contact" },
+		"image": "/images/cta/cta-bg.webp"
+	},
+	"ctaSidebar": {
+		"title": "Modern",
+		"subtitle": "Home Makeover",
+		"icon": "tji-phone-3",
+		"phone": { "display": "+8 (321) 890-640", "tel": "8321890640" },
+		"image": "/images/service/service-ad.webp"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"subTitle": "Choose the Best",
+	"titlePrefix": "Empowering Business with ",
+	"titleHighlight": "Expertise.",
+	"button": { "text": "Request a Call", "url": "/contact" },
+	"items": [
+		{
+			"title": "10+ Years of Expertise",
+			"desc": "A decade delivering custom software, web, mobile and ERP solutions to 500+ satisfied customers across the UAE.",
+			"icon": "tji-innovative"
+		},
+		{
+			"title": "24/7 Critical Support",
+			"desc": "Certified engineers are always available to keep your systems running, backed by mutually-agreed SLAs.",
+			"icon": "tji-award"
+		},
+		{
+			"title": "ISO Certified Quality",
+			"desc": "Certified to ISO 9001, 14001, 27001 and 45001 — your assurance of secure, reliable and quality-driven delivery.",
+			"icon": "tji-support"
+		}
+	]
+}

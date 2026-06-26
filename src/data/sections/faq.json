@@ -1,0 +1,91 @@
+{
+	"faq2": {
+		"phone": { "display": "1-888-452-1505", "tel": "18884521505" },
+		"sidebar": {
+			"subTitleIcon": "tji-box",
+			"subTitle": "Common Questions",
+			"subTitleDelay": ".3s",
+			"titlePrefix": "Need ",
+			"titleHighlight": "Help?",
+			"titleSuffix": " Start Here...",
+			"descLines": [
+				"We stay ahead of curve, leveraging ",
+				" cutting-edge are technologies and ",
+				" strategies to competitive"
+			],
+			"descDelay": ".6s",
+			"buttonDelay": ".8s",
+			"button": { "text": "Request a Call", "url": "/contact" }
+		},
+		"imageArea": {
+			"image": "/images/faq/faq.webp",
+			"imageWidth": 585,
+			"imageHeight": 629,
+			"title": "Need Help? Start Here...",
+			"callTitle": "Get Started Free Call? ",
+			"callIcon": "tji-phone"
+		},
+		"items": [
+			{
+				"title": "What services does BB Tech offer to clients?",
+				"desc": "\tBB Tech provides ERP design & development, web and mobile app development, graphic design & branding, SEO & digital marketing, Social WiFi, and managed IT, network and cloud solutions — all backed by 24/7 support and ISO-certified quality.",
+				"initActive": true
+			},
+			{
+				"title": "How do I get started with BB Tech?",
+				"desc": "\tGetting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+				"initActive": false
+			},
+			{
+				"title": "How do you ensure the success of a project?",
+				"desc": "\tGetting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+				"initActive": false
+			},
+			{
+				"title": "How long will it take to complete my project?",
+				"desc": "\tGetting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+				"initActive": false
+			},
+			{
+				"title": "Can I track the progress of my project?",
+				"desc": "\tGetting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+				"initActive": false
+			}
+		]
+	},
+	"faq3": {
+		"subTitleIcon": "tji-box",
+		"subTitle": "Common Questions",
+		"subTitleDelay": ".1s",
+		"titlePrefix": "Need ",
+		"titleHighlight": "Help?",
+		"titleSuffix": " Start Here...",
+		"items": [
+			{
+				"title": "What services does BB Tech offer to clients?",
+				"desc": "\tGetting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+				"initActive": true
+			},
+			{
+				"title": "How do I get started with Corporate Business?",
+				"desc": "\tGetting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+				"initActive": false
+			},
+			{
+				"title": "How do you ensure the success of a project?",
+				"desc": "\tGetting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+				"initActive": false
+			},
+			{
+				"title": "How long will it take to complete my project?",
+				"desc": "\tGetting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+				"initActive": false
+			},
+			{
+				"title": "Can I track the progress of my project?",
+				"desc": "\tGetting started is easy! Simply reach out to us through our contact form or give us a call, and we’ll schedule a consultation to discuss your project and how we can best assist you. Our team keeps you informed throughout the process, ensuring quality control and timely delivery.",
+				"initActive": false
+			}
+		]
+	}
+}

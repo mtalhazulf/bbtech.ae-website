@@ -1,0 +1,123 @@
+{
+	"heading": "Terms & Conditions",
+	"pill": "BB Tech – Corporate Business HTML Template",
+	"lastUpdated": "Last updated: September 9, 2025",
+	"intro": {
+		"before": "Thank you for choosing ",
+		"strong": "BB Tech – Corporate Business HTML Template",
+		"afterStrong": " . These Terms & Conditions govern your use of the Template purchased from ",
+		"link1": { "text": "ThemeForest (Envato Market)", "href": "https://themeforest.net/" },
+		"betweenLinks": ". By downloading, installing, or using the Template, you agree to be bound by these Terms and the applicable ",
+		"link2": { "text": "Envato License", "href": "https://themeforest.net/licenses/standard" },
+		"afterLink2": "."
+	},
+	"note": {
+		"label": "Short version:",
+		"text": " You can use BB Tech on the number of end products allowed by your Envato license, but you can’t resell, redistribute, or share the source files. Support and updates are provided according to the policies below."
+	},
+	"toc": {
+		"heading": "Table of Contents",
+		"items": [
+			{ "target": "#definitions", "label": "Definitions" },
+			{ "target": "#license", "label": "License & Permitted Use" },
+			{ "target": "#restrictions", "label": "Restrictions" },
+			{ "target": "#support", "label": "Support Policy" },
+			{ "target": "#updates", "label": "Updates & Compatibility" }
+		]
+	},
+	"definitions": {
+		"id": "definitions",
+		"heading": "1. Definitions",
+		"weUs": {
+			"strong": "“We”, “Us”, “Our”",
+			"middle": " refers to ",
+			"link": { "text": "Theme Junction", "href": "https://themeforest.net/user/theme-junction" },
+			"after": ", the author of the Template on ThemeForest."
+		},
+		"you": {
+			"strong": "“You”, “Your”",
+			"after": " refers to the purchaser/licensee who downloads or uses the Template."
+		},
+		"license": {
+			"strong": "“License”",
+			"middle": " refers to the Envato Market license (Regular or Extended) under which the Template is purchased. For full details, see the ",
+			"link": { "text": "Envato License Terms", "href": "https://themeforest.net/licenses/standard" },
+			"after": "."
+		}
+	},
+	"license": {
+		"id": "license",
+		"heading": "2. License & Permitted Use",
+		"intro": "Your rights to use the Template are determined by the Envato license you purchased:",
+		"items": [
+			{
+				"strong": "Regular License:",
+				"before": " Permits the use of the Template in a single ",
+				"em": "end product",
+				"after": " that is not offered for sale, where end users are not charged to access or use it."
+			},
+			{
+				"strong": "Extended License:",
+				"before": " Permits the use of the Template in a single ",
+				"em": "end product offered for sale",
+				"after": " (e.g., a SaaS or paid access site). The Template itself cannot be resold as a template or theme."
+			}
+		],
+		"outro": {
+			"before": "Each license is valid for ",
+			"strong": "one end product",
+			"after": ". If you need the Template for multiple projects, you must purchase one license for each end product. All uses must comply with Envato’s licensing rules."
+		}
+	},
+	"restrictions": {
+		"id": "restrictions",
+		"heading": "3. Restrictions",
+		"intro": { "before": "You agree that you will ", "strong": "not", "after": ":" },
+		"items": [
+			"Resell, redistribute, sublicense, share, or make the Template (or any source files) publicly available, except as permitted by your Envato license.",
+			"Use the Template in any way that competes with the original item (e.g., as a theme/template for sale, or in a template library/marketplace).",
+			"Remove, obscure, or alter copyright notices, license headers, or item metadata where present.",
+			"Claim the Template as your own original work.",
+			"Use the Template for unlawful, harmful, or offensive content, or in violation of any applicable law or regulation."
+		]
+	},
+	"support": {
+		"id": "support",
+		"heading": "4. Support Policy",
+		"intro": {
+			"before": "Item support is provided in accordance with Envato’s ",
+			"link": { "text": "Item Support Policy", "href": "https://themeforest.net/page/item_support_policy" },
+			"after": " for the support period associated with your purchase."
+		},
+		"includedLabel": "What’s included:",
+		"included": [
+			"Answering questions about item features and functionality.",
+			"Bug fixes and reported issue investigation (if the issue is reproducible with the original item).",
+			"Updates to maintain item compatibility with supported browsers and dependencies listed in the documentation."
+		],
+		"notIncludedLabel": "What’s not included:",
+		"notIncluded": [
+			"Installation, customization, or new feature requests.",
+			"Support for third‑party plugins, scripts, or hosting/server issues.",
+			"Issues arising from modifications beyond the provided code or from outdated dependencies not specified in the docs."
+		],
+		"howTo": {
+			"strong": "How to get support:",
+			"before": " Please open a ticket or contact us via ThemeForest comments with your ",
+			"em1": "Envato username",
+			"middle": " and ",
+			"em2": "purchase code",
+			"after": ". We may ask for temporary access or additional details to diagnose issues."
+		}
+	},
+	"updates": {
+		"id": "updates",
+		"heading": "5. Updates & Compatibility",
+		"intro": "We may release updates to improve features, fix bugs, or maintain compatibility. You’ll have access to updates via your ThemeForest downloads during the support/maintenance period.",
+		"items": [
+			"The Template is built as a static HTML/CSS/JS item. It does not include server‑side code.",
+			"Browser support targets versions listed in the documentation. Older/legacy browsers may require polyfills or are not supported."
+		]
+	},
+	"disclaimer": "This Terms & Conditions page is provided for general guidance only and does not constitute legal advice. Please consult your legal advisor to adapt it to your specific needs and local laws."
+}

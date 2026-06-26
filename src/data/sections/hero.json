@@ -1,0 +1,28 @@
+{
+	"hero10": {
+		"history": {
+			"delay": ".3s",
+			"desc": "With 10+ years of experience and 500+ satisfied customers, our certified team delivers excellence across every project."
+		},
+		"award": {
+			"delay": ".5s",
+			"bgImage": "/images/icons/award-rounded-text.svg",
+			"icon": "tji-w-dot"
+		},
+		"title": "We Make IT Happen — Building Reliable Software & Digital Solutions",
+		"titleArrowDelay": ".7s",
+		"descDelay": ".7s",
+		"button": { "text": "Get Started", "url": "/contact" },
+		"desc": "We develop reliable web, mobile and ERP solutions for any OS, browser and device — built for your business.",
+		"video": {
+			"poster": "/images/hero/h10-hero-banner.webp",
+			"src": "/video/h10-banner-videio.mp4"
+		},
+		"shapes": ["/images/shape/pattern-2.svg", "/images/shape/pattern-3.svg"]
+	},
+	"heroInner": {
+		"homeIcon": "tji-home",
+		"homeLink": { "name": "Home", "path": "/" },
+		"separatorIcon": "tji-arrow-right"
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"home": {
+		"metadata": {
+			"title": "BB Tech - Binary Bridge Technology Services | We Make IT Happen",
+			"description": "Binary Bridge Technology Services (BB Tech) develops reliable web & mobile applications, ERP systems, and scalable software solutions across the UAE. We Make IT Happen."
+		}
+	},
+	"about": {
+		"hero": {
+			"title": "About Us",
+			"text": "About Us"
+		}
+	},
+	"careers": {
+		"hero": {
+			"title": "Careers",
+			"text": "Careers"
+		}
+	},
+	"careerDetails": {
+		"hero": {
+			"title": "Careers Details",
+			"text": "Careers Details"
+		}
+	},
+	"contact": {
+		"hero": {
+			"title": "Contact Us",
+			"text": "Contact Us"
+		}
+	},
+	"faq": {
+		"hero": {
+			"title": "Faq",
+			"text": "Faq"
+		}
+	},
+	"history": {
+		"hero": {
+			"title": "Company History",
+			"text": "Company History"
+		}
+	},
+	"industries": {
+		"hero": {
+			"title": "Industries",
+			"text": "Industries"
+		}
+	},
+	"services": {
+		"hero": {
+			"title": "Services",
+			"text": "Services"
+		}
+	},
+	"serviceDetails": {},
+	"solutions": {
+		"hero": {
+			"title": "Solutions",
+			"text": "Solutions"
+		}
+	},
+	"team": {
+		"hero": {
+			"title": "Team",
+			"text": "Team"
+		}
+	},
+	"teamDetails": {
+		"hero": {
+			"title": "Team details",
+			"text": "Team details"
+		}
+	},
+	"terms": {
+		"hero": {
+			"title": "Terms and Conditions",
+			"text": "Terms and Conditions"
+		}
+	},
+	"error": {
+		"hero": {
+			"title": "Error 404",
+			"text": "Error 404"
+		}
+	},
+	"notFound": {
+		"hero": {
+			"title": "Error 404",
+			"text": "Error 404"
+		}
+	},
+	"loading": {}
+}

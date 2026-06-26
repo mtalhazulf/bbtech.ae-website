@@ -1,0 +1,72 @@
+{
+	"about3": {
+		"image": {
+			"src": "/images/about/about-5.webp",
+			"width": 591,
+			"height": 639
+		},
+		"progress": {
+			"title": "Business Progress",
+			"items": [
+				{ "title": "Revenue", "percent": 82 },
+				{ "title": "Satisfaction", "percent": 90 }
+			]
+		},
+		"subTitle": "Get to Know Us",
+		"titleType2Prefix": "Your Outsourced IT Department, Delivering Reliable Technology Across the ",
+		"titleType2Highlight": "UAE.",
+		"titleDefault": "Your Outsourced IT Department, Delivering Reliable Technology Across the UAE.",
+		"boxes": [
+			{
+				"animation": "fadeInLeft",
+				"title": "Our Mission",
+				"desc": "To enable businesses to focus on their core operations while we handle their IT — a bespoke range of managed, hosted and support services built around your business model.",
+				"items": [
+					"Innovation & Excellence",
+					"Single Point of Contact",
+					"24/7 Critical Support"
+				]
+			},
+			{
+				"animation": "fadeInRight",
+				"title": "Our Vision",
+				"desc": "To be a comprehensive technology partner offering all the benefits of an internal IT department, plus access to a full range of specialists.",
+				"items": [
+					"Trusted Technology Partner",
+					"Scalable Solutions",
+					"ISO Certified Quality"
+				]
+			}
+		],
+		"button": { "text": "Learn More About Us", "url": "/about" },
+		"shapes": ["/images/shape/pattern-2.svg", "/images/shape/pattern-3.svg"]
+	},
+	"about9": {
+		"image": "/images/about/h10-about-banner.webp",
+		"subTitle": "ABOUT OUR COMPANY",
+		"title": "Your Trusted Technology Partner, Powering 500+ Businesses Across the UAE.",
+		"desc": "We bring together deep industry expertise and the latest IT advancements to deliver custom solutions that perfectly fit your business.",
+		"funfacts": [
+			{
+				"value": 500,
+				"symbol": "+",
+				"text": "Satisfied customers across multiple industries."
+			},
+			{
+				"value": 10,
+				"symbol": "+",
+				"text": "Years of experience delivering IT excellence."
+			}
+		]
+	},
+	"about12": {
+		"subTitle": "Our background",
+		"titlePrefix": "Discover How We Have Evolved Our Company’s on",
+		"titleHighlight": "Legacy.",
+		"paragraphs": [
+			"Our mission is to empowers businesses off all size to thrive in an businesses ever changing marketplace. We are committed to the delivering exceptional in the value through our strategic inset, innovative approaches. Our mission is to empower businesses of all sizes to thrive.",
+			"Committed to the delivering exceptional in the value through our strategic inset, innovative approaches empower."
+		],
+		"button": { "text": "Learn More", "url": "/about" }
+	}
+}

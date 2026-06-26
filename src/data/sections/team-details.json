@@ -1,0 +1,32 @@
+{
+	"teamDetails1": {
+		"fallbackImgLarge": "/images/team/team-1-big.webp",
+		"greetingPrefix": "Hello, I am ",
+		"intro": "Our mission is to empowers businesses sizes thrive businesses ev changing marketplace We are committed to the delivering exceptional value through strategic inset innovative approaches. Our consulting of our missing empower.",
+		"contactLabels": {
+			"email": "Email address",
+			"phone": "Phone number"
+		},
+		"experience": {
+			"title": "Work experience",
+			"paragraphs": [
+				"Our mission is to empowers businesses size to thrivie in ses ever changing marketplace We are committed to the delivering exceptionals the value thro strategic ins innovative approaches. Our consulting of our missing empowers businesses of all sizes Committed to the delivering exceptional in the values",
+				"Our mission is to empowers businesses size to thrivie in ses ever changing marketplace We are committed to the delivering exceptionals the value thro strategic ins innovative approaches. Our consulting of our missing empowers"
+			],
+			"items": [
+				"We believe that the human essential start any successful project.",
+				"We believe that the human essential start any successful project.",
+				"We believe that the human essential start any successful project.",
+				"We believe that the human essential start any successful project."
+			]
+		},
+		"skills": {
+			"title": "Professional skills",
+			"paragraph": "Our mission is to empowers businesses size to thrivie in ses ever changing marketplace We are committed to the delivering exceptionals the value thro strategic ins innovative approaches. Our consulting of our missing empowers.",
+			"items": [
+				{ "title": "Business Consultants", "percent": 82 },
+				{ "title": "Client Communication", "percent": 90 }
+			]
+		}
+	}
+}

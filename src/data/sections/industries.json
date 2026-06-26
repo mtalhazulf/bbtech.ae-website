@@ -1,0 +1,69 @@
+{
+	"subTitle": "Industries We Serve",
+	"title": "Trusted Across Every Major Sector in the UAE.",
+	"items": [
+		{
+			"name": "Construction",
+			"count": 27,
+			"symbol": "",
+			"desc": "Tailored ERP & software for builders and contractors.",
+			"icon": "tji-box"
+		},
+		{
+			"name": "Food & Beverages",
+			"count": 30,
+			"symbol": "+",
+			"desc": "Streamlined operations for restaurants and suppliers.",
+			"icon": "tji-service-1"
+		},
+		{
+			"name": "Manufacturing",
+			"count": 60,
+			"symbol": "+",
+			"desc": "Smart production and inventory systems for factories.",
+			"icon": "tji-complete"
+		},
+		{
+			"name": "Transportation",
+			"count": 35,
+			"symbol": "+",
+			"desc": "Fleet, logistics and dispatch solutions on the move.",
+			"icon": "tji-worldwide"
+		},
+		{
+			"name": "Healthcare",
+			"count": 12,
+			"symbol": "",
+			"desc": "Secure, compliant systems for clinics and providers.",
+			"icon": "tji-service-2"
+		},
+		{
+			"name": "Consultancy",
+			"count": 25,
+			"symbol": "+",
+			"desc": "Workflow and client tools for advisory firms.",
+			"icon": "tji-service-3"
+		},
+		{
+			"name": "Retail",
+			"count": 120,
+			"symbol": "+",
+			"desc": "POS, e-commerce and inventory for growing retailers.",
+			"icon": "tji-growth"
+		},
+		{
+			"name": "Institutes (Education)",
+			"count": 35,
+			"symbol": "",
+			"desc": "Campus management and e-learning for institutes.",
+			"icon": "tji-service-4"
+		},
+		{
+			"name": "Auto Workshops",
+			"count": 60,
+			"symbol": "+",
+			"desc": "Job cards, billing and parts tracking for workshops.",
+			"icon": "tji-service-5"
+		}
+	]
+}

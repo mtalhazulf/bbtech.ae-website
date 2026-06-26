@@ -1,0 +1,8 @@
+{
+	"image": "/images/404/error.webp",
+	"imageWidth": 800,
+	"imageHeight": 303,
+	"title": "Oooop! Page not found",
+	"desc": "You are here because you entered the address of a page that no longer exists or has been moved to a different address",
+	"button": { "text": "Go to Home Page", "url": "/" }
+}

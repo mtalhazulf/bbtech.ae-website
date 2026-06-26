@@ -1,0 +1,105 @@
+{
+	"company": {
+		"name": "Binary Bridge Technology Services",
+		"shortName": "BB Tech",
+		"tagline": "We Make IT Happen.",
+		"description": "We develop reliable web, mobile and ERP solutions for any OS, browser and device. We Make IT Happen.",
+		"website": "https://bbtech.ae",
+		"copyrightYear": "2026"
+	},
+	"logos": {
+		"primary": "/images/logos/logo.webp",
+		"light": "/images/logos/logo-2.webp",
+		"alt": "BB Tech"
+	},
+	"contact": {
+		"phone": {
+			"display": "+971 54 405 6829",
+			"tel": "+971544056829"
+		},
+		"email": "info@bbtech.ae",
+		"directorEmail": "director@bbtech.ae",
+		"supportEmail": "muhammad@bbtech.ae",
+		"location": "Al Hili Industrial Area, Al Ain, UAE. P.O. Box 202135",
+		"hours": "Sun-Wed 8am-5pm, Thu 8am-3pm"
+	},
+	"offices": [
+		{
+			"label": "Head office (UAE):",
+			"address": "Al Hili Industrial Area, Al Ain, UAE. P.O. Box 202135.",
+			"phone": { "display": "+971 54 405 6829", "tel": "+971544056829" },
+			"email": "info@bbtech.ae"
+		},
+		{
+			"label": "Regional office (Pakistan):",
+			"address": "Khiyaban-e-Faiz, H-13, Street 3, Ali Block, Islamabad.",
+			"phone": { "display": "+971 3 755 5069", "tel": "+97137555069" },
+			"email": "info@bbtech.ae"
+		},
+		{
+			"label": "Regional office (Pakistan):",
+			"address": "574, Block G1, Phase 2, Johar Town, Lahore.",
+			"phone": { "display": "+971 56 128 6321", "tel": "+971561286321" },
+			"email": "info@bbtech.ae"
+		}
+	],
+	"socials": [
+		{
+			"platform": "facebook",
+			"url": "https://www.facebook.com/bbtech.ae",
+			"icon": "fa-brands fa-facebook-f"
+		},
+		{
+			"platform": "instagram",
+			"url": "https://www.instagram.com/binarybridge/",
+			"icon": "fa-brands fa-instagram"
+		},
+		{
+			"platform": "twitter",
+			"url": "https://x.com/bbtechae",
+			"icon": "fa-brands fa-x-twitter"
+		},
+		{
+			"platform": "linkedin",
+			"url": "https://www.linkedin.com/company/binary-bridge-technology-services/",
+			"icon": "fa-brands fa-linkedin-in"
+		}
+	],
+	"header": {
+		"offcanvasText": "Developing personalize our customer journeys to increase satisfaction & loyalty of our expansion recognized by industry leaders.",
+		"variantPhone": { "display": "1-888-452-1505", "tel": "18884521505" }
+	},
+	"footer": {
+		"awardLogos": [
+			"/images/footer/award-logo-1.webp",
+			"/images/footer/award-logo-2.webp"
+		],
+		"awardLogosLight": [
+			"/images/footer/award-logo-white-1.webp",
+			"/images/footer/award-logo-white-2.webp"
+		],
+		"shapes": ["/images/shape/pattern-2.svg", "/images/shape/pattern-3.svg"],
+		"servicesMenu": [
+			{ "label": "ERP Development", "url": "/services/1" },
+			{ "label": "Web Development", "url": "/services/2" },
+			{ "label": "Mobile Apps", "url": "/services/3" },
+			{ "label": "Graphic Design", "url": "/services/4" },
+			{ "label": "Digital Marketing", "url": "/services/5" },
+			{ "label": "Social WiFi", "url": "/services/6" }
+		],
+		"companyMenu": [
+			{ "label": "Industries", "url": "/industries" },
+			{ "label": "Solutions", "url": "/solutions" },
+			{ "label": "About Us", "url": "/about" },
+			{ "label": "Our History", "url": "/history" },
+			{ "label": "Team", "url": "/team" },
+			{ "label": "Careers", "url": "/careers", "badge": "New" },
+			{ "label": "FAQ", "url": "/faq" },
+			{ "label": "Contact Us", "url": "/contact" }
+		],
+		"copyrightMenu": [
+			{ "label": "Privacy Policy", "url": "/contact" },
+			{ "label": "Terms & Condition", "url": "/terms-and-conditions" }
+		]
+	}
+}

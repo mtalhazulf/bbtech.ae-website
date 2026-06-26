@@ -1,0 +1,33 @@
+{
+	"serviceOptions": [
+		{ "value": "0", "optionName": "Choose a service" },
+		{ "value": "1", "optionName": "ERP Development" },
+		{ "value": "2", "optionName": "Web Development" },
+		{ "value": "3", "optionName": "Mobile App Development" },
+		{ "value": "4", "optionName": "Graphic Design & Branding" },
+		{ "value": "5", "optionName": "SEO & Digital Marketing" },
+		{ "value": "6", "optionName": "Social WiFi" }
+	],
+	"top": {
+		"subTitle": "Contact info",
+		"titlePrefix": "Reach",
+		"titleSuffix": " Out to Us",
+		"locationCard": { "icon": "tji-location-3", "title": "Our Location" },
+		"emailCard": { "icon": "tji-envelop", "title": "Email us" },
+		"phoneCard": { "icon": "tji-phone", "title": "Call us" },
+		"chatCard": { "icon": "tji-chat", "title": "Live chat", "helpText": "Need help?" }
+	},
+	"form2": {
+		"subTitle": "Get in Touch",
+		"titlePrefix": "Drop Us a ",
+		"titleHighlight": "Line.",
+		"shapes": ["/images/shape/pattern-2.svg", "/images/shape/pattern-3.svg"]
+	},
+	"form3": {
+		"title": "Feel Free to Get in Touch or Visit our Location.",
+		"mapSrc": "https://www.google.com/maps?q=Al+Hili+Industrial+Area,+Al+Ain,+United+Arab+Emirates&output=embed"
+	},
+	"map2": {
+		"img": "/images/bg/map.svg"
+	}
+}

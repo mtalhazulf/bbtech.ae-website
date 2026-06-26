@@ -1,0 +1,12 @@
+{
+	"team1": {
+		"subTitle": "Meet Our Team",
+		"subTitleIcon": "tji-box",
+		"titleType3Prefix": "Success ",
+		"titleType3Highlight": "Stories",
+		"titleType3Suffix": " Fuel our Innovation.",
+		"titleDefaultPrefix": "People Behind ",
+		"titleDefaultHighlight": "BB Tech.",
+		"button": { "text": "More member", "url": "/team" }
+	}
+}
