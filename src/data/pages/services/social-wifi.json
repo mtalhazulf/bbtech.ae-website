@@ -1,0 +1,62 @@
+{
+  "slug": "services/social-wifi",
+  "path": "/services/social-wifi/",
+  "source": "https://bbtech.ae/services/social-wifi/",
+  "metadata": {
+    "title": "Social Wi-Fi - BB Tech",
+    "description": "Social Wi-Fi is a modern analytics and marketing tool which allows owners of various establishments to identify and interact with their guest",
+    "canonical": "https://bbtech.ae/services/social-wifi/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "Social Wi-Fi"
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "heading": "SOCIAL WIFI",
+      "blocks": [
+        {
+          "p": [
+            "We know that keeping customers coming back to your business can be challenging, especially with current Market scenario and competition. The whole idea of Wireless Social Wi-Fi is to help you achieve just that. Our aim is to build powerful, long standing relationships between customers and your business. The concept is a lot simpler to understand and install."
+          ]
+        },
+        {
+          "p": [
+            "Offer your customers free Wi-Fi access, and in return, you then have the ability to capture their personal data. Once you know who your customers are, the more you can achieve through powerful and personal touch communication."
+          ]
+        },
+        {
+          "p": [
+            "Social Wi-Fi is a modern analytics and marketing tool which allows owners of various establishments to identify and interact with their guests, for example by using real-time promotional campaigns, mailing, conducting surveys via star rating system and gathering feedback and thus improving the overall quality of services. Social WiFi allows any organization to identify their client, analyze their overall experiences and improve the establishment enabling more Clients to revisit more often and also spreading the words, consequently providing more profit and good fame."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "heading": "Our social WiFi solution includes:",
+      "items": [
+        "Social Wi-Fi Hardware, Set Up & Support",
+        "Device setup",
+        "Web portal for you to access data",
+        "page designed for customer access , basic",
+        "existing routers or Wi-Fi device"
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "How does Social WiFi Work?",
+      "blocks": [
+        {
+          "ol": [
+            "Encourage your customers to sign into your hotspot with their social media accounts. Post signs around your retail space or even offer a small discount to incentivize them to use the WiFi.",
+            "When they sign in, your customers will be presented with a splash page. Encourage them to sign in via Facebook to get the most out of your WiFi marketing. You can also offer connectivity with other social sites and email.",
+            "After they sign in, you’ll have access to their behavioural information such as how often they return to your venue and how long they spend on the premises. By signing in with Facebook you also have access to their likes, demographic data, and contact information.",
+            "With this information, you can now effectively market to your customers. Provide incentives to have them return to your location, have them fill out a survey, ask them to review your retail space on user recommendation sites such as Trip Advisor, and conduct multi-channel marketing through email, Facebook ads, and Google ads. You can target users by any demographic and/or behavioural pattern maximizing your ROI."
+          ]
+        }
+      ]
+    }
+  ]
+}
