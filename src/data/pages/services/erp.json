@@ -1,0 +1,99 @@
+{
+  "slug": "services/erp",
+  "path": "/services/erp/",
+  "source": "https://bbtech.ae/services/erp/",
+  "metadata": {
+    "title": "ERP - BB Tech",
+    "description": null,
+    "canonical": "https://bbtech.ae/services/erp/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "ERP"
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "heading": "Why Enterprise resource planning (ERP)",
+      "blocks": [
+        {
+          "p": [
+            "Enterprise resource planning (ERP) is a term used to describe a type of software package used in large, complex organizations. ERP combines functions such as accounting, payroll and human resources with operational systems that track customers, orders and manufacturing tasks."
+          ]
+        },
+        {
+          "p": [
+            "Every department of an enterprise are related with each other. The performance of one department will influence the remaining. ",
+            { "text": "ERP", "bold": true },
+            " is used to coordinate the performance of each department. Earlier, the situation was that for every department had separate application that structured only for a particular task, which is not interconnected with each other. As a result, that made difficult for other departments to access the required data. These problems is solved by the ",
+            { "text": "Enterprise resource planning", "italic": true },
+            " (",
+            { "text": "ERP", "italic": true },
+            "). It is considered as one of the main advantages of ERP which makes it distinct. It maintains vehicles tracking, CRM, Quotations, Sales, HR, Purchase, Accounts, payroll, trip scheduling, Expenses, projects, costing, assets management, document control at a single place."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "ERP Solutions for Your Business",
+      "blocks": [
+        {
+          "p": [
+            "Streamline Operations | Boost Efficiency | Enhance Decision-Making"
+          ]
+        },
+        {
+          "p": [
+            "Discover BBTech’s cutting-edge ERP solutions tailored to meet the dynamic needs of businesses across industries. Our ERP systems are designed to integrate, automate, and optimize your core business processes for unparalleled efficiency."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "items": [
+        {
+          "title": "Integrated Modules",
+          "text": "Manage key functions like accounting, HR, inventory, sales, and CRM on one platform.",
+          "icon": "trophy"
+        },
+        {
+          "title": "Real-Time Analytics",
+          "text": "Gain actionable insights with dashboards and reports to drive informed decisions.",
+          "icon": "group"
+        },
+        {
+          "title": "Scalability",
+          "text": "Grow your business without outgrowing your ERP system.",
+          "icon": "clipboard"
+        },
+        {
+          "title": "Cloud-Based Solutions",
+          "text": "Access your data anytime, anywhere, with secure cloud hosting.",
+          "icon": "cogs"
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "Benefits of Using ERP",
+      "blocks": [
+        {
+          "p": [
+            "Streamline operations, enhance collaboration, and drive growth with our powerful ERP solutions"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "items": [
+        "Improved Collaboration: Break down departmental silos with seamless information sharing.",
+        "Cost Efficiency: Reduce overhead costs with automated workflows.",
+        "Regulatory Compliance: Stay compliant with industry and government regulations.",
+        "Enhanced Customer Satisfaction: Deliver better service with streamlined operations."
+      ]
+    }
+  ]
+}
