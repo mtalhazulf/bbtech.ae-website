@@ -1,0 +1,157 @@
+{
+  "slug": "adhics-medical-inspection-consultancy",
+  "path": "/adhics-medical-inspection-consultancy/",
+  "source": "https://bbtech.ae/adhics-medical-inspection-consultancy/",
+  "metadata": {
+    "title": "ADHICS Medical Inspection & Consultancy - BB Tech",
+    "description": null,
+    "canonical": "https://bbtech.ae/adhics-medical-inspection-consultancy/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "ADHICS Medical Inspection & Consultancy",
+    "subtitle": null,
+    "image": null
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "heading": "Ensuring Compliance, Enhancing Care",
+      "blocks": [
+        {
+          "p": [
+            "Healthcare organizations face strict regulations to ensure the safety, security, and quality of patient care. At Binary Bridge Technology Services, we specialize in ",
+            {
+              "text": "ADHICS (Abu Dhabi Health Information and Cyber Security Standard)",
+              "bold": true
+            },
+            " medical inspection and consultancy, providing expert guidance to help you achieve and maintain compliance with these critical standards."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": null,
+      "image": {
+        "localPath": "/images/bbtech/adhics-medical-inspection-consultancy/10-basic-aspects-of-outstanding-property-management-1.webp",
+        "alt": "10 Basic Aspects Of Outstanding Property Management 1",
+        "width": 850,
+        "height": 480
+      },
+      "blocks": []
+    },
+    {
+      "type": "richText",
+      "heading": "Why Choose Us?",
+      "blocks": [
+        {
+          "p": [
+            "The Abu Dhabi Healthcare Information and Cyber Security (ADHICS) standard is a mandatory framework established by the Department of Health – Abu Dhabi (DoH) to protect patient data and enhance cybersecurity. It applies to all licensed healthcare entities in Abu Dhabi, enforcing strict, 11-domain compliance to safeguard health information, ensuring confidentiality, integrity, and availability.+3 Key Aspects of Abu Dhabi Health Sector Information Security:\n",
+            {
+              "text": "ADHICS Compliance",
+              "bold": true
+            },
+            ": All healthcare facilities—hospitals, clinics, and pharmacies—must comply with ADHICS regulations, which are designed to protect against cyber threats and ensure secure data handling, particularly within the Malaffi health information exchange.\n",
+            {
+              "text": "Key Security Domains:",
+              "bold": true
+            },
+            " The framework mandates information security governance, risk management, access control, data protection (encryption at rest/transit), incident response, and physical security.\n",
+            {
+              "text": "AAMEN Programme",
+              "bold": true
+            },
+            ": The Department of Health oversees these initiatives through the AAMEN programme, which evaluates facilities against international security standards.\n",
+            {
+              "text": "Malaffi Security:",
+              "bold": true
+            },
+            " Malaffi uses advanced security protocols, including encryption and strict access controls for authorized healthcare professionals.\n",
+            {
+              "text": "Key Security Controls: ",
+              "bold": true
+            },
+            "Access Management: Strict governance ensures only authorized personnel access patient records.\n",
+            {
+              "text": "Data Protection",
+              "bold": true
+            },
+            ": Implementation of encryption for all sensitive health data.\n",
+            {
+              "text": "Threat Management:",
+              "bold": true
+            },
+            " Regular risk assessments and incident response planning are required."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "heading": "Our Services",
+      "items": [
+        {
+          "title": "ADHICS Compliance Assessment",
+          "list": [
+            "Comprehensive evaluation of your healthcare facility’s compliance with ADHICS requirements.",
+            "Identification of gaps and vulnerabilities in data management and cybersecurity.",
+            "Detailed reports with actionable recommendations for improvement."
+          ]
+        },
+        {
+          "title": "Policy and Procedure Development",
+          "list": [
+            "Creation of tailored policies to meet ADHICS standards.",
+            "Documentation of processes for data security, patient confidentiality, and IT governance.",
+            "Employee training materials to ensure adherence across your organization."
+          ]
+        },
+        {
+          "title": "Inspection Readiness",
+          "list": [
+            "Pre-inspection audits to ensure your facility is prepared for official assessments.",
+            "Mock inspections to familiarize staff with compliance procedures.",
+            "Guidance on addressing and resolving findings from previous inspections."
+          ]
+        },
+        {
+          "title": "Cybersecurity Solutions",
+          "list": [
+            "Implementation of advanced security measures to protect sensitive medical data.",
+            "Regular security audits to identify and mitigate threats.",
+            "Training programs to build awareness and preparedness against cyber risks."
+          ]
+        },
+        {
+          "title": "Consultancy and Support",
+          "list": [
+            "Ongoing consultancy to maintain compliance as standards evolve.",
+            "Expert advice on integrating ADHICS requirements into daily operations.",
+            "Support for IT infrastructure upgrades and process optimization."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "Secure Your Healthcare Facility Today",
+      "blocks": [
+        {
+          "p": [
+            "Meeting ADHICS standards isn’t just a requirement—it’s a commitment to excellence in healthcare. Let us help you navigate the complexities of compliance and safeguard the trust of your patients."
+          ]
+        },
+        {
+          "p": [
+            {
+              "text": "Contact us today",
+              "bold": true
+            },
+            " to schedule a consultation and learn more about our services!"
+          ]
+        }
+      ]
+    }
+  ]
+}
