@@ -1,0 +1,78 @@
+{
+  "slug": "services/social-media-marketing",
+  "path": "/services/social-media-marketing/",
+  "source": "https://bbtech.ae/services/social-media-marketing/",
+  "metadata": {
+    "title": "Social Media Marketing - BB Tech",
+    "description": "For Social Media Marketing, BBTech bring forth an entourage of Digital Marketing Services, which includes, Social Media Marketing, online",
+    "canonical": "https://bbtech.ae/services/social-media-marketing/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "Social Media Marketing",
+    "subtitle": "Social Media Marketing and Digital Marketing Services",
+    "image": {
+      "localPath": "/images/bbtech/services/social-media-marketing/digitalmarketing.webp",
+      "alt": "Social Media Marketing",
+      "width": 2081,
+      "height": 1931
+    }
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "blocks": [
+        {
+          "p": [
+            "For social media marketing, B2 bring forth an entourage of Digital Marketing services, which includes, Social Media Marketing, online marketing, search engine optimization, pay per click, social media optimization, consulting, email marketing and more. We help your business reach its true potential in the form of lead generation, enhanced ROI and a capacity to explore a more customer-oriented approach."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "items": [
+        {
+          "title": "SEO OPTIMIZATION",
+          "text": "Search Engine Optimization now cover a broad spectrum of actions, including ‘on-page’ and ‘off-page’ elements such as content, links, usability and social media—all of which should be included when implementing SEO. Through our digital service, we will work with you and our established agency to develop effective SEO campaigns and maximize your investment with good search engine positioning and web traffic. Our SEO strategy team conducts extensive keyword research, using unrivalled methodology, fine-tuned over the years.",
+          "image": {
+            "localPath": "/images/bbtech/services/social-media-marketing/seo.webp",
+            "alt": "Social Media Marketing",
+            "width": 1024,
+            "height": 964
+          }
+        },
+        {
+          "title": "Social Media Management",
+          "text": "Social media a platform where the world is connecting as one family, your presence in the social platforms not only makes you a part of the family but also gives the advantage of being found on a global platform. Social media management is now essential within the B2B and B2C market. And we’re not talking about posting a cute cat video once a week on Facebook with the hope that your customers think you’re as adorable as said cat. We’ll find your target audience on major social networks such as Twitter, Facebook, and Google+.",
+          "image": {
+            "localPath": "/images/bbtech/shared/social-media-3070331-1280-1024x778-copy.webp",
+            "alt": "Social Media Marketing",
+            "width": 1024,
+            "height": 964
+          }
+        },
+        {
+          "title": "Pay Per Click",
+          "text": "The tracking ability PPC helps the marketer to exactly understand where to put money and where to not.Its analysis nature helps it become the favorite of any digital marketer. PPC or pay per click one of the best investment you can make in the field of digital marketing. It directly focuses on giving results for the pay you make, in short one of the best ROI the digital world has ever seen.",
+          "image": {
+            "localPath": "/images/bbtech/services/social-media-marketing/payperclick.webp",
+            "alt": "Social Media Marketing",
+            "width": 999,
+            "height": 997
+          }
+        },
+        {
+          "title": "Website Development",
+          "text": "Today’s world where 80% decisions are taken online your portfolio should be an impress cookie in your pocket. Website is the most powerful tool the internet world has created in its existence. Each beautifully designed website prominently displays promotions and calls to action-integrating with all booking engines. Build a website with us and you will never have to think whom to sell.",
+          "image": {
+            "localPath": "/images/bbtech/services/social-media-marketing/websitedevelopment.webp",
+            "alt": "Websitedevelopment",
+            "width": 1973,
+            "height": 1689
+          }
+        }
+      ]
+    }
+  ]
+}
