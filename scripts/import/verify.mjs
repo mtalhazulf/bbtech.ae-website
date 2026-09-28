@@ -9,30 +9,7 @@ import path from "node:path";
 import * as cheerio from "cheerio";
 import { pageRegistry } from "../../src/data/pages/index.js";
 
-// Fields that hold real visible copy, as opposed to hrefs/ids/alt text/dimensions.
-const TEXT_LEAF_KEYS = new Set(["p", "text", "title", "heading", "subtitle", "label", "submitText", "consent"]);
-
-/** Recursively pull every visible-copy string out of a page's hero+sections, deduped. */
-function collectTextLeaves(node, out = new Set()) {
-	if (Array.isArray(node)) {
-		for (const item of node) collectTextLeaves(item, out);
-	} else if (node && typeof node === "object") {
-		for (const [k, v] of Object.entries(node)) {
-			if (typeof v === "string" && TEXT_LEAF_KEYS.has(k) && v.trim().length > 1) {
-				out.add(v.trim());
-			} else if (Array.isArray(v) && (k === "ul" || k === "ol" || k === "items" || k === "list")) {
-				// Plain-string list items (checklists, ul/ol blocks, card bullet lists).
-				for (const it of v) {
-					if (typeof it === "string" && it.trim().length > 1) out.add(it.trim());
-					else collectTextLeaves(it, out);
-				}
-			} else {
-				collectTextLeaves(v, out);
-			}
-		}
-	}
-	return out;
-}
+import { collectTextLeaves, renderedText } from "./lib/text-leaves.mjs";
 
 const ROOT = process.cwd();
 const BUILD_APP_DIR = path.join(ROOT, ".next", "server", "app");
@@ -207,7 +184,7 @@ async function main() {
 	for (const slug of realSlugs) {
 		const html = builtHtmlBySlug[slug];
 		if (!html) continue;
-		const builtText = normalizeSentence(stripChrome(html));
+		const rendered = renderedText(html);
 		const page = pageRegistry[slug];
 		// metadata.title/description render into <head>, which stripChrome (body-only) never
 		// sees — that's a check-methodology gap, not a rendering bug, so skip that subtree.
@@ -215,7 +192,7 @@ async function main() {
 		let missedHere = 0;
 		for (const leaf of leaves) {
 			leafTotal++;
-			if (!builtText.includes(normalizeSentence(leaf))) {
+			if (!rendered.has(leaf)) {
 				leafMissing++;
 				missedHere++;
 				failures.push(`JSON TEXT NOT RENDERED on "${slug}": "${leaf.slice(0, 100)}"`);
