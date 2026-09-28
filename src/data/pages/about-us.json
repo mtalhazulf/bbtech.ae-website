@@ -14,6 +14,7 @@
   "sections": [
     {
       "type": "richText",
+      "variant": "intro",
       "heading": "WE MAKE IT HAPPEN",
       "blocks": [
         {
@@ -55,6 +56,7 @@
     },
     {
       "type": "checklist",
+      "variant": "servicesList",
       "items": [
         "Remote Managed Infrastructure Services",
         "IT Monitoring",
@@ -79,6 +81,7 @@
     },
     {
       "type": "richText",
+      "variant": "outsourcing",
       "heading": "We are providing Outsourcing IT services",
       "blocks": [
         {
@@ -90,6 +93,7 @@
     },
     {
       "type": "richText",
+      "variant": "sisterCompany",
       "heading": "Vision Plus",
       "blocks": [
         {
@@ -116,6 +120,7 @@
     },
     {
       "type": "cardGrid",
+      "variant": "certifications",
       "heading": "ISO Certifications",
       "items": [
         {

@@ -14,6 +14,7 @@
   "sections": [
     {
       "type": "richText",
+      "variant": "contactInfo",
       "blocks": [
         {
           "h": 2,
@@ -105,6 +106,7 @@
     },
     {
       "type": "form",
+      "variant": "contactForm",
       "id": "contact-default",
       "fields": [
         {
@@ -141,6 +143,7 @@
     },
     {
       "type": "richText",
+      "variant": "sisterCompany",
       "heading": "Sister Company — Vision Plus",
       "blocks": [
         {

@@ -2,4 +2,858 @@
 
 /**----------------------------------------
 START: content-import pages styles (tokens only - see DESIGN.md)
+Bespoke /about-us/, /contact/ and /services/ layouts (src/components/sections/pages/*).
+They reuse the template's own classes (sec-heading, heading-wrap-content, tj-about-section-2,
+cta-area, contact-item style-2, contact-form, h6-service-item...) and only add what those
+classes don't cover. Dark-surface highlights use the sky token when it exists
+(DESIGN.md §3.3), falling back to the template's own on-dark highlight token.
 ----------------------------------------*/
+
+// Shared
+.ci-about-intro,
+.ci-services-band,
+.ci-sister-section,
+.ci-cert-section,
+.ci-services-grid-section,
+.ci-contact-info,
+.ci-contact-form-section {
+	position: relative;
+	p {
+		overflow-wrap: anywhere;
+	}
+}
+
+/* ---------- About: intro (sec-heading-wrap + split copy) ---------- */
+.ci-about-intro {
+	.heading-wrap-content .sec-heading {
+		max-width: 640px;
+	}
+}
+.ci-about-grid {
+	display: grid;
+	grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+	grid-template-areas:
+		"media copy"
+		"callout copy";
+	grid-template-rows: auto 1fr;
+	column-gap: 60px;
+	row-gap: 24px;
+	align-items: start;
+	@media #{$lg} {
+		column-gap: 40px;
+	}
+	@media #{$md, $sm, $xs} {
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-areas:
+			"media"
+			"copy"
+			"callout";
+		grid-template-rows: auto;
+	}
+}
+.ci-about-media {
+	grid-area: media;
+	background-color: var(--tj-color-common-white);
+	border-radius: 12px;
+	padding: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	img {
+		width: 100%;
+		max-width: 420px;
+		height: auto;
+	}
+	@media #{$md, $sm} {
+		img {
+			max-width: 340px;
+		}
+	}
+	@media #{$xs} {
+		padding: 20px;
+		img {
+			max-width: 260px;
+		}
+	}
+}
+.ci-about-copy {
+	grid-area: copy;
+	.ci-lead {
+		font-family: var(--tj-ff-heading);
+		font-size: var(--tj-fs-h4);
+		line-height: 1.4;
+		font-weight: var(--tj-fw-medium);
+		letter-spacing: -0.01em;
+		color: var(--tj-color-heading-primary);
+		padding-bottom: 28px;
+		margin-bottom: 28px;
+		border-bottom: 1px dashed var(--tj-color-border-1);
+		@media #{$sm, $xs} {
+			font-size: 20px;
+		}
+	}
+	.ci-copy-body p {
+		margin-bottom: 18px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+.ci-about-callout {
+	grid-area: callout;
+	display: flex;
+	gap: 18px;
+	align-items: flex-start;
+	background-color: var(--tj-color-theme-dark);
+	border-radius: 12px;
+	padding: 30px;
+	p {
+		color: var(--tj-color-common-white);
+		margin-bottom: 0;
+	}
+	.ci-callout-icon {
+		flex: 0 0 auto;
+		width: 52px;
+		height: 52px;
+		border-radius: 50%;
+		background-color: var(--tj-color-theme-primary);
+		color: var(--tj-color-common-white);
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 22px;
+		line-height: 1;
+		i {
+			display: inline-flex;
+		}
+	}
+	@media #{$sm, $xs} {
+		padding: 22px 18px;
+		gap: 14px;
+	}
+	@media #{$xs} {
+		flex-direction: column;
+	}
+}
+
+/* ---------- About: services band (About3 tinted look) ---------- */
+.ci-services-band {
+	overflow: hidden;
+	.ci-band-intro {
+		max-width: 460px;
+		@media #{$md, $sm, $xs} {
+			max-width: 100%;
+		}
+	}
+	.sec-heading {
+		margin-bottom: 24px;
+		margin-inline-start: 0;
+	}
+	.ci-band-tagline {
+		font-size: 18px;
+		font-weight: var(--tj-fw-medium);
+		color: var(--tj-color-heading-primary);
+		margin-bottom: 30px;
+	}
+	.ci-band-img {
+		margin-top: 40px;
+		background-color: var(--tj-color-common-white);
+		border-radius: 12px;
+		padding: 16px;
+		img {
+			width: 100%;
+			height: auto;
+			border-radius: 8px;
+		}
+		@media #{$md, $sm, $xs} {
+			display: none;
+		}
+	}
+}
+.ci-check-card {
+	background-color: var(--tj-color-common-white);
+	border-radius: 12px;
+	padding: 36px 36px 30px;
+	@media #{$sm, $xs} {
+		padding: 22px 16px 18px;
+	}
+}
+.ci-check-grid {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	column-gap: 28px;
+	li {
+		display: flex;
+		align-items: flex-start;
+		gap: 12px;
+		padding: 13px 0;
+		border-bottom: 1px dashed var(--tj-color-border-1);
+		color: var(--tj-color-heading-primary);
+		font-weight: var(--tj-fw-medium);
+		line-height: 1.4;
+		&.is-wide {
+			grid-column: 1 / -1;
+			border-bottom: 0;
+		}
+	}
+	.ci-check-icon {
+		flex: 0 0 auto;
+		width: 24px;
+		height: 24px;
+		border-radius: 50%;
+		background-color: var(--tj-color-theme-bg);
+		color: var(--tj-color-theme-primary);
+		font-size: 11px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: -1px;
+		i {
+			display: inline-flex;
+			line-height: 1;
+		}
+	}
+	li:hover .ci-check-icon {
+		background-color: var(--tj-color-theme-primary);
+		color: var(--tj-color-common-white);
+	}
+	@media #{$xs} {
+		grid-template-columns: minmax(0, 1fr);
+		li.is-wide {
+			grid-column: auto;
+		}
+	}
+}
+
+/* ---------- Sister company (navy split card) ---------- */
+.ci-sister-section {
+	padding-bottom: 60px;
+}
+.ci-sister-card {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	background-color: var(--tj-color-theme-dark);
+	border-radius: 12px;
+	padding: 70px 60px;
+	.ci-card-shape {
+		position: absolute;
+		top: 0;
+		inset-inline-end: 0;
+		width: 300px;
+		z-index: -1;
+		mix-blend-mode: difference;
+		pointer-events: none;
+		transform: scaleX(-1);
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	@media #{$lg} {
+		padding: 55px 40px;
+	}
+	@media #{$md, $sm, $xs} {
+		padding: 40px 22px;
+	}
+}
+.ci-sister-grid {
+	display: grid;
+	grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+	grid-template-areas:
+		"heading copy"
+		"actions copy";
+	grid-template-rows: auto 1fr;
+	column-gap: 8.33%;
+	align-items: start;
+	.ci-dark-heading {
+		grid-area: heading;
+	}
+	.ci-sister-copy {
+		grid-area: copy;
+		align-self: center;
+	}
+	.ci-sister-actions {
+		grid-area: actions;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 12px;
+	}
+	@media #{$md, $sm, $xs} {
+		grid-template-columns: minmax(0, 1fr);
+		grid-template-areas:
+			"heading"
+			"copy"
+			"actions";
+		grid-template-rows: auto;
+		.ci-sister-actions {
+			margin-top: 30px;
+		}
+	}
+}
+.ci-dark-heading {
+	margin-bottom: 30px;
+	margin-inline-start: 0;
+	.sec-title {
+		color: var(--tj-color-common-white);
+		span {
+			color: var(--tj-color-theme-sky, var(--tj-color-theme-primary));
+		}
+	}
+	.sub-title {
+		color: var(--tj-color-common-white);
+		border-color: var(--tj-color-border-3);
+	}
+}
+.ci-sister-copy {
+	p {
+		color: var(--tj-color-text-body-2);
+		margin-bottom: 16px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.ci-sister-lead {
+		color: var(--tj-color-common-white);
+		font-size: 20px;
+		line-height: 1.5;
+		font-weight: var(--tj-fw-medium);
+	}
+}
+
+/* ---------- Certifications band (Brands1 look) ---------- */
+.ci-cert-section {
+	padding-top: 60px;
+	@media #{$md, $sm, $xs} {
+		padding-top: 10px;
+	}
+}
+.ci-cert-band {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 24px;
+	@media #{$md, $sm, $xs} {
+		flex-direction: column;
+		gap: 20px;
+	}
+}
+.ci-cert-group {
+	flex: 1 1 0;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 24px;
+	@media #{$md, $sm, $xs} {
+		width: 100%;
+		gap: 16px;
+	}
+}
+/* Each badge image fills its tile edge to edge (the badges carry their own light backdrop). */
+.ci-cert-item {
+	background-color: var(--tj-color-grey-1);
+	border-radius: 12px;
+	padding: 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: box-shadow 0.3s ease-in-out;
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: 12px;
+	}
+	&:hover {
+		box-shadow: 0 0 30px 0 var(--tj-color-border-5);
+	}
+}
+.ci-cert-circle {
+	flex: 0 0 auto;
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+	border: 1px dashed var(--tj-color-border-1);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 30px;
+	.sec-title {
+		font-size: var(--tj-fs-h4);
+		font-weight: var(--tj-fw-sbold);
+		letter-spacing: 0;
+		margin: 0;
+		span {
+			display: block;
+			color: var(--tj-color-theme-primary);
+		}
+	}
+	@media #{$md, $sm, $xs} {
+		order: -1;
+		width: 190px;
+		height: 190px;
+	}
+}
+
+/* ---------- Services: image-led service cards (h6 service card look) ---------- */
+.ci-services-grid-section {
+	.sec-heading-wrap {
+		.heading-wrap-content .sec-heading {
+			max-width: 640px;
+		}
+	}
+}
+.ci-service-card {
+	display: flex;
+	flex-direction: column;
+	transition: box-shadow 0.3s ease-in-out;
+	.h6-service-thumb {
+		min-height: 0;
+		aspect-ratio: 16 / 10;
+		background-color: var(--tj-color-grey-1);
+		a {
+			display: block;
+			height: 100%;
+		}
+		img {
+			min-height: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		/* White-background illustrations and icons: shown whole on one framed grey panel. The
+		multiply blend melts the white (or near-white) backdrop of the artwork into the panel
+		colour, so every contain thumb reads as the same tile next to the full-bleed photos. */
+		&.is-contain {
+			background-color: var(--tj-color-grey-1);
+			img {
+				object-fit: contain;
+				padding: 18px 22px;
+				border-radius: 0;
+				mix-blend-mode: multiply;
+			}
+		}
+		@media #{$xl, $lg, $xs} {
+			min-height: 0;
+			img {
+				min-height: 0;
+			}
+		}
+	}
+	.ci-service-index {
+		position: absolute;
+		top: 14px;
+		inset-inline-start: 14px;
+		z-index: 2;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 46px;
+		height: 32px;
+		padding: 0 10px;
+		border-radius: 50px;
+		background-color: var(--tj-color-theme-dark);
+		color: var(--tj-color-common-white);
+		font-size: 14px;
+		font-weight: var(--tj-fw-sbold);
+		line-height: 1;
+		pointer-events: none;
+	}
+	.h6-service-content {
+		display: flex;
+		flex-direction: column;
+		flex: 1 1 auto;
+		height: auto;
+		padding: 26px 12px 30px;
+		.title {
+			width: 100%;
+			font-size: var(--tj-fs-h4);
+			line-height: 1.3;
+			margin: 0 0 14px;
+			@media #{$lg, $md, $sm, $xs} {
+				font-size: 20px;
+			}
+		}
+		.desc {
+			margin: 0;
+			white-space: pre-line;
+		}
+		.text-btn {
+			margin-top: auto;
+			padding-top: 24px;
+			align-self: flex-start;
+		}
+	}
+	&:hover {
+		box-shadow: 0 0 30px 0 var(--tj-color-border-5);
+		.title a {
+			color: var(--tj-color-theme-primary);
+		}
+		.text-btn .btn-icon {
+			background-color: var(--tj-color-theme-primary);
+		}
+	}
+}
+
+/* ---------- Contact: info cards (ContactTop look) ---------- */
+.ci-contact-card {
+	height: 100%;
+	.contact-title {
+		margin-bottom: 16px;
+	}
+	.contact-list {
+		margin: 0;
+		padding: 0;
+		li {
+			white-space: pre-line;
+			color: var(--tj-color-text-body);
+			line-height: 1.6;
+			margin-bottom: 2px;
+			overflow-wrap: anywhere;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			&.ci-contact-label {
+				color: var(--tj-color-heading-primary);
+				font-weight: var(--tj-fw-sbold);
+				margin-bottom: 0;
+				&:not(:first-child) {
+					margin-top: 12px;
+				}
+			}
+			&.active {
+				margin-top: 12px;
+			}
+		}
+	}
+}
+/* Wide card (multi-office address): icon + title on the left, one column per labelled office. */
+.ci-contact-card.ci-contact-wide {
+	display: flex;
+	align-items: center;
+	text-align: start;
+	padding: 40px 45px;
+	.ci-wide-head {
+		flex: 0 0 220px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		.contact-icon {
+			margin-bottom: 18px;
+		}
+		.contact-title {
+			margin-bottom: 0;
+		}
+	}
+	.ci-wide-groups {
+		flex: 1 1 auto;
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+	.ci-contact-group {
+		padding: 6px 0 6px 40px;
+		border-inline-start: 1px dashed var(--tj-color-border-1);
+		li {
+			margin-bottom: 0;
+			&.ci-contact-label {
+				margin-bottom: 6px;
+			}
+		}
+	}
+	@media #{$lg} {
+		padding: 36px 30px;
+		.ci-wide-head {
+			flex-basis: 170px;
+		}
+		.ci-contact-group {
+			padding-inline-start: 28px;
+		}
+	}
+	@media #{$md, $sm, $xs} {
+		flex-direction: column;
+		text-align: center;
+		padding: 30px 25px 36px;
+		.ci-wide-head {
+			flex: 0 0 auto;
+			margin-bottom: 20px;
+		}
+		.ci-wide-groups {
+			width: 100%;
+		}
+		.ci-contact-group {
+			padding: 4px 16px;
+			&:first-child {
+				border-inline-start: 0;
+			}
+		}
+	}
+	@media #{$sm, $xs} {
+		.ci-wide-groups {
+			grid-template-columns: minmax(0, 1fr);
+		}
+		.ci-contact-group {
+			padding: 16px 0 0;
+			border-inline-start: 0;
+			&:not(:first-child) {
+				margin-top: 16px;
+				border-top: 1px dashed var(--tj-color-border-1);
+			}
+			&:first-child {
+				padding-top: 0;
+			}
+		}
+	}
+}
+
+/* ---------- Contact: form card + sister-company card (Contact3 look) ---------- */
+.ci-contact-form {
+	height: 100%;
+	margin-inline-end: 0;
+	.title {
+		span {
+			color: var(--tj-color-theme-primary);
+		}
+	}
+	.form-input.ci-field {
+		margin-bottom: 22px;
+		label {
+			display: block;
+			font-size: 14px;
+			font-weight: var(--tj-fw-sbold);
+			color: var(--tj-color-heading-primary);
+			margin-bottom: 8px;
+		}
+		textarea,
+		select,
+		input[type="tel"],
+		input[type="text"],
+		input[type="email"] {
+			width: 100%;
+			background-color: var(--tj-color-grey-1);
+			color: var(--tj-color-heading-primary);
+			border: 1px solid var(--tj-color-border-1);
+			border-radius: 8px;
+			padding: 12px 16px;
+			transition:
+				border-color 0.2s ease-in-out,
+				box-shadow 0.2s ease-in-out,
+				background-color 0.2s ease-in-out;
+			&:focus {
+				outline: none;
+				background-color: var(--tj-color-common-white);
+				border-color: var(--tj-color-theme-primary);
+			}
+			&:focus-visible {
+				outline: 2px solid var(--tj-color-theme-primary);
+				outline-offset: 2px;
+			}
+		}
+		textarea {
+			height: 150px;
+			padding-top: 12px;
+		}
+	}
+	.ci-form-consent {
+		font-size: 14px;
+		line-height: 1.6;
+		color: var(--tj-color-text-body-3);
+		margin: 4px 0 28px;
+		padding-inline-start: 14px;
+		border-inline-start: 2px solid var(--tj-color-border-1);
+	}
+	.submit-btn .tj-primary-btn:focus-visible {
+		outline: 2px solid var(--tj-color-theme-primary);
+		outline-offset: 2px;
+	}
+	@media #{$lg} {
+		padding: 45px 35px;
+	}
+}
+.ci-sister-info {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	height: 100%;
+	background-color: var(--tj-color-theme-dark);
+	border-radius: 12px;
+	padding: 55px 45px;
+	display: flex;
+	flex-direction: column;
+	.ci-card-shape {
+		position: absolute;
+		top: 0;
+		inset-inline-end: 0;
+		width: 260px;
+		z-index: -1;
+		mix-blend-mode: difference;
+		pointer-events: none;
+		transform: scaleX(-1);
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	.ci-sister-info-title {
+		color: var(--tj-color-common-white);
+		margin-bottom: 30px;
+		span {
+			display: block;
+			color: var(--tj-color-theme-sky, var(--tj-color-theme-primary));
+		}
+	}
+	.ci-sister-info-list {
+		list-style: none;
+		margin: 0 0 34px;
+		padding: 0;
+		li {
+			display: flex;
+			align-items: flex-start;
+			gap: 16px;
+			padding: 18px 0;
+			border-bottom: 1px dashed var(--tj-color-border-3);
+			&:first-child {
+				padding-top: 0;
+			}
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+		p {
+			margin: 0;
+			color: var(--tj-color-text-body-2);
+			overflow-wrap: anywhere;
+			strong {
+				display: block;
+				color: var(--tj-color-common-white);
+				font-weight: var(--tj-fw-sbold);
+			}
+			a {
+				color: var(--tj-color-common-white);
+				&:hover {
+					color: var(--tj-color-theme-sky, var(--tj-color-theme-primary));
+				}
+			}
+		}
+	}
+	.ci-info-icon {
+		flex: 0 0 auto;
+		width: 46px;
+		height: 46px;
+		border-radius: 50%;
+		background-color: var(--tj-color-grey-3);
+		border: 1px solid var(--tj-color-border-3);
+		color: var(--tj-color-common-white);
+		font-size: 20px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		i {
+			display: inline-flex;
+			line-height: 1;
+		}
+	}
+	.ci-sister-info-btn {
+		margin-top: auto;
+		align-self: flex-start;
+	}
+	@media #{$lg} {
+		padding: 45px 30px;
+	}
+	@media #{$sm, $xs} {
+		padding: 35px 20px;
+	}
+}
+
+/* ---------- Focus rings (DESIGN.md §7): primary on light surfaces, sky on navy ---------- */
+.ci-about-intro,
+.ci-services-band,
+.ci-services-grid-section,
+.ci-contact-info,
+.ci-cta {
+	a:focus-visible,
+	.tj-primary-btn:focus-visible {
+		outline: 2px solid var(--tj-color-theme-primary);
+		outline-offset: 2px;
+	}
+}
+.ci-cta .cta-area a:focus-visible,
+.ci-cta .cta-area .tj-primary-btn:focus-visible {
+	outline: 2px solid var(--tj-color-common-white);
+	outline-offset: 2px;
+}
+.ci-about-callout a:focus-visible,
+.ci-sister-card a:focus-visible,
+.ci-sister-card .tj-primary-btn:focus-visible,
+.ci-sister-info a:focus-visible,
+.ci-sister-info .tj-primary-btn:focus-visible {
+	outline: 2px solid var(--tj-color-theme-sky, var(--tj-color-common-white));
+	outline-offset: 2px;
+}
+
+/* ---------- Closing CTA band (Cta.js look, prop-driven) ---------- */
+.ci-cta {
+	.cta-area {
+		.cta-content {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			.title {
+				font-size: 56px;
+				@media #{$xl} {
+					font-size: 50px;
+				}
+				@media #{$lg} {
+					font-size: 44px;
+				}
+				@media #{$md} {
+					font-size: 44px;
+				}
+				@media #{$sm, $xs} {
+					font-size: 34px;
+				}
+			}
+		}
+		.ci-cta-text {
+			color: var(--tj-color-common-white);
+			margin-bottom: 24px;
+		}
+		/* The closing illustration has a light backdrop with generous margins: shown whole
+		(contain) on a white panel instead of being cropped, with its side edges feathered so
+		its own backdrop melts into the panel rather than reading as a box. */
+		.cta-img {
+			min-height: 320px;
+			position: relative;
+			background-color: var(--tj-color-common-white);
+			img {
+				position: absolute;
+				inset: 0;
+				margin: auto;
+				width: auto;
+				height: 100%;
+				max-width: 100%;
+				object-fit: contain;
+				-webkit-mask-image: linear-gradient(to right, transparent 0, var(--tj-color-common-black) 8%, var(--tj-color-common-black) 92%, transparent 100%);
+				mask-image: linear-gradient(to right, transparent 0, var(--tj-color-common-black) 8%, var(--tj-color-common-black) 92%, transparent 100%);
+			}
+			@media #{$md} {
+				min-height: 380px;
+			}
+			@media #{$sm} {
+				min-height: 320px;
+			}
+			@media #{$xs} {
+				min-height: 250px;
+			}
+		}
+		&.ci-cta-no-img .cta-content {
+			width: 100%;
+		}
+	}
+}
+
+/* !END: content-import pages styles */
