@@ -33,6 +33,9 @@
 		"wow.js": "^1.2.2"
 	},
 	"devDependencies": {
-		"sass": "^1.94.2"
+		"cheerio": "^1.2.0",
+		"fast-xml-parser": "^5.11.1",
+		"sass": "^1.94.2",
+		"sharp": "^0.35.5"
 	}
 }

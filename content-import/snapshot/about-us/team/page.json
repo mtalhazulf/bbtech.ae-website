@@ -1,0 +1,220 @@
+{
+  "id": 256,
+  "date": "2018-10-30T18:19:36",
+  "date_gmt": "2018-10-30T18:19:36",
+  "guid": {
+    "rendered": "https://the7.io/g-business/?page_id=256"
+  },
+  "modified": "2022-06-17T15:45:06",
+  "modified_gmt": "2022-06-17T15:45:06",
+  "slug": "team",
+  "status": "publish",
+  "type": "page",
+  "link": "https://bbtech.ae/about-us/team/",
+  "title": {
+    "rendered": "Team"
+  },
+  "content": {
+    "rendered": "<p>[vc_row css=&#8221;.vc_custom_1560794933055{padding-bottom: 60px !important;}&#8221;][vc_column]<div id=\"ultimate-heading-37306aba573606306\" class=\"uvc-heading ult-adjust-bottom-margin ultimate-heading-37306aba573606306 uvc-6625 accent-border-color uvc-heading-default-font-sizes\" data-hspacer=\"no_spacer\"  data-halign=\"center\" style=\"text-align:center\"><div class=\"uvc-heading-spacer no_spacer\" style=\"top\"></div><div class=\"uvc-main-heading ult-responsive\"  data-ultimate-target='.uvc-heading.ultimate-heading-37306aba573606306 h2'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}' ><h2 style=\"--font-weight:theme;margin-bottom:50px;\">Founders</h2></div></div><style type=\"text/css\" data-type=\"the7_shortcodes-inline-css\">.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .team-desc {\n  padding: 0px 0px 0px 0px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .team-author-name,\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .team-author-name a {\n  margin-bottom: 5px;\n  font-size: 34px;\n  line-height: 44px;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .team-author p {\n  margin-bottom: 20px;\n  font-size: 20px;\n  line-height: 30px;\n  font-weight: bold;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c  .team-media {\n  padding: 0px 0px 25px 0px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c  .team-media a,\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c  .team-media > span,\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c  .team-media img {\n  max-width: 300px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .dt-css-grid .team-media img {\n  width: 300px;\n  max-width: 100%;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .team-content {\n  margin-bottom: 0px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c  .team-media,\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c  .team-media a.rollover,\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c  .team-media a.rollover *,\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c  .team-media img {\n  border-radius: 0px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .soc-ico {\n  margin-bottom: 15px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .soc-ico a {\n  min-width: 26px;\n  min-height: 26px;\n  font-size: 16px;\n  border-radius: 100px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .soc-ico a:not(:last-child) {\n  margin-right: 4px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .soc-ico a:before,\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .soc-ico a:after {\n  min-width: 26px;\n  min-height: 26px;\n  padding: inherit;\n}\n.dt-icon-border-on.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .soc-ico a:before {\n  border: 0px solid transparent;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .soc-ico a:hover {\n  font-size: 16px;\n}\n#page .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .soc-ico a:hover .soc-font-icon {\n  color: rgba(255,255,255,0.75);\n  background: none;\n}\n.dt-icon-border-hover-on.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .soc-ico a:after {\n  border: 0px solid transparent;\n}\n#page .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .soc-ico a:not(:hover) .soc-font-icon {\n  color: #ffffff;\n  background: none;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .soc-ico a .soc-font-icon {\n  font-size: 16px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c .filter-bg-decoration .filter-categories a.act {\n  color: #fff;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c:not(.resize-by-browser-width) .dt-css-grid {\n  grid-row-gap: 50px;\n  grid-column-gap: 50px;\n  grid-template-columns: repeat(auto-fill,minmax(,1fr));\n}\n.cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c:not(.resize-by-browser-width) .dt-css-grid,\n.no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c:not(.resize-by-browser-width) .dt-css-grid {\n  display: flex;\n  flex-flow: row wrap;\n  margin: -25px;\n}\n.cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c:not(.resize-by-browser-width) .dt-css-grid .wf-cell,\n.no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c:not(.resize-by-browser-width) .dt-css-grid .wf-cell {\n  flex: 1 0 ;\n  max-width: 100%;\n  padding: 25px;\n  box-sizing: border-box;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid {\n  grid-template-columns: repeat(1,1fr);\n  grid-template-rows: auto;\n  grid-column-gap: 50px;\n  grid-row-gap: 50px;\n}\n.cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid,\n.no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid {\n  margin: -25px;\n}\n.cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid .wf-cell,\n.no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid .wf-cell {\n  width: 100%;\n  padding: 25px;\n}\n@media screen and (max-width: 1199px) {\n  .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid {\n    grid-template-columns: repeat(1,1fr);\n  }\n  .cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid .wf-cell,\n  .no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid .wf-cell {\n    width: 100%;\n  }\n}\n@media screen and (max-width: 991px) {\n  .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid {\n    grid-template-columns: repeat(1,1fr);\n  }\n  .cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid .wf-cell,\n  .no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid .wf-cell {\n    width: 100%;\n  }\n}\n@media screen and (max-width: 767px) {\n  .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid {\n    grid-template-columns: repeat(1,1fr);\n  }\n  .cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid .wf-cell,\n  .no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c.resize-by-browser-width .dt-css-grid .wf-cell {\n    width: 100%;\n  }\n}\n</style><div class=\"dt-team-masonry-shortcode dt-team-shortcode team-masonry-shortcode-id-956420350c54d1092bae5b505b1cc20c loading-effect-none mode-grid jquery-filter content-align-center dt-css-grid-wrap dt-css-grid-wrap dt-icon-bg-on dt-icon-border-on dt-icon-hover-bg-on dt-icon-border-hover-on move-icons-under-position resize-by-browser-width  \" data-padding=\"25px\" data-cur-page=\"1\" data-post-limit=\"-1\" data-pagination-mode=\"none\" data-desktop-columns-num=\"1\" data-v-tablet-columns-num=\"1\" data-h-tablet-columns-num=\"1\" data-phone-columns-num=\"1\" data-width=\"0px\" data-columns=\"0\"><div class=\"dt-css-grid\" ><div class=\"visible wf-cell\" data-post-id=\"1498\" data-date=\"2019-06-13T11:53:07+04:00\" data-name=\"Founder\"><div class=\"team-container visible post post-1498 dt_team type-dt_team status-publish has-post-thumbnail hentry dt_team_category-founders dt_team_category-18\"><div class=\"team-media\"><span><img class=\"preload-me iso-lazy-load\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20128%20128&#39;%2F%3E\" data-src=\"https://bbtech.ae/wp-content/uploads/2019/06/chief-person-diplomat-boss-head-lawyer-leader-icon.png\" data-srcset=\"https://bbtech.ae/wp-content/uploads/2019/06/chief-person-diplomat-boss-head-lawyer-leader-icon.png 128w\" width=\"128\" height=\"128\"  title=\"chief, person, diplomat, boss, head, lawyer, leader icon\" alt=\"\" /></span></div><div class=\"team-desc\"><div class=\"team-author\"><div class=\"team-author-name\">Founder</div><p>The Idea Maker</p></div><div class=\"team-content\"><p>BBTECH is  providing outsourced IT services to businesses in UAE The benefit we bring to you and your business is to have all of your IT services managed from one place, with one point of contact, just like your very own IT department but without all the costs. We will align all your domains, hosting, connectivity&hellip;</p>\n</div></div></div></div></div><!-- iso-container|iso-grid --></div>[/vc_column][/vc_row][vc_row full_width=&#8221;stretch_row_content_no_spaces&#8221;][vc_column]<div class=\"hr-thin style-dashed\" style=\"width: 100%;border-color: rgba(221,153,51,0.3);border-top-width: 3px;\"></div>[/vc_column][/vc_row][vc_row css=&#8221;.vc_custom_1560795724688{padding-top: 50px !important;}&#8221;][vc_column]<div id=\"ultimate-heading-73156aba573607b01\" class=\"uvc-heading ult-adjust-bottom-margin ultimate-heading-73156aba573607b01 uvc-3435 accent-border-color uvc-heading-default-font-sizes\" data-hspacer=\"no_spacer\"  data-halign=\"center\" style=\"text-align:center\"><div class=\"uvc-heading-spacer no_spacer\" style=\"top\"></div><div class=\"uvc-main-heading ult-responsive\"  data-ultimate-target='.uvc-heading.ultimate-heading-73156aba573607b01 h2'  data-responsive-json-new='{\"font-size\":\"\",\"line-height\":\"\"}' ><h2 style=\"--font-weight:theme;margin-bottom:50px;\">Core Team</h2></div></div><style type=\"text/css\" data-type=\"the7_shortcodes-inline-css\">.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .team-desc {\n  padding: 0px 0px 0px 0px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .team-author-name,\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .team-author-name a {\n  margin-bottom: 0px;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .team-author p {\n  margin-bottom: 10px;\n  font-weight: bold;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a  .team-media {\n  padding: 0px 0px 20px 0px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a  .team-media a,\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a  .team-media > span,\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a  .team-media img {\n  max-width: 200px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .dt-css-grid .team-media img {\n  width: 200px;\n  max-width: 100%;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .team-content {\n  margin-bottom: 0px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a  .team-media,\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a  .team-media a.rollover,\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a  .team-media a.rollover *,\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a  .team-media img {\n  border-radius: 0px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .soc-ico {\n  margin-bottom: 15px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .soc-ico a {\n  min-width: 26px;\n  min-height: 26px;\n  font-size: 16px;\n  border-radius: 100px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .soc-ico a:not(:last-child) {\n  margin-right: 4px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .soc-ico a:before,\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .soc-ico a:after {\n  min-width: 26px;\n  min-height: 26px;\n  padding: inherit;\n}\n.dt-icon-border-on.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .soc-ico a:before {\n  border: 0px solid transparent;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .soc-ico a:hover {\n  font-size: 16px;\n}\n#page .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .soc-ico a:hover .soc-font-icon {\n  color: rgba(255,255,255,0.75);\n  background: none;\n}\n.dt-icon-border-hover-on.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .soc-ico a:after {\n  border: 0px solid transparent;\n}\n#page .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .soc-ico a:not(:hover) .soc-font-icon {\n  color: #ffffff;\n  background: none;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .soc-ico a .soc-font-icon {\n  font-size: 16px;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a .filter-bg-decoration .filter-categories a.act {\n  color: #fff;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a:not(.resize-by-browser-width) .dt-css-grid {\n  grid-row-gap: 50px;\n  grid-column-gap: 50px;\n  grid-template-columns: repeat(auto-fill,minmax(,1fr));\n}\n.cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a:not(.resize-by-browser-width) .dt-css-grid,\n.no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a:not(.resize-by-browser-width) .dt-css-grid {\n  display: flex;\n  flex-flow: row wrap;\n  margin: -25px;\n}\n.cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a:not(.resize-by-browser-width) .dt-css-grid .wf-cell,\n.no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a:not(.resize-by-browser-width) .dt-css-grid .wf-cell {\n  flex: 1 0 ;\n  max-width: 100%;\n  padding: 25px;\n  box-sizing: border-box;\n}\n.dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid {\n  grid-template-columns: repeat(3,1fr);\n  grid-template-rows: auto;\n  grid-column-gap: 50px;\n  grid-row-gap: 50px;\n}\n.cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid,\n.no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid {\n  margin: -25px;\n}\n.cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid .wf-cell,\n.no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid .wf-cell {\n  width: 33.333333333333%;\n  padding: 25px;\n}\n@media screen and (max-width: 1199px) {\n  .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid {\n    grid-template-columns: repeat(3,1fr);\n  }\n  .cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid .wf-cell,\n  .no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid .wf-cell {\n    width: 33.333333333333%;\n  }\n}\n@media screen and (max-width: 991px) {\n  .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid {\n    grid-template-columns: repeat(2,1fr);\n  }\n  .cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid .wf-cell,\n  .no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid .wf-cell {\n    width: 50%;\n  }\n}\n@media screen and (max-width: 767px) {\n  .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid {\n    grid-template-columns: repeat(1,1fr);\n  }\n  .cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid .wf-cell,\n  .no-cssgridlegacy.no-cssgrid .dt-team-shortcode.team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a.resize-by-browser-width .dt-css-grid .wf-cell {\n    width: 100%;\n  }\n}\n</style><div class=\"dt-team-masonry-shortcode dt-team-shortcode team-masonry-shortcode-id-cfed0bd2de791cb5d105d2e4789fda4a loading-effect-none mode-grid jquery-filter content-align-center dt-css-grid-wrap dt-css-grid-wrap dt-icon-bg-on dt-icon-border-on dt-icon-hover-bg-on dt-icon-border-hover-on move-icons-under-position resize-by-browser-width  vc_custom_1596435895981 \" data-padding=\"25px\" data-cur-page=\"1\" data-post-limit=\"-1\" data-pagination-mode=\"none\" data-desktop-columns-num=\"3\" data-v-tablet-columns-num=\"2\" data-h-tablet-columns-num=\"3\" data-phone-columns-num=\"1\" data-width=\"0px\" data-columns=\"0\"><div class=\"dt-css-grid\" ><div class=\"visible wf-cell\" data-post-id=\"1939\" data-date=\"2019-06-17T19:19:50+04:00\" data-name=\"The Geeks\"><div class=\"team-container visible post post-1939 dt_team type-dt_team status-publish has-post-thumbnail hentry dt_team_category-team dt_team_category-22\"><div class=\"team-media\"><span><img class=\"preload-me iso-lazy-load\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20128%20128&#39;%2F%3E\" data-src=\"https://bbtech.ae/wp-content/uploads/2019/06/marketer-person-user-manager-insurer-blond-avatar-icon.png\" data-srcset=\"https://bbtech.ae/wp-content/uploads/2019/06/marketer-person-user-manager-insurer-blond-avatar-icon.png 128w\" width=\"128\" height=\"128\"  title=\"marketer-person-user-manager-insurer-blond-avatar-icon\" alt=\"\" /></span></div><div class=\"team-desc\"><div class=\"team-author\"><div class=\"team-author-name\">The Geeks</div><p>Programmers</p></div><div class=\"team-content\"><p>For Tech &amp; Support, you can get in Touch for your Inquiries Phone number+971 54 405 6829 Emailinfo@bbtech.ae AddressPo Box. 202135, Al Ain , United Arab Emirates</p>\n</div></div></div></div><div class=\"visible wf-cell\" data-post-id=\"1938\" data-date=\"2019-06-17T19:17:58+04:00\" data-name=\"Customer Service\"><div class=\"team-container visible post post-1938 dt_team type-dt_team status-publish has-post-thumbnail hentry dt_team_category-team dt_team_category-22\"><div class=\"team-media\"><span><img class=\"preload-me iso-lazy-load\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20128%20128&#39;%2F%3E\" data-src=\"https://bbtech.ae/wp-content/uploads/2019/06/corporate-lawyer-client-avatar-notary-face-insurer-person-icon.png\" data-srcset=\"https://bbtech.ae/wp-content/uploads/2019/06/corporate-lawyer-client-avatar-notary-face-insurer-person-icon.png 128w\" width=\"128\" height=\"128\"  title=\"corporate-lawyer-client-avatar-notary-face-insurer-person-icon\" alt=\"\" /></span></div><div class=\"team-desc\"><div class=\"team-author\"><div class=\"team-author-name\">Customer Service</div><p>Serves Customers</p></div><div class=\"team-content\"><p>For Tech &amp; Support, you can get in Touch for your Inquiries Phone number+971 54 405 6829 Emailinfo@bbtech.ae AddressPo Box. 202135, Al Ain , United Arab Emirates For more details, you can check here:- About us</p>\n</div></div></div></div><div class=\"visible wf-cell\" data-post-id=\"1497\" data-date=\"2019-06-13T11:52:07+04:00\" data-name=\"Tech &amp; Support\"><div class=\"team-container visible post post-1497 dt_team type-dt_team status-publish has-post-thumbnail hentry dt_team_category-team dt_team_category-22\"><div class=\"team-media\"><span><img class=\"preload-me iso-lazy-load\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20128%20128&#39;%2F%3E\" data-src=\"https://bbtech.ae/wp-content/uploads/2019/06/person-telephone-conversation-man-with-phone-corporate-lawyer-icon.png\" data-srcset=\"https://bbtech.ae/wp-content/uploads/2019/06/person-telephone-conversation-man-with-phone-corporate-lawyer-icon.png 128w\" width=\"128\" height=\"128\"  title=\"person-telephone-conversation-man-with-phone-corporate-lawyer-icon\" alt=\"\" /></span></div><div class=\"team-desc\"><div class=\"team-author\"><div class=\"team-author-name\">Tech &#038; Support</div><p>Provides Technical Support</p></div><div class=\"team-content\"><p>For Tech &amp; Support, you can get in Touch for your Inquiries Phone number+971 54 405 6829 Emailinfo@bbtech.ae AddressPo Box. 202135, Al Ain , United Arab Emirates For more details, you can check here:- IT Outsourcing ERP</p>\n</div></div></div></div></div><!-- iso-container|iso-grid --></div><style type=\"text/css\" data-type=\"the7_shortcodes-inline-css\">#default-btn-ec0d5e8670b651d34f591322891c5588.ico-right-side > i {\n  margin-right: 0px;\n  margin-left: 8px;\n}\n#default-btn-ec0d5e8670b651d34f591322891c5588 > i {\n  margin-right: 8px;\n}\n</style><div class=\"btn-align-center\"><a href=\"https://bbtech.ae/contact/\" class=\"default-btn-shortcode dt-btn dt-btn-m link-hover-off \" id=\"default-btn-ec0d5e8670b651d34f591322891c5588\"><span>Want to be a part of our team? Contact us!</span></a></div>[/vc_column][/vc_row][vc_row][vc_column][vc_column_text]<a href=\"https://bbtech.ae/contact/\">Contact us</a>[/vc_column_text][/vc_column][/vc_row]</p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>[vc_row css=&#8221;.vc_custom_1560794933055{padding-bottom: 60px !important;}&#8221;][vc_column][/vc_column][/vc_row][vc_row full_width=&#8221;stretch_row_content_no_spaces&#8221;][vc_column][/vc_column][/vc_row][vc_row css=&#8221;.vc_custom_1560795724688{padding-top: 50px !important;}&#8221;][vc_column][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]Contact us[/vc_column_text][/vc_column][/vc_row]</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 247,
+  "menu_order": 20,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_joinchat": []
+  },
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v19.0.1 (Yoast SEO v19.6.1) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Team - BB Tech</title>\n<meta name=\"description\" content=\"BBTECH is providing outsourced IT services to businesses in UAE. The benefit our team bring to you and your business is to have all of your\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://bbtech.ae/about-us/team/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Team\" />\n<meta property=\"og:description\" content=\"BBTECH is providing outsourced IT services to businesses in UAE. The benefit our team bring to you and your business is to have all of your\" />\n<meta property=\"og:url\" content=\"https://bbtech.ae/about-us/team/\" />\n<meta property=\"og:site_name\" content=\"BB Tech\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/bbtech.ae\" />\n<meta property=\"article:modified_time\" content=\"2022-06-17T15:45:06+00:00\" />\n<meta property=\"og:image\" content=\"https://bbtech.ae/wp-content/uploads/2020/08/branding.png\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"750\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@bbtechae\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\" />\n\t<meta name=\"twitter:data1\" content=\"1 minute\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://bbtech.ae/about-us/team/\",\"url\":\"https://bbtech.ae/about-us/team/\",\"name\":\"Team - BB Tech\",\"isPartOf\":{\"@id\":\"https://bbtech.ae/#website\"},\"datePublished\":\"2018-10-30T18:19:36+00:00\",\"dateModified\":\"2022-06-17T15:45:06+00:00\",\"description\":\"BBTECH is providing outsourced IT services to businesses in UAE. The benefit our team bring to you and your business is to have all of your\",\"breadcrumb\":{\"@id\":\"https://bbtech.ae/about-us/team/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://bbtech.ae/about-us/team/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://bbtech.ae/about-us/team/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://bbtech.ae/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"About us\",\"item\":\"https://bbtech.ae/about-us/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Team\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://bbtech.ae/#website\",\"url\":\"https://bbtech.ae/\",\"name\":\"BB Tech\",\"description\":\"ERP, Mobile APPS, Ecommerce Store, Website\",\"publisher\":{\"@id\":\"https://bbtech.ae/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://bbtech.ae/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://bbtech.ae/#organization\",\"name\":\"Binary Bridge Technology Services\",\"url\":\"https://bbtech.ae/\",\"sameAs\":[\"https://www.instagram.com/binarybridge/\",\"https://www.linkedin.com/company/binary-bridge-technology-services/\",\"https://www.facebook.com/bbtech.ae\",\"https://twitter.com/bbtechae\"],\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://bbtech.ae/#/schema/logo/image/\",\"url\":\"https://bbtech.ae/wp-content/uploads/2020/08/branding.png\",\"contentUrl\":\"https://bbtech.ae/wp-content/uploads/2020/08/branding.png\",\"width\":1200,\"height\":750,\"caption\":\"Binary Bridge Technology Services\"},\"image\":{\"@id\":\"https://bbtech.ae/#/schema/logo/image/\"}}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+  "yoast_head_json": {
+    "title": "Team - BB Tech",
+    "description": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit our team bring to you and your business is to have all of your",
+    "robots": {
+      "index": "index",
+      "follow": "follow",
+      "max-snippet": "max-snippet:-1",
+      "max-image-preview": "max-image-preview:large",
+      "max-video-preview": "max-video-preview:-1"
+    },
+    "canonical": "https://bbtech.ae/about-us/team/",
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "Team",
+    "og_description": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit our team bring to you and your business is to have all of your",
+    "og_url": "https://bbtech.ae/about-us/team/",
+    "og_site_name": "BB Tech",
+    "article_publisher": "https://www.facebook.com/bbtech.ae",
+    "article_modified_time": "2022-06-17T15:45:06+00:00",
+    "og_image": [
+      {
+        "width": 1200,
+        "height": 750,
+        "url": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "type": "image/png"
+      }
+    ],
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@bbtechae",
+    "twitter_misc": {
+      "Est. reading time": "1 minute"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://bbtech.ae/about-us/team/",
+          "url": "https://bbtech.ae/about-us/team/",
+          "name": "Team - BB Tech",
+          "isPartOf": {
+            "@id": "https://bbtech.ae/#website"
+          },
+          "datePublished": "2018-10-30T18:19:36+00:00",
+          "dateModified": "2022-06-17T15:45:06+00:00",
+          "description": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit our team bring to you and your business is to have all of your",
+          "breadcrumb": {
+            "@id": "https://bbtech.ae/about-us/team/#breadcrumb"
+          },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://bbtech.ae/about-us/team/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bbtech.ae/about-us/team/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bbtech.ae/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "About us",
+              "item": "https://bbtech.ae/about-us/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Team"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bbtech.ae/#website",
+          "url": "https://bbtech.ae/",
+          "name": "BB Tech",
+          "description": "ERP, Mobile APPS, Ecommerce Store, Website",
+          "publisher": {
+            "@id": "https://bbtech.ae/#organization"
+          },
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://bbtech.ae/?s={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://bbtech.ae/#organization",
+          "name": "Binary Bridge Technology Services",
+          "url": "https://bbtech.ae/",
+          "sameAs": [
+            "https://www.instagram.com/binarybridge/",
+            "https://www.linkedin.com/company/binary-bridge-technology-services/",
+            "https://www.facebook.com/bbtech.ae",
+            "https://twitter.com/bbtechae"
+          ],
+          "logo": {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://bbtech.ae/#/schema/logo/image/",
+            "url": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+            "contentUrl": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+            "width": 1200,
+            "height": 750,
+            "caption": "Binary Bridge Technology Services"
+          },
+          "image": {
+            "@id": "https://bbtech.ae/#/schema/logo/image/"
+          }
+        }
+      ]
+    }
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/pages/256"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://bbtech.ae/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://bbtech.ae/wp-json/wp/v2/comments?post=256"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://bbtech.ae/wp-json/wp/v2/pages/256/revisions"
+      }
+    ],
+    "up": [
+      {
+        "embeddable": true,
+        "href": "https://bbtech.ae/wp-json/wp/v2/pages/247"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/media?parent=256"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

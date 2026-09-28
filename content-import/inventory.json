@@ -1,0 +1,3543 @@
+{
+  "generatedAt": "2026-09-28T12:03:12.656Z",
+  "origin": "https://bbtech.ae",
+  "totals": {
+    "urls": 62,
+    "real": 26,
+    "filler": 36,
+    "needsReview": 0,
+    "forms": 33,
+    "mediaLibraryTotal": 128,
+    "restCounts": {
+      "post": 2,
+      "page": 32,
+      "dt_portfolio": 7,
+      "dt_team": 4,
+      "mec-events": 5
+    }
+  },
+  "siteChrome": {
+    "primaryMenu": [
+      {
+        "label": "Home",
+        "href": "https://bbtech.ae/"
+      },
+      {
+        "label": "About us",
+        "href": "https://bbtech.ae/about-us/"
+      },
+      {
+        "label": "ERP",
+        "href": "https://bbtech.ae/erp/",
+        "submenu": [
+          {
+            "label": "ISMS – School System",
+            "href": "https://bbtech.ae/school-system-isms/"
+          }
+        ]
+      },
+      {
+        "label": "Services",
+        "href": "https://bbtech.ae/services/",
+        "submenu": [
+          {
+            "label": "Web Development",
+            "href": "https://bbtech.ae/services/web-development/"
+          },
+          {
+            "label": "Graphic Design",
+            "href": "https://bbtech.ae/services/graphic-design/"
+          },
+          {
+            "label": "Mobile App Development",
+            "href": "https://bbtech.ae/services/mobile-app-development/"
+          },
+          {
+            "label": "Social Media Marketing",
+            "href": "https://bbtech.ae/services/social-media-marketing/"
+          },
+          {
+            "label": "Social Wifi",
+            "href": "https://bbtech.ae/social-wifi/"
+          }
+        ]
+      },
+      {
+        "label": "Contact",
+        "href": "https://bbtech.ae/contact/"
+      }
+    ],
+    "topBar": {
+      "contacts": [
+        "+971 3 7555069",
+        "info@bbtech.ae",
+        "Po Box. 202135, Al Ain , United Arab Emirates"
+      ],
+      "social": [
+        "https://www.facebook.com/bbtech.ae",
+        "https://x.com/bbtechae",
+        "https://www.linkedin.com/company/binary-bridge-technology-services/",
+        "https://www.instagram.com/binarybridge/"
+      ]
+    }
+  },
+  "entries": [
+    {
+      "url": "https://bbtech.ae/",
+      "path": "/",
+      "slug": "home",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2026-04-30T06:14:12+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Home",
+      "newRoute": "/",
+      "metadata": {
+        "title": "Web Design and Development in UAE - BBTech",
+        "description": "Providing Services in UAE like Website Design and Development, Mobile App Development, customized ERP Solutions, Social Media Marketing,",
+        "canonical": "https://bbtech.ae/",
+        "ogTitle": "Home",
+        "ogDescription": "Providing Services in UAE like Website Design and Development, Mobile App Development, customized ERP Solutions, Social Media Marketing,",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Binary Bridge Technology Services",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Binary Bridge Technology Services"
+        },
+        {
+          "level": "h3",
+          "text": "Custom Software Development Services"
+        },
+        {
+          "level": "h4",
+          "text": "We provide Custom Software Development Services and Dedicated IT-Consultancy With Vast Industry-Specific Experience"
+        },
+        {
+          "level": "h3",
+          "text": "ERP Design and Development"
+        },
+        {
+          "level": "h3",
+          "text": "ERP Consultancy"
+        },
+        {
+          "level": "h3",
+          "text": "Design and implementation"
+        },
+        {
+          "level": "h3",
+          "text": "ERP Customization"
+        },
+        {
+          "level": "h3",
+          "text": "ERP Integration"
+        },
+        {
+          "level": "h3",
+          "text": "Web Design and Development"
+        },
+        {
+          "level": "h3",
+          "text": "Custom Web Development"
+        },
+        {
+          "level": "h3",
+          "text": "API Development"
+        },
+        {
+          "level": "h3",
+          "text": "API System Integrations"
+        },
+        {
+          "level": "h3",
+          "text": "Web SEO"
+        },
+        {
+          "level": "h3",
+          "text": "Mobile APP Design and Development"
+        },
+        {
+          "level": "h3",
+          "text": "Custom Application Development"
+        },
+        {
+          "level": "h3",
+          "text": "Application Maintenance"
+        },
+        {
+          "level": "h3",
+          "text": "API Integrations"
+        },
+        {
+          "level": "h3",
+          "text": "UX/UI Design"
+        },
+        {
+          "level": "h3",
+          "text": "SEO & Social Media Marketing"
+        },
+        {
+          "level": "h3",
+          "text": "SEARCH ENGINE OPTIMISATION (SEO)"
+        },
+        {
+          "level": "h3",
+          "text": "SOCIAL MEDIA MANAGEMENT"
+        },
+        {
+          "level": "h3",
+          "text": "CONTENT MARKETING"
+        },
+        {
+          "level": "h3",
+          "text": "GOOGLE ADS MARKETING/PAY PER CLICK (PPC)"
+        },
+        {
+          "level": "h2",
+          "text": "Industry Expertise"
+        },
+        {
+          "level": "h2",
+          "text": "Construction Industires"
+        },
+        {
+          "level": "h2",
+          "text": "Food and Beverages"
+        },
+        {
+          "level": "h2",
+          "text": "Manufacturing"
+        },
+        {
+          "level": "h2",
+          "text": "Transportation"
+        },
+        {
+          "level": "h2",
+          "text": "Health Care"
+        },
+        {
+          "level": "h2",
+          "text": "Consultancy Compnies"
+        },
+        {
+          "level": "h2",
+          "text": "Retail"
+        },
+        {
+          "level": "h2",
+          "text": "Institutes"
+        },
+        {
+          "level": "h2",
+          "text": "Auto workshops"
+        },
+        {
+          "level": "h3",
+          "text": "Don’t decrease there goal. Increase the effort!"
+        },
+        {
+          "level": "h2",
+          "text": "Why BB Tech"
+        },
+        {
+          "level": "h3",
+          "text": "10 Years of Experience"
+        },
+        {
+          "level": "h3",
+          "text": "24/7 CRITICAL SUPPORT"
+        },
+        {
+          "level": "h3",
+          "text": "DOMAIN EXPERTS"
+        },
+        {
+          "level": "h3",
+          "text": "Our reputation is the proof!"
+        },
+        {
+          "level": "h2",
+          "text": "Latest News"
+        },
+        {
+          "level": "h3",
+          "text": "New corporate logo & Updated Branding"
+        },
+        {
+          "level": "h3",
+          "text": "New website"
+        },
+        {
+          "level": "h4",
+          "text": "ISO Certifications"
+        }
+      ],
+      "wordCount": 916,
+      "imageCount": 41,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2022/05/Binary-Bridge-Technology-services.png",
+        "https://bbtech.ae/wp-content/uploads/2022/05/auto-mate-Business.png",
+        "https://bbtech.ae/wp-content/uploads/2022/05/wearable-device-app-Integration.png",
+        "https://bbtech.ae/wp-content/uploads/2022/05/binary-bridge-technology-service-Social-Media.png",
+        "https://bbtech.ae/wp-content/uploads/2020/08/45001.png",
+        "https://bbtech.ae/wp-content/uploads/2020/08/27001.png",
+        "https://bbtech.ae/wp-content/uploads/2020/08/14001.png",
+        "https://bbtech.ae/wp-content/uploads/2020/08/9001.png"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/2020/08/05/new-corporate-logo-updated-branding/",
+      "path": "/2020/08/05/new-corporate-logo-updated-branding/",
+      "slug": "2020/08/05/new-corporate-logo-updated-branding",
+      "restType": "post",
+      "httpStatus": 200,
+      "lastmod": "2022-05-18T06:34:49+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "News post",
+      "newRoute": "/2020/08/05/new-corporate-logo-updated-branding/",
+      "metadata": {
+        "title": "New corporate logo & Updated Branding - BB Tech",
+        "description": "We have updated our Corporate branding. BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your",
+        "canonical": "https://bbtech.ae/2020/08/05/new-corporate-logo-updated-branding/",
+        "ogTitle": "New corporate logo & Updated Branding",
+        "ogDescription": "We have updated our Corporate branding. BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "New corporate logo & Updated Branding",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "New corporate logo & Updated Branding"
+        },
+        {
+          "level": "h3",
+          "text": "Related Posts"
+        }
+      ],
+      "wordCount": 96,
+      "imageCount": 2,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/2020/08/05/update-of-the-branding/",
+      "path": "/2020/08/05/update-of-the-branding/",
+      "slug": "2020/08/05/update-of-the-branding",
+      "restType": "post",
+      "httpStatus": 200,
+      "lastmod": "2022-05-18T06:32:11+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "News post",
+      "newRoute": "/2020/08/05/update-of-the-branding/",
+      "metadata": {
+        "title": "BB TechNew website - BBtech.com",
+        "description": "BB TECH is providing outsourced IT services to businesses in UAE The benefit we bring to you and your business is to have all of your IT",
+        "canonical": "https://bbtech.ae/2020/08/05/update-of-the-branding/",
+        "ogTitle": "New website",
+        "ogDescription": "BB TECH is providing outsourced IT services to businesses in UAE The benefit we bring to you and your business is to have all of your IT",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/new-web.png",
+        "ogType": "article"
+      },
+      "h1": "New website",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "New website"
+        },
+        {
+          "level": "h3",
+          "text": "Related Posts"
+        }
+      ],
+      "wordCount": 97,
+      "imageCount": 3,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2020/08/new-web.png",
+        "https://bbtech.ae/wp-content/uploads/2020/08/olweb.png"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/about-us/",
+      "path": "/about-us/",
+      "slug": "about-us",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2025-08-09T16:11:29+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "About, incl. 16-item services list + Vision Plus block",
+      "newRoute": "/about-us/",
+      "metadata": {
+        "title": "About us - BB Tech",
+        "description": "We specialize in supporting the IT requirements of modern businesses which allows our clients to concentrate on what they do best, running",
+        "canonical": "https://bbtech.ae/about-us/",
+        "ogTitle": "About us",
+        "ogDescription": "We specialize in supporting the IT requirements of modern businesses which allows our clients to concentrate on what they do best, running",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "About us",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "About us"
+        },
+        {
+          "level": "h2",
+          "text": "WE MAKE IT HAPPEN"
+        },
+        {
+          "level": "h3",
+          "text": "We are providing Outsourcing IT services"
+        },
+        {
+          "level": "h2",
+          "text": "Vision Plus"
+        },
+        {
+          "level": "h2",
+          "text": "ISO Certifications"
+        }
+      ],
+      "wordCount": 498,
+      "imageCount": 5,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2020/08/45001.png",
+        "https://bbtech.ae/wp-content/uploads/2020/08/27001.png",
+        "https://bbtech.ae/wp-content/uploads/2020/08/14001.png",
+        "https://bbtech.ae/wp-content/uploads/2020/08/9001.png"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/about-us/company/",
+      "path": "/about-us/company/",
+      "slug": "about-us/company",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2022-08-25T15:14:40+00:00",
+      "classification": "filler",
+      "redirectTo": "/about-us/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/about-us/",
+      "metadata": {
+        "title": "Company - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/about-us/company/",
+        "ogTitle": "Company",
+        "ogDescription": "[vc_row css=&#8221;.vc_custom_1560793098479{padding-bottom: 50px !important;}&#8221;][vc_column][/vc_column][/vc_row][vc_row css=&#8221;.vc_custom_1560787254950{padding-bottom: 40px !important;}&#8221;][vc_column width=&#8221;1/2&#8243;][vc_column_text css=&#8221;.vc_custom_1560793172497{padding-bottom: 10px !important;}&#8221;]Aliquam nec dui varius, efficitur elit vel, volutpat nunc. In sollicitudin, nisl eget ultrices pharetra, lorem ligula tincidunt mi, vel commodo mi lectus eget dolor. Orci varius, nascetur ridiculus mus. Ut ut luctus metue ac quam sapien. Pellentesque ut magna ultricies, dictum libero id, pellentesque&hellip;",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Company",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Company"
+        },
+        {
+          "level": "h2",
+          "text": "Don't decrease there goal. Increase the effort!"
+        },
+        {
+          "level": "h3",
+          "text": "Success isn't just about what you accomplish in your life. It's about what you inspire others to do."
+        },
+        {
+          "level": "h2",
+          "text": "Why Choose The7 Modern Business"
+        },
+        {
+          "level": "h4",
+          "text": "Aliquam bibendum dolor eu sem hendrerit porem"
+        },
+        {
+          "level": "h3",
+          "text": "High Quality Standards"
+        },
+        {
+          "level": "h3",
+          "text": "Educated & Experienced Team"
+        },
+        {
+          "level": "h3",
+          "text": "Modern Business Solutions"
+        },
+        {
+          "level": "h3",
+          "text": "Inspection & Accreditation"
+        },
+        {
+          "level": "h3",
+          "text": "Global Connections"
+        },
+        {
+          "level": "h3",
+          "text": "Positive Reviews"
+        },
+        {
+          "level": "h3",
+          "text": "The value of an idea lies in the using of it."
+        },
+        {
+          "level": "h2",
+          "text": "Some Of Our Clients"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h5",
+          "text": "Praesent rutrum arcu sit amet tempus suscipit. Praeus orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor."
+        },
+        {
+          "level": "h5",
+          "text": "Quis euismod orci, eget scelerid molestie bus orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor."
+        },
+        {
+          "level": "h5",
+          "text": "Lorem estibulum quis ebero id molestie orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor."
+        },
+        {
+          "level": "h5",
+          "text": "Lorem raeus orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor."
+        }
+      ],
+      "wordCount": 595,
+      "imageCount": 0,
+      "formCount": 0,
+      "templateResidue": [
+        "lorem ipsum"
+      ],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/about-us/gallery/",
+      "path": "/about-us/gallery/",
+      "slug": "about-us/gallery",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2022-08-24T07:17:22+00:00",
+      "classification": "filler",
+      "redirectTo": "/about-us/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/about-us/",
+      "metadata": {
+        "title": "Gallery BBTech.ae - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/about-us/gallery/",
+        "ogTitle": "Gallery",
+        "ogDescription": "[vc_row][vc_column][dt_gallery_photos_masonry post_type=&#8221;posts&#8221; mode=&#8221;grid&#8221; image_sizing=&#8221;resize&#8221; image_border_radius=&#8221;0px&#8221; image_scale_animation_on_hover=&#8221;disabled&#8221; image_hover_bg_color=&#8221;solid_rollover_bg&#8221; custom_rollover_bg_color=&#8221;rgba(147,194,72,0.75)&#8221; project_icon_color=&#8221;#ffffff&#8221; project_icon_border_width=&#8221;0px&#8221; posts=&#8221;&#8221;][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]For Tech &amp; Support, click here[/vc_column_text][/vc_column][/vc_row]",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Gallery",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Gallery"
+        }
+      ],
+      "wordCount": 84,
+      "imageCount": 0,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/about-us/team/",
+      "path": "/about-us/team/",
+      "slug": "about-us/team",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2022-06-17T15:45:06+00:00",
+      "classification": "filler",
+      "redirectTo": "/about-us/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/about-us/",
+      "metadata": {
+        "title": "Team - BB Tech",
+        "description": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit our team bring to you and your business is to have all of your",
+        "canonical": "https://bbtech.ae/about-us/team/",
+        "ogTitle": "Team",
+        "ogDescription": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit our team bring to you and your business is to have all of your",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Team",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Team"
+        },
+        {
+          "level": "h2",
+          "text": "Founders"
+        },
+        {
+          "level": "h2",
+          "text": "Core Team"
+        }
+      ],
+      "wordCount": 245,
+      "imageCount": 4,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/adhics-medical-inspection-consultancy/",
+      "path": "/adhics-medical-inspection-consultancy/",
+      "slug": "adhics-medical-inspection-consultancy",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2026-04-30T05:42:52+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Service",
+      "newRoute": "/adhics-medical-inspection-consultancy/",
+      "metadata": {
+        "title": "ADHICS Medical Inspection & Consultancy - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/adhics-medical-inspection-consultancy/",
+        "ogTitle": "ADHICS Medical Inspection & Consultancy",
+        "ogDescription": "[vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column width=&#8221;1/2&#8243;][/vc_column][vc_column width=&#8221;1/2&#8243;][/vc_column][/vc_row][vc_row][vc_column][vc_separator color=&#8221;blue&#8221; style=&#8221;shadow&#8221;][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][vc_separator color=&#8221;blue&#8221; style=&#8221;shadow&#8221;][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]Meeting ADHICS standards isn’t just a requirement—it’s a commitment to excellence in healthcare. Let us help you navigate the complexities of compliance and safeguard the trust of your patients. Contact us today to schedule a consultation and learn more about our services![/vc_column_text][/vc_column][/vc_row]",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "ADHICS Medical Inspection & Consultancy",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "ADHICS Medical Inspection & Consultancy"
+        },
+        {
+          "level": "h2",
+          "text": "Ensuring Compliance, Enhancing Care"
+        },
+        {
+          "level": "h2",
+          "text": "Why Choose Us?"
+        },
+        {
+          "level": "h2",
+          "text": "Our Services"
+        },
+        {
+          "level": "h3",
+          "text": "ADHICS Compliance Assessment"
+        },
+        {
+          "level": "h3",
+          "text": "Policy and Procedure Development"
+        },
+        {
+          "level": "h3",
+          "text": "Inspection Readiness"
+        },
+        {
+          "level": "h3",
+          "text": "Cybersecurity Solutions"
+        },
+        {
+          "level": "h3",
+          "text": "Consultancy and Support"
+        },
+        {
+          "level": "h2",
+          "text": "Secure Your Healthcare Facility Today"
+        }
+      ],
+      "wordCount": 561,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/author/admin/",
+      "path": "/author/admin/",
+      "slug": "author/admin",
+      "restType": null,
+      "httpStatus": 200,
+      "lastmod": "2025-01-01T14:25:50+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "WP author archive",
+      "newRoute": "/",
+      "metadata": {
+        "title": "admin, Author at BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/author/admin/",
+        "ogTitle": "admin",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "profile"
+      },
+      "h1": "Author Archives: admin",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Author Archives: admin"
+        },
+        {
+          "level": "h3",
+          "text": "New corporate logo & Updated Branding"
+        },
+        {
+          "level": "h3",
+          "text": "New website"
+        },
+        {
+          "level": "h3",
+          "text": "Odio volutpat tellus sagittis"
+        },
+        {
+          "level": "h3",
+          "text": "Dollor nulla amet from glavrida"
+        },
+        {
+          "level": "h3",
+          "text": "Glavrida dolor nulla amen"
+        },
+        {
+          "level": "h3",
+          "text": "Lorem ipsum dolor"
+        },
+        {
+          "level": "h3",
+          "text": "Pellentesque ut magna"
+        },
+        {
+          "level": "h3",
+          "text": "Curabitur pulvinar"
+        },
+        {
+          "level": "h3",
+          "text": "Morbi pellentesqun dolor"
+        }
+      ],
+      "wordCount": 332,
+      "imageCount": 9,
+      "formCount": 0,
+      "templateResidue": [
+        "lorem ipsum"
+      ],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/branding-rebranding/",
+      "path": "/branding-rebranding/",
+      "slug": "branding-rebranding",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T11:44:34+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Service",
+      "newRoute": "/branding-rebranding/",
+      "metadata": {
+        "title": "Branding & Rebranding - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/branding-rebranding/",
+        "ogTitle": "Branding & Rebranding",
+        "ogDescription": "[vc_row][vc_column][vc_column_text]Your brand is more than just a logo; it’s the story, personality, and promise you share with your audience. At Binary Bridge Technology Services, we specialize in creating and transforming brands that leave a lasting impact. Whether you&#8217;re starting from scratch or looking to refresh your existing brand, we’re here to guide you every step&hellip;",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Branding & Rebranding",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Branding & Rebranding"
+        },
+        {
+          "level": "h2",
+          "text": "Build Your Identity, Redefine Your Vision"
+        },
+        {
+          "level": "h2",
+          "text": "Your Brand, Your Legacy"
+        },
+        {
+          "level": "h2",
+          "text": "Why Choose Us?"
+        },
+        {
+          "level": "h2",
+          "text": "Our Services"
+        },
+        {
+          "level": "h3",
+          "text": "Branding"
+        },
+        {
+          "level": "h3",
+          "text": "Rebranding"
+        }
+      ],
+      "wordCount": 352,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/category/news-updates/",
+      "path": "/category/news-updates/",
+      "slug": "category/news-updates",
+      "restType": null,
+      "httpStatus": 200,
+      "lastmod": "2022-05-18T06:34:49+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Blog category archive (news-updates)",
+      "newRoute": "/",
+      "metadata": {
+        "title": "news & updates Archives - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/category/news-updates/",
+        "ogTitle": "news & updates Archives",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Category Archives: news & updates",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Category Archives: news & updates"
+        },
+        {
+          "level": "h3",
+          "text": "New corporate logo & Updated Branding"
+        },
+        {
+          "level": "h3",
+          "text": "New website"
+        }
+      ],
+      "wordCount": 107,
+      "imageCount": 2,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/cloud-computing-services/",
+      "path": "/cloud-computing-services/",
+      "slug": "cloud-computing-services",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T14:08:50+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Service",
+      "newRoute": "/cloud-computing-services/",
+      "metadata": {
+        "title": "Cloud Computing Services - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/cloud-computing-services/",
+        "ogTitle": "Cloud Computing Services",
+        "ogDescription": "[vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][/vc_row][vc_row][vc_column][vc_separator color=&#8221;blue&#8221; style=&#8221;shadow&#8221;][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][vc_separator color=&#8221;blue&#8221; style=&#8221;shadow&#8221;][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]The cloud isn’t just a technology—it’s a business enabler. Let us help you unlock its potential to drive efficiency, innovation, and growth. Contact us now to learn more about our cloud computing services and schedule a consultation![/vc_column_text][/vc_column][/vc_row]",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Cloud Computing Services",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Cloud Computing Services"
+        },
+        {
+          "level": "h2",
+          "text": "Simplify, Scale, and Succeed"
+        },
+        {
+          "level": "h2",
+          "text": "Why Choose Us?"
+        },
+        {
+          "level": "h2",
+          "text": "Our Cloud Computing Solutions"
+        },
+        {
+          "level": "h3",
+          "text": "Cloud Migration"
+        },
+        {
+          "level": "h3",
+          "text": "Cloud Infrastructure Management"
+        },
+        {
+          "level": "h3",
+          "text": "Cloud Security"
+        },
+        {
+          "level": "h3",
+          "text": "Backup and Disaster Recovery"
+        },
+        {
+          "level": "h3",
+          "text": "SaaS, PaaS, and IaaS Solutions"
+        },
+        {
+          "level": "h3",
+          "text": "Hybrid and Multi-Cloud Solutions"
+        },
+        {
+          "level": "h2",
+          "text": "Embrace the Cloud Today"
+        }
+      ],
+      "wordCount": 437,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/construction-management-system/",
+      "path": "/construction-management-system/",
+      "slug": "construction-management-system",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2022-07-23T05:54:16+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Includes Constrcution-BBTECH.gif",
+      "newRoute": "/construction-management-system/",
+      "metadata": {
+        "title": "Construction Management System - BB Tech",
+        "description": "Construction Management System have core modules that are Project Management, Document Control, Quality Management, budgeting, procurement",
+        "canonical": "https://bbtech.ae/construction-management-system/",
+        "ogTitle": "Construction Management System",
+        "ogDescription": "Construction Management System have core modules that are Project Management, Document Control, Quality Management, budgeting, procurement",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "WHY CONSTRUCTION MANAGEMENT SYSTEM",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "WHY CONSTRUCTION MANAGEMENT SYSTEM"
+        },
+        {
+          "level": "h5",
+          "text": "TOP Reasons to have Construction ERP"
+        },
+        {
+          "level": "h3",
+          "text": "Construction Management System (ERP) is a cloud based web system with the following key features"
+        },
+        {
+          "level": "h2",
+          "text": "ONE STOP SOLUTION FOR UNLIMITED EMPLOYEES"
+        }
+      ],
+      "wordCount": 501,
+      "imageCount": 1,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2021/04/Constrcution-BBTECH.gif"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/contact/",
+      "path": "/contact/",
+      "slug": "contact",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2025-08-09T16:12:29+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Contact info, hours, form, Vision Plus block",
+      "newRoute": "/contact/",
+      "metadata": {
+        "title": "Contact - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/contact/",
+        "ogTitle": "Contact",
+        "ogDescription": "[vc_row equal_height=&#8221;yes&#8221; content_placement=&#8221;middle&#8221; css=&#8221;.vc_custom_1560850714045{margin-bottom: -60px !important;}&#8221;][vc_column width=&#8221;1/2&#8243;][/vc_column][vc_column width=&#8221;1/2&#8243; css=&#8221;.vc_custom_1560851109721{margin-bottom: 60px !important;padding-top: 10px !important;}&#8221;][/vc_column][/vc_row][vc_row][vc_column][vc_raw_html]JTNDJTIxLS0lMjBTaXN0ZXIlMjBDb21wYW55JTIwQ29udGFjdCUyMEluZm8lMjBmb3IlMjBDb250YWN0JTIwUGFnZSUyMC0tJTNFJTBBJTNDc2VjdGlvbiUyMGlkJTNEJTIyc2lzdGVyLWNvbXBhbnktY29udGFjdCUyMiUyMHN0eWxlJTNEJTIyZm9udC1mYW1pbHklM0ElMjBBcmlhbCUyQyUyMHNhbnMtc2VyaWYlM0IlMjBtYXgtd2lkdGglM0ElMjA4MDBweCUzQiUyMG1hcmdpbiUzQSUyMDQwcHglMjBhdXRvJTNCJTIwcGFkZGluZyUzQSUyMDI4cHglM0IlMjBib3JkZXItcmFkaXVzJTNBJTIwMTJweCUzQiUyMGJveC1zaGFkb3clM0ElMjAwJTIwNnB4JTIwMThweCUyMHJnYmElMjgwJTJDMCUyQzAlMkMwLjA2JTI5JTNCJTIwYmFja2dyb3VuZCUzQSUyMCUyM2ZmZmZmZiUzQiUyMiUzRSUwQSUyMCUyMCUzQ2gyJTIwc3R5bGUlM0QlMjJtYXJnaW4lM0EwJTIwMCUyMDIwcHglM0IlMjBmb250LXNpemUlM0EyMnB4JTNCJTIwY29sb3IlM0ElMjMwYjMxNTglM0IlMjIlM0VTaXN0ZXIlMjBDb21wYW55JTIwJUUyJTgwJTk0JTIwVmlzaW9uJTIwUGx1cyUzQyUyRmgyJTNFJTBBJTIwJTIwJTBBJTIwJTIwJTNDZGl2JTIwc3R5bGUlM0QlMjJkaXNwbGF5JTNBZmxleCUzQmZsZXgtd3JhcCUzQXdyYXAlM0JnYXAlM0EyMHB4JTNCYWxpZ24taXRlbXMlM0FjZW50ZXIlM0IlMjIlM0UlMEElMjAlMjAlMjAlMjAlM0MlMjEtLSUyMExvZ28lMjAtLSUzRSUwQSUyMCUyMCUyMCUyMCUzQ2RpdiUyMHN0eWxlJTNEJTIyZmxleCUzQTAlMjAwJTIwMTQwcHglM0IlMjBkaXNwbGF5JTNBZmxleCUzQiUyMGFsaWduLWl0ZW1zJTNBY2VudGVyJTNCJTIwanVzdGlmeS1jb250ZW50JTNBY2VudGVyJTNCJTIyJTNFJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTNDYSUyMGhyZWYlM0QlMjJodHRwcyUzQSUyRiUyRnd3dy52aXNpb25wbHVzLmNvbS5wayUyRiUyMiUyMHRhcmdldCUzRCUyMl9ibGFuayUyMiUyMHJlbCUzRCUyMm5vb3BlbmVyJTIwbm9yZWZlcnJlciUyMiUzRSUwQSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUzQ2ltZyUyMHNyYyUzRCUyMmh0dHBzJTNBJTJGJTJGd3d3LnZpc2lvbnBsdXMuY29tLnBrJTJGYXNzZXRzJTJGYmFzZSUyRmltZyUyRmxheW91dCUyRmxvZ29zJTJGbG9nby0wMi5wbmclMjIlMjBhbHQlM0QlMjJWaXNpb24lMjBQbHVzJTIwbG9nbyUyMiUyMHN0eWxlJTNEJTIybWF4LXdpZHRoJTNBMTMwcHglM0IlMjB3aWR0aCUzQTEwMCUyNSUzQiUyMGhlaWdodCUzQWF1dG8lM0IlMjBkaXNwbGF5JTNBYmxvY2slM0IlMjBib3JkZXItcmFkaXVzJTNBNnB4JTNCJTIyJTJGJTNFJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTNDJTJGYSUzRSUwQSUyMCUyMCUyMCUyMCUzQyUyRmRpdiUzRSUwQSUwQSUyMCUyMCUyMCUyMCUzQyUyMS0tJTIwQ29udGFjdCUyMEluZm8lMjAtLSUzRSUwQSUyMCUyMCUyMCUyMCUzQ2RpdiUyMHN0eWxlJTNEJTIyZmxleCUzQTElMjAxJTIwMzAwcHglM0IlMjBtaW4td2lkdGglM0EyNDBweCUzQiUyMGZvbnQtc2l6ZSUzQTE0cHglM0IlMjBjb2xvciUzQSUyMzQ0NCUzQiUyMGxpbmUtaGVpZ2h0JTNBMS42JTNCJTIyJTNFJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTNDcCUzRSUzQ3N0cm9uZyUzRUFkZHJlc3MlM0ElM0MlMkZzdHJvbmclM0UlMjA1NzQlMkMlMjBCbG9jayUyMEcxJTIwUGhhc2UlMjAyJTJDJTIwSm9oYXIlMjBUb3duJTJDJTIwTGFob3JlJTNDJTJGcCUzRSUwQSUyMCUyMCUyMCUyMCUyMCUyMCUzQ3AlM0UlM0NzdHJvbmclM0VQaG9uZSUzQSUzQyUyRnN0cm9uZyUzRSUyMCUyQjkyJTIwMzAwJTIwNDMyMDAxNSUyMCUyRiUyMCUyQjkyJTIwMzIxJTIwODA5OTU3NyUzQyUyRnAlM0UlMEElMjAlMjAlMjAlMjAlMjAlMjAlM0NwJTNFJTNDc3Ryb25nJTNFRW1haWwlM0ElM0MlMkZzdHJvbmclM0UlMjAlM0NhJTIwaHJlZiUzRCUyMm1haWx0byUzQWluZm8lNDB2aXNpb25wbHVzLmNvbS5wayUyMiUzRWluZm8lNDB2aXNpb25wbHVzLmNvbS5wayUzQyUyRmElM0UlM0MlMkZwJTNFJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTNDcCUzRSUzQ2ElMjBocmVmJTNEJTIyaHR0cHMlM0ElMkYlMkZ3d3cudmlzaW9ucGx1cy5jb20ucGslMkYlMjIlMjB0YXJnZXQlM0QlMjJfYmxhbmslMjIlMjByZWwlM0QlMjJub29wZW5lciUyMG5vcmVmZXJyZXIlMjIlMjBzdHlsZSUzRCUyMmRpc3BsYXklM0FpbmxpbmUtYmxvY2slM0JwYWRkaW5nJTNBOHB4JTIwMTRweCUzQmJvcmRlci1yYWRpdXMlM0E2cHglM0JiYWNrZ3JvdW5kJTNBJTIzMGI3NGQxJTNCY29sb3IlM0ElMjNmZmYlM0J0ZXh0LWRlY29yYXRpb24lM0Fub25lJTNCZm9udC13ZWlnaHQlM0E2MDAlM0IlMjIlM0VWaXNpdCUyMFdlYnNpdGUlM0MlMkZhJTNFJTNDJTJGcCUzRSUwQSUyMCUyMCUyMCUyMCUzQyUyRmRpdiUzRSUwQSUyMCUyMCUzQyUyRmRpdiUzRSUwQSUzQyUyRnNlY3Rpb24lM0UlMEE=[/vc_raw_html][/vc_column][/vc_row]",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Contact",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Contact"
+        },
+        {
+          "level": "h2",
+          "text": "Phone number"
+        },
+        {
+          "level": "h2",
+          "text": "Email"
+        },
+        {
+          "level": "h2",
+          "text": "Address"
+        },
+        {
+          "level": "h2",
+          "text": "Business hours"
+        },
+        {
+          "level": "h2",
+          "text": "Sister Company — Vision Plus"
+        }
+      ],
+      "wordCount": 173,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/dt_team_category/founders/",
+      "path": "/dt_team_category/founders/",
+      "slug": "dt_team_category/founders",
+      "restType": null,
+      "httpStatus": 200,
+      "lastmod": "2022-08-22T05:51:12+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Team taxonomy archive",
+      "newRoute": "/",
+      "metadata": {
+        "title": "founders Archives - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/dt_team_category/founders/",
+        "ogTitle": "founders Archives",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Team Category: founders",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Team Category: founders"
+        }
+      ],
+      "wordCount": 126,
+      "imageCount": 1,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/dt_team_category/team/",
+      "path": "/dt_team_category/team/",
+      "slug": "dt_team_category/team",
+      "restType": null,
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T16:11:20+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Team taxonomy archive",
+      "newRoute": "/",
+      "metadata": {
+        "title": "team Archives - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/dt_team_category/team/",
+        "ogTitle": "team Archives",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Team Category: team",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Team Category: team"
+        }
+      ],
+      "wordCount": 175,
+      "imageCount": 3,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/dt_team/",
+      "path": "/dt_team/",
+      "slug": "dt_team",
+      "restType": null,
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T16:11:20+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Team Archive - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/dt_team/",
+        "ogTitle": "Team Archive",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "website"
+      },
+      "h1": "Team Archive:",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Team Archive:"
+        }
+      ],
+      "wordCount": 232,
+      "imageCount": 4,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/dt_team/cs/",
+      "path": "/dt_team/cs/",
+      "slug": "dt_team/cs",
+      "restType": "dt_team",
+      "httpStatus": 200,
+      "lastmod": "2022-06-17T15:18:41+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Customer Service - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/dt_team/cs/",
+        "ogTitle": "Customer Service",
+        "ogDescription": "For Tech &amp; Support, you can get in Touch for your Inquiries Phone number+971 54 405 6829 Emailinfo@bbtech.ae AddressPo Box. 202135, Al Ain , United Arab Emirates For more details, you can check here:- About us",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2019/06/corporate-lawyer-client-avatar-notary-face-insurer-person-icon.png",
+        "ogType": "article"
+      },
+      "h1": "Customer Service",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Customer Service"
+        },
+        {
+          "level": "h3",
+          "text": "Leave a Reply Cancel reply"
+        }
+      ],
+      "wordCount": 139,
+      "imageCount": 0,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2019/06/corporate-lawyer-client-avatar-notary-face-insurer-person-icon.png"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/dt_team/founder/",
+      "path": "/dt_team/founder/",
+      "slug": "dt_team/founder",
+      "restType": "dt_team",
+      "httpStatus": 200,
+      "lastmod": "2022-08-22T05:51:12+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Founder - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/dt_team/founder/",
+        "ogTitle": "Founder",
+        "ogDescription": "BBTECH is  providing outsourced IT services to businesses in UAE The benefit we bring to you and your business is to have all of your IT services managed from one place, with one point of contact, just like your very own IT department but without all the costs. We will align all your domains, hosting, connectivity&hellip;",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2019/06/chief-person-diplomat-boss-head-lawyer-leader-icon.png",
+        "ogType": "article"
+      },
+      "h1": "Founder",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Founder"
+        }
+      ],
+      "wordCount": 169,
+      "imageCount": 1,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2019/06/chief-person-diplomat-boss-head-lawyer-leader-icon.png",
+        "https://bbtech.ae/wp-content/uploads/2020/08/logo-png.png"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/dt_team/geeks/",
+      "path": "/dt_team/geeks/",
+      "slug": "dt_team/geeks",
+      "restType": "dt_team",
+      "httpStatus": 200,
+      "lastmod": "2022-06-17T15:33:10+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "The Geeks - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/dt_team/geeks/",
+        "ogTitle": "The Geeks",
+        "ogDescription": "For Tech &amp; Support, you can get in Touch for your Inquiries Phone number+971 54 405 6829 Emailinfo@bbtech.ae AddressPo Box. 202135, Al Ain , United Arab Emirates",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2019/06/marketer-person-user-manager-insurer-blond-avatar-icon.png",
+        "ogType": "article"
+      },
+      "h1": "The Geeks",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "The Geeks"
+        }
+      ],
+      "wordCount": 93,
+      "imageCount": 0,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2019/06/marketer-person-user-manager-insurer-blond-avatar-icon.png"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/dt_team/techsupport/",
+      "path": "/dt_team/techsupport/",
+      "slug": "dt_team/techsupport",
+      "restType": "dt_team",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T16:11:20+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Tech & Support - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/dt_team/techsupport/",
+        "ogTitle": "Tech & Support",
+        "ogDescription": "For Tech &amp; Support, you can get in Touch for your Inquiries Phone number+971 54 405 6829 Emailinfo@bbtech.ae AddressPo Box. 202135, Al Ain , United Arab Emirates For more details, you can check here:- IT Outsourcing ERP",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2019/06/person-telephone-conversation-man-with-phone-corporate-lawyer-icon.png",
+        "ogType": "article"
+      },
+      "h1": "Tech & Support",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Tech & Support"
+        }
+      ],
+      "wordCount": 105,
+      "imageCount": 0,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2019/06/person-telephone-conversation-man-with-phone-corporate-lawyer-icon.png"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/erp/",
+      "path": "/erp/",
+      "slug": "erp",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T15:27:20+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Construction ERP reasons + ~38-item feature list",
+      "newRoute": "/erp/",
+      "metadata": {
+        "title": "ERP - Enterprise resource planning - BB Tech",
+        "description": "ERP (Enterprise resource planning) is a term used to describe a type of software package used in large, complex organizations. ERP combines",
+        "canonical": "https://bbtech.ae/erp/",
+        "ogTitle": "ERP",
+        "ogDescription": "ERP (Enterprise resource planning) is a term used to describe a type of software package used in large, complex organizations. ERP combines",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "ERP",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "ERP"
+        },
+        {
+          "level": "h3",
+          "text": "Why Enterprise resource planning (ERP)"
+        },
+        {
+          "level": "h5",
+          "text": "TOP Reasons to have Construction ERP"
+        },
+        {
+          "level": "h3",
+          "text": "Construction ERP is a cloud based web system with the following key features"
+        },
+        {
+          "level": "h2",
+          "text": "ONE STOP SOLUTION FOR UNLIMITED EMPLOYEES"
+        }
+      ],
+      "wordCount": 523,
+      "imageCount": 0,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/events/",
+      "path": "/events/",
+      "slug": "events",
+      "restType": null,
+      "httpStatus": 200,
+      "lastmod": "2020-10-13T10:13:18+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Modern Events Calendar demo data (Daily each 3 days, Weekly on Mondays, ...)",
+      "newRoute": "/",
+      "metadata": {
+        "title": "Events Archive - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/events/",
+        "ogTitle": "Events Archive",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "website"
+      },
+      "h1": "Archives: Events",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Archives: Events"
+        },
+        {
+          "level": "h1",
+          "text": "Events"
+        },
+        {
+          "level": "h3",
+          "text": "Daily each 3 days"
+        },
+        {
+          "level": "h3",
+          "text": "Daily each 3 days"
+        },
+        {
+          "level": "h3",
+          "text": "Weekly on Mondays"
+        },
+        {
+          "level": "h3",
+          "text": "Daily each 3 days"
+        },
+        {
+          "level": "h3",
+          "text": "Daily each 3 days"
+        },
+        {
+          "level": "h3",
+          "text": "Daily each 3 days"
+        },
+        {
+          "level": "h3",
+          "text": "Weekly on Mondays"
+        },
+        {
+          "level": "h3",
+          "text": "Daily each 3 days"
+        },
+        {
+          "level": "h3",
+          "text": "Daily each 3 days"
+        },
+        {
+          "level": "h3",
+          "text": "Weekly on Mondays"
+        },
+        {
+          "level": "h3",
+          "text": "Daily each 3 days"
+        },
+        {
+          "level": "h3",
+          "text": "Daily each 3 days"
+        }
+      ],
+      "wordCount": 237,
+      "imageCount": 0,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/events/daily-each-3-days/",
+      "path": "/events/daily-each-3-days/",
+      "slug": "events/daily-each-3-days",
+      "restType": "mec-events",
+      "httpStatus": 200,
+      "lastmod": "2020-10-13T10:13:17+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Modern Events Calendar demo data (Daily each 3 days, Weekly on Mondays, ...)",
+      "newRoute": "/",
+      "metadata": {
+        "title": "Daily each 3 days - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/events/daily-each-3-days/",
+        "ogTitle": "Daily each 3 days",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Daily each 3 days",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Daily each 3 days"
+        },
+        {
+          "level": "h1",
+          "text": "Daily each 3 days"
+        },
+        {
+          "level": "h4",
+          "text": "Recent comments"
+        },
+        {
+          "level": "h3",
+          "text": "Leave a Reply Cancel reply"
+        }
+      ],
+      "wordCount": 134,
+      "imageCount": 0,
+      "formCount": 2,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/events/monthly-on-27th/",
+      "path": "/events/monthly-on-27th/",
+      "slug": "events/monthly-on-27th",
+      "restType": "mec-events",
+      "httpStatus": 200,
+      "lastmod": "2020-10-13T10:13:18+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Modern Events Calendar demo data (Daily each 3 days, Weekly on Mondays, ...)",
+      "newRoute": "/",
+      "metadata": {
+        "title": "Monthly on 27th - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/events/monthly-on-27th/",
+        "ogTitle": "Monthly on 27th",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Monthly on 27th",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Monthly on 27th"
+        },
+        {
+          "level": "h1",
+          "text": "Monthly on 27th"
+        },
+        {
+          "level": "h4",
+          "text": "Recent comments"
+        },
+        {
+          "level": "h3",
+          "text": "Leave a Reply Cancel reply"
+        }
+      ],
+      "wordCount": 131,
+      "imageCount": 0,
+      "formCount": 2,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/events/one-time-multiple-day-event/",
+      "path": "/events/one-time-multiple-day-event/",
+      "slug": "events/one-time-multiple-day-event",
+      "restType": "mec-events",
+      "httpStatus": 200,
+      "lastmod": "2020-10-13T10:13:17+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Modern Events Calendar demo data (Daily each 3 days, Weekly on Mondays, ...)",
+      "newRoute": "/",
+      "metadata": {
+        "title": "One Time Multiple Day Event - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/events/one-time-multiple-day-event/",
+        "ogTitle": "One Time Multiple Day Event",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "One Time Multiple Day Event",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "One Time Multiple Day Event"
+        },
+        {
+          "level": "h1",
+          "text": "One Time Multiple Day Event"
+        },
+        {
+          "level": "h4",
+          "text": "Recent comments"
+        },
+        {
+          "level": "h3",
+          "text": "Leave a Reply Cancel reply"
+        }
+      ],
+      "wordCount": 129,
+      "imageCount": 0,
+      "formCount": 2,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/events/weekly-on-mondays/",
+      "path": "/events/weekly-on-mondays/",
+      "slug": "events/weekly-on-mondays",
+      "restType": "mec-events",
+      "httpStatus": 200,
+      "lastmod": "2020-10-13T10:13:17+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Modern Events Calendar demo data (Daily each 3 days, Weekly on Mondays, ...)",
+      "newRoute": "/",
+      "metadata": {
+        "title": "Weekly on Mondays - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/events/weekly-on-mondays/",
+        "ogTitle": "Weekly on Mondays",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Weekly on Mondays",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Weekly on Mondays"
+        },
+        {
+          "level": "h1",
+          "text": "Weekly on Mondays"
+        },
+        {
+          "level": "h4",
+          "text": "Recent comments"
+        },
+        {
+          "level": "h3",
+          "text": "Leave a Reply Cancel reply"
+        }
+      ],
+      "wordCount": 131,
+      "imageCount": 0,
+      "formCount": 2,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/events/yearly-on-august-20th-and-21st/",
+      "path": "/events/yearly-on-august-20th-and-21st/",
+      "slug": "events/yearly-on-august-20th-and-21st",
+      "restType": "mec-events",
+      "httpStatus": 200,
+      "lastmod": "2020-10-13T10:13:18+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Modern Events Calendar demo data (Daily each 3 days, Weekly on Mondays, ...)",
+      "newRoute": "/",
+      "metadata": {
+        "title": "Yearly on August 20th and 21st - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/events/yearly-on-august-20th-and-21st/",
+        "ogTitle": "Yearly on August 20th and 21st",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Yearly on August 20th and 21st",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Yearly on August 20th and 21st"
+        },
+        {
+          "level": "h1",
+          "text": "Yearly on August 20th and 21st"
+        },
+        {
+          "level": "h4",
+          "text": "Recent comments"
+        },
+        {
+          "level": "h3",
+          "text": "Leave a Reply Cancel reply"
+        }
+      ],
+      "wordCount": 139,
+      "imageCount": 0,
+      "formCount": 2,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/healthcare-and-medical-centre-software-services/",
+      "path": "/healthcare-and-medical-centre-software-services/",
+      "slug": "healthcare-and-medical-centre-software-services",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T15:22:33+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Service",
+      "newRoute": "/healthcare-and-medical-centre-software-services/",
+      "metadata": {
+        "title": "Healthcare and Medical Centre Software Services - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/healthcare-and-medical-centre-software-services/",
+        "ogTitle": "Healthcare and Medical Centre Software Services",
+        "ogDescription": "[vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column width=&#8221;1/2&#8243;][/vc_column][vc_column width=&#8221;1/2&#8243;][/vc_column][/vc_row][vc_row][vc_column][vc_separator color=&#8221;blue&#8221; style=&#8221;shadow&#8221;][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][vc_separator color=&#8221;blue&#8221; style=&#8221;shadow&#8221;][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]From patient care to operational efficiency, our software services enable healthcare providers to achieve more. Let us help you transform your medical centre with technology that makes a difference. Contact us today to explore our healthcare software solutions and schedule a consultation![/vc_column_text][/vc_column][/vc_row]",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Healthcare and Medical Centre Software Services",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Healthcare and Medical Centre Software Services"
+        },
+        {
+          "level": "h2",
+          "text": "Transforming Healthcare through Technology"
+        },
+        {
+          "level": "h2",
+          "text": "Why Choose Us?"
+        },
+        {
+          "level": "h2",
+          "text": "Our Services"
+        },
+        {
+          "level": "h3",
+          "text": "Custom Healthcare Software Development"
+        },
+        {
+          "level": "h3",
+          "text": "Hospital Management Systems (HMS)"
+        },
+        {
+          "level": "h3",
+          "text": "Patient Engagement Solutions"
+        },
+        {
+          "level": "h3",
+          "text": "Telemedicine Platforms"
+        },
+        {
+          "level": "h3",
+          "text": "Healthcare Data Analytics"
+        },
+        {
+          "level": "h3",
+          "text": "Compliance and Security Solutions"
+        },
+        {
+          "level": "h3",
+          "text": "Integration and Interoperability"
+        },
+        {
+          "level": "h2",
+          "text": "Empowering Healthcare through Innovation"
+        }
+      ],
+      "wordCount": 455,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/it-outsourcing-2/",
+      "path": "/it-outsourcing-2/",
+      "slug": "it-outsourcing-2",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T13:50:47+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Current IT outsourcing page",
+      "newRoute": "/it-outsourcing-2/",
+      "metadata": {
+        "title": "IT Outsourcing - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/it-outsourcing-2/",
+        "ogTitle": "IT Outsourcing",
+        "ogDescription": "[vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][/vc_row][vc_row][vc_column][vc_separator color=&#8221;blue&#8221; style=&#8221;shadow&#8221;][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][vc_separator color=&#8221;blue&#8221; style=&#8221;shadow&#8221;][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]With IT outsourcing, you gain a strategic partner committed to driving your success. Let us handle your IT challenges, so you can innovate, compete, and thrive in today’s digital landscape. Contact us today to learn more about our IT outsourcing services and how we can&hellip;",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "IT Outsourcing",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "IT Outsourcing"
+        },
+        {
+          "level": "h2",
+          "text": "Focus on Growth, Leave IT to Us"
+        },
+        {
+          "level": "h2",
+          "text": "Why Outsource IT to Us?"
+        },
+        {
+          "level": "h2",
+          "text": "Our IT Outsourcing Services"
+        },
+        {
+          "level": "h3",
+          "text": "Managed IT Services"
+        },
+        {
+          "level": "h3",
+          "text": "Helpdesk Support"
+        },
+        {
+          "level": "h3",
+          "text": "Cloud Services"
+        },
+        {
+          "level": "h3",
+          "text": "Cybersecurity"
+        },
+        {
+          "level": "h3",
+          "text": "IT Consulting"
+        },
+        {
+          "level": "h3",
+          "text": "Custom Solutions"
+        },
+        {
+          "level": "h2",
+          "text": "Unlock Your Business Potential"
+        }
+      ],
+      "wordCount": 403,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/it-outsourcing/",
+      "path": "/it-outsourcing/",
+      "slug": "it-outsourcing",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T15:52:05+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Older, shorter IT outsourcing page — import if copy differs",
+      "newRoute": "/it-outsourcing/",
+      "metadata": {
+        "title": "IT Outsourcing - BB Tech",
+        "description": "IT outsourcing services allow business executives to retain control over IT strategies while benefiting from reduced operating costs and risk",
+        "canonical": "https://bbtech.ae/it-outsourcing/",
+        "ogTitle": "IT Outsourcing",
+        "ogDescription": "IT outsourcing services allow business executives to retain control over IT strategies while benefiting from reduced operating costs and risk",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "IT Outsourcing",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "IT Outsourcing"
+        },
+        {
+          "level": "h3",
+          "text": "IT Outsourcing"
+        }
+      ],
+      "wordCount": 285,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/my-account/",
+      "path": "/my-account/",
+      "slug": "my-account",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2022-05-02T11:04:31+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "My Account - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/my-account/",
+        "ogTitle": "My Account",
+        "ogDescription": "[mphb_account]",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "My Account",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "My Account"
+        }
+      ],
+      "wordCount": 107,
+      "imageCount": 0,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/network-solutions/",
+      "path": "/network-solutions/",
+      "slug": "network-solutions",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T13:34:24+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Service",
+      "newRoute": "/network-solutions/",
+      "metadata": {
+        "title": "Network Solutions - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/network-solutions/",
+        "ogTitle": "Network Solutions",
+        "ogDescription": "[vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][vc_column width=&#8221;1/3&#8243;][/vc_column][/vc_row][vc_row][vc_column][vc_separator color=&#8221;blue&#8221; style=&#8221;shadow&#8221;][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][vc_separator color=&#8221;blue&#8221; style=&#8221;shadow&#8221;][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]Whether you’re building a network from scratch, upgrading your current setup, or securing your digital assets, our expert team has the experience and tools to deliver results. Let us handle your networking needs so you can focus on growing your business. Contact us today to&hellip;",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Network Solutions",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Network Solutions"
+        },
+        {
+          "level": "h2",
+          "text": "Empowering Connectivity, Driving Growth"
+        },
+        {
+          "level": "h2",
+          "text": "Why Choose Us?"
+        },
+        {
+          "level": "h2",
+          "text": "Our Services"
+        },
+        {
+          "level": "h3",
+          "text": "Network Design and Implementation"
+        },
+        {
+          "level": "h3",
+          "text": "Network Security"
+        },
+        {
+          "level": "h3",
+          "text": "Wi-Fi Solutions"
+        },
+        {
+          "level": "h3",
+          "text": "Cloud Networking"
+        },
+        {
+          "level": "h3",
+          "text": "Network Monitoring and Support"
+        },
+        {
+          "level": "h3",
+          "text": "VoIP and Communication Networks"
+        },
+        {
+          "level": "h2",
+          "text": "Stay Connected, Stay Ahead"
+        }
+      ],
+      "wordCount": 375,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/odoo-development/",
+      "path": "/odoo-development/",
+      "slug": "odoo-development",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-31T06:39:56+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Odoo",
+      "newRoute": "/odoo-development/",
+      "metadata": {
+        "title": "Odoo Development - BB Tech",
+        "description": "Odoo Development Team with experts having experience of more than 7 years. Customization as per the work flow of your business.",
+        "canonical": "https://bbtech.ae/odoo-development/",
+        "ogTitle": "Odoo Development",
+        "ogDescription": "Odoo Development Team with experts having experience of more than 7 years. Customization as per the work flow of your business.",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Odoo Development Services We Offer",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Odoo Development Services We Offer"
+        },
+        {
+          "level": "h3",
+          "text": "CONSULTING"
+        },
+        {
+          "level": "h3",
+          "text": "TRAINING"
+        },
+        {
+          "level": "h3",
+          "text": "DEVELOPMENT"
+        },
+        {
+          "level": "h3",
+          "text": "CUSTOMIZATION"
+        },
+        {
+          "level": "h3",
+          "text": "INTEGRATION"
+        },
+        {
+          "level": "h3",
+          "text": "IMPLEMENTATION"
+        }
+      ],
+      "wordCount": 310,
+      "imageCount": 0,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/privacy-policy/",
+      "path": "/privacy-policy/",
+      "slug": "privacy-policy",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2022-08-22T05:29:07+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Verbatim if real, else build from footer's 5 privacy points",
+      "newRoute": "/privacy-policy/",
+      "metadata": {
+        "title": "Privacy Policy - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/privacy-policy/",
+        "ogTitle": "Privacy Policy",
+        "ogDescription": "Who we are Our website address is: https://bbtech.ae. What personal data we collect and why we collect it Comments When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection. An anonymized string created from&hellip;",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Privacy Policy",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Privacy Policy"
+        },
+        {
+          "level": "h2",
+          "text": "Who we are"
+        },
+        {
+          "level": "h2",
+          "text": "What personal data we collect and why we collect it"
+        },
+        {
+          "level": "h3",
+          "text": "Comments"
+        },
+        {
+          "level": "h3",
+          "text": "Media"
+        },
+        {
+          "level": "h3",
+          "text": "Contact forms"
+        },
+        {
+          "level": "h3",
+          "text": "Cookies"
+        },
+        {
+          "level": "h3",
+          "text": "Embedded content from other websites"
+        },
+        {
+          "level": "h3",
+          "text": "Analytics"
+        },
+        {
+          "level": "h2",
+          "text": "Who we share your data with"
+        },
+        {
+          "level": "h2",
+          "text": "How long we retain your data"
+        },
+        {
+          "level": "h2",
+          "text": "What rights you have over your data"
+        },
+        {
+          "level": "h2",
+          "text": "Where we send your data"
+        },
+        {
+          "level": "h2",
+          "text": "Your contact information"
+        },
+        {
+          "level": "h2",
+          "text": "Additional information"
+        },
+        {
+          "level": "h3",
+          "text": "How we protect your data"
+        },
+        {
+          "level": "h3",
+          "text": "What data breach procedures we have in place"
+        },
+        {
+          "level": "h3",
+          "text": "What third parties we receive data from"
+        },
+        {
+          "level": "h3",
+          "text": "What automated decision making and/or profiling we do with user data"
+        },
+        {
+          "level": "h3",
+          "text": "Industry regulatory disclosure requirements"
+        }
+      ],
+      "wordCount": 735,
+      "imageCount": 0,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/project-category/branding/",
+      "path": "/project-category/branding/",
+      "slug": "project-category/branding",
+      "restType": null,
+      "httpStatus": 200,
+      "lastmod": "2022-07-28T09:39:32+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Portfolio taxonomy archive",
+      "newRoute": "/",
+      "metadata": {
+        "title": "Branding Archives - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project-category/branding/",
+        "ogTitle": "Branding Archives",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Portfolio Archives: Branding",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Portfolio Archives: Branding"
+        },
+        {
+          "level": "h3",
+          "text": "Pellentesque ut magna"
+        },
+        {
+          "level": "h3",
+          "text": "Morbi pellentesqun dolor"
+        }
+      ],
+      "wordCount": 125,
+      "imageCount": 1,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/project-category/graphic-design/",
+      "path": "/project-category/graphic-design/",
+      "slug": "project-category/graphic-design",
+      "restType": null,
+      "httpStatus": 200,
+      "lastmod": "2022-07-28T09:38:43+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Portfolio taxonomy archive",
+      "newRoute": "/",
+      "metadata": {
+        "title": "Graphic Design Archives - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project-category/graphic-design/",
+        "ogTitle": "Graphic Design Archives",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Portfolio Archives: Graphic Design",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Portfolio Archives: Graphic Design"
+        },
+        {
+          "level": "h3",
+          "text": "Odio volutpat tellus sagittis"
+        },
+        {
+          "level": "h3",
+          "text": "Lorem ipsum dolor"
+        },
+        {
+          "level": "h3",
+          "text": "Curabitur pulvinar"
+        }
+      ],
+      "wordCount": 163,
+      "imageCount": 2,
+      "formCount": 0,
+      "templateResidue": [
+        "lorem ipsum"
+      ],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/project-category/marketing/",
+      "path": "/project-category/marketing/",
+      "slug": "project-category/marketing",
+      "restType": null,
+      "httpStatus": 200,
+      "lastmod": "2022-07-28T09:39:32+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Portfolio taxonomy archive",
+      "newRoute": "/",
+      "metadata": {
+        "title": "Marketing Archives - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project-category/marketing/",
+        "ogTitle": "Marketing Archives",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Portfolio Archives: Marketing",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Portfolio Archives: Marketing"
+        },
+        {
+          "level": "h3",
+          "text": "Dollor nulla amet from glavrida"
+        },
+        {
+          "level": "h3",
+          "text": "Pellentesque ut magna"
+        },
+        {
+          "level": "h3",
+          "text": "Morbi pellentesqun dolor"
+        }
+      ],
+      "wordCount": 157,
+      "imageCount": 2,
+      "formCount": 0,
+      "templateResidue": [
+        "lorem ipsum"
+      ],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/project-category/photo-video/",
+      "path": "/project-category/photo-video/",
+      "slug": "project-category/photo-video",
+      "restType": null,
+      "httpStatus": 200,
+      "lastmod": "2022-08-25T19:08:48+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Portfolio taxonomy archive",
+      "newRoute": "/",
+      "metadata": {
+        "title": "Photo & Video Archives - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project-category/photo-video/",
+        "ogTitle": "Photo & Video Archives",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Portfolio Archives: Photo & Video",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Portfolio Archives: Photo & Video"
+        },
+        {
+          "level": "h3",
+          "text": "Dollor nulla amet from glavrida"
+        },
+        {
+          "level": "h3",
+          "text": "Glavrida dolor nulla amen"
+        }
+      ],
+      "wordCount": 137,
+      "imageCount": 2,
+      "formCount": 0,
+      "templateResidue": [
+        "lorem ipsum"
+      ],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/project-category/web-development/",
+      "path": "/project-category/web-development/",
+      "slug": "project-category/web-development",
+      "restType": null,
+      "httpStatus": 200,
+      "lastmod": "2022-06-15T06:01:29+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": false,
+      "seedNote": "Portfolio taxonomy archive",
+      "newRoute": "/",
+      "metadata": {
+        "title": "Web Development Archives - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project-category/web-development/",
+        "ogTitle": "Web Development Archives",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Portfolio Archives: Web Development",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Portfolio Archives: Web Development"
+        },
+        {
+          "level": "h3",
+          "text": "Curabitur pulvinar"
+        }
+      ],
+      "wordCount": 100,
+      "imageCount": 1,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/project/",
+      "path": "/project/",
+      "slug": "project",
+      "restType": null,
+      "httpStatus": 200,
+      "lastmod": "2022-08-25T19:08:48+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Portfolio Archive - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project/",
+        "ogTitle": "Portfolio Archive",
+        "ogDescription": null,
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "website"
+      },
+      "h1": "Portfolio Archive:",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Portfolio Archive:"
+        },
+        {
+          "level": "h3",
+          "text": "Odio volutpat tellus sagittis"
+        },
+        {
+          "level": "h3",
+          "text": "Dollor nulla amet from glavrida"
+        },
+        {
+          "level": "h3",
+          "text": "Glavrida dolor nulla amen"
+        },
+        {
+          "level": "h3",
+          "text": "Lorem ipsum dolor"
+        },
+        {
+          "level": "h3",
+          "text": "Pellentesque ut magna"
+        },
+        {
+          "level": "h3",
+          "text": "Curabitur pulvinar"
+        }
+      ],
+      "wordCount": 259,
+      "imageCount": 5,
+      "formCount": 0,
+      "templateResidue": [
+        "lorem ipsum"
+      ],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/project/1839/",
+      "path": "/project/1839/",
+      "slug": "project/1839",
+      "restType": "dt_portfolio",
+      "httpStatus": 200,
+      "lastmod": "2022-06-15T06:01:29+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Curabitur pulvinar - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project/1839/",
+        "ogTitle": "Curabitur pulvinar",
+        "ogDescription": "Vivamus quis eleifend purus, sit amet pulvinar orci. Curabitur pulvinar, eros at luctus placerat, justo felis tempor sapien, et scelerisque ex neque congue dui.",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2018/11/img020.jpg",
+        "ogType": "article"
+      },
+      "h1": "Curabitur pulvinar",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Curabitur pulvinar"
+        },
+        {
+          "level": "h3",
+          "text": "Fusce dapibus - congue diam sit amet tempus suscipit"
+        },
+        {
+          "level": "h3",
+          "text": "Leave a Reply Cancel reply"
+        }
+      ],
+      "wordCount": 150,
+      "imageCount": 0,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2018/11/img020.jpg"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/project/dollor-nulla-amet-from-glavrida/",
+      "path": "/project/dollor-nulla-amet-from-glavrida/",
+      "slug": "project/dollor-nulla-amet-from-glavrida",
+      "restType": "dt_portfolio",
+      "httpStatus": 200,
+      "lastmod": "2022-07-28T09:39:16+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Dollor nulla amet from glavrida - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project/dollor-nulla-amet-from-glavrida/",
+        "ogTitle": "Dollor nulla amet from glavrida",
+        "ogDescription": "Donec cursus felis in mollis molestie. Vestibulum quis molestie. Donec et tincidunt nulla, Lorem ipsum eget volutpat tortor lorem nulla dolor amet.",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2018/11/img013.jpg",
+        "ogType": "article"
+      },
+      "h1": "Dollor nulla amet from glavrida",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Dollor nulla amet from glavrida"
+        },
+        {
+          "level": "h3",
+          "text": "Fusce dapibus - congue diam sit amet tempus suscipit"
+        }
+      ],
+      "wordCount": 119,
+      "imageCount": 1,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2018/11/img013.jpg"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/project/glavrida-dolor-nulla-amen/",
+      "path": "/project/glavrida-dolor-nulla-amen/",
+      "slug": "project/glavrida-dolor-nulla-amen",
+      "restType": "dt_portfolio",
+      "httpStatus": 200,
+      "lastmod": "2022-08-25T19:08:48+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Glavrida dolor nulla amen - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project/glavrida-dolor-nulla-amen/",
+        "ogTitle": "Glavrida dolor nulla amen",
+        "ogDescription": "Vestibulum quis euismod orci, eget scelerid molestie. Quis odio volutpat tellus sagittis, sed pharetra dolor suscipit. Praesent rutrum arcu – from nulla Amet sit amet tempus suscipit.",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2018/11/img012.jpg",
+        "ogType": "article"
+      },
+      "h1": "Glavrida dolor nulla amen",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Glavrida dolor nulla amen"
+        },
+        {
+          "level": "h3",
+          "text": "Fusce dapibus congue"
+        }
+      ],
+      "wordCount": 110,
+      "imageCount": 0,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2018/11/img012.jpg"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/project/lorem-ipsum-dolor/",
+      "path": "/project/lorem-ipsum-dolor/",
+      "slug": "project/lorem-ipsum-dolor",
+      "restType": "dt_portfolio",
+      "httpStatus": 200,
+      "lastmod": "2022-07-28T09:30:26+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Lorem ipsum dolor - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project/lorem-ipsum-dolor/",
+        "ogTitle": "Lorem ipsum dolor",
+        "ogDescription": "Donec mi felis, aliquam auctor posuere at velit sollicitudin ullam in hendrerit ante, non sodales metus bibendum. Vivamus iverra mollis et sed augue.",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2018/11/img010.jpg",
+        "ogType": "article"
+      },
+      "h1": "Lorem ipsum dolor",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Lorem ipsum dolor"
+        },
+        {
+          "level": "h3",
+          "text": "Fusce dapibus - congue diam sit amet tempus suscipit"
+        }
+      ],
+      "wordCount": 115,
+      "imageCount": 0,
+      "formCount": 0,
+      "templateResidue": [
+        "lorem ipsum"
+      ],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2018/11/img010.jpg"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/project/morbi-pellentesqun-dolor/",
+      "path": "/project/morbi-pellentesqun-dolor/",
+      "slug": "project/morbi-pellentesqun-dolor",
+      "restType": "dt_portfolio",
+      "httpStatus": 200,
+      "lastmod": "2022-07-28T09:39:01+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Morbi pellentesqun dolor - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project/morbi-pellentesqun-dolor/",
+        "ogTitle": "Morbi pellentesqun dolor",
+        "ogDescription": "Nam suscipit odio sed tellus posuere facilisis. Maecenas ornare arcu ligula. Curabitur interdum, metus nec tincidunt vulputate, massa nisl vulputate magna!",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Morbi pellentesqun dolor",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Morbi pellentesqun dolor"
+        },
+        {
+          "level": "h3",
+          "text": "Fusce dapibus - congue diam sit amet tempus suscipit"
+        }
+      ],
+      "wordCount": 115,
+      "imageCount": 0,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/project/odio-volutpat-tellus-sagittis/",
+      "path": "/project/odio-volutpat-tellus-sagittis/",
+      "slug": "project/odio-volutpat-tellus-sagittis",
+      "restType": "dt_portfolio",
+      "httpStatus": 200,
+      "lastmod": "2022-07-28T09:38:43+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Odio volutpat tellus sagittis - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project/odio-volutpat-tellus-sagittis/",
+        "ogTitle": "Odio volutpat tellus sagittis",
+        "ogDescription": "Donec cursuec et tincidunt nulla, eget volutpat tortor lorem nulla dolor amet. Curabitur pharetra ac eros scelerisque tempor. Quis odio volutpat tellus sagittis, sed pharetra dolor suscipit.",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Odio volutpat tellus sagittis",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Odio volutpat tellus sagittis"
+        },
+        {
+          "level": "h3",
+          "text": "Fusce dapibus - congue diam sit amet tempus suscipit"
+        }
+      ],
+      "wordCount": 121,
+      "imageCount": 0,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/project/pellentesque-ut-magna/",
+      "path": "/project/pellentesque-ut-magna/",
+      "slug": "project/pellentesque-ut-magna",
+      "restType": "dt_portfolio",
+      "httpStatus": 200,
+      "lastmod": "2022-07-28T09:39:32+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Pellentesque ut magna - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/project/pellentesque-ut-magna/",
+        "ogTitle": "Pellentesque ut magna",
+        "ogDescription": "Pellentesque ut magna ultricies, volutpat tellus sagittis dictum! In sollicitudin, nisl eget ultrices pharetra, lorem ligula tincidunt mi, vel commodo mi lectus eget dolor.",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2018/11/img004.jpg",
+        "ogType": "article"
+      },
+      "h1": "Pellentesque ut magna",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Pellentesque ut magna"
+        },
+        {
+          "level": "h3",
+          "text": "Fusce dapibus - congue diam sit amet tempus suscipit"
+        }
+      ],
+      "wordCount": 115,
+      "imageCount": 1,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2018/11/img004.jpg"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/projects/",
+      "path": "/projects/",
+      "slug": "projects",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2022-05-15T15:46:41+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Projects - BB Tech",
+        "description": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your business projects is to have all of",
+        "canonical": "https://bbtech.ae/projects/",
+        "ogTitle": "Projects",
+        "ogDescription": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your business projects is to have all of",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Projects",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Projects"
+        },
+        {
+          "level": "h3",
+          "text": "Odio volutpat tellus sagittis"
+        },
+        {
+          "level": "h3",
+          "text": "Dollor nulla amet from glavrida"
+        },
+        {
+          "level": "h3",
+          "text": "Glavrida dolor nulla amen"
+        },
+        {
+          "level": "h3",
+          "text": "Lorem ipsum dolor"
+        },
+        {
+          "level": "h3",
+          "text": "Pellentesque ut magna"
+        },
+        {
+          "level": "h3",
+          "text": "Curabitur pulvinar"
+        },
+        {
+          "level": "h3",
+          "text": "Morbi pellentesqun dolor"
+        }
+      ],
+      "wordCount": 290,
+      "imageCount": 5,
+      "formCount": 0,
+      "templateResidue": [
+        "lorem ipsum"
+      ],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/school-system-isms/",
+      "path": "/school-system-isms/",
+      "slug": "school-system-isms",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T15:40:41+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "ISMS (module groups, ISMS CAN DO)",
+      "newRoute": "/school-system-isms/",
+      "metadata": {
+        "title": "ISMS - School System - BB Tech",
+        "description": "ISMS gives you unparalleled access to your data for problem solving. ISMS starts with a ‘worldview’ of your information, supports one-click",
+        "canonical": "https://bbtech.ae/school-system-isms/",
+        "ogTitle": "ISMS - School System",
+        "ogDescription": "ISMS gives you unparalleled access to your data for problem solving. ISMS starts with a ‘worldview’ of your information, supports one-click",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "ISMS – School System",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "ISMS – School System"
+        },
+        {
+          "level": "h3",
+          "text": "Integrated School Managment System"
+        },
+        {
+          "level": "h2",
+          "text": "ISMS has every feature you will ever need to run your School efficiently."
+        },
+        {
+          "level": "h3",
+          "text": "Modules of ISMS"
+        },
+        {
+          "level": "h4",
+          "text": "MANAGEMENT"
+        },
+        {
+          "level": "h3",
+          "text": "MANAGEMENT"
+        },
+        {
+          "level": "h3",
+          "text": "MANAGEMENT"
+        },
+        {
+          "level": "h3",
+          "text": "MANAGEMENT"
+        },
+        {
+          "level": "h3",
+          "text": "Why ISMS?"
+        },
+        {
+          "level": "h2",
+          "text": "ISMS CAN DO"
+        },
+        {
+          "level": "h4",
+          "text": "Available in Desktop & WEB"
+        },
+        {
+          "level": "h4",
+          "text": "Certificates & Reports"
+        },
+        {
+          "level": "h4",
+          "text": "SMS Integration"
+        },
+        {
+          "level": "h4",
+          "text": "Attendance Machine Integration"
+        },
+        {
+          "level": "h4",
+          "text": "Account System"
+        },
+        {
+          "level": "h4",
+          "text": "Powerfull HR system"
+        },
+        {
+          "level": "h4",
+          "text": "Cover all Departments"
+        },
+        {
+          "level": "h4",
+          "text": "Language Selection"
+        }
+      ],
+      "wordCount": 675,
+      "imageCount": 0,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/services/",
+      "path": "/services/",
+      "slug": "services",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-27T13:57:51+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Services hub (11 cards)",
+      "newRoute": "/services/",
+      "metadata": {
+        "title": "Services - BB Tech",
+        "description": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to your business is to have all of your IT",
+        "canonical": "https://bbtech.ae/services/",
+        "ogTitle": "Services",
+        "ogDescription": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to your business is to have all of your IT",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Services",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Services"
+        },
+        {
+          "level": "h2",
+          "text": "Web Development"
+        },
+        {
+          "level": "h2",
+          "text": "Graphic Design"
+        },
+        {
+          "level": "h2",
+          "text": "Video & Photography"
+        },
+        {
+          "level": "h2",
+          "text": "Branding & Rebranding"
+        },
+        {
+          "level": "h2",
+          "text": "Digital Marketing"
+        },
+        {
+          "level": "h2",
+          "text": "Social Wifi"
+        },
+        {
+          "level": "h2",
+          "text": "Network Solutions"
+        },
+        {
+          "level": "h2",
+          "text": "IT Outsourcing"
+        },
+        {
+          "level": "h2",
+          "text": "Cloud Computing Services"
+        },
+        {
+          "level": "h2",
+          "text": "ADHICS Medical Inspection & Consultancy"
+        },
+        {
+          "level": "h2",
+          "text": "Healthcare and Medical Centre Software Services"
+        }
+      ],
+      "wordCount": 526,
+      "imageCount": 11,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/services/erp/",
+      "path": "/services/erp/",
+      "slug": "services/erp",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T16:05:16+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "ERP (form has extra fields: Country, City, Company, Website)",
+      "newRoute": "/services/erp/",
+      "metadata": {
+        "title": "ERP - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/services/erp/",
+        "ogTitle": "ERP",
+        "ogDescription": "[vc_row][vc_column css=&#8221;.vc_custom_1560777659697{padding-bottom: 50px !important;}&#8221;][vc_column_text]Enterprise resource planning (ERP) is a term used to describe a type of software package used in large, complex organizations. ERP combines functions such as accounting, payroll and human resources with operational systems that track customers, orders and manufacturing tasks. Every department of an enterprise are related with each other. The performance&hellip;",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "ERP",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "ERP"
+        },
+        {
+          "level": "h3",
+          "text": "Why Enterprise resource planning (ERP)"
+        },
+        {
+          "level": "h3",
+          "text": "ERP Solutions for Your Business"
+        },
+        {
+          "level": "h3",
+          "text": "Integrated Modules"
+        },
+        {
+          "level": "h3",
+          "text": "Real-Time Analytics"
+        },
+        {
+          "level": "h3",
+          "text": "Scalability"
+        },
+        {
+          "level": "h3",
+          "text": "Cloud-Based Solutions"
+        },
+        {
+          "level": "h3",
+          "text": "Benefits of Using ERP"
+        }
+      ],
+      "wordCount": 410,
+      "imageCount": 0,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/services/graphic-design/",
+      "path": "/services/graphic-design/",
+      "slug": "services/graphic-design",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-27T11:25:57+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Service",
+      "newRoute": "/services/graphic-design/",
+      "metadata": {
+        "title": "Graphic Design - BB Tech",
+        "description": "We have an extensive in-house graphic design team. With their exceptional skills and talent, Creative team can take an idea or concept and",
+        "canonical": "https://bbtech.ae/services/graphic-design/",
+        "ogTitle": "Graphic Design",
+        "ogDescription": "We have an extensive in-house graphic design team. With their exceptional skills and talent, Creative team can take an idea or concept and",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Graphic Design",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Graphic Design"
+        },
+        {
+          "level": "h3",
+          "text": "Graphic Design"
+        },
+        {
+          "level": "h3",
+          "text": "Graphic Design Services"
+        },
+        {
+          "level": "h3",
+          "text": "Why Choose Us?"
+        },
+        {
+          "level": "h2",
+          "text": "Our Services"
+        },
+        {
+          "level": "h3",
+          "text": "Logo and Branding Design"
+        },
+        {
+          "level": "h3",
+          "text": "Social Media Graphics"
+        },
+        {
+          "level": "h3",
+          "text": "Marketing Collaterals"
+        },
+        {
+          "level": "h3",
+          "text": "Web and App UI/UX Design"
+        }
+      ],
+      "wordCount": 464,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/services/mobile-app-development/",
+      "path": "/services/mobile-app-development/",
+      "slug": "services/mobile-app-development",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T15:42:48+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Service",
+      "newRoute": "/services/mobile-app-development/",
+      "metadata": {
+        "title": "Mobile App Development - BB Tech",
+        "description": "For Mobile App Development, our team can build great looking yet robust Android applications for your business. We also help you to deploy",
+        "canonical": "https://bbtech.ae/services/mobile-app-development/",
+        "ogTitle": "Mobile App Development",
+        "ogDescription": "For Mobile App Development, our team can build great looking yet robust Android applications for your business. We also help you to deploy",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Mobile App Development",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Mobile App Development"
+        },
+        {
+          "level": "h3",
+          "text": "Mobile App Development"
+        },
+        {
+          "level": "h2",
+          "text": "ALL PLATFORM MOBILE APPLICATION DEVELOPMENT"
+        },
+        {
+          "level": "h2",
+          "text": "ANDROID APPS"
+        },
+        {
+          "level": "h2",
+          "text": "IOS APPS"
+        },
+        {
+          "level": "h2",
+          "text": "WEB SERVICES"
+        }
+      ],
+      "wordCount": 296,
+      "imageCount": 4,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/services/service-page/",
+      "path": "/services/service-page/",
+      "slug": "services/service-page",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2022-05-16T06:58:03+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Branding & Rebranding - BB Tech",
+        "description": "BBTECH is providing outsourced IT services to businesses in UAE The benefit we bring to you and your business is to have all of your IT",
+        "canonical": "https://bbtech.ae/services/service-page/",
+        "ogTitle": "Branding & Rebranding",
+        "ogDescription": "BBTECH is providing outsourced IT services to businesses in UAE The benefit we bring to you and your business is to have all of your IT",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2018/11/s000.jpg",
+        "ogType": "article"
+      },
+      "h1": "Branding & Rebranding",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Branding & Rebranding"
+        },
+        {
+          "level": "h3",
+          "text": "Fusce dapibus - congue diam sit amet tempus suscipit"
+        },
+        {
+          "level": "h3",
+          "text": "Praesent rutrum arcu sit amet tempus suscipit"
+        },
+        {
+          "level": "h3",
+          "text": "High Quality Standards"
+        },
+        {
+          "level": "h3",
+          "text": "Modern Business Solutions"
+        },
+        {
+          "level": "h3",
+          "text": "Educated & Experienced Team"
+        },
+        {
+          "level": "h3",
+          "text": "Inspection & Accreditation"
+        },
+        {
+          "level": "h3",
+          "text": "Lorem pellentesque nulla amet tempus suscipit!"
+        }
+      ],
+      "wordCount": 518,
+      "imageCount": 2,
+      "formCount": 1,
+      "templateResidue": [
+        "lorem ipsum"
+      ],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2018/11/s000.jpg"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/services/social-media-marketing/",
+      "path": "/services/social-media-marketing/",
+      "slug": "services/social-media-marketing",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-27T11:27:40+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Service",
+      "newRoute": "/services/social-media-marketing/",
+      "metadata": {
+        "title": "Social Media Marketing - BB Tech",
+        "description": "For Social Media Marketing, BBTech bring forth an entourage of Digital Marketing Services, which includes, Social Media Marketing, online",
+        "canonical": "https://bbtech.ae/services/social-media-marketing/",
+        "ogTitle": "Social Media Marketing",
+        "ogDescription": "For Social Media Marketing, BBTech bring forth an entourage of Digital Marketing Services, which includes, Social Media Marketing, online",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Social Media Marketing",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Social Media Marketing"
+        },
+        {
+          "level": "h3",
+          "text": "Social Media Marketing and Digital Marketing Services"
+        },
+        {
+          "level": "h2",
+          "text": "SEO OPTIMIZATION"
+        },
+        {
+          "level": "h2",
+          "text": "Social Media Management"
+        },
+        {
+          "level": "h2",
+          "text": "Pay Per Click"
+        },
+        {
+          "level": "h2",
+          "text": "Website Development"
+        }
+      ],
+      "wordCount": 494,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": [
+        "https://bbtech.ae/wp-content/uploads/2020/09/SEO.jpg",
+        "https://bbtech.ae/wp-content/uploads/2020/09/social-media-3070331_1280-1024x778-Copy.jpg",
+        "https://bbtech.ae/wp-content/uploads/2020/09/payperclick.jpg",
+        "https://bbtech.ae/wp-content/uploads/2020/09/websitedevelopment.jpg"
+      ]
+    },
+    {
+      "url": "https://bbtech.ae/services/social-wifi/",
+      "path": "/services/social-wifi/",
+      "slug": "services/social-wifi",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T15:45:11+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Present in live sitemap; not linked from nav — check vs /social-wifi/",
+      "newRoute": "/services/social-wifi/",
+      "metadata": {
+        "title": "Social Wi-Fi - BB Tech",
+        "description": "Social Wi-Fi is a modern analytics and marketing tool which allows owners of various establishments to identify and interact with their guest",
+        "canonical": "https://bbtech.ae/services/social-wifi/",
+        "ogTitle": "Social Wi-Fi",
+        "ogDescription": "Social Wi-Fi is a modern analytics and marketing tool which allows owners of various establishments to identify and interact with their guest",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Social Wi-Fi",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Social Wi-Fi"
+        },
+        {
+          "level": "h3",
+          "text": "SOCIAL WIFI"
+        },
+        {
+          "level": "h3",
+          "text": "Our social WiFi solution includes:"
+        },
+        {
+          "level": "h3",
+          "text": "How does Social WiFi Work?"
+        }
+      ],
+      "wordCount": 512,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/services/web-development/",
+      "path": "/services/web-development/",
+      "slug": "services/web-development",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-31T10:26:02+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Service",
+      "newRoute": "/services/web-development/",
+      "metadata": {
+        "title": "Web Development in UAE - BB Tech",
+        "description": "Our Web Development team of highly-skilled web portal developers understand every business is different and can build a bespoke solution",
+        "canonical": "https://bbtech.ae/services/web-development/",
+        "ogTitle": "Web Development",
+        "ogDescription": "Our Web Development team of highly-skilled web portal developers understand every business is different and can build a bespoke solution",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Web Development",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Web Development"
+        },
+        {
+          "level": "h3",
+          "text": "Web Applications and Web Development"
+        },
+        {
+          "level": "h3",
+          "text": "DOMINATE ALL DEVICES"
+        },
+        {
+          "level": "h3",
+          "text": "CUSTOM DESIGN"
+        },
+        {
+          "level": "h3",
+          "text": "MANAGE YOUR CONTENT WITH CMS"
+        },
+        {
+          "level": "h3",
+          "text": "MOBILE APPS"
+        }
+      ],
+      "wordCount": 332,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/social-wifi/",
+      "path": "/social-wifi/",
+      "slug": "social-wifi",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T12:28:25+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Service; check vs /services/social-wifi/ duplicate",
+      "newRoute": "/social-wifi/",
+      "metadata": {
+        "title": "social-wifi in UAE - BB Tech",
+        "description": "Our Social Wifi team of highly-skilled web portal developers understand every business is different and can build a bespoke solution",
+        "canonical": "https://bbtech.ae/social-wifi/",
+        "ogTitle": "Social Wifi",
+        "ogDescription": "Our Social Wifi team of highly-skilled web portal developers understand every business is different and can build a bespoke solution",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Social Wifi",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Social Wifi"
+        },
+        {
+          "level": "h2",
+          "text": "Connect, Engage, Grow"
+        },
+        {
+          "level": "h2",
+          "text": "What is Social WiFi?"
+        },
+        {
+          "level": "h2",
+          "text": "Benefits of Social WiFi"
+        },
+        {
+          "level": "h2",
+          "text": "Our Services"
+        },
+        {
+          "level": "h3",
+          "text": "Seamless Connectivity"
+        },
+        {
+          "level": "h3",
+          "text": "Marketing Integration"
+        },
+        {
+          "level": "h3",
+          "text": "Analytics & Insights"
+        },
+        {
+          "level": "h3",
+          "text": "Custom Branding"
+        },
+        {
+          "level": "h2",
+          "text": "Upgrade Your Business Today"
+        }
+      ],
+      "wordCount": 360,
+      "imageCount": 0,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/testimonials/",
+      "path": "/testimonials/",
+      "slug": "testimonials",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2022-08-25T15:22:15+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "Testimonials - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/testimonials/",
+        "ogTitle": "Testimonials",
+        "ogDescription": "[vc_row][vc_column width=&#8221;1/2&#8243;][vc_column_text css=&#8221;.vc_custom_1560844987909{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248 !important;border-left-style: solid !important;}&#8221;] Praesent rutrum arcu sit amet tempus suscipit. Praeus orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor. Miriam Gray – regular customer[/vc_column_text][vc_column_text css=&#8221;.vc_custom_1560844992562{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248&hellip;",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Testimonials",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h5",
+          "text": "Praesent rutrum arcu sit amet tempus suscipit. Praeus orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor."
+        },
+        {
+          "level": "h5",
+          "text": "Molestie orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor."
+        },
+        {
+          "level": "h5",
+          "text": "Lorem estibulum quis ebero id molestie orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor."
+        },
+        {
+          "level": "h5",
+          "text": "Lorem raeus orci risus, nec condimentum est auctor sit amet. Donec et tincidunt nulla, eget volutpat tortor."
+        },
+        {
+          "level": "h5",
+          "text": "Quis euismod orci, eget scelerid molestie bus orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor."
+        },
+        {
+          "level": "h5",
+          "text": "Lorem raeus orci risus, ondimentum est auctor sit amet nec ondimentum est auctor sit amet condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor."
+        }
+      ],
+      "wordCount": 258,
+      "imageCount": 0,
+      "formCount": 0,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/texture_test/",
+      "path": "/texture_test/",
+      "slug": "texture_test",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2022-08-22T05:45:57+00:00",
+      "classification": "filler",
+      "redirectTo": "/",
+      "seedMatch": true,
+      "seedNote": null,
+      "newRoute": "/",
+      "metadata": {
+        "title": "texture_test - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/texture_test/",
+        "ogTitle": "texture_test",
+        "ogDescription": "[vc_row][vc_column][vc_column_text]Please download updated file form 1 CHEQUE | New Building | 2 Bed+Maid&#8217;s [/vc_column_text][/vc_column][/vc_row]",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "texture_test",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "texture_test"
+        }
+      ],
+      "wordCount": 117,
+      "imageCount": 0,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    },
+    {
+      "url": "https://bbtech.ae/video-photography/",
+      "path": "/video-photography/",
+      "slug": "video-photography",
+      "restType": "page",
+      "httpStatus": 200,
+      "lastmod": "2024-12-28T11:05:45+00:00",
+      "classification": "real",
+      "redirectTo": null,
+      "seedMatch": true,
+      "seedNote": "Service",
+      "newRoute": "/video-photography/",
+      "metadata": {
+        "title": "Video & Photography - BB Tech",
+        "description": null,
+        "canonical": "https://bbtech.ae/video-photography/",
+        "ogTitle": "Video & Photography",
+        "ogDescription": "[vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]At Binary Bridge Technology Services, we specialize in turning moments into lasting memories through exceptional video and photography services. Whether you&#8217;re looking to preserve cherished personal milestones or create captivating visuals for your business, our expert team is here to bring your vision to life.[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][/vc_column][/vc_row][vc_row][vc_column][vc_column_text] Creative Expertise: A team of skilled professionals dedicated to excellence.&hellip;",
+        "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "ogType": "article"
+      },
+      "h1": "Video & Photography",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Video & Photography"
+        },
+        {
+          "level": "h2",
+          "text": "Capture Moments, Create Memories"
+        },
+        {
+          "level": "h2",
+          "text": "Why Choose Us?"
+        },
+        {
+          "level": "h2",
+          "text": "Our Services"
+        },
+        {
+          "level": "h3",
+          "text": "Photography"
+        },
+        {
+          "level": "h3",
+          "text": "Videography"
+        }
+      ],
+      "wordCount": 285,
+      "imageCount": 1,
+      "formCount": 1,
+      "templateResidue": [],
+      "sitemapImages": []
+    }
+  ]
+}

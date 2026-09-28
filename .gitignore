@@ -1,3 +1,10 @@
 .next/*
 node_modules/*
 .DS_Store
+
+# content-import: keep the crawl cache and full-resolution originals out of git.
+# inventory.json, snapshot/, copy-fixes.md, content-conflicts.md, needs-client-input.md,
+# assets-manifest.json, and REPORT.md ARE committed (see content-import brief).
+content-import/.cache/
+content-import/originals/
+content-import/screenshots/

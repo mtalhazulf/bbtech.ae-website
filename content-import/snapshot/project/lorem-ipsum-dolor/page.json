@@ -1,0 +1,229 @@
+{
+  "id": 1824,
+  "date": "2019-05-17T16:01:42",
+  "date_gmt": "2019-05-17T15:01:42",
+  "guid": {
+    "rendered": "https://the7.io/modern-business/?post_type=dt_portfolio&#038;p=1824"
+  },
+  "modified": "2022-07-28T09:30:26",
+  "modified_gmt": "2022-07-28T09:30:26",
+  "slug": "lorem-ipsum-dolor",
+  "status": "publish",
+  "type": "dt_portfolio",
+  "link": "https://bbtech.ae/project/lorem-ipsum-dolor/",
+  "title": {
+    "rendered": "Lorem ipsum dolor"
+  },
+  "content": {
+    "rendered": "<p>[vc_row equal_height=&#8221;yes&#8221; content_placement=&#8221;middle&#8221; css=&#8221;.vc_custom_1560783934700{margin-right: 0px !important;margin-left: 0px !important;background-color: #f4f4f4 !important;}&#8221;][vc_column css=&#8221;.vc_custom_1560781514067{padding-top: 30px !important;padding-right: 30px !important;padding-bottom: 30px !important;padding-left: 30px !important;}&#8221; offset=&#8221;vc_col-lg-4 vc_col-md-5 vc_col-xs-12&#8243;]<div id=\"ultimate-heading-60096aba5737ab216\" class=\"uvc-heading ult-adjust-bottom-margin ultimate-heading-60096aba5737ab216 uvc-6198 accent-subtitle-color\" data-hspacer=\"no_spacer\"  data-halign=\"left\" style=\"text-align:left\"><div class=\"uvc-heading-spacer no_spacer\" style=\"top\"></div><div class=\"uvc-main-heading ult-responsive\"  data-ultimate-target='.uvc-heading.ultimate-heading-60096aba5737ab216 h3'  data-responsive-json-new='{\"font-size\":\"desktop:30px;\",\"line-height\":\"desktop:40px;\"}' ><h3 style=\"font-weight:bold;margin-bottom:5px;\">Fusce dapibus - congue diam sit amet tempus suscipit</h3></div><div class=\"uvc-sub-heading ult-responsive\"  data-ultimate-target='.uvc-heading.ultimate-heading-60096aba5737ab216 .uvc-sub-heading '  data-responsive-json-new='{\"font-size\":\"desktop:20px;\",\"line-height\":\"desktop:30px;\"}'  style=\"font-weight:normal;margin-bottom:20px;\">Maximus lectus &#8211; from nulla dapibus interdum condimentum.</div></div>[vc_column_text css=&#8221;.vc_custom_1560780651244{padding-bottom: 20px !important;}&#8221;]Donec mi felis, aliquam auctor posuere at velit sollicitudin ullam in hendrerit ante, non sodales metus bibendum. Vivamus vel est at nibh viverra mollis et sed augue.[/vc_column_text]<style type=\"text/css\" data-type=\"the7_shortcodes-inline-css\">#default-btn-929ee03f43eabad048271d46e30c2a18.ico-right-side > i {\n  margin-right: 0px;\n  margin-left: 8px;\n}\n#default-btn-929ee03f43eabad048271d46e30c2a18 > i {\n  margin-right: 8px;\n}\n</style><a href=\"target:_blank\" class=\"default-btn-shortcode dt-btn dt-btn-m link-hover-off btn-inline-left \" id=\"default-btn-929ee03f43eabad048271d46e30c2a18\"><span>Launch website</span></a>[/vc_column][vc_column css=&#8221;.vc_custom_1560783783748{padding-top: 35% !important;padding-bottom: 35% !important;background-image: url(http://bbtech.ae/wp-content/uploads/2018/11/img010.jpg?id=853) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}&#8221; offset=&#8221;vc_col-lg-8 vc_col-md-7 vc_col-xs-12&#8243;][/vc_column][/vc_row]</p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>Donec mi felis, aliquam auctor posuere at velit sollicitudin ullam in hendrerit ante, non sodales metus bibendum. Vivamus iverra mollis et sed augue.</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 853,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "dt_portfolio_category": [
+    19
+  ],
+  "dt_portfolio_tags": [],
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v19.0.1 (Yoast SEO v19.6.1) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Lorem ipsum dolor - BB Tech</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://bbtech.ae/project/lorem-ipsum-dolor/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Lorem ipsum dolor\" />\n<meta property=\"og:description\" content=\"Donec mi felis, aliquam auctor posuere at velit sollicitudin ullam in hendrerit ante, non sodales metus bibendum. Vivamus iverra mollis et sed augue.\" />\n<meta property=\"og:url\" content=\"https://bbtech.ae/project/lorem-ipsum-dolor/\" />\n<meta property=\"og:site_name\" content=\"BB Tech\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/bbtech.ae\" />\n<meta property=\"article:modified_time\" content=\"2022-07-28T09:30:26+00:00\" />\n<meta property=\"og:image\" content=\"https://bbtech.ae/wp-content/uploads/2018/11/img010.jpg\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"800\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@bbtechae\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\" />\n\t<meta name=\"twitter:data1\" content=\"1 minute\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://bbtech.ae/project/lorem-ipsum-dolor/\",\"url\":\"https://bbtech.ae/project/lorem-ipsum-dolor/\",\"name\":\"Lorem ipsum dolor - BB Tech\",\"isPartOf\":{\"@id\":\"https://bbtech.ae/#website\"},\"datePublished\":\"2019-05-17T15:01:42+00:00\",\"dateModified\":\"2022-07-28T09:30:26+00:00\",\"breadcrumb\":{\"@id\":\"https://bbtech.ae/project/lorem-ipsum-dolor/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://bbtech.ae/project/lorem-ipsum-dolor/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://bbtech.ae/project/lorem-ipsum-dolor/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://bbtech.ae/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Portfolio\",\"item\":\"https://bbtech.ae/project/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Lorem ipsum dolor\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://bbtech.ae/#website\",\"url\":\"https://bbtech.ae/\",\"name\":\"BB Tech\",\"description\":\"ERP, Mobile APPS, Ecommerce Store, Website\",\"publisher\":{\"@id\":\"https://bbtech.ae/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://bbtech.ae/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://bbtech.ae/#organization\",\"name\":\"Binary Bridge Technology Services\",\"url\":\"https://bbtech.ae/\",\"sameAs\":[\"https://www.instagram.com/binarybridge/\",\"https://www.linkedin.com/company/binary-bridge-technology-services/\",\"https://www.facebook.com/bbtech.ae\",\"https://twitter.com/bbtechae\"],\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://bbtech.ae/#/schema/logo/image/\",\"url\":\"https://bbtech.ae/wp-content/uploads/2020/08/branding.png\",\"contentUrl\":\"https://bbtech.ae/wp-content/uploads/2020/08/branding.png\",\"width\":1200,\"height\":750,\"caption\":\"Binary Bridge Technology Services\"},\"image\":{\"@id\":\"https://bbtech.ae/#/schema/logo/image/\"}}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+  "yoast_head_json": {
+    "title": "Lorem ipsum dolor - BB Tech",
+    "robots": {
+      "index": "index",
+      "follow": "follow",
+      "max-snippet": "max-snippet:-1",
+      "max-image-preview": "max-image-preview:large",
+      "max-video-preview": "max-video-preview:-1"
+    },
+    "canonical": "https://bbtech.ae/project/lorem-ipsum-dolor/",
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "Lorem ipsum dolor",
+    "og_description": "Donec mi felis, aliquam auctor posuere at velit sollicitudin ullam in hendrerit ante, non sodales metus bibendum. Vivamus iverra mollis et sed augue.",
+    "og_url": "https://bbtech.ae/project/lorem-ipsum-dolor/",
+    "og_site_name": "BB Tech",
+    "article_publisher": "https://www.facebook.com/bbtech.ae",
+    "article_modified_time": "2022-07-28T09:30:26+00:00",
+    "og_image": [
+      {
+        "width": 1200,
+        "height": 800,
+        "url": "https://bbtech.ae/wp-content/uploads/2018/11/img010.jpg",
+        "type": "image/jpeg"
+      }
+    ],
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@bbtechae",
+    "twitter_misc": {
+      "Est. reading time": "1 minute"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://bbtech.ae/project/lorem-ipsum-dolor/",
+          "url": "https://bbtech.ae/project/lorem-ipsum-dolor/",
+          "name": "Lorem ipsum dolor - BB Tech",
+          "isPartOf": {
+            "@id": "https://bbtech.ae/#website"
+          },
+          "datePublished": "2019-05-17T15:01:42+00:00",
+          "dateModified": "2022-07-28T09:30:26+00:00",
+          "breadcrumb": {
+            "@id": "https://bbtech.ae/project/lorem-ipsum-dolor/#breadcrumb"
+          },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://bbtech.ae/project/lorem-ipsum-dolor/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bbtech.ae/project/lorem-ipsum-dolor/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bbtech.ae/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Portfolio",
+              "item": "https://bbtech.ae/project/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Lorem ipsum dolor"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bbtech.ae/#website",
+          "url": "https://bbtech.ae/",
+          "name": "BB Tech",
+          "description": "ERP, Mobile APPS, Ecommerce Store, Website",
+          "publisher": {
+            "@id": "https://bbtech.ae/#organization"
+          },
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://bbtech.ae/?s={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://bbtech.ae/#organization",
+          "name": "Binary Bridge Technology Services",
+          "url": "https://bbtech.ae/",
+          "sameAs": [
+            "https://www.instagram.com/binarybridge/",
+            "https://www.linkedin.com/company/binary-bridge-technology-services/",
+            "https://www.facebook.com/bbtech.ae",
+            "https://twitter.com/bbtechae"
+          ],
+          "logo": {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://bbtech.ae/#/schema/logo/image/",
+            "url": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+            "contentUrl": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+            "width": 1200,
+            "height": 750,
+            "caption": "Binary Bridge Technology Services"
+          },
+          "image": {
+            "@id": "https://bbtech.ae/#/schema/logo/image/"
+          }
+        }
+      ]
+    }
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/dt_portfolio/1824"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/dt_portfolio"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/types/dt_portfolio"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://bbtech.ae/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://bbtech.ae/wp-json/wp/v2/comments?post=1824"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://bbtech.ae/wp-json/wp/v2/dt_portfolio/1824/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://bbtech.ae/wp-json/wp/v2/media/853"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/media?parent=1824"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "dt_portfolio_category",
+        "embeddable": true,
+        "href": "https://bbtech.ae/wp-json/wp/v2/dt_portfolio_category?post=1824"
+      },
+      {
+        "taxonomy": "dt_portfolio_tags",
+        "embeddable": true,
+        "href": "https://bbtech.ae/wp-json/wp/v2/dt_portfolio_tags?post=1824"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "id": 251,
+  "date": "2018-10-30T18:17:52",
+  "date_gmt": "2018-10-30T18:17:52",
+  "guid": {
+    "rendered": "https://the7.io/g-business/?page_id=251"
+  },
+  "modified": "2022-05-15T15:46:41",
+  "modified_gmt": "2022-05-15T15:46:41",
+  "slug": "projects",
+  "status": "publish",
+  "type": "page",
+  "link": "https://bbtech.ae/projects/",
+  "title": {
+    "rendered": "Projects"
+  },
+  "content": {
+    "rendered": "<p>[vc_row][vc_column]<style type=\"text/css\" data-type=\"the7_shortcodes-inline-css\">.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.bottom-overlap-layout-list .post-entry-content {\n  margin-top: -150px;\n  width: 75%;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.bottom-overlap-layout-list:not(.mode-list) .no-img .post-entry-content {\n  margin-top: 0;\n  width: 100%;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.bottom-overlap-layout-list.mode-list .no-img .post-entry-content {\n  margin-top: 0;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .filter {\n  margin-bottom: 50px;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .filter-bg-decoration .filter-categories a.act {\n  color: #fff;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2:not(.mode-masonry) article:first-of-type,\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2:not(.mode-masonry) article.visible.first {\n  margin-top: 0;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.dividers-on:not(.mode-masonry) article {\n  margin-top: 0;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.dividers-on:not(.mode-masonry) article:first-of-type,\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.dividers-on:not(.mode-masonry) article.visible.first {\n  margin-top: 0;\n  padding-top: 0;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.hover-scale article:after {\n  background: rgba(0,0,0,0.4);\n  -webkit-box-shadow: none;\n  box-shadow: none;\n  background: -webkit-linear-gradient();\n  background: linear-gradient();\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.gradient-overlay-layout-list article {\n  border-radius: 0px;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .post-thumbnail-wrap {\n  padding: 0px 0px 0px 0px;\n  border-radius: 0px;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .post-thumbnail-wrap *,\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .post-thumbnail-rollover:after {\n  border-radius: 0px;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.enable-bg-rollover .post-thumbnail-rollover:after {\n  background: rgba(0,0,0,0.4);\n  -webkit-box-shadow: none;\n  box-shadow: none;\n  background: -webkit-linear-gradient();\n  background: linear-gradient();\n}\n.bottom-overlap-layout-list.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .project-links-container {\n  height: calc(100% - 150px);\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .project-links-container a {\n  width: 60px;\n  height: 60px;\n  line-height: 60px;\n  border-radius: 100px;\n  margin: 10px 5px 10px;\n}\n.content-rollover-layout-list:not(.content-align-center).portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .project-links-container a,\n.gradient-overlay-layout-list:not(.content-align-center).portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .project-links-container a {\n  margin: 10px 10px 10px 0;\n}\n.dt-icon-border-on.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .project-links-container a:before {\n  border-width: 0px;\n  border-style: solid;\n}\n.dt-icon-hover-border-on.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .project-links-container a:after {\n  border-width: 0px;\n  border-style: solid;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .project-links-container a > span:before {\n  font-size: 32px;\n  line-height: 60px;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .project-links-container a:not(:hover) > span {\n  color: #ffffff;\n}\n.dt-icon-hover-off.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .project-links-container a > span,\n.dt-icon-hover-off.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .project-links-container a:hover > span {\n  color: #ffffff;\n}\n.dt-icon-hover-on.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .project-links-container a:hover > span {\n  color: #ffffff;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .entry-title,\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.owl-carousel .entry-title {\n  margin-bottom: 5px;\n  font-size: 24px;\n  line-height: 34px;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .entry-meta {\n  margin-bottom: 15px;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .entry-meta * {\n  color: #93c248;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .portfolio-categories {\n  margin-bottom: 15px;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .entry-meta > a:after,\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .entry-meta > span:after {\n  background: #93c248;\n  -webkit-box-shadow: none;\n  box-shadow: none;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .entry-excerpt {\n  margin-bottom: 5px;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2:not(.centered-layout-list) .post-entry-content {\n  padding: 25px 30px 30px 30px;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2:not(.centered-layout-list):not(.content-bg-on):not(.mode-list) .no-img .post-entry-content {\n  padding: 0;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.content-bg-on:not(.classic-layout-list):not(.centered-layout-list):not(.gradient-overlay-layout-list) .post-entry-content {\n  background: #f4f4f4;\n  -webkit-box-shadow: none;\n  box-shadow: none;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.gradient-overlay-layout-list .post-entry-content {\n  border-radius: 0px;\n}\n@media screen and (max-width: ) {\n  .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 article {\n    -webkit-flex-flow: column nowrap;\n    -moz-flex-flow: column nowrap;\n    -ms-flex-flow: column nowrap;\n    flex-flow: column nowrap;\n    margin-top: 20px;\n  }\n  .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.dividers-on article {\n    border: none;\n  }\n  .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.content-bg-on.centered-layout-list article {\n    padding: 0;\n  }\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .post-thumbnail-wrap,\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .post-entry-content {\n    width: 100%;\n    margin: 0;\n    top: 0;\n  }\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .post-thumbnail-wrap {\n    padding: 0;\n  }\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .post-entry-content:after {\n    display: none;\n  }\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .project-even .post-thumbnail-wrap,\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.centered-layout-list .post-thumbnail-wrap {\n    -webkit-order: 0;\n    -moz-order: 0;\n    -ms-flex-order: 0;\n    order: 0;\n  }\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.centered-layout-list .post-entry-title-content {\n    -webkit-order: 1;\n    -moz-order: 1;\n    -ms-flex-order: 1;\n    order: 1;\n    width: 100%;\n    padding: 20px 20px 0;\n  }\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.centered-layout-list .post-entry-content {\n    -webkit-order: 2;\n    -moz-order: 2;\n    -ms-flex-order: 2;\n    order: 2;\n    padding-top: 0;\n  }\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .post-entry-content {\n    padding: 20px;\n  }\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .entry-title {\n    margin: 3px 0 5px;\n    font-size: 20px;\n    line-height: 26px;\n  }\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .entry-meta {\n    margin: 5px 0 5px;\n  }\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .entry-excerpt {\n    margin: 15px 0 0;\n  }\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .post-details {\n    margin: 5px 0 10px;\n  }\n  #page .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 .post-details.details-type-link {\n    margin-bottom: 2px;\n  }\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2:not(.resize-by-browser-width) .dt-css-grid {\n  grid-row-gap: 50px;\n  grid-column-gap: 50px;\n  grid-template-columns: repeat(auto-fill,minmax(,1fr));\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2:not(.resize-by-browser-width) .dt-css-grid .double-width {\n  grid-column: span 2;\n}\n.cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2:not(.resize-by-browser-width) .dt-css-grid,\n.no-cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2:not(.resize-by-browser-width) .dt-css-grid {\n  display: flex;\n  flex-flow: row wrap;\n  margin: -25px;\n}\n.cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2:not(.resize-by-browser-width) .dt-css-grid .wf-cell,\n.no-cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2:not(.resize-by-browser-width) .dt-css-grid .wf-cell {\n  flex: 1 0 ;\n  max-width: 100%;\n  padding: 25px;\n  box-sizing: border-box;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid {\n  grid-template-columns: repeat(2,1fr);\n  grid-template-rows: auto;\n  grid-column-gap: 50px;\n  grid-row-gap: 50px;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .double-width {\n  grid-column: span 2;\n}\n.cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid {\n  margin: -25px;\n}\n.cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell {\n  width: 50%;\n  padding: 25px;\n}\n.cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell.double-width {\n  width: calc(50%) * 2;\n}\n.portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width:not(.centered-layout-list):not(.content-bg-on) .dt-css-grid {\n  grid-row-gap: 20px;\n}\n@media screen and (max-width: 1199px) {\n  .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid {\n    grid-template-columns: repeat(2,1fr);\n  }\n  .cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell,\n  .no-cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell {\n    width: 50%;\n  }\n  .cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell.double-width,\n  .no-cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell.double-width {\n    width: calc(50%)*2;\n  }\n}\n@media screen and (max-width: 991px) {\n  .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid {\n    grid-template-columns: repeat(1,1fr);\n  }\n  .cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell,\n  .no-cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell {\n    width: 100%;\n  }\n  .cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell.double-width,\n  .no-cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell.double-width {\n    width: calc(100%)*2;\n  }\n}\n@media screen and (max-width: 767px) {\n  .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid {\n    grid-template-columns: repeat(1,1fr);\n  }\n  .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .double-width {\n    grid-column: span 1;\n  }\n  .cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell,\n  .no-cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell {\n    width: 100%;\n  }\n  .cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell.double-width,\n  .no-cssgridlegacy.no-cssgrid .portfolio-shortcode.portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2.resize-by-browser-width .dt-css-grid .wf-cell.double-width {\n    width: calc(100%)*2;\n  }\n}\n</style><div class=\"portfolio-shortcode portfolio-masonry-shortcode-id-a2551d28a25bbc21ce39e80dd2c5abf2 mode-grid bottom-overlap-layout-list content-bg-on jquery-filter content-align-center dt-icon-bg-on dt-icon-border-on dt-icon-hover-on dt-icon-hover-border-on dt-icon-hover-bg-on dt-css-grid-wrap enable-bg-rollover resize-by-browser-width  loading-effect-none description-under-image \" data-padding=\"25px\" data-cur-page=\"1\" data-post-limit=\"6\" data-pagination-mode=\"pages\" data-desktop-columns-num=\"2\" data-v-tablet-columns-num=\"1\" data-h-tablet-columns-num=\"2\" data-phone-columns-num=\"1\" data-width=\"0px\" data-columns=\"0\"><div class=\"iso-filter css-grid-filter extras-off filter\"><div class=\"filter-categories\" data-default-order=\"desc\" data-default-orderby=\"date\"><a href=\"https://bbtech.ae/projects/\" class=\"show-all act\" data-filter=\"*\">View all</a><a href=\"https://bbtech.ae/projects/?term=17\" class=\"branding\" data-filter=\".category-17\">Branding</a><a href=\"https://bbtech.ae/projects/?term=19\" class=\"graphic-design\" data-filter=\".category-19\">Graphic Design</a><a href=\"https://bbtech.ae/projects/?term=20\" class=\"marketing\" data-filter=\".category-20\">Marketing</a><a href=\"https://bbtech.ae/projects/?term=21\" class=\"photo-video\" data-filter=\".category-21\">Photo &amp; Video</a><a href=\"https://bbtech.ae/projects/?term=23\" class=\"web-development\" data-filter=\".category-23\">Web Development</a></div></div><div class=\"dt-css-grid\" ><div class=\"visible wf-cell category-19\" data-post-id=\"1765\" data-date=\"2019-06-17T15:04:28+04:00\" data-name=\"Odio volutpat tellus sagittis\"><article class=\"post visible no-img post-1765 dt_portfolio type-dt_portfolio status-publish hentry dt_portfolio_category-graphic-design dt_portfolio_category-19\" data-name=\"Odio volutpat tellus sagittis\" data-date=\"2019-06-17T15:04:28+04:00\">\n\n<div class=\"post-entry-content\">\n\n\t<h3 class=\"entry-title\">\n\t\t<a href=\"https://bbtech.ae/project/odio-volutpat-tellus-sagittis/\" target=\"\" title=\"Odio volutpat tellus sagittis\" rel=\"bookmark\">Odio volutpat tellus sagittis</a>\n\t</h3>\n\n\t<div class=\"entry-meta portfolio-categories\"><span class=\"category-link\"><a href=\"https://bbtech.ae/project-category/graphic-design/\" >Graphic Design</a></span></div>\n\t<div class=\"entry-excerpt\"><p>Donec cursuec et tincidunt nulla, eget volutpat tortor lorem nulla dolor amet. Curabitur pharetra ac eros scelerisque tempor. Quis odio volutpat tellus sagittis, sed pharetra dolor suscipit.</p>\n</div>\n\t<a class=\" dt-btn-s dt-btn post-details details-type-btn \" href=\" https://bbtech.ae/project/odio-volutpat-tellus-sagittis/ \" target=\"\">Details<i class=\"dt-icon-the7-arrow-03\" aria-hidden=\"true\"></i></a>\n</div></article></div><div class=\"visible wf-cell category-20 category-21\" data-post-id=\"1777\" data-date=\"2019-06-17T14:15:46+04:00\" data-name=\"Dollor nulla amet from glavrida\"><article class=\"post visible post-1777 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail hentry dt_portfolio_category-marketing dt_portfolio_category-photo-video dt_portfolio_category-20 dt_portfolio_category-21\" data-name=\"Dollor nulla amet from glavrida\" data-date=\"2019-06-17T14:15:46+04:00\">\n\n<div class=\"post-thumbnail-wrap rollover-active \">\n\t<div class=\"post-thumbnail\">\n\n\t\t<a href=\"https://bbtech.ae/project/dollor-nulla-amet-from-glavrida/\" class=\"post-thumbnail-rollover layzr-bg\" target=\"\"  aria-label=\"Post image\"><img class=\"iso-lazy-load preload-me iso-lazy-load\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20990%20660&#39;%2F%3E\" data-src=\"https://bbtech.ae/wp-content/uploads/2018/11/img013.jpg\" data-srcset=\"https://bbtech.ae/wp-content/uploads/2018/11/img013.jpg 990w\" alt=\"\"  width=\"990\" height=\"660\"  /></a><div class=\"project-links-container\"><a href=\" https://bbtech.ae/project/dollor-nulla-amet-from-glavrida/\" target=\"\" class=\"project-details\" aria-label=\"Details link\"><span class=\"icon-portfolio-p205\"></span></a></div>\n\t</div>\n</div>\n\n\n<div class=\"post-entry-content\">\n\n\t<h3 class=\"entry-title\">\n\t\t<a href=\"https://bbtech.ae/project/dollor-nulla-amet-from-glavrida/\" target=\"\" title=\"Dollor nulla amet from glavrida\" rel=\"bookmark\">Dollor nulla amet from glavrida</a>\n\t</h3>\n\n\t<div class=\"entry-meta portfolio-categories\"><span class=\"category-link\"><a href=\"https://bbtech.ae/project-category/marketing/\" >Marketing</a>, <a href=\"https://bbtech.ae/project-category/photo-video/\" >Photo &amp; Video</a></span></div>\n\t<div class=\"entry-excerpt\"><p>Donec cursus felis in mollis molestie. Vestibulum quis molestie. Donec et tincidunt nulla, Lorem ipsum eget volutpat tortor lorem nulla dolor amet.</p>\n</div>\n\t<a class=\" dt-btn-s dt-btn post-details details-type-btn \" href=\" https://bbtech.ae/project/dollor-nulla-amet-from-glavrida/ \" target=\"\">Details<i class=\"dt-icon-the7-arrow-03\" aria-hidden=\"true\"></i></a>\n</div></article></div><div class=\"visible wf-cell category-21\" data-post-id=\"1783\" data-date=\"2019-06-17T13:19:05+04:00\" data-name=\"Glavrida dolor nulla amen\"><article class=\"post visible post-1783 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail hentry dt_portfolio_category-photo-video dt_portfolio_category-21\" data-name=\"Glavrida dolor nulla amen\" data-date=\"2019-06-17T13:19:05+04:00\">\n\n<div class=\"post-thumbnail-wrap rollover-active \">\n\t<div class=\"post-thumbnail\">\n\n\t\t<a href=\"https://bbtech.ae/project/glavrida-dolor-nulla-amen/\" class=\"post-thumbnail-rollover layzr-bg\" target=\"\"  aria-label=\"Post image\"><img class=\"iso-lazy-load preload-me iso-lazy-load\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20990%20660&#39;%2F%3E\" data-src=\"https://bbtech.ae/wp-content/uploads/2018/11/img012.jpg\" data-srcset=\"https://bbtech.ae/wp-content/uploads/2018/11/img012.jpg 990w\" alt=\"\"  width=\"990\" height=\"660\"  /></a><div class=\"project-links-container\"><a href=\" https://bbtech.ae/project/glavrida-dolor-nulla-amen/\" target=\"\" class=\"project-details\" aria-label=\"Details link\"><span class=\"icon-portfolio-p205\"></span></a></div>\n\t</div>\n</div>\n\n\n<div class=\"post-entry-content\">\n\n\t<h3 class=\"entry-title\">\n\t\t<a href=\"https://bbtech.ae/project/glavrida-dolor-nulla-amen/\" target=\"\" title=\"Glavrida dolor nulla amen\" rel=\"bookmark\">Glavrida dolor nulla amen</a>\n\t</h3>\n\n\t<div class=\"entry-meta portfolio-categories\"><span class=\"category-link\"><a href=\"https://bbtech.ae/project-category/photo-video/\" >Photo &amp; Video</a></span></div>\n\t<div class=\"entry-excerpt\"><p>Vestibulum quis euismod orci, eget scelerid molestie. Quis odio volutpat tellus sagittis, sed pharetra dolor suscipit. Praesent rutrum arcu – from nulla Amet sit amet tempus suscipit.</p>\n</div>\n\t<a class=\" dt-btn-s dt-btn post-details details-type-btn \" href=\" https://bbtech.ae/project/glavrida-dolor-nulla-amen/ \" target=\"\">Details<i class=\"dt-icon-the7-arrow-03\" aria-hidden=\"true\"></i></a>\n</div></article></div><div class=\"visible wf-cell category-19\" data-post-id=\"1824\" data-date=\"2019-05-17T16:01:42+04:00\" data-name=\"Lorem ipsum dolor\"><article class=\"post visible post-1824 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail hentry dt_portfolio_category-graphic-design dt_portfolio_category-19\" data-name=\"Lorem ipsum dolor\" data-date=\"2019-05-17T16:01:42+04:00\">\n\n<div class=\"post-thumbnail-wrap rollover-active \">\n\t<div class=\"post-thumbnail\">\n\n\t\t<a href=\"https://bbtech.ae/project/lorem-ipsum-dolor/\" class=\"post-thumbnail-rollover layzr-bg\" target=\"\"  aria-label=\"Post image\"><img class=\"iso-lazy-load preload-me iso-lazy-load\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20990%20660&#39;%2F%3E\" data-src=\"https://bbtech.ae/wp-content/uploads/2018/11/img010.jpg\" data-srcset=\"https://bbtech.ae/wp-content/uploads/2018/11/img010.jpg 990w\" alt=\"\"  width=\"990\" height=\"660\"  /></a><div class=\"project-links-container\"><a href=\" https://bbtech.ae/project/lorem-ipsum-dolor/\" target=\"\" class=\"project-details\" aria-label=\"Details link\"><span class=\"icon-portfolio-p205\"></span></a></div>\n\t</div>\n</div>\n\n\n<div class=\"post-entry-content\">\n\n\t<h3 class=\"entry-title\">\n\t\t<a href=\"https://bbtech.ae/project/lorem-ipsum-dolor/\" target=\"\" title=\"Lorem ipsum dolor\" rel=\"bookmark\">Lorem ipsum dolor</a>\n\t</h3>\n\n\t<div class=\"entry-meta portfolio-categories\"><span class=\"category-link\"><a href=\"https://bbtech.ae/project-category/graphic-design/\" >Graphic Design</a></span></div>\n\t<div class=\"entry-excerpt\"><p>Donec mi felis, aliquam auctor posuere at velit sollicitudin ullam in hendrerit ante, non sodales metus bibendum. Vivamus iverra mollis et sed augue.</p>\n</div>\n\t<a class=\" dt-btn-s dt-btn post-details details-type-btn \" href=\" https://bbtech.ae/project/lorem-ipsum-dolor/ \" target=\"\">Details<i class=\"dt-icon-the7-arrow-03\" aria-hidden=\"true\"></i></a>\n</div></article></div><div class=\"visible wf-cell category-17 category-20\" data-post-id=\"1834\" data-date=\"2019-04-18T16:11:06+04:00\" data-name=\"Pellentesque ut magna\"><article class=\"post visible post-1834 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail hentry dt_portfolio_category-branding dt_portfolio_category-marketing dt_portfolio_category-17 dt_portfolio_category-20\" data-name=\"Pellentesque ut magna\" data-date=\"2019-04-18T16:11:06+04:00\">\n\n<div class=\"post-thumbnail-wrap rollover-active \">\n\t<div class=\"post-thumbnail\">\n\n\t\t<a href=\"https://bbtech.ae/project/pellentesque-ut-magna/\" class=\"post-thumbnail-rollover layzr-bg\" target=\"\"  aria-label=\"Post image\"><img class=\"iso-lazy-load preload-me iso-lazy-load\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20990%20660&#39;%2F%3E\" data-src=\"https://bbtech.ae/wp-content/uploads/2018/11/img004.jpg\" data-srcset=\"https://bbtech.ae/wp-content/uploads/2018/11/img004.jpg 990w\" alt=\"\"  width=\"990\" height=\"660\"  /></a><div class=\"project-links-container\"><a href=\" https://bbtech.ae/project/pellentesque-ut-magna/\" target=\"\" class=\"project-details\" aria-label=\"Details link\"><span class=\"icon-portfolio-p205\"></span></a></div>\n\t</div>\n</div>\n\n\n<div class=\"post-entry-content\">\n\n\t<h3 class=\"entry-title\">\n\t\t<a href=\"https://bbtech.ae/project/pellentesque-ut-magna/\" target=\"\" title=\"Pellentesque ut magna\" rel=\"bookmark\">Pellentesque ut magna</a>\n\t</h3>\n\n\t<div class=\"entry-meta portfolio-categories\"><span class=\"category-link\"><a href=\"https://bbtech.ae/project-category/branding/\" >Branding</a>, <a href=\"https://bbtech.ae/project-category/marketing/\" >Marketing</a></span></div>\n\t<div class=\"entry-excerpt\"><p>Pellentesque ut magna ultricies, volutpat tellus sagittis dictum! In sollicitudin, nisl eget ultrices pharetra, lorem ligula tincidunt mi, vel commodo mi lectus eget dolor. </p>\n</div>\n\t<a class=\" dt-btn-s dt-btn post-details details-type-btn \" href=\" https://bbtech.ae/project/pellentesque-ut-magna/ \" target=\"\">Details<i class=\"dt-icon-the7-arrow-03\" aria-hidden=\"true\"></i></a>\n</div></article></div><div class=\"visible wf-cell category-19 category-23\" data-post-id=\"1839\" data-date=\"2019-02-11T16:26:41+04:00\" data-name=\"Curabitur pulvinar\"><article class=\"post visible post-1839 dt_portfolio type-dt_portfolio status-publish has-post-thumbnail hentry dt_portfolio_category-graphic-design dt_portfolio_category-web-development dt_portfolio_category-19 dt_portfolio_category-23\" data-name=\"Curabitur pulvinar\" data-date=\"2019-02-11T16:26:41+04:00\">\n\n<div class=\"post-thumbnail-wrap rollover-active \">\n\t<div class=\"post-thumbnail\">\n\n\t\t<a href=\"https://bbtech.ae/project/1839/\" class=\"post-thumbnail-rollover layzr-bg\" target=\"\"  aria-label=\"Post image\"><img class=\"iso-lazy-load preload-me iso-lazy-load\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20990%20660&#39;%2F%3E\" data-src=\"https://bbtech.ae/wp-content/uploads/2018/11/img020.jpg\" data-srcset=\"https://bbtech.ae/wp-content/uploads/2018/11/img020.jpg 990w\" alt=\"\"  width=\"990\" height=\"660\"  /></a><div class=\"project-links-container\"><a href=\" https://bbtech.ae/project/1839/\" target=\"\" class=\"project-details\" aria-label=\"Details link\"><span class=\"icon-portfolio-p205\"></span></a></div>\n\t</div>\n</div>\n\n\n<div class=\"post-entry-content\">\n\n\t<h3 class=\"entry-title\">\n\t\t<a href=\"https://bbtech.ae/project/1839/\" target=\"\" title=\"Curabitur pulvinar\" rel=\"bookmark\">Curabitur pulvinar</a>\n\t</h3>\n\n\t<div class=\"entry-meta portfolio-categories\"><span class=\"category-link\"><a href=\"https://bbtech.ae/project-category/graphic-design/\" >Graphic Design</a>, <a href=\"https://bbtech.ae/project-category/web-development/\" >Web Development</a></span></div>\n\t<div class=\"entry-excerpt\"><p> Vivamus quis eleifend purus, sit amet pulvinar orci. Curabitur pulvinar, eros at luctus placerat, justo felis tempor sapien, et scelerisque ex neque congue dui. </p>\n</div>\n\t<a class=\" dt-btn-s dt-btn post-details details-type-btn \" href=\" https://bbtech.ae/project/1839/ \" target=\"\">Details<i class=\"dt-icon-the7-arrow-03\" aria-hidden=\"true\"></i></a>\n</div></article></div><div class=\"hidden wf-cell category-17 category-20\" data-post-id=\"1837\" data-date=\"2019-01-10T16:16:35+04:00\" data-name=\"Morbi pellentesqun dolor\"><article class=\"post visible no-img post-1837 dt_portfolio type-dt_portfolio status-publish hentry dt_portfolio_category-branding dt_portfolio_category-marketing dt_portfolio_category-17 dt_portfolio_category-20\" data-name=\"Morbi pellentesqun dolor\" data-date=\"2019-01-10T16:16:35+04:00\">\n\n<div class=\"post-entry-content\">\n\n\t<h3 class=\"entry-title\">\n\t\t<a href=\"https://bbtech.ae/project/morbi-pellentesqun-dolor/\" target=\"\" title=\"Morbi pellentesqun dolor\" rel=\"bookmark\">Morbi pellentesqun dolor</a>\n\t</h3>\n\n\t<div class=\"entry-meta portfolio-categories\"><span class=\"category-link\"><a href=\"https://bbtech.ae/project-category/branding/\" >Branding</a>, <a href=\"https://bbtech.ae/project-category/marketing/\" >Marketing</a></span></div>\n\t<div class=\"entry-excerpt\"><p>Nam suscipit odio sed tellus posuere facilisis. Maecenas ornare arcu ligula. Curabitur interdum, metus nec tincidunt vulputate, massa nisl vulputate magna!</p>\n</div>\n\t<a class=\" dt-btn-s dt-btn post-details details-type-btn \" href=\" https://bbtech.ae/project/morbi-pellentesqun-dolor/ \" target=\"\">Details<i class=\"dt-icon-the7-arrow-03\" aria-hidden=\"true\"></i></a>\n</div></article></div></div><!-- iso-container|iso-grid --><div class=\"paginator\" role=\"navigation\"></div></div>[/vc_column][/vc_row]</p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>[vc_row][vc_column][/vc_column][/vc_row]</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 30,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_joinchat": []
+  },
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v19.0.1 (Yoast SEO v19.6.1) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Projects - BB Tech</title>\n<meta name=\"description\" content=\"BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your business projects is to have all of\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://bbtech.ae/projects/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Projects\" />\n<meta property=\"og:description\" content=\"BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your business projects is to have all of\" />\n<meta property=\"og:url\" content=\"https://bbtech.ae/projects/\" />\n<meta property=\"og:site_name\" content=\"BB Tech\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/bbtech.ae\" />\n<meta property=\"article:modified_time\" content=\"2022-05-15T15:46:41+00:00\" />\n<meta property=\"og:image\" content=\"https://bbtech.ae/wp-content/uploads/2020/08/branding.png\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"750\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@bbtechae\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\" />\n\t<meta name=\"twitter:data1\" content=\"1 minute\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://bbtech.ae/projects/\",\"url\":\"https://bbtech.ae/projects/\",\"name\":\"Projects - BB Tech\",\"isPartOf\":{\"@id\":\"https://bbtech.ae/#website\"},\"datePublished\":\"2018-10-30T18:17:52+00:00\",\"dateModified\":\"2022-05-15T15:46:41+00:00\",\"description\":\"BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your business projects is to have all of\",\"breadcrumb\":{\"@id\":\"https://bbtech.ae/projects/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://bbtech.ae/projects/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://bbtech.ae/projects/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://bbtech.ae/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Projects\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://bbtech.ae/#website\",\"url\":\"https://bbtech.ae/\",\"name\":\"BB Tech\",\"description\":\"ERP, Mobile APPS, Ecommerce Store, Website\",\"publisher\":{\"@id\":\"https://bbtech.ae/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://bbtech.ae/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://bbtech.ae/#organization\",\"name\":\"Binary Bridge Technology Services\",\"url\":\"https://bbtech.ae/\",\"sameAs\":[\"https://www.instagram.com/binarybridge/\",\"https://www.linkedin.com/company/binary-bridge-technology-services/\",\"https://www.facebook.com/bbtech.ae\",\"https://twitter.com/bbtechae\"],\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://bbtech.ae/#/schema/logo/image/\",\"url\":\"https://bbtech.ae/wp-content/uploads/2020/08/branding.png\",\"contentUrl\":\"https://bbtech.ae/wp-content/uploads/2020/08/branding.png\",\"width\":1200,\"height\":750,\"caption\":\"Binary Bridge Technology Services\"},\"image\":{\"@id\":\"https://bbtech.ae/#/schema/logo/image/\"}}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+  "yoast_head_json": {
+    "title": "Projects - BB Tech",
+    "description": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your business projects is to have all of",
+    "robots": {
+      "index": "index",
+      "follow": "follow",
+      "max-snippet": "max-snippet:-1",
+      "max-image-preview": "max-image-preview:large",
+      "max-video-preview": "max-video-preview:-1"
+    },
+    "canonical": "https://bbtech.ae/projects/",
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "Projects",
+    "og_description": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your business projects is to have all of",
+    "og_url": "https://bbtech.ae/projects/",
+    "og_site_name": "BB Tech",
+    "article_publisher": "https://www.facebook.com/bbtech.ae",
+    "article_modified_time": "2022-05-15T15:46:41+00:00",
+    "og_image": [
+      {
+        "width": 1200,
+        "height": 750,
+        "url": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "type": "image/png"
+      }
+    ],
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@bbtechae",
+    "twitter_misc": {
+      "Est. reading time": "1 minute"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://bbtech.ae/projects/",
+          "url": "https://bbtech.ae/projects/",
+          "name": "Projects - BB Tech",
+          "isPartOf": {
+            "@id": "https://bbtech.ae/#website"
+          },
+          "datePublished": "2018-10-30T18:17:52+00:00",
+          "dateModified": "2022-05-15T15:46:41+00:00",
+          "description": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your business projects is to have all of",
+          "breadcrumb": {
+            "@id": "https://bbtech.ae/projects/#breadcrumb"
+          },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://bbtech.ae/projects/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bbtech.ae/projects/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bbtech.ae/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Projects"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bbtech.ae/#website",
+          "url": "https://bbtech.ae/",
+          "name": "BB Tech",
+          "description": "ERP, Mobile APPS, Ecommerce Store, Website",
+          "publisher": {
+            "@id": "https://bbtech.ae/#organization"
+          },
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://bbtech.ae/?s={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://bbtech.ae/#organization",
+          "name": "Binary Bridge Technology Services",
+          "url": "https://bbtech.ae/",
+          "sameAs": [
+            "https://www.instagram.com/binarybridge/",
+            "https://www.linkedin.com/company/binary-bridge-technology-services/",
+            "https://www.facebook.com/bbtech.ae",
+            "https://twitter.com/bbtechae"
+          ],
+          "logo": {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://bbtech.ae/#/schema/logo/image/",
+            "url": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+            "contentUrl": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+            "width": 1200,
+            "height": 750,
+            "caption": "Binary Bridge Technology Services"
+          },
+          "image": {
+            "@id": "https://bbtech.ae/#/schema/logo/image/"
+          }
+        }
+      ]
+    }
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/pages/251"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://bbtech.ae/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://bbtech.ae/wp-json/wp/v2/comments?post=251"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://bbtech.ae/wp-json/wp/v2/pages/251/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/media?parent=251"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

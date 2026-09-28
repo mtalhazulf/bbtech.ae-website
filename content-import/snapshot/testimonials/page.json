@@ -1,0 +1,206 @@
+{
+  "id": 258,
+  "date": "2018-10-30T18:19:54",
+  "date_gmt": "2018-10-30T18:19:54",
+  "guid": {
+    "rendered": "https://the7.io/g-business/?page_id=258"
+  },
+  "modified": "2022-08-25T15:22:15",
+  "modified_gmt": "2022-08-25T15:22:15",
+  "slug": "testimonials",
+  "status": "publish",
+  "type": "page",
+  "link": "https://bbtech.ae/testimonials/",
+  "title": {
+    "rendered": "Testimonials"
+  },
+  "content": {
+    "rendered": "<p>[vc_row][vc_column width=&#8221;1/2&#8243;][vc_column_text css=&#8221;.vc_custom_1560844987909{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248 !important;border-left-style: solid !important;}&#8221;]</p>\n<h5>Praesent rutrum arcu sit amet tempus suscipit. Praeus orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor.</h5>\n<p>Miriam Gray – regular customer[/vc_column_text][vc_column_text css=&#8221;.vc_custom_1560844992562{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248 !important;border-left-style: solid !important;}&#8221;]</p>\n<h5>Molestie orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor.</h5>\n<p>Tiffany White – regular customer[/vc_column_text][vc_column_text css=&#8221;.vc_custom_1560844998685{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248 !important;border-left-style: solid !important;}&#8221;]</p>\n<h5>Lorem estibulum quis ebero id molestie orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor.</h5>\n<p>John Doe – regular customer[/vc_column_text][/vc_column][vc_column width=&#8221;1/2&#8243;][vc_column_text css=&#8221;.vc_custom_1560845015590{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248 !important;border-left-style: solid !important;}&#8221;]</p>\n<h5>Lorem raeus orci risus, nec condimentum est auctor sit amet. Donec et tincidunt nulla, eget volutpat tortor.</h5>\n<p>James Swift – regular customer[/vc_column_text][vc_column_text css=&#8221;.vc_custom_1560845010165{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248 !important;border-left-style: solid !important;}&#8221;]</p>\n<h5>Quis euismod orci, eget scelerid molestie bus orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor.</h5>\n<p>Alex White – regular customer[/vc_column_text][vc_column_text css=&#8221;.vc_custom_1560845004600{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248 !important;border-left-style: solid !important;}&#8221;]</p>\n<h5>Lorem raeus orci risus, ondimentum est auctor sit amet nec ondimentum est auctor sit amet condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor.</h5>\n<p>Alex Green – regular customer[/vc_column_text][/vc_column][vc_column]<style type=\"text/css\" data-type=\"the7_shortcodes-inline-css\">#default-btn-c3b2769568506854afaeddd1ef6f4e49.ico-right-side > i {\n  margin-right: 0px;\n  margin-left: 8px;\n}\n#default-btn-c3b2769568506854afaeddd1ef6f4e49 > i {\n  margin-right: 8px;\n}\n</style><div class=\"btn-align-center\"><a href=\"https://bbtech.ae/contact/\" class=\"default-btn-shortcode dt-btn dt-btn-m link-hover-off ico-right-side \" id=\"default-btn-c3b2769568506854afaeddd1ef6f4e49\" style=\"width:300px;\"><span>Contact us to leave a review</span><i class=\"Defaults-arrow-right\"></i></a></div>[/vc_column][/vc_row]</p>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>[vc_row][vc_column width=&#8221;1/2&#8243;][vc_column_text css=&#8221;.vc_custom_1560844987909{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248 !important;border-left-style: solid !important;}&#8221;] Praesent rutrum arcu sit amet tempus suscipit. Praeus orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor. Miriam Gray – regular customer[/vc_column_text][vc_column_text css=&#8221;.vc_custom_1560844992562{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248&hellip;</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 60,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "_joinchat": []
+  },
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v19.0.1 (Yoast SEO v19.6.1) - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Testimonials - BB Tech</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://bbtech.ae/testimonials/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Testimonials\" />\n<meta property=\"og:description\" content=\"[vc_row][vc_column width=&#8221;1/2&#8243;][vc_column_text css=&#8221;.vc_custom_1560844987909{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248 !important;border-left-style: solid !important;}&#8221;] Praesent rutrum arcu sit amet tempus suscipit. Praeus orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor. Miriam Gray – regular customer[/vc_column_text][vc_column_text css=&#8221;.vc_custom_1560844992562{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248&hellip;\" />\n<meta property=\"og:url\" content=\"https://bbtech.ae/testimonials/\" />\n<meta property=\"og:site_name\" content=\"BB Tech\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/bbtech.ae\" />\n<meta property=\"article:modified_time\" content=\"2022-08-25T15:22:15+00:00\" />\n<meta property=\"og:image\" content=\"https://bbtech.ae/wp-content/uploads/2020/08/branding.png\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"750\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:site\" content=\"@bbtechae\" />\n<meta name=\"twitter:label1\" content=\"Est. reading time\" />\n\t<meta name=\"twitter:data1\" content=\"2 minutes\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://bbtech.ae/testimonials/\",\"url\":\"https://bbtech.ae/testimonials/\",\"name\":\"Testimonials - BB Tech\",\"isPartOf\":{\"@id\":\"https://bbtech.ae/#website\"},\"datePublished\":\"2018-10-30T18:19:54+00:00\",\"dateModified\":\"2022-08-25T15:22:15+00:00\",\"breadcrumb\":{\"@id\":\"https://bbtech.ae/testimonials/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://bbtech.ae/testimonials/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://bbtech.ae/testimonials/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://bbtech.ae/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Testimonials\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://bbtech.ae/#website\",\"url\":\"https://bbtech.ae/\",\"name\":\"BB Tech\",\"description\":\"ERP, Mobile APPS, Ecommerce Store, Website\",\"publisher\":{\"@id\":\"https://bbtech.ae/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://bbtech.ae/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://bbtech.ae/#organization\",\"name\":\"Binary Bridge Technology Services\",\"url\":\"https://bbtech.ae/\",\"sameAs\":[\"https://www.instagram.com/binarybridge/\",\"https://www.linkedin.com/company/binary-bridge-technology-services/\",\"https://www.facebook.com/bbtech.ae\",\"https://twitter.com/bbtechae\"],\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://bbtech.ae/#/schema/logo/image/\",\"url\":\"https://bbtech.ae/wp-content/uploads/2020/08/branding.png\",\"contentUrl\":\"https://bbtech.ae/wp-content/uploads/2020/08/branding.png\",\"width\":1200,\"height\":750,\"caption\":\"Binary Bridge Technology Services\"},\"image\":{\"@id\":\"https://bbtech.ae/#/schema/logo/image/\"}}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+  "yoast_head_json": {
+    "title": "Testimonials - BB Tech",
+    "robots": {
+      "index": "index",
+      "follow": "follow",
+      "max-snippet": "max-snippet:-1",
+      "max-image-preview": "max-image-preview:large",
+      "max-video-preview": "max-video-preview:-1"
+    },
+    "canonical": "https://bbtech.ae/testimonials/",
+    "og_locale": "en_US",
+    "og_type": "article",
+    "og_title": "Testimonials",
+    "og_description": "[vc_row][vc_column width=&#8221;1/2&#8243;][vc_column_text css=&#8221;.vc_custom_1560844987909{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248 !important;border-left-style: solid !important;}&#8221;] Praesent rutrum arcu sit amet tempus suscipit. Praeus orci risus, nec condimentum est auctor sit amet. Donec cursus felis in mollis molestie. Donec et tincidunt nulla, eget volutpat tortor. Miriam Gray – regular customer[/vc_column_text][vc_column_text css=&#8221;.vc_custom_1560844992562{margin-bottom: 60px !important;border-left-width: 5px !important;padding-left: 20px !important;border-left-color: #93c248&hellip;",
+    "og_url": "https://bbtech.ae/testimonials/",
+    "og_site_name": "BB Tech",
+    "article_publisher": "https://www.facebook.com/bbtech.ae",
+    "article_modified_time": "2022-08-25T15:22:15+00:00",
+    "og_image": [
+      {
+        "width": 1200,
+        "height": 750,
+        "url": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+        "type": "image/png"
+      }
+    ],
+    "twitter_card": "summary_large_image",
+    "twitter_site": "@bbtechae",
+    "twitter_misc": {
+      "Est. reading time": "2 minutes"
+    },
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://bbtech.ae/testimonials/",
+          "url": "https://bbtech.ae/testimonials/",
+          "name": "Testimonials - BB Tech",
+          "isPartOf": {
+            "@id": "https://bbtech.ae/#website"
+          },
+          "datePublished": "2018-10-30T18:19:54+00:00",
+          "dateModified": "2022-08-25T15:22:15+00:00",
+          "breadcrumb": {
+            "@id": "https://bbtech.ae/testimonials/#breadcrumb"
+          },
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": [
+                "https://bbtech.ae/testimonials/"
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://bbtech.ae/testimonials/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://bbtech.ae/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Testimonials"
+            }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://bbtech.ae/#website",
+          "url": "https://bbtech.ae/",
+          "name": "BB Tech",
+          "description": "ERP, Mobile APPS, Ecommerce Store, Website",
+          "publisher": {
+            "@id": "https://bbtech.ae/#organization"
+          },
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://bbtech.ae/?s={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://bbtech.ae/#organization",
+          "name": "Binary Bridge Technology Services",
+          "url": "https://bbtech.ae/",
+          "sameAs": [
+            "https://www.instagram.com/binarybridge/",
+            "https://www.linkedin.com/company/binary-bridge-technology-services/",
+            "https://www.facebook.com/bbtech.ae",
+            "https://twitter.com/bbtechae"
+          ],
+          "logo": {
+            "@type": "ImageObject",
+            "inLanguage": "en-US",
+            "@id": "https://bbtech.ae/#/schema/logo/image/",
+            "url": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+            "contentUrl": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+            "width": 1200,
+            "height": 750,
+            "caption": "Binary Bridge Technology Services"
+          },
+          "image": {
+            "@id": "https://bbtech.ae/#/schema/logo/image/"
+          }
+        }
+      ]
+    }
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/pages/258"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://bbtech.ae/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://bbtech.ae/wp-json/wp/v2/comments?post=258"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://bbtech.ae/wp-json/wp/v2/pages/258/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://bbtech.ae/wp-json/wp/v2/media?parent=258"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}
