@@ -1,0 +1,46 @@
+{
+  "slug": "odoo-development",
+  "path": "/odoo-development/",
+  "source": "https://bbtech.ae/odoo-development/",
+  "metadata": {
+    "title": "Odoo Development - BB Tech",
+    "description": "Odoo Development Team with experts having experience of more than 7 years. Customization as per the work flow of your business.",
+    "canonical": "https://bbtech.ae/odoo-development/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "Odoo Development Services We Offer",
+    "subtitle": "Odoo Development Team with experts having experience of more than 7 years. We are a full-service enterprise Odoo Development Company that combines our creative chops with trusted business sense and serving clients needs for Odoo development"
+  },
+  "sections": [
+    {
+      "type": "cardGrid",
+      "items": [
+        {
+          "title": "CONSULTING",
+          "text": "Choosing ERP system is a tough task for companies, as it requires market information, dedicated team for ERP implementation. To simplify this, we provide consulting to the companies who choose Odoo ERP system."
+        },
+        {
+          "title": "TRAINING",
+          "text": "To make every process smooth for your business, we train the workforce with the new ERP and make them comfortable in the new environment with the Odoo training."
+        },
+        {
+          "title": "DEVELOPMENT",
+          "text": "We develop the Business Software precisely tailored and customized for your business requirement. At B2 we offer the best development services for any company using Odoo."
+        },
+        {
+          "title": "CUSTOMIZATION",
+          "text": "It provides the personalized experience in Odoo custom module as per the specification of clients. This is where B2 comes in and understand Odoo inside out and can easily customize Odoo module it to the requirements of the organization."
+        },
+        {
+          "title": "INTEGRATION",
+          "text": "We have prior experience in providing open ERP integration. We understand how businesses evolve and require proper 3rd party apps integration along the way. At B2 we use latest technology for successful ERP integration and it gives advantage to organization."
+        },
+        {
+          "title": "IMPLEMENTATION",
+          "text": "At B2 we offer end-to-end Odoo ERP implementation and holds the proficiency in understanding the business needs and implement it in a unique way to get the best results out of the ERP implementation."
+        }
+      ]
+    }
+  ]
+}
