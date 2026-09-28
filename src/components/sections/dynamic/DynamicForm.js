@@ -1,12 +1,14 @@
 "use client";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 
+// DESIGN.md's Forms row is explicit: "Labels must be visible, not placeholder-only."
 function Field({ field }) {
 	const { name, label, type = "text", placeholder, required, options } = field;
 
 	if (type === "textarea") {
 		return (
 			<div className="form-input message-input">
+				<label htmlFor={name}>{label}</label>
 				<textarea name={name} id={name} placeholder={placeholder || label} required={required} />
 			</div>
 		);
@@ -15,6 +17,7 @@ function Field({ field }) {
 	if (type === "select") {
 		return (
 			<div className="form-input">
+				<label htmlFor={name}>{label}</label>
 				<div className="tj-nice-select-box">
 					<select name={name} id={name} required={required} defaultValue="">
 						<option value="" disabled>
@@ -33,6 +36,7 @@ function Field({ field }) {
 
 	return (
 		<div className="form-input">
+			<label htmlFor={name}>{label}</label>
 			<input type={type} name={name} id={name} placeholder={placeholder || label} required={required} />
 		</div>
 	);

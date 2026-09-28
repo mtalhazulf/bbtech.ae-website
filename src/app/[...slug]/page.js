@@ -1,5 +1,6 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
+import RichTextSection from "@/components/sections/dynamic/RichTextSection";
 import HeroInner from "@/components/sections/hero/HeroInner";
 import SectionRenderer from "@/components/sections/SectionRenderer";
 import BackToTop from "@/components/shared/others/BackToTop";
@@ -50,6 +51,12 @@ export default async function ContentPage({ params }) {
 					<main>
 						<HeaderSpace />
 						<HeroInner title={page.hero?.title} text={page.hero?.title} />
+						{page.hero?.subtitle || page.hero?.image ? (
+							<RichTextSection
+								blocks={page.hero.subtitle ? [{ p: [page.hero.subtitle] }] : []}
+								image={page.hero.image}
+							/>
+						) : null}
 						<SectionRenderer sections={page.sections} />
 					</main>
 					<Footer />

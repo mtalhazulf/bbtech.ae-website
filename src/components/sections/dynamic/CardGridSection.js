@@ -14,6 +14,31 @@ function CardBody({ item }) {
 	return null;
 }
 
+function Icon({ icon }) {
+	if (!icon) return null;
+	// Most pages give a bexon-icons/FontAwesome class string; a few extraction agents used
+	// a full downloaded image instead (e.g. home.json's icon-as-photo cards) — render
+	// whichever shape actually came through rather than dropping it.
+	if (typeof icon === "string") {
+		return (
+			<div className="choose-icon">
+				<i className={icon}></i>
+			</div>
+		);
+	}
+	return (
+		<div className="choose-icon">
+			<Image
+				src={icon.localPath}
+				alt={icon.alt || ""}
+				width={icon.width || 60}
+				height={icon.height || 60}
+				style={{ height: "60px", width: "auto" }}
+			/>
+		</div>
+	);
+}
+
 function Card({ item }) {
 	const title = item.href ? <Link href={item.href}>{item.title}</Link> : item.title;
 	return (
@@ -30,9 +55,13 @@ function Card({ item }) {
 				</div>
 			) : null}
 			<div className="choose-content">
-				{item.icon ? (
-					<div className="choose-icon">
-						<i className={item.icon}></i>
+				<Icon icon={item.icon} />
+				{item.category || item.date ? (
+					<div className="meta">
+						{item.category ? (
+							<Link href={item.category.href || "#"}>{item.category.text}</Link>
+						) : null}
+						{item.date ? <span>{item.date}</span> : null}
 					</div>
 				) : null}
 				<h4 className="title">{title}</h4>
@@ -48,18 +77,36 @@ function Card({ item }) {
 	);
 }
 
-/** Renders a { type: "cardGrid", heading?, items } content section. */
-const CardGridSection = ({ heading, items }) => {
+/** Renders a { type: "cardGrid", heading?, text?, image?, items } content section. */
+const CardGridSection = ({ heading, text, image, items }) => {
 	return (
 		<section className="tj-choose-section section-gap-2">
 			<div className="container">
-				{heading ? (
-					<div className="row">
-						<div className="col-12">
-							<div className="sec-heading">
-								<h2 className="sec-title title-anim">{heading}</h2>
-							</div>
+				{heading || text || image ? (
+					<div className="row align-items-center">
+						<div className={image ? "col-lg-6" : "col-12"}>
+							{heading ? (
+								<div className="sec-heading">
+									<h2 className="sec-title title-anim">{heading}</h2>
+								</div>
+							) : null}
+							{text ? (
+								<p className="desc">
+									<Segments segments={text} />
+								</p>
+							) : null}
 						</div>
+						{image ? (
+							<div className="col-lg-6">
+								<Image
+									src={image.localPath}
+									alt={image.alt || ""}
+									width={image.width || 600}
+									height={image.height || 450}
+									style={{ height: "auto", width: "100%" }}
+								/>
+							</div>
+						) : null}
 					</div>
 				) : null}
 				<div className="row row-gap-4 rightSwipeWrap">

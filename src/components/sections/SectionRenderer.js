@@ -6,7 +6,7 @@ import RichTextSection from "./dynamic/RichTextSection";
 
 const RENDERERS = {
 	richText: (s, i) => <RichTextSection key={i} heading={s.heading} blocks={s.blocks} image={s.image} />,
-	cardGrid: (s, i) => <CardGridSection key={i} heading={s.heading} items={s.items} />,
+	cardGrid: (s, i) => <CardGridSection key={i} heading={s.heading} text={s.text} image={s.image} items={s.items} />,
 	checklist: (s, i) => <ChecklistSection key={i} heading={s.heading} items={s.items} />,
 	cta: (s, i) => <CtaSection key={i} heading={s.heading} button={s.button} />,
 	form: (s, i) => <DynamicForm key={i} id={s.id} fields={s.fields} consent={s.consent} submitText={s.submitText} />,
