@@ -2,13 +2,13 @@ import getSiteConfig from "@/libs/getSiteConfig";
 import Link from "next/link";
 
 const Footer = () => {
-	const { company, logos, contact, socials, footer } = getSiteConfig();
+	const { logos, contact, socials, footer } = getSiteConfig();
 	return (
 		<footer className="tj-footer-section footer-1 section-gap-x">
 			<div className="footer-main-area">
 				<div className="container">
 					<div className="row justify-content-between">
-						<div className="col-xl-3 col-lg-4 col-md-6">
+						<div className="col-xl-4 col-lg-4 col-md-6">
 							<div className="footer-widget wow fadeInUp" data-wow-delay=".1s">
 								<div className="footer-logo">
 									<Link href="/">
@@ -16,14 +16,7 @@ const Footer = () => {
 									</Link>
 								</div>
 								<div className="footer-text">
-									<p>{company.description}</p>
-								</div>
-								<div className="award-logo-area">
-									{footer.awardLogos.map((award, index) => (
-										<div className="award-logo" key={index}>
-											<img src={award} alt="" />
-										</div>
-									))}
+									<p>{footer.intro}</p>
 								</div>
 							</div>
 						</div>
@@ -32,61 +25,38 @@ const Footer = () => {
 								className="footer-widget widget-nav-menu wow fadeInUp"
 								data-wow-delay=".3s"
 							>
-								<h5 className="title">Services</h5>
-								<ul>
-									{footer.servicesMenu.map((item, index) => (
-										<li key={index}>
-											<Link href={item.url}>{item.label}</Link>
-										</li>
-									))}
-								</ul>
+								<h5 className="title">{footer.getInTouchHeading}</h5>
+								<div className="footer-contact-info">
+									<div className="contact-item">
+										<span>Phone number</span>
+										<br />
+										<Link href={`tel:${contact.phone.tel}`}>{contact.phone.display}</Link>
+									</div>
+									<div className="contact-item">
+										<span>Email</span>
+										<br />
+										<Link href={`mailto:${contact.email}`}>{contact.email}</Link>
+									</div>
+									<div className="contact-item">
+										<span>Address</span>
+										<br />
+										{contact.location}
+									</div>
+								</div>
 							</div>
 						</div>
-						<div className="col-xl-2 col-lg-4 col-md-6">
+						<div className="col-xl-5 col-lg-4 col-md-6">
 							<div
 								className="footer-widget widget-nav-menu wow fadeInUp"
 								data-wow-delay=".5s"
 							>
-								<h5 className="title">Company</h5>
-								<ul>
-									{footer.companyMenu.map((item, index) => (
-										<li key={index}>
-											<Link href={item.url}>
-												{item.label}{" "}
-												{item.badge && (
-													<span className="badge">{item.badge}</span>
-												)}
-											</Link>
-										</li>
-									))}
-								</ul>
-							</div>
-						</div>
-						<div className="col-xl-4 col-lg-5 col-md-6">
-							<div
-								className="footer-widget widget-subscribe wow fadeInUp"
-								data-wow-delay=".7s"
-							>
-								<h3 className="title">Subscribe to Our Newsletter.</h3>
-								<div className="subscribe-form">
-									<form action="#">
-										<input
-											type="email"
-											name="email"
-											placeholder="Enter email"
-										/>
-										<button type="submit">
-											<i className="tji-plane"></i>
-										</button>
-										<label htmlFor="agree">
-											<input id="agree" type="checkbox" />
-											Agree to our{" "}
-											<Link href="/terms-and-conditions">
-												Terms & Condition?
-											</Link>
-										</label>
-									</form>
-								</div>
+								<h5 className="title">Useful Info</h5>
+								{footer.usefulInfo.map((item, index) => (
+									<div key={index} className="footer-useful-info-item">
+										<strong>{item.title}</strong>
+										<p>{item.text}</p>
+									</div>
+								))}
 							</div>
 						</div>
 					</div>
@@ -129,13 +99,7 @@ const Footer = () => {
 									</ul>
 								</div>
 								<div className="copyright-text">
-									<p>
-										&copy; {company.copyrightYear}{" "}
-										<Link href={company.website} target="_blank">
-											{company.name}
-										</Link>{" "}
-										All rights reserved
-									</p>
+									<p>&copy; {footer.copyrightText}</p>
 								</div>
 							</div>
 						</div>

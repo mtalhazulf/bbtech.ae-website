@@ -14,8 +14,12 @@
 	},
 	"contact": {
 		"phone": {
-			"display": "+971 54 405 6829",
-			"tel": "+971544056829"
+			"display": "+971 3 755 5069",
+			"tel": "+97137555069"
+		},
+		"phoneSecondary": {
+			"display": "+971 56 128 6321",
+			"tel": "+971561286321"
 		},
 		"email": "info@bbtech.ae",
 		"directorEmail": "director@bbtech.ae",
@@ -26,23 +30,21 @@
 	"offices": [
 		{
 			"label": "Head office (UAE):",
-			"address": "Al Hili Industrial Area, Al Ain, UAE. P.O. Box 202135.",
-			"phone": { "display": "+971 54 405 6829", "tel": "+971544056829" },
-			"email": "info@bbtech.ae"
+			"address": "Al Hili Industrial Area, Al Ain, UAE. P.O. Box 202135."
 		},
 		{
 			"label": "Regional office (Pakistan):",
-			"address": "Khiyaban-e-Faiz, H-13, Street 3, Ali Block, Islamabad.",
-			"phone": { "display": "+971 3 755 5069", "tel": "+97137555069" },
-			"email": "info@bbtech.ae"
-		},
-		{
-			"label": "Regional office (Pakistan):",
-			"address": "574, Block G1, Phase 2, Johar Town, Lahore.",
-			"phone": { "display": "+971 56 128 6321", "tel": "+971561286321" },
-			"email": "info@bbtech.ae"
+			"address": "Khiyaban-e-Faiz, H-13, Street 3, Ali Block, Islamabad."
 		}
 	],
+	"visionPlus": {
+		"name": "Vision Plus",
+		"description": "Sister company",
+		"address": "574, Block G1 Phase 2, Johar Town, Lahore",
+		"phone": "+92 300 4320015 / +92 321 8099577",
+		"email": "info@visionplus.com.pk",
+		"website": "https://www.visionplus.com.pk/"
+	},
 	"socials": [
 		{
 			"platform": "facebook",
@@ -66,40 +68,35 @@
 		}
 	],
 	"header": {
-		"offcanvasText": "Developing personalize our customer journeys to increase satisfaction & loyalty of our expansion recognized by industry leaders.",
-		"variantPhone": { "display": "1-888-452-1505", "tel": "18884521505" }
+		"offcanvasText": null,
+		"variantPhone": { "display": "+971 3 755 5069", "tel": "+97137555069" }
 	},
 	"footer": {
-		"awardLogos": [
-			"/images/footer/award-logo-1.webp",
-			"/images/footer/award-logo-2.webp"
-		],
-		"awardLogosLight": [
-			"/images/footer/award-logo-white-1.webp",
-			"/images/footer/award-logo-white-2.webp"
-		],
 		"shapes": ["/images/shape/pattern-2.svg", "/images/shape/pattern-3.svg"],
-		"servicesMenu": [
-			{ "label": "ERP Development", "url": "/services/1" },
-			{ "label": "Web Development", "url": "/services/2" },
-			{ "label": "Mobile Apps", "url": "/services/3" },
-			{ "label": "Graphic Design", "url": "/services/4" },
-			{ "label": "Digital Marketing", "url": "/services/5" },
-			{ "label": "Social WiFi", "url": "/services/6" }
+		"intro": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your business is to have all of your IT services managed from one place, with one point of contact, just like your very own IT department but without all the costs. We will align all your domains, hosting, connectivity and support in one place. Our IT contracts and service level agreements (SLA) can also cover your hardware warranties and software developments.",
+		"getInTouchHeading": "Get in Touch for your Inquiries",
+		"usefulInfo": [
+			{
+				"title": "About BB Tech",
+				"text": "BBTech is a leading software company dedicated to delivering innovative and reliable technology solutions. With a passion for excellence, we empower businesses to thrive in a digital world through cutting-edge software and exceptional service."
+			},
+			{
+				"title": "Corporate Values",
+				"text": "At BBTech, our corporate values are rooted in innovation, collaboration, and integrity. We believe in pushing technological boundaries to create cutting-edge software solutions that empower businesses and individuals alike. Our commitment to teamwork drives us to foster a culture of inclusivity, where diverse ideas come together to shape transformative solutions. Integrity remains at the core of everything we do, ensuring trust and transparency in every partnership. Together, these values define who we are and guide our mission to deliver excellence in every line of code."
+			},
+			{
+				"title": "Privacy Policy",
+				"text": "1. Data Collection: BBTech is committed to protecting your privacy. We collect only the information necessary to provide and improve our services. 2. Data Usage: Your data is used solely to enhance your experience and is never sold or shared with third parties without your consent. 3. Security Measures: We implement advanced security protocols to safeguard your personal information from unauthorized access. 4. Transparency: You have full control over your data, and we provide clear options to manage your preferences. 5. Compliance: BBTech adheres to all applicable data protection laws and regulations to ensure your privacy is respected."
+			},
+			{
+				"title": "Satisfaction Guarantee",
+				"text": "At BBTech, your satisfaction is our top priority. We are dedicated to delivering software solutions that exceed your expectations, combining innovation, reliability, and exceptional service. Our team works tirelessly to ensure every product and service we provide aligns with your needs and goals. If for any reason you are not completely satisfied, we are here to make it right. Your trust and confidence in BBTech drive our commitment to excellence and customer satisfaction."
+			},
+			{
+				"title": "Copyright Information",
+				"text": "All content on this website, including text, graphics, logos, images, and software, is the exclusive property of BBTech and is protected under copyright laws. Unauthorized reproduction, distribution, or modification of any material without prior written consent from BBTech is strictly prohibited. We respect intellectual property rights and expect our users to do the same. For permissions or inquiries regarding the use of our content, please contact us directly. All rights reserved by Binary Bridge Technology Services"
+			}
 		],
-		"companyMenu": [
-			{ "label": "Industries", "url": "/industries" },
-			{ "label": "Solutions", "url": "/solutions" },
-			{ "label": "About Us", "url": "/about" },
-			{ "label": "Our History", "url": "/history" },
-			{ "label": "Team", "url": "/team" },
-			{ "label": "Careers", "url": "/careers", "badge": "New" },
-			{ "label": "FAQ", "url": "/faq" },
-			{ "label": "Contact Us", "url": "/contact" }
-		],
-		"copyrightMenu": [
-			{ "label": "Privacy Policy", "url": "/contact" },
-			{ "label": "Terms & Condition", "url": "/terms-and-conditions" }
-		]
+		"copyrightText": "BB Tech - 2016-2020. All rights reserved."
 	}
 }

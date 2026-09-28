@@ -34,9 +34,11 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
 								</button>
 							</div>
 						</div>
-						<div className="offcanvas-text">
-							<p>{header.offcanvasText}</p>
-						</div>
+						{header.offcanvasText ? (
+							<div className="offcanvas-text">
+								<p>{header.offcanvasText}</p>
+							</div>
+						) : null}
 						<div className="hamburger-search-area">
 							<h5 className="hamburger-title">Search Now!</h5>
 							<div className="hamburger_search">

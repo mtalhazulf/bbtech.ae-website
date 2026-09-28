@@ -1,15 +1,14 @@
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import getSiteConfig from "@/libs/getSiteConfig";
 import Link from "next/link";
 
 const Footer10 = () => {
-	const { company, contact, socials, footer } = getSiteConfig();
+	const { contact, socials, footer } = getSiteConfig();
 	return (
 		<footer className="tj-footer-section footer-2 h5-footer h10-footer section-gap-x">
 			<div className="footer-main-area">
 				<div className="container">
 					<div className="row justify-content-between">
-						<div className="col-xl-5 col-lg-4 col-md-6">
+						<div className="col-xl-4 col-lg-4 col-md-6">
 							<div className="footer-widget footer-col-1">
 								<h2 className="h10-footer-title text-anim">
 									Let&apos;s Make IT Happen Together?
@@ -29,39 +28,18 @@ const Footer10 = () => {
 								></div>
 							</div>
 						</div>
-						<div className="col-xl-2 col-lg-3 col-md-6">
+						<div className="col-xl-5 col-lg-5 col-md-6">
 							<div
 								className="footer-widget footer-col-2 widget-nav-menu wow fadeInUp"
 								data-wow-delay=".3s"
 							>
-								<h5 className="title">Services</h5>
-								<ul>
-									{footer.servicesMenu.map((item, index) => (
-										<li key={index}>
-											<Link href={item.url}>{item.label}</Link>
-										</li>
-									))}
-								</ul>
-							</div>
-						</div>
-						<div className="col-xl-2 col-lg-2 col-md-6">
-							<div
-								className="footer-widget footer-col-3 widget-nav-menu wow fadeInUp"
-								data-wow-delay=".5s"
-							>
-								<h5 className="title">Company</h5>
-								<ul>
-									{footer.companyMenu.map((item, index) => (
-										<li key={index}>
-											<Link href={item.url}>
-												{item.label}{" "}
-												{item.badge && (
-													<span className="badge">{item.badge}</span>
-												)}
-											</Link>
-										</li>
-									))}
-								</ul>
+								<h5 className="title">Useful Info</h5>
+								{footer.usefulInfo.map((item, index) => (
+									<div key={index} className="footer-useful-info-item">
+										<strong>{item.title}</strong>
+										<p>{item.text}</p>
+									</div>
+								))}
 							</div>
 						</div>
 						<div className="col-xl-3 col-lg-3 col-md-6">
@@ -93,71 +71,13 @@ const Footer10 = () => {
 					</div>
 				</div>
 			</div>
-			<div
-				className="h10-footer-subscribe-wrapper wow fadeInUp"
-				data-wow-delay=".5s"
-			>
-				<div className="container">
-					<div className="row align-items-end">
-						<div className="col-12 col-lg-4 col-xl-5">
-							<div className="award-logo-area ">
-								{footer.awardLogosLight.map((award, index) => (
-									<div className="award-logo" key={index}>
-										<img src={award} alt="" />
-									</div>
-								))}
-							</div>
-						</div>
-						<div className="col-12 col-lg-8 col-xl-7">
-							<div className="footer-subscribe h5-footer-subscribe">
-								<h3 className="title text-anim">
-									Subscribe to Our Newsletter.
-								</h3>
-								<div className="subscribe-form">
-									<form action="#">
-										<input
-											type="email"
-											name="email"
-											placeholder="Enter email"
-										/>
-										<ButtonPrimary
-											type={"submit"}
-											text={"Subscribe"}
-											className={"d-none d-sm-flex"}
-										/>
-										<label htmlFor="agree">
-											<input id="agree" type="checkbox" />
-											Agree to our{" "}
-											<Link href="/terms-and-conditions">
-												Terms &amp; Condition?
-											</Link>
-										</label>
-										<ButtonPrimary
-											type={"submit"}
-											text={"Subscribe"}
-											className={"d-flex d-sm-none"}
-										/>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
 			<div className="tj-copyright-area-2 h5-footer-copyright">
 				<div className="container">
 					<div className="row">
 						<div className="col-12">
 							<div className="copyright-content-area">
 								<div className="copyright-text">
-									<p>
-										&copy; {company.copyrightYear}{" "}
-										<Link href={company.website} target="_blank">
-											{company.name}
-										</Link>{" "}
-										All rights reserved
-									</p>
+									<p>&copy; {footer.copyrightText}</p>
 								</div>
 								<div className="social-links style-3">
 									<ul>
@@ -166,15 +86,6 @@ const Footer10 = () => {
 												<Link href={social.url} target="_blank">
 													<i className={social.icon}></i>
 												</Link>
-											</li>
-										))}
-									</ul>
-								</div>
-								<div className="copyright-menu">
-									<ul>
-										{footer.copyrightMenu.map((item, index) => (
-											<li key={index}>
-												<Link href={item.url}>{item.label}</Link>
 											</li>
 										))}
 									</ul>
