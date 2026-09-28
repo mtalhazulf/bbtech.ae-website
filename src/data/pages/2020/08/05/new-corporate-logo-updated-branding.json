@@ -1,0 +1,85 @@
+{
+  "slug": "2020/08/05/new-corporate-logo-updated-branding",
+  "path": "/2020/08/05/new-corporate-logo-updated-branding/",
+  "source": "https://bbtech.ae/2020/08/05/new-corporate-logo-updated-branding/",
+  "metadata": {
+    "title": "New corporate logo & Updated Branding - BB Tech",
+    "description": "We have updated our Corporate branding. BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your",
+    "canonical": "https://bbtech.ae/2020/08/05/new-corporate-logo-updated-branding/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "New corporate logo & Updated Branding",
+    "image": {
+      "localPath": "/images/bbtech/shared/branding.webp",
+      "alt": "bbtech",
+      "width": 1200,
+      "height": 750
+    }
+  },
+  "sections": [
+    {
+      "richText": {
+        "blocks": [
+          {
+            "p": [
+              "We have ",
+              {
+                "text": "updated",
+                "href": "/2020/08/05/update-of-the-branding/"
+              },
+              " our Corporate branding."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "richText": {
+        "blocks": [
+          {
+            "p": [
+              "Category: ",
+              {
+                "text": "news & updates",
+                "href": "/"
+              }
+            ]
+          },
+          {
+            "p": [
+              "By ",
+              {
+                "text": "admin",
+                "href": "/"
+              }
+            ]
+          },
+          {
+            "p": [
+              "August 5, 2020"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cardGrid": {
+        "heading": "Related Posts",
+        "items": [
+          {
+            "title": "New website",
+            "href": "/2020/08/05/update-of-the-branding/",
+            "date": "August 5, 2020",
+            "image": {
+              "localPath": "/images/bbtech/2020/08/05/new-corporate-logo-updated-branding/new-web.webp",
+              "alt": "BB Tech",
+              "width": 1200,
+              "height": 750
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
