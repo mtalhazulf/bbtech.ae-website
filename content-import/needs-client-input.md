@@ -21,6 +21,15 @@ or removed — it's copied through exactly as it appears live, in
 `src/data/pages/about-us.json` — but it should not ship without the client rewriting that
 paragraph. This is the single highest-priority item in this file.
 
+## Naming mismatch: "Digital Marketing" card vs "Social Media Marketing" page
+
+The `/services/` hub card is labeled "Digital Marketing", but it links to
+`/services/social-media-marketing/`, whose own title/H1 is "Social Media Marketing". Both
+are real, live labels — not fixing silently. `public/fakedata/services.json` uses the
+destination page's own title ("Social Media Marketing") since that's what the page is
+actually about; flagging the mismatch in case the client wants the hub card relabeled to
+match, or vice versa.
+
 ## Duplicate / overlapping content
 
 - **`/erp/` vs `/construction-management-system/`**: near-identical structure on the live
