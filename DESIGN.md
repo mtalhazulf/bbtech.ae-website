@@ -40,9 +40,10 @@ Prefer clarity over flourish.
 | Light-header logo | `public/images/logos/logo-2.webp` | ⚠️ identical file to `logo.webp`; no white variant yet |
 | `logo-icon.webp`, `logo-large.webp` | `public/images/logos/` | ⚠️ also identical copies |
 | Favicon | `src/app/favicon.ico` (64×64, BB Tech blues) | ✅ in use |
-| Template favicon | `public/images/fav.png` (teal cube) | ❌ Bexon leftover, unused; delete |
-| Wordmark / horizontal lockup | none | ❓ ask the client (live site uses `wp-content/uploads/2020/08/logo-png.png`) |
-| OG image | none | ❓ needed: 1200×630, navy background, mark + "We Make IT Happen" |
+| Template favicon | `public/images/fav.png` (teal cube) | ✅ deleted (content import, no remaining references) |
+| Wordmark / horizontal lockup | `public/images/bbtech/shared/logo-png.webp` | ✅ harvested from the live site's own header logo (`wp-content/uploads/2020/08/logo-png.png`); not yet wired into `Logo.js` in place of the icon-only mark — ask the client if this raster lockup should be vectorized/redrawn instead of used as-is |
+| OG image | `public/images/bbtech/shared/branding.webp` | ✅ harvested from the live site's Yoast `og:image` (`wp-content/uploads/2020/08/branding.png`, 1200×750); used as every real page's `metadata.openGraph.images` fallback. Not the navy "We Make IT Happen" design described below — that's still open if a rebrand is wanted |
+| ISO certification badges | `public/images/bbtech/shared/{45001,27001,14001,9001}.webp` | ✅ harvested; only display once the client confirms the certifications are current (see `content-import/needs-client-input.md`) |
 
 Rules:
 - Render with `Logo.js` at **52px height**, width auto. Never stretch, recolor, rotate, add effects,
