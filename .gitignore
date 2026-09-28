@@ -9,3 +9,6 @@ content-import/.cache/
 content-import/originals/
 content-import/screenshots/
 content-import/.harvest-failures.json
+content-import/.phase3/
+content-import/.phase3-context.json
+content-import/.phase3-pages.json
