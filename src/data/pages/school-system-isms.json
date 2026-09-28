@@ -1,0 +1,160 @@
+{
+  "slug": "school-system-isms",
+  "path": "/school-system-isms/",
+  "source": "https://bbtech.ae/school-system-isms/",
+  "metadata": {
+    "title": "ISMS - School System - BB Tech",
+    "description": "ISMS gives you unparalleled access to your data for problem solving. ISMS starts with a ‘worldview’ of your information, supports one-click",
+    "canonical": "https://bbtech.ae/school-system-isms/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "ISMS – School System",
+    "subtitle": "Integrated School Management System",
+    "image": null
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "heading": "ISMS has every feature you will ever need to run your School efficiently.",
+      "blocks": [
+        {
+          "p": [
+            "ISMS (Integrated School Management System) provides user-friendly dashboards with login access for teachers, non-teaching staff, students, parents and management personnel of your schools and institution. The various modules available in ISMS facilitate all the processes of your institution, from admission of new students to generating transfer certificates when students complete their studies.\nISMS is available in desktop and Web Version. It is very easy to use"
+          ]
+        },
+        {
+          "p": [
+            "ISMS manages Timetable, Attendance, Examinations, Gradebooks, Campus News, Library, Transportation, School Calendar, Events and many more. It has a fully-fledged Human Resource module to manage the payroll and employee pay slips. The Finance module helps you to plan and allot different fee structures to students. ISMS is is also an excellent collaboration tool using its Task, Discussion, Poll, Blog. There is an internal messaging system within ISMS but you can also integrate it with external communication tools like email and texting. To find out more, scroll through the following descriptions, Request for free demo or contact sales."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "Modules of ISMS",
+      "blocks": [
+        { "h": 4, "text": "MANAGEMENT" },
+        {
+          "ul": [
+            "Global Setup",
+            "Role Based Security",
+            "Dash board",
+            "Student Registration",
+            "HR System",
+            "Accounts",
+            "Payment",
+            "Class Schedule System",
+            "Event Schedule System",
+            "Examination",
+            "Teachers Platform",
+            "Management Platform",
+            "Graphical Statistics",
+            "Attendance System.",
+            "Transport system.",
+            "Third Party Contract.",
+            "Facility management",
+            "CCTV"
+          ]
+        },
+        { "h": 3, "text": "MANAGEMENT" },
+        {
+          "ul": [
+            "Recruitment",
+            "Finance",
+            "Salary",
+            "Invoicing Management",
+            "Apply Leave",
+            "E-Documents",
+            "Self Assessment",
+            "Training Planner",
+            "Management Platform",
+            "Staff Login",
+            "Individual Dash Board",
+            "Meeting Minutes",
+            "Email",
+            "Alerts",
+            "Appointments",
+            "Daily Work Logs",
+            "Security Surveillance System.",
+            "Export Documents"
+          ]
+        },
+        { "h": 3, "text": "MANAGEMENT" },
+        {
+          "ul": [
+            "Web based Portal",
+            "Application Portal",
+            "Lesson Plan Maker",
+            "Dash Board",
+            "Appointments",
+            "Meeting Minutes",
+            "Class Schedule",
+            "Quiz Maker",
+            "Assignments",
+            "Activity Reporting",
+            "Individual student",
+            "Reports",
+            "Parents Interaction",
+            "Teaching Assets",
+            "Alerts",
+            "Student Assessments.",
+            "HR Requests and Responses.",
+            "Class Management"
+          ]
+        },
+        { "h": 3, "text": "MANAGEMENT" },
+        {
+          "ul": [
+            "Web based Portal",
+            "Daily Lesson Plan",
+            "Daily Class Schedule",
+            "Learning Assets",
+            "Term Exam Schedule",
+            "Assignments Submitting",
+            "Quiz",
+            "Online Exams Parents Portal",
+            "Parents Meetings",
+            "Student Reports",
+            "Fee Alerts and Payments",
+            "Request for Leave",
+            "Holiday Schedule",
+            "Alerts",
+            "Parent Teacher Interaction",
+            "Assessments feedback.",
+            "Complaint.",
+            "Documents Request"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "Why ISMS?",
+      "blocks": [
+        {
+          "p": [
+            {
+              "text": "ISMS gives you unparalleled access to your data for problem solving. It starts with a ‘worldview’ of your information, supports one-click drill down to detail, literally hundreds of ways to search for sets of records and easy output to reports, Excel, PDF, Doc, forms and email. ISMS can be integrated with SMS system. Using school master data, it can be published to school personal website for marketing and information purpose. For example, School educational team, Principle message, Chairman Message, holiday schedule, exam schedule etc.\nEvery school is unique, located in different regions and focused on different areas of expertise … one-size-fits-all is definitely NOT the case when it comes to school administration! ISMS supports multiple layers of personalization, from changing field labels, to setting up drop down data, to customizing reports and forms – even creating complex multi-variable attributes for students and prospects. all without programming help.\nISMS is a complete school administration application, so you can start at whatever level you need, and grow on your own schedule at your own pace – there are no additional modules to purchase and nothing new needs to be installed as you expand. From prospective student to alumni, from one specialization to many, from one campus to several – ISMS has you covered.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "heading": "ISMS CAN DO",
+      "items": [
+        { "title": "Available in Desktop & WEB", "icon": "fa-language" },
+        { "title": "Certificates & Reports", "icon": "fa-clipboard-list" },
+        { "title": "SMS Integration", "icon": "fa-sms" },
+        { "title": "Attendance Machine Integration", "icon": "fa-puzzle-piece" },
+        { "title": "Account System", "icon": "fa-book-open" },
+        { "title": "Powerful HR system", "icon": "fa-users" },
+        { "title": "Cover all Departments", "icon": "dt-icon-the7-misc-006-1" },
+        { "title": "Language Selection", "icon": "fa-language" }
+      ]
+    }
+  ]
+}
