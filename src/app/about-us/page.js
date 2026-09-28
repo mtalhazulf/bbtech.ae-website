@@ -5,7 +5,7 @@ import SectionRenderer from "@/components/sections/SectionRenderer";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import page from "@/data/pages/contact.json";
+import page from "@/data/pages/about-us.json";
 
 const { title, description, canonical, ogImage } = page.metadata;
 
@@ -21,7 +21,7 @@ export const metadata = {
 	},
 };
 
-export default function Contact() {
+export default function AboutUs() {
 	return (
 		<div>
 			<BackToTop />

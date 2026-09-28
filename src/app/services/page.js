@@ -1,16 +1,25 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
-import Brands1 from "@/components/sections/brands/Brands1";
-import Contact2 from "@/components/sections/contacts/Contact2";
-import Cta from "@/components/sections/cta/Cta";
 import HeroInner from "@/components/sections/hero/HeroInner";
-import ServicesPrimary from "@/components/sections/services/ServicesPrimary";
+import SectionRenderer from "@/components/sections/SectionRenderer";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import pages from "@/data/pages.json";
+import page from "@/data/pages/services.json";
 
-const { services } = pages;
+const { title, description, canonical, ogImage } = page.metadata;
+
+export const metadata = {
+	title,
+	description: description || undefined,
+	alternates: canonical ? { canonical } : undefined,
+	openGraph: {
+		title,
+		description: description || undefined,
+		url: canonical,
+		images: ogImage ? [{ url: ogImage }] : undefined,
+	},
+};
 
 export default function Services() {
 	return (
@@ -22,16 +31,12 @@ export default function Services() {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title={services.hero.title} text={services.hero.text} />
-						<ServicesPrimary />
-						<Contact2 />
-						<Brands1 type={2} />
-						<Cta />
+						<HeroInner title={page.hero?.title} text={page.hero?.title} />
+						<SectionRenderer sections={page.sections} />
 					</main>
 					<Footer />
 				</div>
 			</div>
-
 			<ClientWrapper />
 		</div>
 	);
