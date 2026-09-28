@@ -6,15 +6,15 @@
     "title": "Construction Management System - BB Tech",
     "description": "Construction Management System have core modules that are Project Management, Document Control, Quality Management, budgeting, procurement",
     "canonical": "https://bbtech.ae/construction-management-system/",
-    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+    "ogImage": "/images/bbtech/shared/branding.webp"
   },
   "hero": {
     "title": "WHY CONSTRUCTION MANAGEMENT SYSTEM",
     "image": {
-      "src": "/images/bbtech/construction-management-system/constrcution-bbtech.webp",
       "alt": "Construction Management System",
       "width": 400,
-      "height": 600
+      "height": 600,
+      "localPath": "/images/bbtech/construction-management-system/constrcution-bbtech.webp"
     }
   },
   "sections": [
@@ -24,7 +24,10 @@
         {
           "p": [
             "Construction Management System have core modules that are Project Management, Document Control, Quality Management, budgeting, procurement. Every department of an enterprise are related with each other. The performance of one department will influence the remaining. So purposed ",
-            { "text": "ERP", "href": "/erp/" },
+            {
+              "text": "ERP",
+              "href": "/erp/"
+            },
             " is used to coordinate the performance of each department. Earlier, the situation was that for every department had separate application that structured only for a particular task, which is not interconnected with each other. As a result, that made difficult for other departments to access the required data. These problems is solved by the purposed ERP solution. It is considered as one of the main advantages of Construction Management System (ERP) which makes it distinct. it maintains vehicles tacking, CRM, Quotations, Sales, HR, Purchase, Accounts, payroll, trip scheduling, Expenses, projects, costing, assets management , document control at a single place."
           ]
         }
@@ -96,14 +99,20 @@
       ]
     },
     {
-      "type": "hero",
-      "title": "ONE STOP SOLUTION FOR UNLIMITED EMPLOYEES",
-      "subtitle": "Each User with their roles and responsibilities",
+      "type": "richText",
+      "heading": "ONE STOP SOLUTION FOR UNLIMITED EMPLOYEES",
+      "blocks": [
+        {
+          "p": [
+            "Each User with their roles and responsibilities"
+          ]
+        }
+      ],
       "image": {
-        "src": "/images/bbtech/shared/construction-erp-1.webp",
         "alt": "Construction ERP 1",
         "width": 1200,
-        "height": 398
+        "height": 398,
+        "localPath": "/images/bbtech/shared/construction-erp-1.webp"
       }
     }
   ]

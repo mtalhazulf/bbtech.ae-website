@@ -6,7 +6,7 @@
     "title": "About us - BB Tech",
     "description": "We specialize in supporting the IT requirements of modern businesses which allows our clients to concentrate on what they do best, running",
     "canonical": "https://bbtech.ae/about-us/",
-    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+    "ogImage": "/images/bbtech/shared/branding.webp"
   },
   "hero": {
     "title": "About us"
@@ -120,34 +120,34 @@
       "items": [
         {
           "image": {
-            "src": "/images/bbtech/shared/45001.webp",
             "alt": "ISO Certifications",
             "width": 1200,
-            "height": 750
+            "height": 750,
+            "localPath": "/images/bbtech/shared/45001.webp"
           }
         },
         {
           "image": {
-            "src": "/images/bbtech/shared/27001.webp",
             "alt": "ISO Certifications",
             "width": 1200,
-            "height": 750
+            "height": 750,
+            "localPath": "/images/bbtech/shared/27001.webp"
           }
         },
         {
           "image": {
-            "src": "/images/bbtech/shared/14001.webp",
             "alt": "ISO Certifications",
             "width": 1200,
-            "height": 750
+            "height": 750,
+            "localPath": "/images/bbtech/shared/14001.webp"
           }
         },
         {
           "image": {
-            "src": "/images/bbtech/shared/9001.webp",
             "alt": "ISO Certifications",
             "width": 1200,
-            "height": 750
+            "height": 750,
+            "localPath": "/images/bbtech/shared/9001.webp"
           }
         }
       ]

@@ -6,23 +6,47 @@
     "title": "Web Design and Development in UAE - BBTech",
     "description": "Providing Services in UAE like Website Design and Development, Mobile App Development, customized ERP Solutions, Social Media Marketing,",
     "canonical": "https://bbtech.ae/",
-    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+    "ogImage": "/images/bbtech/shared/branding.webp"
   },
   "hero": {
     "type": "slider",
     "slides": [
       {
         "title": "BB. TECH",
-        "subtitle": "We Make IT Happen"
+        "subtitle": "We Make IT Happen",
+        "image": {
+          "localPath": "/images/bbtech/services/depositphotos-12286955-stock-photo-technology-in-the-hands.webp",
+          "alt": "Technology In The Hands",
+          "width": 600,
+          "height": 416
+        }
       },
       {
         "title": "ERP CUSTOMIZATION",
         "subtitle": "BBTECH Provide Customized ERP System for Range of Industries",
-        "cta": { "text": "Discover more", "href": "/services/erp/" }
+        "image": {
+          "localPath": "/images/bbtech/shared/binary-bridge-technology-services.webp",
+          "alt": "Web design and development",
+          "width": 598,
+          "height": 582
+        },
+        "cta": {
+          "text": "Discover more",
+          "href": "/services/erp/"
+        }
       },
       {
         "title": "SOCIAL MEDIA MARKETING",
-        "cta": { "text": "Discover more", "href": "/services/social-media-marketing/" }
+        "image": {
+          "localPath": "/images/bbtech/shared/social-media-3070331-1280-1024x778-copy.webp",
+          "alt": "Social Media Marketing",
+          "width": 1024,
+          "height": 964
+        },
+        "cta": {
+          "text": "Discover more",
+          "href": "/services/social-media-marketing/"
+        }
       }
     ]
   },
@@ -63,22 +87,42 @@
         {
           "title": "ERP Consultancy",
           "text": "We help businesses select a suitable technological foundation for their ERP solutions. By making an informed choice, we ensure the healthy performance, painless scaling, and effortless management of ERP systems.",
-          "icon": { "localPath": "/images/bbtech/home/manager.webp", "alt": "Manager", "width": 258, "height": 327 }
+          "icon": {
+            "localPath": "/images/bbtech/home/manager.webp",
+            "alt": "Manager",
+            "width": 258,
+            "height": 327
+          }
         },
         {
           "title": "Design and implementation",
           "text": "We are experienced in architecting platform-based and custom ERP systems from scratch. We also deliver integrated ERP modules and custom features for on-premises, cloud and hybrid deployments.",
-          "icon": { "localPath": "/images/bbtech/home/project-development.webp", "alt": "Project Development", "width": 319, "height": 301 }
+          "icon": {
+            "localPath": "/images/bbtech/home/project-development.webp",
+            "alt": "Project Development",
+            "width": 319,
+            "height": 301
+          }
         },
         {
           "title": "ERP Customization",
           "text": "Whether you run a platform-based ERP solution or a completely custom system, BBTECH’s team will deliver customizations optimal for your specific business context. We put extra efforts into testing every customization so that it functions smoothly within the integrated environment.",
-          "icon": { "localPath": "/images/bbtech/home/admin-control-panel.webp", "alt": "Admin Control Panel", "width": 283, "height": 284 }
+          "icon": {
+            "localPath": "/images/bbtech/home/admin-control-panel.webp",
+            "alt": "Admin Control Panel",
+            "width": 283,
+            "height": 284
+          }
         },
         {
           "title": "ERP Integration",
           "text": "We provide integration of your company ERP with third-party apps and technologies. for example, shopify, Magento, Prestashop, WordPress, Whatsapp, Microsoft 365, POS etc",
-          "icon": { "localPath": "/images/bbtech/home/solution.webp", "alt": "Solution", "width": 316, "height": 267 }
+          "icon": {
+            "localPath": "/images/bbtech/home/solution.webp",
+            "alt": "Solution",
+            "width": 316,
+            "height": 267
+          }
         }
       ]
     },
@@ -96,22 +140,42 @@
         {
           "title": "Custom Web Development",
           "text": "Our custom web development solutions accelerate workflows, boost revenues, and optimize business operations from concept-to-code and development-to-deployment.",
-          "icon": { "localPath": "/images/bbtech/home/responsive-design.webp", "alt": "Responsive Design", "width": 324, "height": 236 }
+          "icon": {
+            "localPath": "/images/bbtech/home/responsive-design.webp",
+            "alt": "Responsive Design",
+            "width": 324,
+            "height": 236
+          }
         },
         {
           "title": "API Development",
           "text": "We develop reliable, well-documented, and easy-to-consume APIs that enable flexible integrations and customization of existing software products.",
-          "icon": { "localPath": "/images/bbtech/home/api-interface.webp", "alt": "API Interface", "width": 313, "height": 247 }
+          "icon": {
+            "localPath": "/images/bbtech/home/api-interface.webp",
+            "alt": "API Interface",
+            "width": 313,
+            "height": 247
+          }
         },
         {
           "title": "API System Integrations",
           "text": "Our software integration engineers adopt new technologies and processes to overcome challenges relating to everything from architectural design to testing to execution.",
-          "icon": { "localPath": "/images/bbtech/home/cloud-computing.webp", "alt": "Cloud Computing", "width": 325, "height": 313 }
+          "icon": {
+            "localPath": "/images/bbtech/home/cloud-computing.webp",
+            "alt": "Cloud Computing",
+            "width": 325,
+            "height": 313
+          }
         },
         {
           "title": "Web SEO",
           "text": "Quality, authoritative content is the number one driver of your search engine rankings and there is no substitute for great content",
-          "icon": { "localPath": "/images/bbtech/home/web-analysis.webp", "alt": "Web Analysis", "width": 339, "height": 317 }
+          "icon": {
+            "localPath": "/images/bbtech/home/web-analysis.webp",
+            "alt": "Web Analysis",
+            "width": 339,
+            "height": 317
+          }
         }
       ]
     },
@@ -129,22 +193,42 @@
         {
           "title": "Custom Application Development",
           "text": "We rely on our industry-specific technology experience to deliver highly scalable, flexible, and interoperable web, mobile, desktop, and hybrid applications.",
-          "icon": { "localPath": "/images/bbtech/home/fitness-app.webp", "alt": "Fitness App", "width": 199, "height": 326 }
+          "icon": {
+            "localPath": "/images/bbtech/home/fitness-app.webp",
+            "alt": "Fitness App",
+            "width": 199,
+            "height": 326
+          }
         },
         {
           "title": "Application Maintenance",
           "text": "Our app maintenance & modernization services are designed to ensure the scalability, performance, and sustainability of your entire software infrastructure.",
-          "icon": { "localPath": "/images/bbtech/home/project-development.webp", "alt": "Project Development", "width": 319, "height": 301 }
+          "icon": {
+            "localPath": "/images/bbtech/home/project-development.webp",
+            "alt": "Project Development",
+            "width": 319,
+            "height": 301
+          }
         },
         {
           "title": "API Integrations",
           "text": "We build custom APIs for all breeds of applications, adding functionality to your software systems and facilitating communication between your apps & others.",
-          "icon": { "localPath": "/images/bbtech/home/user-interaction.webp", "alt": "User Interaction", "width": 275, "height": 318 }
+          "icon": {
+            "localPath": "/images/bbtech/home/user-interaction.webp",
+            "alt": "User Interaction",
+            "width": 275,
+            "height": 318
+          }
         },
         {
           "title": "UX/UI Design",
           "text": "Leverage the latest UI/UX technologies, architectures, and trends to design responsive & scalable apps that transform customer experiences across multiple channels.",
-          "icon": { "localPath": "/images/bbtech/home/ui-ux-design.webp", "alt": "UI UX Design", "width": 188, "height": 307 }
+          "icon": {
+            "localPath": "/images/bbtech/home/ui-ux-design.webp",
+            "alt": "UI UX Design",
+            "width": 188,
+            "height": 307
+          }
         }
       ]
     },
@@ -162,22 +246,42 @@
         {
           "title": "SEARCH ENGINE OPTIMISATION (SEO)",
           "text": "Be on top of search engine results for any keywords related to your business. We guarantee you the results!",
-          "icon": { "localPath": "/images/bbtech/home/targeting.webp", "alt": "Web design and development", "width": 302, "height": 302 }
+          "icon": {
+            "localPath": "/images/bbtech/home/targeting.webp",
+            "alt": "Web design and development",
+            "width": 302,
+            "height": 302
+          }
         },
         {
           "title": "SOCIAL MEDIA MANAGEMENT",
           "text": "We will keep on top of trends, produce content, and manage your accounts, increase your followers, and engage with your potential customers.",
-          "icon": { "localPath": "/images/bbtech/home/social-media-promotion.webp", "alt": "Web design and development", "width": 318, "height": 306 }
+          "icon": {
+            "localPath": "/images/bbtech/home/social-media-promotion.webp",
+            "alt": "Web design and development",
+            "width": 318,
+            "height": 306
+          }
         },
         {
           "title": "CONTENT MARKETING",
           "text": "Content present your business! That’s why we are specialized in providing effective content that will increase the attention of your target audience.",
-          "icon": { "localPath": "/images/bbtech/home/storytelling.webp", "alt": "Storytelling", "width": 235, "height": 311 }
+          "icon": {
+            "localPath": "/images/bbtech/home/storytelling.webp",
+            "alt": "Storytelling",
+            "width": 235,
+            "height": 311
+          }
         },
         {
           "title": "GOOGLE ADS MARKETING/PAY PER CLICK (PPC)",
           "text": "Our PPC campaign experts understand your internal analytics and create a tailor-made strategy that suits your business.",
-          "icon": { "localPath": "/images/bbtech/home/curstomers-reviews.webp", "alt": "Curstomers Reviews", "width": 326, "height": 261 }
+          "icon": {
+            "localPath": "/images/bbtech/home/curstomers-reviews.webp",
+            "alt": "Curstomers Reviews",
+            "width": 326,
+            "height": 261
+          }
         }
       ]
     },
@@ -189,55 +293,100 @@
         {
           "title": "Construction Industries",
           "text": "27 Clients",
-          "image": { "localPath": "/images/bbtech/home/bbtech-construction.webp", "alt": "Web design and development", "width": 400, "height": 305 },
+          "image": {
+            "localPath": "/images/bbtech/home/bbtech-construction.webp",
+            "alt": "Web design and development",
+            "width": 400,
+            "height": 305
+          },
           "href": "/services/web-development/"
         },
         {
           "title": "Food and Beverages",
           "text": "More then 30 plus Clients",
-          "image": { "localPath": "/images/bbtech/home/binary-bridge-food-erp.webp", "alt": "Web design and development", "width": 400, "height": 305 },
+          "image": {
+            "localPath": "/images/bbtech/home/binary-bridge-food-erp.webp",
+            "alt": "Web design and development",
+            "width": 400,
+            "height": 305
+          },
           "href": "/services/mobile-app-development/"
         },
         {
           "title": "Manufacturing",
           "text": "60 plus factories as clients",
-          "image": { "localPath": "/images/bbtech/home/binary-bridge-factory-erp.webp", "alt": "Web design and development", "width": 400, "height": 305 },
+          "image": {
+            "localPath": "/images/bbtech/home/binary-bridge-factory-erp.webp",
+            "alt": "Web design and development",
+            "width": 400,
+            "height": 305
+          },
           "href": "/odoo-development/"
         },
         {
           "title": "Transportation",
           "text": "35 plus transport companies as client",
-          "image": { "localPath": "/images/bbtech/shared/binary-bridge-technology-services-bbtech-trasposrtation-erp.webp", "alt": "Web design and development", "width": 400, "height": 305 },
+          "image": {
+            "localPath": "/images/bbtech/shared/binary-bridge-technology-services-bbtech-trasposrtation-erp.webp",
+            "alt": "Web design and development",
+            "width": 400,
+            "height": 305
+          },
           "href": "#"
         },
         {
           "title": "Health Care",
           "text": "12 Clients",
-          "image": { "localPath": "/images/bbtech/home/binary-brisge-technology-ervices-bbtech-health-care.webp", "alt": "Web design and development", "width": 400, "height": 305 },
+          "image": {
+            "localPath": "/images/bbtech/home/binary-brisge-technology-ervices-bbtech-health-care.webp",
+            "alt": "Web design and development",
+            "width": 400,
+            "height": 305
+          },
           "href": "/services/"
         },
         {
           "title": "Consultancy Companies",
           "text": "25 Plus clients",
-          "image": { "localPath": "/images/bbtech/home/bbtech-consultancy.webp", "alt": "Web design and development", "width": 400, "height": 305 },
+          "image": {
+            "localPath": "/images/bbtech/home/bbtech-consultancy.webp",
+            "alt": "Web design and development",
+            "width": 400,
+            "height": 305
+          },
           "href": "#"
         },
         {
           "title": "Retail",
           "text": "120 Plus Clients",
-          "image": { "localPath": "/images/bbtech/services/binary-bridge-technology-ervice-retail-erp.webp", "alt": "Web design and development", "width": 400, "height": 305 },
+          "image": {
+            "localPath": "/images/bbtech/services/binary-bridge-technology-ervice-retail-erp.webp",
+            "alt": "Web design and development",
+            "width": 400,
+            "height": 305
+          },
           "href": "#"
         },
         {
           "title": "Institutes",
           "text": "35 Clients",
-          "image": { "localPath": "/images/bbtech/home/bbtech-education-erp.webp", "alt": "Web design and development", "width": 400, "height": 305 },
+          "image": {
+            "localPath": "/images/bbtech/home/bbtech-education-erp.webp",
+            "alt": "Web design and development",
+            "width": 400,
+            "height": 305
+          },
           "href": "#"
         },
         {
           "title": "Auto workshops",
           "text": "60 Plus Clients",
-          "image": { "localPath": "/images/bbtech/home/bbtech-workshop-erp.webp", "alt": "Web design and development", "width": 400, "height": 305 },
+          "image": {
+            "localPath": "/images/bbtech/home/bbtech-workshop-erp.webp",
+            "alt": "Web design and development",
+            "width": 400,
+            "height": 305
+          },
           "href": "#"
         }
       ]
@@ -246,7 +395,11 @@
       "type": "richText",
       "heading": "Don’t decrease there goal. Increase the effort!",
       "blocks": [
-        { "p": ["– Binary Bridge Technology services-"] }
+        {
+          "p": [
+            "– Binary Bridge Technology services-"
+          ]
+        }
       ]
     },
     {
@@ -256,17 +409,32 @@
         {
           "title": "10 Years of Experience",
           "text": "More than one decades of service excellence and rich experience in delivering various turnkey projects across the region.",
-          "image": { "localPath": "/images/bbtech/home/iconfinder-experience-project-246629-1.webp", "alt": "Iconfinder Experience Project 1", "width": 512, "height": 512 }
+          "image": {
+            "localPath": "/images/bbtech/home/iconfinder-experience-project-246629-1.webp",
+            "alt": "Iconfinder Experience Project 1",
+            "width": 512,
+            "height": 512
+          }
         },
         {
           "title": "24/7 CRITICAL SUPPORT",
           "text": "Our certified and experienced engineers provide round the clock seamless support and on-site assistance for critical operations.",
-          "image": { "localPath": "/images/bbtech/home/customer-support.webp", "alt": "Customer Support", "width": 512, "height": 512 }
+          "image": {
+            "localPath": "/images/bbtech/home/customer-support.webp",
+            "alt": "Customer Support",
+            "width": 512,
+            "height": 512
+          }
         },
         {
           "title": "DOMAIN EXPERTS",
           "text": "Over 10 years of domain experience and service excellence makes us best in the region to be your preferred technology partner.",
-          "image": { "localPath": "/images/bbtech/home/subject-matter.webp", "alt": "Subject Matter", "width": 512, "height": 512 }
+          "image": {
+            "localPath": "/images/bbtech/home/subject-matter.webp",
+            "alt": "Subject Matter",
+            "width": 512,
+            "height": 512
+          }
         }
       ]
     },
@@ -274,7 +442,11 @@
       "type": "richText",
       "heading": "Our reputation is the proof!",
       "blocks": [
-        { "p": ["– Over 500+ Positive Customers –"] }
+        {
+          "p": [
+            "– Over 500+ Positive Customers –"
+          ]
+        }
       ]
     },
     {
@@ -284,17 +456,33 @@
         {
           "title": "New corporate logo & Updated Branding",
           "text": "We have updated our Corporate branding.",
-          "image": { "localPath": "/images/bbtech/shared/branding.webp", "alt": "bbtech", "width": 1200, "height": 750 },
+          "image": {
+            "localPath": "/images/bbtech/shared/branding.webp",
+            "alt": "bbtech",
+            "width": 1200,
+            "height": 750
+          },
           "href": "/2020/08/05/new-corporate-logo-updated-branding/",
           "date": "2020-08-05",
-          "category": { "text": "news & updates", "href": "/" }
+          "category": {
+            "text": "news & updates",
+            "href": "/"
+          }
         },
         {
           "title": "New website",
-          "image": { "localPath": "/images/bbtech/2020/08/05/new-corporate-logo-updated-branding/new-web.webp", "alt": "BB Tech", "width": 1200, "height": 750 },
+          "image": {
+            "localPath": "/images/bbtech/2020/08/05/new-corporate-logo-updated-branding/new-web.webp",
+            "alt": "BB Tech",
+            "width": 1200,
+            "height": 750
+          },
           "href": "/2020/08/05/update-of-the-branding/",
           "date": "2020-08-05",
-          "category": { "text": "news & updates", "href": "/" }
+          "category": {
+            "text": "news & updates",
+            "href": "/"
+          }
         }
       ]
     },
@@ -302,10 +490,38 @@
       "type": "cardGrid",
       "heading": "ISO Certifications",
       "items": [
-        { "image": { "localPath": "/images/bbtech/shared/45001.webp", "alt": "ISO Certifications", "width": 1200, "height": 750 } },
-        { "image": { "localPath": "/images/bbtech/shared/27001.webp", "alt": "ISO Certifications", "width": 1200, "height": 750 } },
-        { "image": { "localPath": "/images/bbtech/shared/14001.webp", "alt": "ISO Certifications", "width": 1200, "height": 750 } },
-        { "image": { "localPath": "/images/bbtech/shared/9001.webp", "alt": "ISO Certifications", "width": 1200, "height": 750 } }
+        {
+          "image": {
+            "localPath": "/images/bbtech/shared/45001.webp",
+            "alt": "ISO Certifications",
+            "width": 1200,
+            "height": 750
+          }
+        },
+        {
+          "image": {
+            "localPath": "/images/bbtech/shared/27001.webp",
+            "alt": "ISO Certifications",
+            "width": 1200,
+            "height": 750
+          }
+        },
+        {
+          "image": {
+            "localPath": "/images/bbtech/shared/14001.webp",
+            "alt": "ISO Certifications",
+            "width": 1200,
+            "height": 750
+          }
+        },
+        {
+          "image": {
+            "localPath": "/images/bbtech/shared/9001.webp",
+            "alt": "ISO Certifications",
+            "width": 1200,
+            "height": 750
+          }
+        }
       ]
     }
   ]

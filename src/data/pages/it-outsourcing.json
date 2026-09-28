@@ -6,7 +6,7 @@
     "title": "IT Outsourcing - BB Tech",
     "description": "IT outsourcing services allow business executives to retain control over IT strategies while benefiting from reduced operating costs and risk",
     "canonical": "https://bbtech.ae/it-outsourcing/",
-    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+    "ogImage": "/images/bbtech/shared/branding.webp"
   },
   "hero": {
     "title": "IT Outsourcing",
@@ -25,7 +25,10 @@
         {
           "p": [
             "IT outsourcing services allow business executives to retain control over IT strategies while benefiting from reduced operating costs and risks without compromising service delivery to end users and their clients. With ",
-            { "text": "B²", "italic": true },
+            {
+              "text": "B²",
+              "italic": true
+            },
             " managed service model, we assume responsibility for operations delivery, drawing on IT governance best practices."
           ]
         }

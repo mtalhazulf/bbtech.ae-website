@@ -6,7 +6,7 @@
     "title": "Contact - BB Tech",
     "description": null,
     "canonical": "https://bbtech.ae/contact/",
-    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+    "ogImage": "/images/bbtech/shared/branding.webp"
   },
   "hero": {
     "title": "Contact"
@@ -15,36 +15,92 @@
     {
       "type": "richText",
       "blocks": [
-        { "h": 2, "text": "Phone number" },
-        { "p": ["(+971) 3 755 5069\n(+971) 56 128 6321"] },
+        {
+          "h": 2,
+          "text": "Phone number"
+        },
+        {
+          "p": [
+            "(+971) 3 755 5069\n(+971) 56 128 6321"
+          ]
+        },
         {
           "p": [
             "For Tech &Support, ",
-            { "text": "check here", "href": "/" }
-          ]
-        },
-        { "h": 2, "text": "Email" },
-        {
-          "p": [
-            { "text": "info@bbtech.ae", "href": "mailto:info@bbtech.ae" }
+            {
+              "text": "check here",
+              "href": "/"
+            }
           ]
         },
         {
+          "h": 2,
+          "text": "Email"
+        },
+        {
           "p": [
-            { "text": "muhammad@bbtech.ae", "href": "mailto:muhammad@bbtech.ae" },
+            {
+              "text": "info@bbtech.ae",
+              "href": "mailto:info@bbtech.ae"
+            }
+          ]
+        },
+        {
+          "p": [
+            {
+              "text": "muhammad@bbtech.ae",
+              "href": "mailto:muhammad@bbtech.ae"
+            },
             "\n",
-            { "text": "director@bbtech.ae", "href": "mailto:Director@bbtech.ae" }
+            {
+              "text": "director@bbtech.ae",
+              "href": "mailto:Director@bbtech.ae"
+            }
           ]
         },
-        { "h": 2, "text": "Address" },
-        { "p": ["UAE:"] },
-        { "p": ["AL HILI INDUSTRIAL AREA.\nAL AIN . UAE P.O # 202135"] },
-        { "p": ["Pakistan:"] },
-        { "p": ["Khiyaban-e-Faiz, H-13, street no#3,"] },
-        { "p": ["Ali block, Near Bread and Cake Bakery,"] },
-        { "p": ["Islamabad, Pakistan"] },
-        { "h": 2, "text": "Business hours" },
-        { "p": ["Sun – Wed : 8 am to 5 pm\nThu : 8 am to 3 pm"] }
+        {
+          "h": 2,
+          "text": "Address"
+        },
+        {
+          "p": [
+            "UAE:"
+          ]
+        },
+        {
+          "p": [
+            "AL HILI INDUSTRIAL AREA.\nAL AIN . UAE P.O # 202135"
+          ]
+        },
+        {
+          "p": [
+            "Pakistan:"
+          ]
+        },
+        {
+          "p": [
+            "Khiyaban-e-Faiz, H-13, street no#3,"
+          ]
+        },
+        {
+          "p": [
+            "Ali block, Near Bread and Cake Bakery,"
+          ]
+        },
+        {
+          "p": [
+            "Islamabad, Pakistan"
+          ]
+        },
+        {
+          "h": 2,
+          "text": "Business hours"
+        },
+        {
+          "p": [
+            "Sun – Wed : 8 am to 5 pm\nThu : 8 am to 3 pm"
+          ]
+        }
       ]
     },
     {
@@ -89,21 +145,33 @@
       "blocks": [
         {
           "p": [
-            { "text": "Address:", "bold": true },
+            {
+              "text": "Address:",
+              "bold": true
+            },
             " 574, Block G1 Phase 2, Johar Town, Lahore"
           ]
         },
         {
           "p": [
-            { "text": "Phone:", "bold": true },
+            {
+              "text": "Phone:",
+              "bold": true
+            },
             " +92 300 4320015 / +92 321 8099577"
           ]
         },
         {
           "p": [
-            { "text": "Email:", "bold": true },
+            {
+              "text": "Email:",
+              "bold": true
+            },
             " ",
-            { "text": "info@visionplus.com.pk", "href": "mailto:info@visionplus.com.pk" }
+            {
+              "text": "info@visionplus.com.pk",
+              "href": "mailto:info@visionplus.com.pk"
+            }
           ]
         },
         {

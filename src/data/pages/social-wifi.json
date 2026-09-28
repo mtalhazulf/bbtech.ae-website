@@ -6,7 +6,7 @@
     "title": "social-wifi in UAE - BB Tech",
     "description": "Our Social Wifi team of highly-skilled web portal developers understand every business is different and can build a bespoke solution",
     "canonical": "https://bbtech.ae/social-wifi/",
-    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+    "ogImage": "/images/bbtech/shared/branding.webp"
   },
   "hero": {
     "title": "Social Wifi"
@@ -77,16 +77,31 @@
         {
           "ul": [
             [
-              { "text": "Customer Data Collection", "bold": true },
-              { "text": ": Gain insights into customer demographics and behavior." }
+              {
+                "text": "Customer Data Collection",
+                "bold": true
+              },
+              {
+                "text": ": Gain insights into customer demographics and behavior."
+              }
             ],
             [
-              { "text": "Personalized Campaigns", "bold": true },
-              { "text": ": Send targeted promotions, discounts, and updates." }
+              {
+                "text": "Personalized Campaigns",
+                "bold": true
+              },
+              {
+                "text": ": Send targeted promotions, discounts, and updates."
+              }
             ],
             [
-              { "text": "Social Media Growth", "bold": true },
-              { "text": ": Increase likes, follows, and engagement for your business." }
+              {
+                "text": "Social Media Growth",
+                "bold": true
+              },
+              {
+                "text": ": Increase likes, follows, and engagement for your business."
+              }
             ]
           ]
         },
@@ -123,7 +138,10 @@
         },
         {
           "p": [
-            { "text": "Contact us now", "bold": true },
+            {
+              "text": "Contact us now",
+              "bold": true
+            },
             " to learn more and get started!"
           ]
         }

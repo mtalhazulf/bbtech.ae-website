@@ -6,7 +6,7 @@
     "title": "ERP - Enterprise resource planning - BB Tech",
     "description": "ERP (Enterprise resource planning) is a term used to describe a type of software package used in large, complex organizations. ERP combines",
     "canonical": "https://bbtech.ae/erp/",
-    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+    "ogImage": "/images/bbtech/shared/branding.webp"
   },
   "hero": {
     "title": "ERP"
@@ -24,11 +24,20 @@
         {
           "p": [
             "Every department of an enterprise are related with each other. The performance of one department will influence the remaining. ",
-            { "text": "ERP", "bold": true },
+            {
+              "text": "ERP",
+              "bold": true
+            },
             " is used to coordinate the performance of each department. Earlier, the situation was that for every department had separate application that structured only for a particular task, which is not interconnected with each other. As a result, that made difficult for other departments to access the required data. These problems is solved by the ",
-            { "text": "Enterprise resource planning", "italic": true },
+            {
+              "text": "Enterprise resource planning",
+              "italic": true
+            },
             " (",
-            { "text": "ERP", "italic": true },
+            {
+              "text": "ERP",
+              "italic": true
+            },
             "). It is considered as one of the main advantages of ERP which makes it distinct. It maintains vehicles tracking, CRM, Quotations, Sales, HR, Purchase, Accounts, payroll, trip scheduling, Expenses, projects, costing, assets management , document control at a single place."
           ]
         }
@@ -92,9 +101,15 @@
       ]
     },
     {
-      "type": "hero",
-      "title": "ONE STOP SOLUTION FOR UNLIMITED EMPLOYEES",
-      "subtitle": "Each User with their roles and responsibilities",
+      "type": "richText",
+      "heading": "ONE STOP SOLUTION FOR UNLIMITED EMPLOYEES",
+      "blocks": [
+        {
+          "p": [
+            "Each User with their roles and responsibilities"
+          ]
+        }
+      ],
       "image": {
         "localPath": "/images/bbtech/shared/construction-erp-1.webp",
         "alt": "Construction ERP 1",

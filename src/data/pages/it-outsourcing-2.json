@@ -6,16 +6,22 @@
     "title": "IT Outsourcing - BB Tech",
     "description": null,
     "canonical": "https://bbtech.ae/it-outsourcing-2/",
-    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+    "ogImage": "/images/bbtech/shared/branding.webp"
   },
   "hero": {
     "title": "IT Outsourcing"
   },
   "sections": [
     {
-      "type": "hero",
-      "title": "Focus on Growth, Leave IT to Us",
-      "subtitle": "In today’s fast-paced business environment, managing IT systems can be complex and time-consuming. With Binary Bridge Technology Services’s IT outsourcing services, you can focus on what you do best—growing your business—while we take care of your technology needs.",
+      "type": "richText",
+      "heading": "Focus on Growth, Leave IT to Us",
+      "blocks": [
+        {
+          "p": [
+            "In today’s fast-paced business environment, managing IT systems can be complex and time-consuming. With Binary Bridge Technology Services’s IT outsourcing services, you can focus on what you do best—growing your business—while we take care of your technology needs."
+          ]
+        }
+      ],
       "image": {
         "localPath": "/images/bbtech/it-outsourcing-2/outsource.webp",
         "alt": "it outsourcing",
@@ -75,7 +81,10 @@
         },
         {
           "p": [
-            { "text": "Contact us today", "bold": true },
+            {
+              "text": "Contact us today",
+              "bold": true
+            },
             " to learn more about our IT outsourcing services and how we can support your business!"
           ]
         }

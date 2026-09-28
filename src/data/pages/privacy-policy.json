@@ -6,7 +6,7 @@
     "title": "Privacy Policy - BB Tech",
     "description": null,
     "canonical": "https://bbtech.ae/privacy-policy/",
-    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+    "ogImage": "/images/bbtech/shared/branding.webp"
   },
   "hero": {
     "title": "Privacy Policy"
@@ -15,16 +15,28 @@
     {
       "type": "richText",
       "blocks": [
-        { "h": 2, "text": "Who we are" },
+        {
+          "h": 2,
+          "text": "Who we are"
+        },
         {
           "p": [
             "Our website address is: ",
-            { "text": "https://bbtech.ae", "href": "/" },
+            {
+              "text": "https://bbtech.ae",
+              "href": "/"
+            },
             "."
           ]
         },
-        { "h": 2, "text": "What personal data we collect and why we collect it" },
-        { "h": 3, "text": "Comments" },
+        {
+          "h": 2,
+          "text": "What personal data we collect and why we collect it"
+        },
+        {
+          "h": 3,
+          "text": "Comments"
+        },
         {
           "p": [
             "When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection."
@@ -35,14 +47,23 @@
             "An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment."
           ]
         },
-        { "h": 3, "text": "Media" },
+        {
+          "h": 3,
+          "text": "Media"
+        },
         {
           "p": [
             "If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website."
           ]
         },
-        { "h": 3, "text": "Contact forms" },
-        { "h": 3, "text": "Cookies" },
+        {
+          "h": 3,
+          "text": "Contact forms"
+        },
+        {
+          "h": 3,
+          "text": "Cookies"
+        },
         {
           "p": [
             "If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year."
@@ -63,7 +84,10 @@
             "If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day."
           ]
         },
-        { "h": 3, "text": "Embedded content from other websites" },
+        {
+          "h": 3,
+          "text": "Embedded content from other websites"
+        },
         {
           "p": [
             "Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website."
@@ -74,9 +98,18 @@
             "These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website."
           ]
         },
-        { "h": 3, "text": "Analytics" },
-        { "h": 2, "text": "Who we share your data with" },
-        { "h": 2, "text": "How long we retain your data" },
+        {
+          "h": 3,
+          "text": "Analytics"
+        },
+        {
+          "h": 2,
+          "text": "Who we share your data with"
+        },
+        {
+          "h": 2,
+          "text": "How long we retain your data"
+        },
         {
           "p": [
             "If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue."
@@ -87,25 +120,52 @@
             "For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information."
           ]
         },
-        { "h": 2, "text": "What rights you have over your data" },
+        {
+          "h": 2,
+          "text": "What rights you have over your data"
+        },
         {
           "p": [
             "If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes."
           ]
         },
-        { "h": 2, "text": "Where we send your data" },
+        {
+          "h": 2,
+          "text": "Where we send your data"
+        },
         {
           "p": [
             "Visitor comments may be checked through an automated spam detection service."
           ]
         },
-        { "h": 2, "text": "Your contact information" },
-        { "h": 2, "text": "Additional information" },
-        { "h": 3, "text": "How we protect your data" },
-        { "h": 3, "text": "What data breach procedures we have in place" },
-        { "h": 3, "text": "What third parties we receive data from" },
-        { "h": 3, "text": "What automated decision making and/or profiling we do with user data" },
-        { "h": 3, "text": "Industry regulatory disclosure requirements" }
+        {
+          "h": 2,
+          "text": "Your contact information"
+        },
+        {
+          "h": 2,
+          "text": "Additional information"
+        },
+        {
+          "h": 3,
+          "text": "How we protect your data"
+        },
+        {
+          "h": 3,
+          "text": "What data breach procedures we have in place"
+        },
+        {
+          "h": 3,
+          "text": "What third parties we receive data from"
+        },
+        {
+          "h": 3,
+          "text": "What automated decision making and/or profiling we do with user data"
+        },
+        {
+          "h": 3,
+          "text": "Industry regulatory disclosure requirements"
+        }
       ]
     }
   ]

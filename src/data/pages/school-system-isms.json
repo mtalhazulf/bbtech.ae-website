@@ -6,7 +6,7 @@
     "title": "ISMS - School System - BB Tech",
     "description": "ISMS gives you unparalleled access to your data for problem solving. ISMS starts with a ‘worldview’ of your information, supports one-click",
     "canonical": "https://bbtech.ae/school-system-isms/",
-    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+    "ogImage": "/images/bbtech/shared/branding.webp"
   },
   "hero": {
     "title": "ISMS – School System",
@@ -34,7 +34,10 @@
       "type": "richText",
       "heading": "Modules of ISMS",
       "blocks": [
-        { "h": 4, "text": "MANAGEMENT" },
+        {
+          "h": 4,
+          "text": "MANAGEMENT"
+        },
         {
           "ul": [
             "Global Setup",
@@ -57,7 +60,10 @@
             "CCTV"
           ]
         },
-        { "h": 3, "text": "MANAGEMENT" },
+        {
+          "h": 3,
+          "text": "MANAGEMENT"
+        },
         {
           "ul": [
             "Recruitment",
@@ -80,7 +86,10 @@
             "Export Documents"
           ]
         },
-        { "h": 3, "text": "MANAGEMENT" },
+        {
+          "h": 3,
+          "text": "MANAGEMENT"
+        },
         {
           "ul": [
             "Web based Portal",
@@ -103,7 +112,10 @@
             "Class Management"
           ]
         },
-        { "h": 3, "text": "MANAGEMENT" },
+        {
+          "h": 3,
+          "text": "MANAGEMENT"
+        },
         {
           "ul": [
             "Web based Portal",
@@ -146,14 +158,38 @@
       "type": "cardGrid",
       "heading": "ISMS CAN DO",
       "items": [
-        { "title": "Available in Desktop & WEB", "icon": "fa-language" },
-        { "title": "Certificates & Reports", "icon": "fa-clipboard-list" },
-        { "title": "SMS Integration", "icon": "fa-sms" },
-        { "title": "Attendance Machine Integration", "icon": "fa-puzzle-piece" },
-        { "title": "Account System", "icon": "fa-book-open" },
-        { "title": "Powerful HR system", "icon": "fa-users" },
-        { "title": "Cover all Departments", "icon": "dt-icon-the7-misc-006-1" },
-        { "title": "Language Selection", "icon": "fa-language" }
+        {
+          "title": "Available in Desktop & WEB",
+          "icon": "fa-language"
+        },
+        {
+          "title": "Certificates & Reports",
+          "icon": "fa-clipboard-list"
+        },
+        {
+          "title": "SMS Integration",
+          "icon": "fa-sms"
+        },
+        {
+          "title": "Attendance Machine Integration",
+          "icon": "fa-puzzle-piece"
+        },
+        {
+          "title": "Account System",
+          "icon": "fa-book-open"
+        },
+        {
+          "title": "Powerful HR system",
+          "icon": "fa-users"
+        },
+        {
+          "title": "Cover all Departments",
+          "icon": "dt-icon-the7-misc-006-1"
+        },
+        {
+          "title": "Language Selection",
+          "icon": "fa-language"
+        }
       ]
     }
   ]

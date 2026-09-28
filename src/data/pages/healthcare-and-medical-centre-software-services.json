@@ -6,7 +6,7 @@
     "title": "Healthcare and Medical Centre Software Services - BB Tech",
     "description": null,
     "canonical": "https://bbtech.ae/healthcare-and-medical-centre-software-services/",
-    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+    "ogImage": "/images/bbtech/shared/branding.webp"
   },
   "hero": {
     "title": "Healthcare and Medical Centre Software Services"
@@ -36,24 +36,49 @@
         {
           "ul": [
             [
-              { "text": "Healthcare Expertise", "bold": true },
-              { "text": ": Decades of experience in building solutions for the medical industry." }
+              {
+                "text": "Healthcare Expertise",
+                "bold": true
+              },
+              {
+                "text": ": Decades of experience in building solutions for the medical industry."
+              }
             ],
             [
-              { "text": "Custom Solutions", "bold": true },
-              { "text": ": Software tailored to fit your facility’s unique requirements." }
+              {
+                "text": "Custom Solutions",
+                "bold": true
+              },
+              {
+                "text": ": Software tailored to fit your facility’s unique requirements."
+              }
             ],
             [
-              { "text": "Reliability", "bold": true },
-              { "text": ": Robust, scalable, and future-ready systems." }
+              {
+                "text": "Reliability",
+                "bold": true
+              },
+              {
+                "text": ": Robust, scalable, and future-ready systems."
+              }
             ],
             [
-              { "text": "Compliance First", "bold": true },
-              { "text": ": Adherence to healthcare regulations and data protection standards." }
+              {
+                "text": "Compliance First",
+                "bold": true
+              },
+              {
+                "text": ": Adherence to healthcare regulations and data protection standards."
+              }
             ],
             [
-              { "text": "Continuous Support", "bold": true },
-              { "text": ": Ongoing updates, training, and technical assistance." }
+              {
+                "text": "Continuous Support",
+                "bold": true
+              },
+              {
+                "text": ": Ongoing updates, training, and technical assistance."
+              }
             ]
           ]
         }
@@ -132,8 +157,13 @@
         },
         {
           "p": [
-            { "text": "Contact us today", "bold": true },
-            { "text": " to explore our healthcare software solutions and schedule a consultation!" }
+            {
+              "text": "Contact us today",
+              "bold": true
+            },
+            {
+              "text": " to explore our healthcare software solutions and schedule a consultation!"
+            }
           ]
         }
       ]
