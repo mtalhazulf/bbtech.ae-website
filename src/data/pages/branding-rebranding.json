@@ -1,0 +1,84 @@
+{
+  "slug": "branding-rebranding",
+  "path": "/branding-rebranding/",
+  "source": "https://bbtech.ae/branding-rebranding/",
+  "metadata": {
+    "title": "Branding & Rebranding - BB Tech",
+    "description": null,
+    "canonical": "https://bbtech.ae/branding-rebranding/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "Branding & Rebranding"
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "heading": "Build Your Identity, Redefine Your Vision",
+      "blocks": [
+        {
+          "p": [
+            "Your brand is more than just a logo; it’s the story, personality, and promise you share with your audience. At Binary Bridge Technology Services, we specialize in creating and transforming brands that leave a lasting impact. Whether you’re starting from scratch or looking to refresh your existing brand, we’re here to guide you every step of the way."
+          ]
+        }
+      ],
+      "image": {
+        "localPath": "/images/bbtech/shared/branding-concept-keywords-icons-600nw-197106008.webp",
+        "alt": "Branding Concept Keywords Icons 600nw",
+        "width": 600,
+        "height": 463
+      }
+    },
+    {
+      "type": "richText",
+      "heading": "Your Brand, Your Legacy",
+      "blocks": [
+        {
+          "p": [
+            "Whether you’re an emerging start up or an established business, a strong brand is your most valuable asset. Let us help you craft a brand that resonates with your audience and stands the test of time."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "heading": "Why Choose Us?",
+      "items": [
+        "Creative Expertise: Skilled designers and strategists with a passion for branding.",
+        "Tailored Solutions: Every project is unique, and we ensure a custom approach.",
+        "Strategic Approach: Combining creativity with data-driven insights for impactful results.",
+        "End-to-End Support: From brainstorming to execution, we’re with you at every stage."
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "Our Services",
+      "blocks": [
+        {
+          "h": 3,
+          "text": "Branding"
+        },
+        {
+          "ul": [
+            "Logo Design: Eye-catching logos that embody your brand’s essence.",
+            "Brand Identity Development: Defining your mission, vision, and unique selling proposition (USP).",
+            "Visual Identity: Crafting cohesive elements like color schemes, typography, and design styles.",
+            "Brand Guidelines: Ensuring consistency across all platforms and media."
+          ]
+        },
+        {
+          "h": 3,
+          "text": "Rebranding"
+        },
+        {
+          "ul": [
+            "Market Analysis: Understanding current trends and your position in the market.",
+            "Brand Refresh: Updating your visuals, messaging, and strategy for modern appeal.",
+            "Complete Overhaul: Transforming your brand’s identity while retaining its core values.",
+            "Crisis Recovery: Rebuilding trust and repositioning after challenges."
+          ]
+        }
+      ]
+    }
+  ]
+}
