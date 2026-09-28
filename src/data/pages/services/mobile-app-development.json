@@ -1,0 +1,74 @@
+{
+  "slug": "services/mobile-app-development",
+  "path": "/services/mobile-app-development/",
+  "source": "https://bbtech.ae/services/mobile-app-development/",
+  "metadata": {
+    "title": "Mobile App Development - BB Tech",
+    "description": "For Mobile App Development, our team can build great looking yet robust Android applications for your business. We also help you to deploy",
+    "canonical": "https://bbtech.ae/services/mobile-app-development/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "Mobile App Development"
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "heading": "Mobile App Development",
+      "blocks": [
+        {
+          "p": [
+            "For Mobile App Development, our team can build great looking yet robust Android applications for your business. Mobile applications help businesses to run in a better & smarter way, we all know that! Be it a spa, restaurant, grocery shop, hotel or bar, we often experience a mobile-app-operated system which makes us not only excited but also helps the business owners to run their businesses smoothly."
+          ]
+        },
+        {
+          "p": [
+            "No matter what business you are into, mobile apps can really help you to provide excellent services to your customers and facilitate your business to expand flawlessly."
+          ]
+        }
+      ],
+      "image": {
+        "localPath": "/images/bbtech/services/mobile-app-development/399-scaled.webp",
+        "alt": "Mobile App Development",
+        "width": 2400,
+        "height": 1028
+      }
+    },
+    {
+      "type": "cardGrid",
+      "heading": "ALL PLATFORM MOBILE APPLICATION DEVELOPMENT",
+      "items": [
+        {
+          "title": "ANDROID APPS",
+          "text": "We can build great looking yet robust Android applications for your business. We also help you to deploy the mobile applications on Play Store.",
+          "icon": {
+            "localPath": "/images/bbtech/services/mobile-app-development/android-1.webp",
+            "alt": "Android 1",
+            "width": 512,
+            "height": 512
+          }
+        },
+        {
+          "title": "IOS APPS",
+          "text": "Our iOS mobile developers can develop great mobile apps for both iPhones & iPads. We also help you to deploy the mobile applications on iTunes.",
+          "icon": {
+            "localPath": "/images/bbtech/services/mobile-app-development/apple-icon-1.webp",
+            "alt": "Apple Icon 1",
+            "width": 444,
+            "height": 506
+          }
+        },
+        {
+          "title": "WEB SERVICES",
+          "text": "If you are looking a mobile application that should compliment your website, then we can help you. Our API/REST developers can build web services for you.",
+          "icon": {
+            "localPath": "/images/bbtech/services/mobile-app-development/webservice.webp",
+            "alt": "Webservice",
+            "width": 588,
+            "height": 481
+          }
+        }
+      ]
+    }
+  ]
+}
