@@ -20,6 +20,12 @@ function collectTextLeaves(node, out = new Set()) {
 		for (const [k, v] of Object.entries(node)) {
 			if (typeof v === "string" && TEXT_LEAF_KEYS.has(k) && v.trim().length > 1) {
 				out.add(v.trim());
+			} else if (Array.isArray(v) && (k === "ul" || k === "ol" || k === "items" || k === "list")) {
+				// Plain-string list items (checklists, ul/ol blocks, card bullet lists).
+				for (const it of v) {
+					if (typeof it === "string" && it.trim().length > 1) out.add(it.trim());
+					else collectTextLeaves(it, out);
+				}
 			} else {
 				collectTextLeaves(v, out);
 			}
