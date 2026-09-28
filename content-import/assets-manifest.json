@@ -1,0 +1,1161 @@
+[
+  {
+    "sourceUrls": [
+      "http://bbtech.ae/wp-content/uploads/2021/04/Construction-ERP-1.jpg",
+      "https://bbtech.ae/wp-content/uploads/2021/04/Construction-ERP-1.jpg"
+    ],
+    "resolvedOriginalUrl": "http://bbtech.ae/wp-content/uploads/2021/04/Construction-ERP-1.jpg",
+    "localPath": "/images/bbtech/shared/construction-erp-1.webp",
+    "width": 1200,
+    "height": 398,
+    "bytes": 380027,
+    "sha256": "be28cf5c893947a1c0913aa3e0e32168d682b2f1234bc762a61d5a1ab56765a0",
+    "alt": "Construction ERP 1",
+    "altSource": "generated",
+    "usedOn": [
+      "construction-management-system",
+      "erp"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/07/small-logo.gif"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/07/small-logo.gif",
+    "localPath": "/images/bbtech/shared/small-logo.webp",
+    "width": 38,
+    "height": 56,
+    "bytes": 3043,
+    "sha256": "b5d991b66ee9f53be11f7f6433d32887a44026b5809d07df46fef25348dd9c0e",
+    "alt": "Site favicon",
+    "altSource": "html",
+    "usedOn": [
+      "home",
+      "2020/08/05/new-corporate-logo-updated-branding",
+      "2020/08/05/update-of-the-branding",
+      "about-us",
+      "adhics-medical-inspection-consultancy",
+      "branding-rebranding",
+      "cloud-computing-services",
+      "construction-management-system",
+      "contact",
+      "erp",
+      "healthcare-and-medical-centre-software-services",
+      "it-outsourcing-2",
+      "it-outsourcing",
+      "network-solutions",
+      "odoo-development",
+      "privacy-policy",
+      "school-system-isms",
+      "services",
+      "services/erp",
+      "services/graphic-design",
+      "services/mobile-app-development",
+      "services/social-media-marketing",
+      "services/social-wifi",
+      "services/web-development",
+      "social-wifi",
+      "video-photography"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/14001-150x150.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/14001.png",
+    "localPath": "/images/bbtech/shared/14001.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 260448,
+    "sha256": "ecda5fb62c074610b7a666e8d61c9e061366e3be2c63e9ed67135f67c42d2d3a",
+    "alt": "ISO Certifications",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home",
+      "about-us"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/27001-150x150.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/27001.png",
+    "localPath": "/images/bbtech/shared/27001.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 259650,
+    "sha256": "a39c580747f5f1fb794ceea1b877b9ac6a5dc96bac07e3c71be30c1f391fe3e0",
+    "alt": "ISO Certifications",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home",
+      "about-us"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/45001-150x150.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/45001.png",
+    "localPath": "/images/bbtech/shared/45001.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 259198,
+    "sha256": "a1f2d345aea2f72641cedbd8163bae8ea507971ed280bf8aa046ea618d5275d5",
+    "alt": "ISO Certifications",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home",
+      "about-us"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/9001-150x150.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/9001.png",
+    "localPath": "/images/bbtech/shared/9001.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 257254,
+    "sha256": "5c1918c32d06ec12dd7b8431bfc337539cd5fc45d8ddaa0d5667173d7f4a2269",
+    "alt": "ISO Certifications",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home",
+      "about-us"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/branding-110x80.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/branding-1125x750.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/branding-1126x750.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/branding-1200x600.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/branding-220x160.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png",
+    "localPath": "/images/bbtech/shared/branding.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 39484,
+    "sha256": "465b02daf1ba8f0ed2222aad64c64b8ecf6a25ad26df7965a5f45573c7219fd8",
+    "alt": "bbtech",
+    "altSource": "wordpress",
+    "usedOn": [
+      "2020/08/05/update-of-the-branding",
+      "home",
+      "2020/08/05/new-corporate-logo-updated-branding",
+      "about-us",
+      "adhics-medical-inspection-consultancy",
+      "branding-rebranding",
+      "cloud-computing-services",
+      "construction-management-system",
+      "contact",
+      "erp",
+      "healthcare-and-medical-centre-software-services",
+      "it-outsourcing-2",
+      "it-outsourcing",
+      "network-solutions",
+      "odoo-development",
+      "privacy-policy",
+      "school-system-isms",
+      "services",
+      "services/erp",
+      "services/graphic-design",
+      "services/mobile-app-development",
+      "services/social-media-marketing",
+      "services/social-wifi",
+      "services/web-development",
+      "social-wifi",
+      "video-photography"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/cctv-200x200.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/cctv-400x400.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/cctv.png",
+    "localPath": "/images/bbtech/services/cctv.webp",
+    "width": 1024,
+    "height": 532,
+    "bytes": 75861,
+    "sha256": "d9fcf89367706eb9fe490ce3f73926628ec2d6e5d9b6139ab12fdd0833174dfb",
+    "alt": "Network Solutions",
+    "altSource": "wordpress",
+    "usedOn": [
+      "services"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/customer-support.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/customer-support.png",
+    "localPath": "/images/bbtech/home/customer-support.webp",
+    "width": 512,
+    "height": 512,
+    "bytes": 8122,
+    "sha256": "672facfe9d5510f6ae489e4f826335f30f56e734a62609836333c81a3a729012",
+    "alt": "Customer Support",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/iconfinder_experience_project_246629-1.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/iconfinder_experience_project_246629-1.png",
+    "localPath": "/images/bbtech/home/iconfinder-experience-project-246629-1.webp",
+    "width": 512,
+    "height": 512,
+    "bytes": 6577,
+    "sha256": "da19ef0df8a355cd91dae75c5594e3c7f7ae5685c8035da66cc3963e907e4a5f",
+    "alt": "Iconfinder Experience Project 1",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/logo-png.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/logo-png.png",
+    "localPath": "/images/bbtech/shared/logo-png.webp",
+    "width": 38,
+    "height": 56,
+    "bytes": 4300,
+    "sha256": "de2f0cf9b3fe2a9c22421fd651a5de32059810f54a6d41017c23ea2a86084c29",
+    "alt": "bbtech",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home",
+      "2020/08/05/new-corporate-logo-updated-branding",
+      "2020/08/05/update-of-the-branding",
+      "about-us",
+      "adhics-medical-inspection-consultancy",
+      "branding-rebranding",
+      "cloud-computing-services",
+      "construction-management-system",
+      "contact",
+      "erp",
+      "healthcare-and-medical-centre-software-services",
+      "it-outsourcing-2",
+      "it-outsourcing",
+      "network-solutions",
+      "odoo-development",
+      "privacy-policy",
+      "school-system-isms",
+      "services",
+      "services/erp",
+      "services/graphic-design",
+      "services/mobile-app-development",
+      "services/social-media-marketing",
+      "services/social-wifi",
+      "services/web-development",
+      "social-wifi",
+      "video-photography"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/new-web-110x80.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/new-web-1200x600.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/new-web-220x160.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/new-web-338x225.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/new-web-575x383.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/new-web.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/new-web.png",
+    "localPath": "/images/bbtech/2020/08/05/new-corporate-logo-updated-branding/new-web.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 549166,
+    "sha256": "149cfa500baea479c97740ab0ad6ab3d337c90852f2767f3f8bedc8860a42bc5",
+    "alt": "BB Tech",
+    "altSource": "wordpress",
+    "usedOn": [
+      "2020/08/05/new-corporate-logo-updated-branding",
+      "2020/08/05/update-of-the-branding",
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/olweb-1024x640.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/olweb-300x188.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/olweb-768x480.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/olweb.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/olweb.png",
+    "localPath": "/images/bbtech/2020/08/05/update-of-the-branding/olweb.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 409265,
+    "sha256": "344a7dfc8216a60753f0ded1215021f090f0feb0ce45b8474a5b4afb2fcafb2f",
+    "alt": "BB Tech",
+    "altSource": "html",
+    "usedOn": [
+      "2020/08/05/update-of-the-branding"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/outsource-1024x512.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/outsource-200x200.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/outsource-400x400.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/outsource.png",
+    "localPath": "/images/bbtech/it-outsourcing-2/outsource.webp",
+    "width": 1024,
+    "height": 532,
+    "bytes": 155959,
+    "sha256": "21d0a025e356f7878e58af3cd648ebabb331b78566275506ee471058873b2113",
+    "alt": "it outsourcing",
+    "altSource": "wordpress",
+    "usedOn": [
+      "it-outsourcing-2",
+      "services"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/social-200x200.png",
+      "https://bbtech.ae/wp-content/uploads/2020/08/social-400x400.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/social.png",
+    "localPath": "/images/bbtech/services/social.webp",
+    "width": 1024,
+    "height": 532,
+    "bytes": 63075,
+    "sha256": "a6c9e2979cae4d87f9c468d1159031c44d0a6878c2f3d176e0b1c03775a54b1d",
+    "alt": "Social Wifi",
+    "altSource": "wordpress",
+    "usedOn": [
+      "services"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/08/subject-matter.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/08/subject-matter.png",
+    "localPath": "/images/bbtech/home/subject-matter.webp",
+    "width": 512,
+    "height": 512,
+    "bytes": 6016,
+    "sha256": "b9fb3fb4c1799ab1c98c01d41e6b5a1122b6ef0cd0dc89ac5ef77ec1fdd0c775",
+    "alt": "Subject Matter",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/09/18907-scaled-1600x800.jpg",
+      "https://bbtech.ae/wp-content/uploads/2020/09/18907-scaled-2560x1280.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/09/18907-scaled.jpg",
+    "localPath": "/images/bbtech/it-outsourcing/18907-scaled.webp",
+    "width": 2400,
+    "height": 1807,
+    "bytes": 263599,
+    "sha256": "126426ff18d4abfdf25b03ad23534ed3cf3670d3448d92bb255a918047c91280",
+    "alt": "IT Outsourcing",
+    "altSource": "wordpress",
+    "usedOn": [
+      "it-outsourcing"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/09/2172250-1600x800.jpg",
+      "https://bbtech.ae/wp-content/uploads/2020/09/2172250-1995x997.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/09/2172250.jpg",
+    "localPath": "/images/bbtech/services/graphic-design/2172250.webp",
+    "width": 1995,
+    "height": 1857,
+    "bytes": 316288,
+    "sha256": "2bdc759f4fc8970f66d9a019f3e334b9265547a0fdee55f79865895ae12932d2",
+    "alt": "Illustration of a design team collaborating around a giant lightbulb with design tool icons",
+    "altSource": "generated",
+    "usedOn": [
+      "services/graphic-design"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/09/399-scaled-1600x800.jpg",
+      "https://bbtech.ae/wp-content/uploads/2020/09/399-scaled-2194x1097.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/09/399-scaled.jpg",
+    "localPath": "/images/bbtech/services/mobile-app-development/399-scaled.webp",
+    "width": 2400,
+    "height": 1028,
+    "bytes": 363591,
+    "sha256": "e5932904eed1bddd080d33f8e39a459b770120e36aebfc71d6410e0957616cfc",
+    "alt": "Mobile App Development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "services/mobile-app-development"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/09/94170-scaled-1600x800.jpg",
+      "https://bbtech.ae/wp-content/uploads/2020/09/94170-scaled-200x200.jpg",
+      "https://bbtech.ae/wp-content/uploads/2020/09/94170-scaled-2560x1280.jpg",
+      "https://bbtech.ae/wp-content/uploads/2020/09/94170-scaled-400x400.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/09/94170-scaled.jpg",
+    "localPath": "/images/bbtech/cloud-computing-services/94170-scaled.webp",
+    "width": 2400,
+    "height": 1600,
+    "bytes": 502574,
+    "sha256": "247e8e6b092228b781e5f73d5a01ed72ed72caab72d91d1dda0e6b39fd7e05f3",
+    "alt": "Cloud Computing Services",
+    "altSource": "wordpress",
+    "usedOn": [
+      "cloud-computing-services",
+      "services"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/09/android-1.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/09/android-1.png",
+    "localPath": "/images/bbtech/services/mobile-app-development/android-1.webp",
+    "width": 512,
+    "height": 512,
+    "bytes": 10409,
+    "sha256": "2ea014a1359be3190ded23a6eaa03ace6b97a13a6053da63dba0a0a07da83fbc",
+    "alt": "Android 1",
+    "altSource": "generated",
+    "usedOn": [
+      "services/mobile-app-development"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/09/apple-icon-1.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/09/apple-icon-1.png",
+    "localPath": "/images/bbtech/services/mobile-app-development/apple-icon-1.webp",
+    "width": 444,
+    "height": 506,
+    "bytes": 4636,
+    "sha256": "21ddb87d6494e93e356f4a17f80b3116dcba0d769e07c6d2aea9adcf832d68b0",
+    "alt": "Apple Icon 1",
+    "altSource": "generated",
+    "usedOn": [
+      "services/mobile-app-development"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/09/digitalmarketing-1600x1000.png",
+      "https://bbtech.ae/wp-content/uploads/2020/09/digitalmarketing-2081x1300.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/09/digitalmarketing.png",
+    "localPath": "/images/bbtech/services/social-media-marketing/digitalmarketing.webp",
+    "width": 2081,
+    "height": 1931,
+    "bytes": 237218,
+    "sha256": "c8fc7c1cadf5295ca62bc6dfa0fe059ad1d219b6bc1d9652741c7824b724c3d8",
+    "alt": "Social Media Marketing",
+    "altSource": "wordpress",
+    "usedOn": [
+      "services/social-media-marketing"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/09/payperclick.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/09/payperclick.jpg",
+    "localPath": "/images/bbtech/services/social-media-marketing/payperclick.webp",
+    "width": 999,
+    "height": 997,
+    "bytes": 66214,
+    "sha256": "0f8260669e40abc34da40a540eff1dede0c60a890a172038e66c27bd6bea611b",
+    "alt": "Social Media Marketing",
+    "altSource": "wordpress",
+    "usedOn": [
+      "services/social-media-marketing"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/09/SEO.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/09/SEO.jpg",
+    "localPath": "/images/bbtech/services/social-media-marketing/seo.webp",
+    "width": 1024,
+    "height": 964,
+    "bytes": 176411,
+    "sha256": "ece92148c4c9dc3e61396f2a267803b9f43eaea6df6faf2e6d2fe6d530840d21",
+    "alt": "Social Media Marketing",
+    "altSource": "wordpress",
+    "usedOn": [
+      "services/social-media-marketing"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/09/social-media-3070331_1280-1024x778-Copy.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/09/social-media-3070331_1280-1024x778-Copy.jpg",
+    "localPath": "/images/bbtech/shared/social-media-3070331-1280-1024x778-copy.webp",
+    "width": 1024,
+    "height": 964,
+    "bytes": 70602,
+    "sha256": "67d52451588475ac6204ab6f1e8aeac69105ea2b0a8730352297316f08f4b13e",
+    "alt": "Social Media Marketing",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home",
+      "services/social-media-marketing"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/09/webservice.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/09/webservice.png",
+    "localPath": "/images/bbtech/services/mobile-app-development/webservice.webp",
+    "width": 588,
+    "height": 481,
+    "bytes": 41549,
+    "sha256": "1296c92221b60b7a033c1da6bb4ace891571df25b169bff82efa0de2fe348434",
+    "alt": "Webservice",
+    "altSource": "generated",
+    "usedOn": [
+      "services/mobile-app-development"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2020/09/websitedevelopment-1024x877.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2020/09/websitedevelopment.jpg",
+    "localPath": "/images/bbtech/services/social-media-marketing/websitedevelopment.webp",
+    "width": 1973,
+    "height": 1689,
+    "bytes": 424656,
+    "sha256": "d13822f77667b73fcca22499bd921136704595fcb3eb337ba148106b208f3e7a",
+    "alt": "Websitedevelopment",
+    "altSource": "generated",
+    "usedOn": [
+      "services/social-media-marketing"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2021/04/Constrcution-BBTECH.gif"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2021/04/Constrcution-BBTECH.gif",
+    "localPath": "/images/bbtech/construction-management-system/constrcution-bbtech.webp",
+    "width": 400,
+    "height": 600,
+    "bytes": 53703,
+    "sha256": "081d74ac143f4fec1d680af92d87f85011035984491404bcddb0ae9ca3ba4a65",
+    "alt": "Construction Management System",
+    "altSource": "wordpress",
+    "usedOn": [
+      "construction-management-system"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Admin-control-panel.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Admin-control-panel.png",
+    "localPath": "/images/bbtech/home/admin-control-panel.webp",
+    "width": 283,
+    "height": 284,
+    "bytes": 4826,
+    "sha256": "47829c89cb1b2d0ae5ab5f8e8e2fbe661b41c28ac835d4543a7d8830a93cda9c",
+    "alt": "Admin Control Panel",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Api-interface.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Api-interface.png",
+    "localPath": "/images/bbtech/home/api-interface.webp",
+    "width": 313,
+    "height": 247,
+    "bytes": 2844,
+    "sha256": "2cf42e16113c2eb97acaee7bf9996b9ee988ff9bb2ea6235be33009d9e9d40e1",
+    "alt": "API Interface",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/auto-mate-Business-300x255.png",
+      "https://bbtech.ae/wp-content/uploads/2022/05/auto-mate-Business-598x299.png",
+      "https://bbtech.ae/wp-content/uploads/2022/05/auto-mate-Business.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/auto-mate-Business.png",
+    "localPath": "/images/bbtech/home/auto-mate-business.webp",
+    "width": 598,
+    "height": 508,
+    "bytes": 208189,
+    "sha256": "9d897c82b2894ee4c243d6dfb4054b151cf2063570e1d70c878de9752d79f90c",
+    "alt": "web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home",
+      "network-solutions"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/BBTECH-Construction.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/BBTECH-Construction.png",
+    "localPath": "/images/bbtech/home/bbtech-construction.webp",
+    "width": 400,
+    "height": 305,
+    "bytes": 65282,
+    "sha256": "5581cd798ef1217347fca79e89b58d0ead1256bd46a223bd1087226c799dc8d8",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/bbtech-consultancy.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/bbtech-consultancy.png",
+    "localPath": "/images/bbtech/home/bbtech-consultancy.webp",
+    "width": 400,
+    "height": 305,
+    "bytes": 45474,
+    "sha256": "2d473c26899b57dae9a8ccaffa13c1402496358293ac8695a7c4ac81a0956557",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/bbtech-education-erp.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/bbtech-education-erp.png",
+    "localPath": "/images/bbtech/home/bbtech-education-erp.webp",
+    "width": 400,
+    "height": 305,
+    "bytes": 81150,
+    "sha256": "eeaa6d2b72b1a12ac5605d47e9dddcc72908fa3c63d84b3c0029fcf2cce8555e",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/bbtech-workshop-erp.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/bbtech-workshop-erp.png",
+    "localPath": "/images/bbtech/home/bbtech-workshop-erp.webp",
+    "width": 400,
+    "height": 305,
+    "bytes": 106952,
+    "sha256": "fffa881f2d50129632b07d271bb262dca1f63eb7abc2cb647df0b986a1be2082",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/binary-bridge-factory-erp.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/binary-bridge-factory-erp.png",
+    "localPath": "/images/bbtech/home/binary-bridge-factory-erp.webp",
+    "width": 400,
+    "height": 305,
+    "bytes": 57164,
+    "sha256": "8b6b403833e91f65d9f2f9b6c8550f06f76ff8c16eaa16fc591854fd0071111f",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/binary-bridge-Food-erp.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/binary-bridge-Food-erp.png",
+    "localPath": "/images/bbtech/home/binary-bridge-food-erp.webp",
+    "width": 400,
+    "height": 305,
+    "bytes": 129623,
+    "sha256": "e379d6a2ad68ae3b974ce11ac8eac7a3380fa3f425085c866c5db63014895a32",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Binary-Bridge-Technology-ervice-Retail-ERP-200x200.png",
+      "https://bbtech.ae/wp-content/uploads/2022/05/Binary-Bridge-Technology-ervice-Retail-ERP-305x305.png",
+      "https://bbtech.ae/wp-content/uploads/2022/05/Binary-Bridge-Technology-ervice-Retail-ERP.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Binary-Bridge-Technology-ervice-Retail-ERP.png",
+    "localPath": "/images/bbtech/services/binary-bridge-technology-ervice-retail-erp.webp",
+    "width": 400,
+    "height": 305,
+    "bytes": 106175,
+    "sha256": "903a4481cb897b93c997489811bda1434fe30f661bf7f431d9a98ae3d8b9e932",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "services",
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/binary-bridge-technology-service-Social-Media-300x266.png",
+      "https://bbtech.ae/wp-content/uploads/2022/05/binary-bridge-technology-service-Social-Media.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/binary-bridge-technology-service-Social-Media.png",
+    "localPath": "/images/bbtech/home/binary-bridge-technology-service-social-media.webp",
+    "width": 528,
+    "height": 469,
+    "bytes": 124712,
+    "sha256": "d7acb8dd5757a72e95082f2f3bf52cce09e716dcbe416c9830326be54e623b9f",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Binary-Bridge-Technology-services-300x292.png",
+      "https://bbtech.ae/wp-content/uploads/2022/05/Binary-Bridge-Technology-services.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Binary-Bridge-Technology-services.png",
+    "localPath": "/images/bbtech/shared/binary-bridge-technology-services.webp",
+    "width": 598,
+    "height": 582,
+    "bytes": 347155,
+    "sha256": "4fe84b91a7c32246f98e77517cd0401751d7685809b3668365d90fad03011739",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/binary-bridge-technology-services-bbtech-trasposrtation-erp.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/binary-bridge-technology-services-bbtech-trasposrtation-erp.png",
+    "localPath": "/images/bbtech/shared/binary-bridge-technology-services-bbtech-trasposrtation-erp.webp",
+    "width": 400,
+    "height": 305,
+    "bytes": 81810,
+    "sha256": "ab70ee27d7a162672bf4efd05cb8fe9929aa660b756bc7cc1f720783f5a9a405",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Binary-Brisge-Technology-ervices-bbtech-health-care.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Binary-Brisge-Technology-ervices-bbtech-health-care.png",
+    "localPath": "/images/bbtech/home/binary-brisge-technology-ervices-bbtech-health-care.webp",
+    "width": 400,
+    "height": 305,
+    "bytes": 61204,
+    "sha256": "09196cd6f3e579edc14ce7cd38d88da09771d91ef1c0c11effbaed07790678a8",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Cloud-computing.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Cloud-computing.png",
+    "localPath": "/images/bbtech/home/cloud-computing.webp",
+    "width": 325,
+    "height": 313,
+    "bytes": 12008,
+    "sha256": "efb6af193fa60ce0c075b904e3a931668750ad972f7916cb9d11ea3c7b46c65f",
+    "alt": "Cloud Computing",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Curstomers-reviews.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Curstomers-reviews.png",
+    "localPath": "/images/bbtech/home/curstomers-reviews.webp",
+    "width": 326,
+    "height": 261,
+    "bytes": 7615,
+    "sha256": "88d5051ce37306870561af23a5d899dafdc5446ff69c0d15872ad334fd70baec",
+    "alt": "Curstomers Reviews",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Fitness-app.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Fitness-app.png",
+    "localPath": "/images/bbtech/home/fitness-app.webp",
+    "width": 199,
+    "height": 326,
+    "bytes": 5524,
+    "sha256": "a2f28754e647cfbdb1b89b8c2e6ebe8639a51f1d3392fadfab031e394e237d3e",
+    "alt": "Fitness App",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Manager.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Manager.png",
+    "localPath": "/images/bbtech/home/manager.webp",
+    "width": 258,
+    "height": 327,
+    "bytes": 9899,
+    "sha256": "c2569ad75d17daa715e1deff2f6e2af646164a7cbebc88c9b995a970906de7ad",
+    "alt": "Manager",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Project-development.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Project-development.png",
+    "localPath": "/images/bbtech/home/project-development.webp",
+    "width": 319,
+    "height": 301,
+    "bytes": 12717,
+    "sha256": "0b804b153ded2d26efaee06831334fb528fc565e4e9eccd0a111320330f2130b",
+    "alt": "Project Development",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Responsive-design.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Responsive-design.png",
+    "localPath": "/images/bbtech/home/responsive-design.webp",
+    "width": 324,
+    "height": 236,
+    "bytes": 3739,
+    "sha256": "8a9a347345c6fdf03c509364626753890c5ed46aa583a329ce2e626abbcc49bd",
+    "alt": "Responsive Design",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Social-media-promotion.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Social-media-promotion.png",
+    "localPath": "/images/bbtech/home/social-media-promotion.webp",
+    "width": 318,
+    "height": 306,
+    "bytes": 7831,
+    "sha256": "3cfa68cabd9993619c2c27cc9a27c2a239916c26b6dc505c723c185eb9a1fee0",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Solution.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Solution.png",
+    "localPath": "/images/bbtech/home/solution.webp",
+    "width": 316,
+    "height": 267,
+    "bytes": 14421,
+    "sha256": "ff9f364628e71cbc9b29b589931ad0a63a49b03fb2369a5c7ac123cda25f8dd9",
+    "alt": "Solution",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Storytelling.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Storytelling.png",
+    "localPath": "/images/bbtech/home/storytelling.webp",
+    "width": 235,
+    "height": 311,
+    "bytes": 4868,
+    "sha256": "ad47e63d05cd86f5c63d7313baa1182b7a68573de20ae9dda3458f486abe24c5",
+    "alt": "Storytelling",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Targeting.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Targeting.png",
+    "localPath": "/images/bbtech/home/targeting.webp",
+    "width": 302,
+    "height": 302,
+    "bytes": 16760,
+    "sha256": "6b6b83163eecbea1eda677d54589f6f17b507a67cd6a004b79c32c11ae313be2",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Ui-ux-design.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Ui-ux-design.png",
+    "localPath": "/images/bbtech/home/ui-ux-design.webp",
+    "width": 188,
+    "height": 307,
+    "bytes": 4630,
+    "sha256": "9225779a78cbc9b6cc9ae0f48b6824b58ad0534abf25b3267a22f4854373297e",
+    "alt": "UI UX Design",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/User-interaction.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/User-interaction.png",
+    "localPath": "/images/bbtech/home/user-interaction.webp",
+    "width": 275,
+    "height": 318,
+    "bytes": 9267,
+    "sha256": "6d0e11cd0303e62aaddce6c615fce849489dce627d5ebcdc9130f94f3559cb31",
+    "alt": "User Interaction",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/wearable-device-app-Integration-233x300.png",
+      "https://bbtech.ae/wp-content/uploads/2022/05/wearable-device-app-Integration.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/wearable-device-app-Integration.png",
+    "localPath": "/images/bbtech/home/wearable-device-app-integration.webp",
+    "width": 388,
+    "height": 500,
+    "bytes": 36748,
+    "sha256": "dce3accd2bdfc400ad082d54b59b14f69e3cc9aef7f682b20eed5b2074049e14",
+    "alt": "Web design and development",
+    "altSource": "wordpress",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2022/05/Web-analysis.png"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2022/05/Web-analysis.png",
+    "localPath": "/images/bbtech/home/web-analysis.webp",
+    "width": 339,
+    "height": 317,
+    "bytes": 5228,
+    "sha256": "c3d71a27c8c15166c90ead6b9c915232924fbadaf9f0d4b7870dc90333445ad6",
+    "alt": "Web Analysis",
+    "altSource": "generated",
+    "usedOn": [
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2024/09/10_Basic_Aspects_of_Outstanding_Property_Management-1-850x425.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2024/09/10_Basic_Aspects_of_Outstanding_Property_Management-1.jpg",
+    "localPath": "/images/bbtech/adhics-medical-inspection-consultancy/10-basic-aspects-of-outstanding-property-management-1.webp",
+    "width": 850,
+    "height": 480,
+    "bytes": 96570,
+    "sha256": "c4529cee8addb041d24dfd4ab8f283138b8d032f38a15e4dd2bb5b8f8c6a4094",
+    "alt": "10 Basic Aspects Of Outstanding Property Management 1",
+    "altSource": "generated",
+    "usedOn": [
+      "adhics-medical-inspection-consultancy"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2024/12/branding-concept-keywords-icons-600nw-197106008-200x200.webp",
+      "https://bbtech.ae/wp-content/uploads/2024/12/branding-concept-keywords-icons-600nw-197106008-400x400.webp",
+      "https://bbtech.ae/wp-content/uploads/2024/12/branding-concept-keywords-icons-600nw-197106008-600x300.webp"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2024/12/branding-concept-keywords-icons-600nw-197106008.webp",
+    "localPath": "/images/bbtech/shared/branding-concept-keywords-icons-600nw-197106008.webp",
+    "width": 600,
+    "height": 463,
+    "bytes": 61956,
+    "sha256": "5da0742420b21d1b33d7614a58942321d82789fc7ff13d66c07add2c904fcd57",
+    "alt": "Branding Concept Keywords Icons 600nw",
+    "altSource": "generated",
+    "usedOn": [
+      "services",
+      "branding-rebranding"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2024/12/depositphotos_12286955-stock-photo-technology-in-the-hands-200x200.webp",
+      "https://bbtech.ae/wp-content/uploads/2024/12/depositphotos_12286955-stock-photo-technology-in-the-hands-400x400.webp",
+      "https://bbtech.ae/wp-content/uploads/2024/12/depositphotos_12286955-stock-photo-technology-in-the-hands-600x300.webp",
+      "https://bbtech.ae/wp-content/uploads/2024/12/depositphotos_12286955-stock-photo-technology-in-the-hands.webp"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2024/12/depositphotos_12286955-stock-photo-technology-in-the-hands.webp",
+    "localPath": "/images/bbtech/services/depositphotos-12286955-stock-photo-technology-in-the-hands.webp",
+    "width": 600,
+    "height": 416,
+    "bytes": 33836,
+    "sha256": "21ce6bfcfe9ee4955fb9ae138e15d8ddbb992e0514c08cb90ce59f7afa8d7135",
+    "alt": "Technology In The Hands",
+    "altSource": "generated",
+    "usedOn": [
+      "services",
+      "services/web-development",
+      "home"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2024/12/ee649a989e3ceecbd4d46f9aeefd7d94-200x200.jpg",
+      "https://bbtech.ae/wp-content/uploads/2024/12/ee649a989e3ceecbd4d46f9aeefd7d94-400x400.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2024/12/ee649a989e3ceecbd4d46f9aeefd7d94.jpg",
+    "localPath": "/images/bbtech/services/ee649a989e3ceecbd4d46f9aeefd7d94.webp",
+    "width": 512,
+    "height": 512,
+    "bytes": 35120,
+    "sha256": "3d91b970ae3914961dd1961585a571d00be79c24314bbb9918cd57bb8655e46d",
+    "alt": "Doctor with a microscope icon",
+    "altSource": "generated",
+    "usedOn": [
+      "services"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2024/12/Fotolia_194190212_Subscription_Monthly_M-1024x512-1-200x200.jpg",
+      "https://bbtech.ae/wp-content/uploads/2024/12/Fotolia_194190212_Subscription_Monthly_M-1024x512-1-400x400.jpg",
+      "https://bbtech.ae/wp-content/uploads/2024/12/Fotolia_194190212_Subscription_Monthly_M-1024x512-1.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2024/12/Fotolia_194190212_Subscription_Monthly_M-1024x512-1.jpg",
+    "localPath": "/images/bbtech/services/fotolia-194190212-subscription-monthly-m-1024x512-1.webp",
+    "width": 1024,
+    "height": 512,
+    "bytes": 88732,
+    "sha256": "668872f3ce57fa319ffe404d0785d5419e1bbe8f305c75e6f75baae43b9f4016",
+    "alt": "Healthcare technology collage showing digital health records, telemedicine devices, and medical staff",
+    "altSource": "generated",
+    "usedOn": [
+      "services",
+      "healthcare-and-medical-centre-software-services"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2024/12/istockphoto-1353929637-612x612-1-200x200.jpg",
+      "https://bbtech.ae/wp-content/uploads/2024/12/istockphoto-1353929637-612x612-1-400x400.jpg",
+      "https://bbtech.ae/wp-content/uploads/2024/12/istockphoto-1353929637-612x612-1-612x306.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2024/12/istockphoto-1353929637-612x612-1.jpg",
+    "localPath": "/images/bbtech/services/istockphoto-1353929637-612x612-1.webp",
+    "width": 612,
+    "height": 408,
+    "bytes": 38748,
+    "sha256": "8267c0517e0e343faf25c8c4512219b9caa18d6ab098cbe1633684d96a713b5c",
+    "alt": "Film clapperboard held in front of a video camera on a production set",
+    "altSource": "generated",
+    "usedOn": [
+      "services",
+      "video-photography"
+    ]
+  },
+  {
+    "sourceUrls": [
+      "https://bbtech.ae/wp-content/uploads/2024/12/istockphoto-1648044864-612x612-1-200x200.jpg",
+      "https://bbtech.ae/wp-content/uploads/2024/12/istockphoto-1648044864-612x612-1-383x383.jpg"
+    ],
+    "resolvedOriginalUrl": "https://bbtech.ae/wp-content/uploads/2024/12/istockphoto-1648044864-612x612-1.jpg",
+    "localPath": "/images/bbtech/services/istockphoto-1648044864-612x612-1.webp",
+    "width": 612,
+    "height": 383,
+    "bytes": 30432,
+    "sha256": "d55585cdd6a058cbefddc8c07e540bedc2eb3343b6678a8fa635046f8edde600",
+    "alt": "Hands typing on a laptop with digital marketing icons overlaid",
+    "altSource": "generated",
+    "usedOn": [
+      "services"
+    ]
+  }
+]
