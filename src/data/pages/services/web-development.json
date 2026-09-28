@@ -1,0 +1,94 @@
+{
+  "slug": "services/web-development",
+  "path": "/services/web-development/",
+  "source": "https://bbtech.ae/services/web-development/",
+  "metadata": {
+    "title": "Web Development in UAE - BB Tech",
+    "description": "Our Web Development team of highly-skilled web portal developers understand every business is different and can build a bespoke solution",
+    "canonical": "https://bbtech.ae/services/web-development/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "Web Development"
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "heading": "Web Applications and Web Development",
+      "blocks": [
+        {
+          "p": [
+            "Do you want to provide your customers with more options and enhanced functionality?"
+          ]
+        },
+        {
+          "ul": [
+            "Do you want to be able to interact with your customers and gain insight?",
+            "Do you want to integrate your ordering & billing systems into your ecommerce solution?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "blocks": [
+        {
+          "p": [
+            "Our Web Development team of highly-skilled web portal developers understand every business is different and can build a bespoke solution tailored for your requirements."
+          ]
+        },
+        {
+          "p": [
+            "As a one-stop portal development provider, our expertise allows us to build portal solutions that combine information access and content distribution with collaboration and workflow management."
+          ]
+        },
+        {
+          "p": [
+            "We can enhance your web presence with bespoke portal development to meet any unique business requirement without compromising the integrity of the core solution."
+          ]
+        },
+        {
+          "p": [
+            "Our B2 portals are a single access point for customers to access information resources, data, content and applications in one place."
+          ]
+        },
+        {
+          "p": [
+            "We can make whatever information you want made available for users depending on your business objectives and user roles."
+          ]
+        }
+      ],
+      "image": {
+        "localPath": "/images/bbtech/services/depositphotos-12286955-stock-photo-technology-in-the-hands.webp",
+        "alt": "Technology In The Hands",
+        "width": 600,
+        "height": 416
+      }
+    },
+    {
+      "type": "cardGrid",
+      "items": [
+        {
+          "title": "DOMINATE ALL DEVICES",
+          "text": "At BBTECH we build every web application to perform across all devices.",
+          "icon": "Defaults-trophy"
+        },
+        {
+          "title": "CUSTOM DESIGN",
+          "text": "We take each client through a creative process to build a web application.",
+          "icon": "Defaults-group"
+        },
+        {
+          "title": "MANAGE YOUR CONTENT WITH CMS",
+          "text": "We integrate and build easy-to-use content management systems.",
+          "icon": "Defaults-clipboard"
+        },
+        {
+          "title": "MOBILE APPS",
+          "text": "Our custom development services offer unlimited flexibility, integrations and scaling your business with mobile apps.",
+          "icon": "Defaults-cogs"
+        }
+      ]
+    }
+  ]
+}
