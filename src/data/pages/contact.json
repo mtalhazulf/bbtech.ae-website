@@ -1,0 +1,122 @@
+{
+  "slug": "contact",
+  "path": "/contact/",
+  "source": "https://bbtech.ae/contact/",
+  "metadata": {
+    "title": "Contact - BB Tech",
+    "description": null,
+    "canonical": "https://bbtech.ae/contact/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "Contact"
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "blocks": [
+        { "h": 2, "text": "Phone number" },
+        { "p": ["(+971) 3 755 5069\n(+971) 56 128 6321"] },
+        {
+          "p": [
+            "For Tech &Support, ",
+            { "text": "check here", "href": "/" }
+          ]
+        },
+        { "h": 2, "text": "Email" },
+        {
+          "p": [
+            { "text": "info@bbtech.ae", "href": "mailto:info@bbtech.ae" }
+          ]
+        },
+        {
+          "p": [
+            { "text": "muhammad@bbtech.ae", "href": "mailto:muhammad@bbtech.ae" },
+            "\n",
+            { "text": "director@bbtech.ae", "href": "mailto:Director@bbtech.ae" }
+          ]
+        },
+        { "h": 2, "text": "Address" },
+        { "p": ["UAE:"] },
+        { "p": ["AL HILI INDUSTRIAL AREA.\nAL AIN . UAE P.O # 202135"] },
+        { "p": ["Pakistan:"] },
+        { "p": ["Khiyaban-e-Faiz, H-13, street no#3,"] },
+        { "p": ["Ali block, Near Bread and Cake Bakery,"] },
+        { "p": ["Islamabad, Pakistan"] },
+        { "h": 2, "text": "Business hours" },
+        { "p": ["Sun – Wed : 8 am to 5 pm\nThu : 8 am to 3 pm"] }
+      ]
+    },
+    {
+      "type": "form",
+      "id": "contact-default",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name *",
+          "type": "text",
+          "placeholder": "Name *",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "E-mail *",
+          "type": "email",
+          "placeholder": "E-mail *",
+          "required": true
+        },
+        {
+          "name": "telephone",
+          "label": "Telephone",
+          "type": "tel",
+          "placeholder": "Telephone",
+          "required": false
+        },
+        {
+          "name": "message",
+          "label": "Message *",
+          "type": "textarea",
+          "placeholder": "Message *",
+          "required": true
+        }
+      ],
+      "consent": "By using this form you agree with the storage and handling of your data by this website.",
+      "submitText": "Send message"
+    },
+    {
+      "type": "richText",
+      "heading": "Sister Company — Vision Plus",
+      "blocks": [
+        {
+          "p": [
+            { "text": "Address:", "bold": true },
+            " 574, Block G1 Phase 2, Johar Town, Lahore"
+          ]
+        },
+        {
+          "p": [
+            { "text": "Phone:", "bold": true },
+            " +92 300 4320015 / +92 321 8099577"
+          ]
+        },
+        {
+          "p": [
+            { "text": "Email:", "bold": true },
+            " ",
+            { "text": "info@visionplus.com.pk", "href": "mailto:info@visionplus.com.pk" }
+          ]
+        },
+        {
+          "p": [
+            {
+              "text": "Visit Website",
+              "href": "https://www.visionplus.com.pk/",
+              "rel": "noopener",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
