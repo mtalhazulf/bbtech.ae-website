@@ -1,0 +1,106 @@
+{
+  "slug": "erp",
+  "path": "/erp/",
+  "source": "https://bbtech.ae/erp/",
+  "metadata": {
+    "title": "ERP - Enterprise resource planning - BB Tech",
+    "description": "ERP (Enterprise resource planning) is a term used to describe a type of software package used in large, complex organizations. ERP combines",
+    "canonical": "https://bbtech.ae/erp/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "ERP"
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "heading": "Why Enterprise resource planning (ERP)",
+      "blocks": [
+        {
+          "p": [
+            "ERP (Enterprise resource planning) is a term used to describe a type of software package used in large, complex organizations. ERP combines functions such as accounting, payroll and human resources with operational systems that track customers, orders and manufacturing tasks."
+          ]
+        },
+        {
+          "p": [
+            "Every department of an enterprise are related with each other. The performance of one department will influence the remaining. ",
+            { "text": "ERP", "bold": true },
+            " is used to coordinate the performance of each department. Earlier, the situation was that for every department had separate application that structured only for a particular task, which is not interconnected with each other. As a result, that made difficult for other departments to access the required data. These problems is solved by the ",
+            { "text": "Enterprise resource planning", "italic": true },
+            " (",
+            { "text": "ERP", "italic": true },
+            "). It is considered as one of the main advantages of ERP which makes it distinct. It maintains vehicles tracking, CRM, Quotations, Sales, HR, Purchase, Accounts, payroll, trip scheduling, Expenses, projects, costing, assets management , document control at a single place."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "heading": "TOP Reasons to have Construction ERP",
+      "items": [
+        "One Source of Information",
+        "Reduced Overhead Cost",
+        "Complete Project Perspectives",
+        "Minimized Risk",
+        "Unlimited Users",
+        "Customized Work Flow"
+      ]
+    },
+    {
+      "type": "checklist",
+      "heading": "Construction ERP is a cloud based web system with the following key features",
+      "items": [
+        "Project Job Costing (Contracting) and Job Cost Sheet",
+        "Actual Cost on Job Cost Sheet",
+        "Dashboard",
+        "Project Team",
+        "Progress Billing to Customer",
+        "Customer Invoice from Job Cost Sheet",
+        "Estimation for Jobs – Material / Labour / Overheads",
+        "Sales Estimate Create from Job Cost Sheet",
+        "Website Job/Work Order Form and Portal",
+        "Qty Volume Trends Report for Job Cost Sheet",
+        "Job Costing / Contracting Costing Report",
+        "Material Purchase Requisition and Cost Sheet Integration",
+        "Change Order in Job Contracting and Construction",
+        "Budget for Job Contracting and Construction Projects.",
+        "Budget for Job Contracting and Construction Projects",
+        "Equipment and Maintenance Request for Job Work Orders",
+        "Instruction and Quality Checklist on Job Order",
+        "Job Order with Expense Employee",
+        "Subcontracting in Job Order / Construction / Contracting Industry",
+        "Request for Information",
+        "Job Inspection",
+        "Project by Phases",
+        "Meeting Minutes for Construction and Contracting Projects",
+        "Issue Tracking System for Construction and Contracting",
+        "Job Drawing Construction and Contracting Business",
+        "Drawing Image/Photo for Job and Work Orders",
+        "Document Management for Job Contracting and Construction",
+        "Transmittals / Submittals Documents",
+        "Construction and Contracting with Equipment & Maintenance",
+        "Job Cost Sheet Integration with Material Planning of Job Order",
+        "Work Package for Construction and Contracting",
+        "Repair App for Construction and Contracting",
+        "Waste Management for Construction and Contracting",
+        "P&L for Job Costing (Profit and Loss Report)",
+        "Material Consumption on Job Order / Work Order",
+        "Scan & Capture Photo for Job / Task / Issue",
+        "Material Planning Integration with Material Requisition",
+        "Risk Management for Construction and Contracting Projects",
+        "Import Job Cost Sheet from Excel"
+      ]
+    },
+    {
+      "type": "hero",
+      "title": "ONE STOP SOLUTION FOR UNLIMITED EMPLOYEES",
+      "subtitle": "Each User with their roles and responsibilities",
+      "image": {
+        "localPath": "/images/bbtech/shared/construction-erp-1.webp",
+        "alt": "Construction ERP 1",
+        "width": 1200,
+        "height": 398
+      }
+    }
+  ]
+}
