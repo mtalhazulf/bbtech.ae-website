@@ -1,0 +1,142 @@
+{
+  "slug": "services",
+  "path": "/services/",
+  "source": "https://bbtech.ae/services/",
+  "metadata": {
+    "title": "Services - BB Tech",
+    "description": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to your business is to have all of your IT",
+    "canonical": "https://bbtech.ae/services/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "Services"
+  },
+  "sections": [
+    {
+      "type": "cardGrid",
+      "items": [
+        {
+          "title": "Web Development",
+          "text": "B² Provides Web and Mobile Application (for iOS and Android) development service. Our dedicated CMS team build content mandated websites that match your business needs. An impressive online presence is a necessity for any business.",
+          "image": {
+            "localPath": "/images/bbtech/services/depositphotos-12286955-stock-photo-technology-in-the-hands.webp",
+            "alt": "Technology In The Hands",
+            "width": 600,
+            "height": 416
+          },
+          "href": "/services/web-development/"
+        },
+        {
+          "title": "Graphic Design",
+          "text": "B² Provides Graphic Designing for small and large companies.",
+          "image": {
+            "localPath": "/images/bbtech/services/binary-bridge-technology-ervice-retail-erp.webp",
+            "alt": "Web design and development",
+            "width": 400,
+            "height": 305
+          },
+          "href": "/services/graphic-design/"
+        },
+        {
+          "title": "Video & Photography",
+          "text": "B² Provides Video & Photography. Be it location-specific shoots, product and service photography.",
+          "image": {
+            "localPath": "/images/bbtech/services/istockphoto-1353929637-612x612-1.webp",
+            "alt": "Film clapperboard held in front of a video camera on a production set",
+            "width": 612,
+            "height": 408
+          },
+          "href": "/video-photography/"
+        },
+        {
+          "title": "Branding & Rebranding",
+          "text": "Your brand is more than just a logo; it’s the story, personality, and promise you share with your audience. At Binary Bridge Technology Services, we specialize in creating and transforming brands that leave a lasting impact. Whether you’re starting from scratch or looking to refresh your existing brand, we’re here to guide you every step of the way.",
+          "image": {
+            "localPath": "/images/bbtech/shared/branding-concept-keywords-icons-600nw-197106008.webp",
+            "alt": "Branding Concept Keywords Icons 600nw",
+            "width": 600,
+            "height": 463
+          },
+          "href": "/branding-rebranding/"
+        },
+        {
+          "title": "Digital Marketing",
+          "text": "B² bring forth an entourage of Digital Marketing Services, which includes, online marketing, search engine optimization, pay per click, social media optimization, consulting, email marketing and more. We help your business reach its true potential in the form of lead generation, enhanced ROI and a capacity to explore a more customer-oriented approach.",
+          "image": {
+            "localPath": "/images/bbtech/services/istockphoto-1648044864-612x612-1.webp",
+            "alt": "Hands typing on a laptop with digital marketing icons overlaid",
+            "width": 612,
+            "height": 383
+          },
+          "href": "/services/social-media-marketing/"
+        },
+        {
+          "title": "Social Wifi",
+          "text": "Social Wifi is a revolutionary way to turn your wifi into a powerful data collection marketing tool.\nTrack your busiest times.\nTailor your events on the language.\nDifferent ages, different needs.",
+          "image": {
+            "localPath": "/images/bbtech/services/social.webp",
+            "alt": "Social Wifi",
+            "width": 1024,
+            "height": 532
+          },
+          "href": "/social-wifi/"
+        },
+        {
+          "title": "Network Solutions",
+          "text": "B² offers unbeatable IT, Network & Security solutions across the nationwide, delivering flexible, fast and efficient systems suited to your business. Being partner with major vendors providing IT Network Solutions and having certified team B² can help your business to function under secure and reliable IT infrastructure.",
+          "image": {
+            "localPath": "/images/bbtech/services/cctv.webp",
+            "alt": "Network Solutions",
+            "width": 1024,
+            "height": 532
+          },
+          "href": "/network-solutions/"
+        },
+        {
+          "title": "IT Outsourcing",
+          "text": "B² IT outsourcing services allow business executives to retain control over IT strategies while benefiting from reduced operating costs and risks without compromising service delivery to end users and their clients. With B² managed service model, we assume responsibility for operations delivery, drawing on IT governance best practices.",
+          "image": {
+            "localPath": "/images/bbtech/it-outsourcing-2/outsource.webp",
+            "alt": "it outsourcing",
+            "width": 1024,
+            "height": 532
+          },
+          "href": "/it-outsourcing-2/"
+        },
+        {
+          "title": "Cloud Computing Services",
+          "text": "B² have the right infrastructure and knowledge to help you transition to the cloud — the private, public, or hybrid cloud environment that’s best suited for your business needs and goals. B² maintains the highest level of certification for architecting, migrating, and deploying SaaS, PaaS, IaaS and STaaS applications to move your business to the cloud.",
+          "image": {
+            "localPath": "/images/bbtech/cloud-computing-services/94170-scaled.webp",
+            "alt": "Cloud Computing Services",
+            "width": 2400,
+            "height": 1600
+          },
+          "href": "/cloud-computing-services/"
+        },
+        {
+          "title": "ADHICS Medical Inspection & Consultancy",
+          "text": "Healthcare organizations face strict regulations to ensure the safety, security, and quality of patient care. At Binary Bridge Technology Services, we specialize in ADHICS (Abu Dhabi Health Information and Cyber Security Standard) medical inspection and consultancy, providing expert guidance to help you achieve and maintain compliance with these critical standards.",
+          "image": {
+            "localPath": "/images/bbtech/services/ee649a989e3ceecbd4d46f9aeefd7d94.webp",
+            "alt": "Doctor with a microscope icon",
+            "width": 512,
+            "height": 512
+          },
+          "href": "/adhics-medical-inspection-consultancy/"
+        },
+        {
+          "title": "Healthcare and Medical Centre Software Services",
+          "text": "In the fast-evolving world of healthcare, efficient and reliable software solutions are critical for delivering exceptional patient care. At Binary Bridge Technology Services, we provide cutting-edge software services tailored to the unique needs of healthcare facilities and medical centres, streamlining operations and enhancing the quality of care.",
+          "image": {
+            "localPath": "/images/bbtech/services/fotolia-194190212-subscription-monthly-m-1024x512-1.webp",
+            "alt": "Healthcare technology collage showing digital health records, telemedicine devices, and medical staff",
+            "width": 1024,
+            "height": 512
+          },
+          "href": "/healthcare-and-medical-centre-software-services/"
+        }
+      ]
+    }
+  ]
+}
