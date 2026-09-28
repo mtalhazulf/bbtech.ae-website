@@ -57,16 +57,25 @@ these images until real replacements are supplied.
 
 | URL | Used on | Likely role |
 |---|---|---|
-| `wp-content/uploads/2018/12/t-img047.jpg` | `/`, `/about-us/` | Hero slider background |
-| `wp-content/uploads/2018/12/t-img050.jpg` | `/` | Hero slider background |
-| `wp-content/uploads/2018/12/t-img054.jpg` | `/` | Hero slider background |
+| `wp-content/uploads/2018/12/t-img047.jpg` | `/`, `/about-us/` | Stale Slider Revolution admin thumbnail (see note below) |
+| `wp-content/uploads/2018/12/t-img050.jpg` | `/` | Stale Slider Revolution admin thumbnail |
+| `wp-content/uploads/2018/12/t-img054.jpg` | `/` | Stale Slider Revolution admin thumbnail |
 | `wp-content/uploads/2018/11/img062.jpg` | `/services/social-wifi/` | Background image |
 | `wp-content/uploads/2018/11/s001.jpg` | `/services/` | Background image |
 | `visionplus.com.pk/assets/base/img/layout/logos/logo-02.png` | `/about-us/`, `/contact/` | Vision Plus (sister company) logo, hotlinked from their site |
 
-**Decision needed:** supply replacement images for the three hero-slider slides (currently
-broken on the live site) and the two background images, and get a working Vision Plus
-logo (their own site returns 404 for the one bbtech.ae links to).
+**Correction:** the three `t-img0*.jpg` files are the home hero slider's `data-thumb`
+attribute (a Slider Revolution admin-panel thumbnail reference) — they are **not** what
+actually displays. Each slide has a separate, live `<rs-bg-elem>` background layer with a
+working image, which the import correctly used instead
+(`depositphotos-12286955-...-technology-in-the-hands.webp`,
+`Binary-Bridge-Technology-services.png`, `social-media-3070331_1280-...-Copy.jpg` for
+slides 1–3). The hero slider is not actually missing any imagery; only the admin-only
+thumbnail references are dead. No decision needed here.
+
+**Decision needed:** supply replacement images for the two dead background images above
+(`/services/social-wifi/` and `/services/`), and get a working Vision Plus logo (their own
+site returns 404 for the one bbtech.ae links to).
 
 ## Generated alt text to review
 
