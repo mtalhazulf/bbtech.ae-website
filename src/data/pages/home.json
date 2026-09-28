@@ -19,7 +19,8 @@
           "alt": "Technology In The Hands",
           "width": 600,
           "height": 416
-        }
+        },
+        "mediaFit": "cover"
       },
       {
         "title": "ERP CUSTOMIZATION",
@@ -46,7 +47,8 @@
         "cta": {
           "text": "Discover more",
           "href": "/services/social-media-marketing/"
-        }
+        },
+        "mediaFit": "cover"
       }
     ]
   },
@@ -60,7 +62,10 @@
             "We develop reliable Web design and development and scalable software solutions for any OS, browser and device. We bring together deep industry expertise and the latest IT advancements to deliver custom solutions and products that perfectly fit the needs and behavior of their users."
           ]
         }
-      ]
+      ],
+      "variant": "about",
+      "highlight": "Binary Bridge",
+      "mediaFrom": "hero.0"
     },
     {
       "type": "richText",
@@ -71,7 +76,9 @@
             "We provide Custom Software Development Services and Dedicated IT-Consultancy With Vast Industry-Specific Experience"
           ]
         }
-      ]
+      ],
+      "variant": "servicesIntro",
+      "highlight": "Development Services"
     },
     {
       "type": "cardGrid",
@@ -124,7 +131,12 @@
             "height": 267
           }
         }
-      ]
+      ],
+      "variant": "serviceGroup",
+      "highlight": "ERP",
+      "tabLabel": "ERP",
+      "tabIcon": "tji-manage",
+      "link": "/erp/"
     },
     {
       "type": "cardGrid",
@@ -177,7 +189,12 @@
             "height": 317
           }
         }
-      ]
+      ],
+      "variant": "serviceGroup",
+      "highlight": "Web",
+      "tabLabel": "Web Development",
+      "tabIcon": "tji-service-1",
+      "link": "/services/web-development/"
     },
     {
       "type": "cardGrid",
@@ -230,7 +247,12 @@
             "height": 307
           }
         }
-      ]
+      ],
+      "variant": "serviceGroup",
+      "highlight": "Mobile APP",
+      "tabLabel": "Mobile App Development",
+      "tabIcon": "tji-service-3",
+      "link": "/services/mobile-app-development/"
     },
     {
       "type": "cardGrid",
@@ -283,7 +305,12 @@
             "height": 261
           }
         }
-      ]
+      ],
+      "variant": "serviceGroup",
+      "highlight": "SEO & Social Media",
+      "tabLabel": "Social Media Marketing",
+      "tabIcon": "tji-service-4",
+      "link": "/services/social-media-marketing/"
     },
     {
       "type": "cardGrid",
@@ -389,7 +416,9 @@
           },
           "href": "#"
         }
-      ]
+      ],
+      "variant": "industries",
+      "highlight": "Expertise"
     },
     {
       "type": "richText",
@@ -400,7 +429,8 @@
             "– Binary Bridge Technology services-"
           ]
         }
-      ]
+      ],
+      "variant": "quote"
     },
     {
       "type": "cardGrid",
@@ -436,7 +466,9 @@
             "height": 512
           }
         }
-      ]
+      ],
+      "variant": "why",
+      "highlight": "BB Tech"
     },
     {
       "type": "richText",
@@ -447,7 +479,8 @@
             "– Over 500+ Positive Customers –"
           ]
         }
-      ]
+      ],
+      "variant": "reputation"
     },
     {
       "type": "cardGrid",
@@ -484,7 +517,9 @@
             "href": "/"
           }
         }
-      ]
+      ],
+      "variant": "news",
+      "highlight": "News"
     },
     {
       "type": "cardGrid",
@@ -522,7 +557,8 @@
             "height": 750
           }
         }
-      ]
+      ],
+      "variant": "certifications"
     }
   ]
 }

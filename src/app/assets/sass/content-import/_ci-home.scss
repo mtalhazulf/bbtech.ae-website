@@ -2,4 +2,1060 @@
 
 /**----------------------------------------
 START: content-import home styles (tokens only - see DESIGN.md)
+Dresses the real bbtech.ae home content (src/data/pages/home.json) in the
+template's home-10 components. Scoped under .ci-home-* so nothing leaks.
 ----------------------------------------*/
+
+// Highlight/icon color on navy surfaces. DESIGN.md §3.3: brand primary fails on
+// navy, sky passes. Use sky once the re-theme defines it; until then fall back
+// to the light body-2 grey (same fallback as _ci-pages.scss), never to primary.
+$ci-on-dark-accent: var(--tj-color-theme-sky, var(--tj-color-text-body-2));
+
+@keyframes ciHomeFadeUp {
+	from {
+		opacity: 0;
+		transform: translateY(24px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* ---------- Hero (Hero10 dress + real slides) ---------- */
+.ci-home-hero {
+	// Headline starts just under the overlaid header (as in Hero10), not mid-band.
+	padding-top: 140px;
+	padding-bottom: 50px;
+	@media #{$lg} {
+		padding-top: 135px;
+	}
+	@media #{$md} {
+		padding-top: 130px;
+	}
+	@media #{$sm, $xs} {
+		padding-top: 110px;
+		padding-bottom: 36px;
+	}
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+	.ci-hero-slider {
+		overflow: hidden;
+		.swiper-slide {
+			height: auto;
+		}
+	}
+	.banner-content-2.ci-hero-content {
+		max-width: none;
+		margin-inline-start: 0;
+		padding: 18px 0 0;
+		@media #{$md, $sm, $xs} {
+			padding: 0 0 10px;
+		}
+	}
+	.banner-content-2 .banner-title.ci-hero-title {
+		font-size: 80px;
+		line-height: 1.06;
+		letter-spacing: -0.03em;
+		margin-bottom: 0;
+		.ci-hero-title-end {
+			white-space: nowrap;
+		}
+		@media #{$xl} {
+			font-size: 70px;
+		}
+		@media #{$lg} {
+			font-size: 60px;
+		}
+		@media #{$md} {
+			font-size: 56px;
+		}
+		@media #{$sm} {
+			font-size: 46px;
+		}
+		@media #{$xs} {
+			font-size: 34px;
+		}
+		i {
+			color: var(--tj-color-theme-primary);
+			font-size: 0.8em;
+			bottom: -0.06em;
+		}
+	}
+	.banner-content-2 .banner-desc-area {
+		margin-top: 40px;
+		flex-wrap: wrap;
+		@media #{$md, $sm, $xs} {
+			margin-top: 26px;
+		}
+		.banner-desc {
+			margin: 0;
+			max-width: 420px;
+			font-size: 20px;
+			line-height: 1.45;
+			@media #{$sm, $xs} {
+				font-size: 17px;
+			}
+		}
+	}
+	// Staggered entrance for the active slide once Swiper is running (the
+	// server-rendered first slide stays visible without JS).
+	.ci-hero-slider.swiper-initialized {
+		.ci-hero-content > *,
+		.ci-hero-media {
+			opacity: 0;
+			transform: translateY(26px);
+			transition:
+				opacity 0.7s ease-out,
+				transform 0.7s ease-out;
+		}
+		.swiper-slide-active {
+			.ci-hero-content > *,
+			.ci-hero-media {
+				opacity: 1;
+				transform: translateY(0);
+			}
+			.ci-hero-content > *:nth-child(2) {
+				transition-delay: 0.15s;
+			}
+			.ci-hero-media {
+				transition-delay: 0.1s;
+			}
+		}
+	}
+	// One media card for every slide: photos fill it, transparent art is
+	// contained on the white card.
+	.ci-hero-media {
+		position: relative;
+		height: 440px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 12px;
+		overflow: hidden;
+		background-color: var(--tj-color-common-white);
+		img {
+			display: block;
+			max-width: 100%;
+		}
+		&.is-cover img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+		&.is-contain {
+			padding: 28px;
+			img {
+				width: auto;
+				height: auto;
+				max-height: 100%;
+				object-fit: contain;
+			}
+		}
+		@media #{$xl} {
+			height: 410px;
+		}
+		@media #{$lg} {
+			height: 380px;
+		}
+		@media #{$md} {
+			height: 380px;
+			margin-top: 30px;
+		}
+		@media #{$sm, $xs} {
+			height: 280px;
+			margin-top: 24px;
+			&.is-contain {
+				padding: 16px;
+			}
+		}
+	}
+	.ci-hero-stage {
+		position: relative;
+	}
+	.ci-hero-nav {
+		display: flex;
+		align-items: flex-end;
+		gap: 30px;
+		margin-top: 36px;
+		@media #{$sm, $xs} {
+			gap: 16px;
+			margin-top: 24px;
+		}
+	}
+	.ci-hero-thumbs {
+		flex: 1 1 auto;
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 30px;
+		@media #{$sm, $xs} {
+			gap: 12px;
+		}
+	}
+	.ci-hero-thumb {
+		position: relative;
+		display: flex;
+		align-items: baseline;
+		gap: 12px;
+		min-height: 44px;
+		padding: 18px 0 0;
+		border: 0;
+		background: transparent;
+		text-align: start;
+		color: var(--tj-color-text-body);
+		transition: color 0.3s ease-in-out;
+		&-bar {
+			position: absolute;
+			top: 0;
+			inset-inline: 0;
+			height: 2px;
+			border-radius: 2px;
+			background-color: var(--tj-color-border-1);
+			overflow: hidden;
+			&::after {
+				content: "";
+				position: absolute;
+				inset: 0;
+				background-color: var(--tj-color-theme-primary);
+				transform: scaleX(0);
+				transform-origin: left center;
+			}
+		}
+		&-num {
+			font-size: 14px;
+			font-weight: var(--tj-fw-bold);
+			letter-spacing: 0.08em;
+			color: var(--tj-color-theme-primary);
+		}
+		&-title {
+			font-size: 16px;
+			font-weight: var(--tj-fw-sbold);
+			line-height: 1.3;
+			letter-spacing: 0.02em;
+		}
+		&:hover,
+		&.active {
+			color: var(--tj-color-heading-primary);
+		}
+		&.active .ci-hero-thumb-bar::after {
+			transform: scaleX(var(--ci-hero-progress, 0));
+		}
+		&:focus-visible {
+			outline: 2px solid var(--tj-color-theme-primary);
+			outline-offset: 4px;
+		}
+		@media #{$xs} {
+			&-title {
+				display: none;
+			}
+		}
+	}
+	&.is-paused .ci-hero-thumb.active .ci-hero-thumb-bar::after {
+		transform: scaleX(1);
+	}
+	.ci-hero-toggle {
+		width: 44px;
+		height: 44px;
+		flex: 0 0 auto;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		border: 1px solid var(--tj-color-border-1);
+		background-color: var(--tj-color-common-white);
+		color: var(--tj-color-heading-primary);
+		font-size: 14px;
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			background-color: var(--tj-color-theme-primary);
+			border-color: var(--tj-color-theme-primary);
+			color: var(--tj-color-common-white);
+		}
+		&:focus-visible {
+			outline: 2px solid var(--tj-color-theme-primary);
+			outline-offset: 2px;
+		}
+	}
+	.ci-hero-badge.circle-text-wrap {
+		position: absolute;
+		inset-inline-start: calc(58.333% - 75px);
+		inset-inline-end: auto;
+		top: auto;
+		bottom: 10px;
+		width: 150px;
+		height: 150px;
+		margin: 0;
+		background-color: var(--tj-color-common-white);
+		box-shadow: 0 0 0 8px var(--tj-color-theme-bg);
+		z-index: 3;
+		pointer-events: none;
+		.ci-hero-badge-text {
+			width: 132px;
+			height: 132px;
+			text {
+				fill: var(--tj-color-heading-primary);
+				font-size: 12px;
+				font-weight: var(--tj-fw-sbold);
+				letter-spacing: 0.08em;
+				text-transform: uppercase;
+			}
+		}
+		.circle-icon {
+			width: 150px;
+			height: 150px;
+		}
+		.ci-hero-badge-logo {
+			width: auto;
+			height: 44px;
+		}
+		@media #{$md, $sm, $xs} {
+			display: none;
+		}
+	}
+	@media (prefers-reduced-motion: reduce) {
+		.ci-hero-badge .circle-text {
+			animation: none;
+		}
+		.ci-hero-slider.swiper-initialized {
+			.ci-hero-content > *,
+			.ci-hero-media img {
+				transform: none;
+				transition: none;
+			}
+		}
+	}
+}
+
+/* ---------- About (About9 dress) ---------- */
+.ci-home-about {
+	.ci-about-row {
+		align-items: stretch;
+		@media #{$md, $sm, $xs} {
+			align-items: center;
+		}
+	}
+	// About9 photo slot: one rounded photo filling the column beside the copy.
+	.ci-home-about-media.h10-about-banner {
+		position: relative;
+		height: 100%;
+		min-height: 520px;
+		.about-img {
+			height: 100%;
+			border-radius: 12px;
+			overflow: hidden;
+			img {
+				display: block;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
+		@media #{$lg} {
+			min-height: 480px;
+		}
+		@media #{$md, $sm, $xs} {
+			height: auto;
+			min-height: 0;
+			margin-top: 40px;
+			.about-img {
+				aspect-ratio: 4 / 3;
+			}
+		}
+	}
+	.h10-about-content-wrapper {
+		@media #{$sm, $xs} {
+			margin-bottom: 0;
+		}
+	}
+	.h10-about-content {
+		.desc {
+			max-width: 580px;
+			margin-bottom: 0;
+		}
+	}
+	.ci-about-funfact.h9-about-funfact {
+		max-width: 580px;
+		.countup-item .count-text {
+			max-width: 220px;
+			// Live labels mix case ("Positive Customers" / "CRITICAL SUPPORT");
+			// render both the same way without touching the text.
+			font-size: 14px;
+			font-weight: var(--tj-fw-sbold);
+			letter-spacing: 0.06em;
+			text-transform: uppercase;
+		}
+		// Keep the two counters side by side on phones too.
+		@media #{$xs} {
+			.countup-item {
+				width: 50%;
+				&:not(:last-child) {
+					padding-inline-end: 16px;
+					padding-bottom: 0;
+				}
+				&:not(:first-child) {
+					padding-inline-start: 20px;
+					padding-top: 0;
+					&::after {
+						inset-inline-start: 0;
+						top: 52%;
+						transform: translateY(-50%);
+						width: 0;
+						height: 88%;
+						border-top: 0;
+						border-inline-end: 1px dashed var(--tj-color-border-1);
+					}
+				}
+				.inline-content {
+					font-size: 48px;
+				}
+			}
+		}
+	}
+	.ci-about-btn {
+		margin-top: 36px;
+	}
+}
+
+/* ---------- Services showcase (Services10 / ServiceCard11 dress) ---------- */
+.ci-home-services {
+	.heading-wrap-content {
+		align-items: flex-end;
+		.sec-heading {
+			max-width: 620px;
+		}
+	}
+	.ci-heading-aside {
+		max-width: 440px;
+		.desc {
+			margin-bottom: 24px;
+		}
+		@media #{$md, $sm, $xs} {
+			max-width: 100%;
+		}
+	}
+	.ci-service-tabs {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 10px;
+		padding: 10px;
+		margin-bottom: 30px;
+		background-color: var(--tj-color-common-white);
+		border-radius: 12px;
+		@media #{$md, $sm, $xs} {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+	.ci-service-tab {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		min-height: 60px;
+		padding: 8px 18px 8px 8px;
+		border: 1px solid var(--tj-color-border-1);
+		border-radius: 50px;
+		background-color: transparent;
+		color: var(--tj-color-heading-primary);
+		font-size: 16px;
+		font-weight: var(--tj-fw-sbold);
+		line-height: 1.25;
+		text-align: start;
+		transition: all 0.3s ease-in-out;
+		&-icon {
+			width: 44px;
+			height: 44px;
+			flex: 0 0 auto;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 50%;
+			background-color: var(--tj-color-grey-1);
+			color: var(--tj-color-theme-primary);
+			font-size: 24px;
+			line-height: 1;
+			transition: all 0.3s ease-in-out;
+			i {
+				display: inline-flex;
+			}
+		}
+		&:hover {
+			border-color: var(--tj-color-theme-primary);
+		}
+		&.active {
+			background-color: var(--tj-color-theme-primary);
+			border-color: var(--tj-color-theme-primary);
+			color: var(--tj-color-common-white);
+			.ci-service-tab-icon {
+				background-color: var(--tj-color-theme-dark);
+				color: var(--tj-color-common-white);
+			}
+		}
+		&:focus-visible {
+			outline: 2px solid var(--tj-color-theme-primary);
+			outline-offset: 2px;
+		}
+		@media #{$sm, $xs} {
+			gap: 8px;
+			padding: 6px 10px 6px 6px;
+			font-size: 14px;
+			border-radius: 30px;
+			&-icon {
+				width: 36px;
+				height: 36px;
+				font-size: 20px;
+			}
+		}
+	}
+	.ci-service-panel:not([hidden]) {
+		animation: ciHomeFadeUp 0.5s ease-out;
+	}
+	.ci-service-summary {
+		background-color: var(--tj-color-common-white);
+		border-radius: 12px;
+		padding: 30px;
+		margin-bottom: 30px;
+		@media #{$sm, $xs} {
+			padding: 20px;
+		}
+	}
+	.ci-service-media {
+		height: 340px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 30px;
+		border-radius: 12px;
+		background-color: var(--tj-color-theme-bg);
+		background-image: url("/images/shape/pattern-3.svg");
+		background-repeat: no-repeat;
+		background-position: bottom right;
+		background-size: 70%;
+		overflow: hidden;
+		img {
+			width: auto;
+			height: auto;
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: contain;
+			transition: transform 0.6s ease-in-out;
+		}
+		&:hover img {
+			transform: scale(1.04);
+		}
+		@media #{$sm, $xs} {
+			height: 250px;
+			padding: 20px;
+		}
+	}
+	.ci-service-copy {
+		padding: 10px 20px 10px 30px;
+		@media #{$md, $sm, $xs} {
+			padding: 30px 0 0;
+		}
+		.desc {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 28px;
+			max-width: 620px;
+			@media #{$sm, $xs} {
+				font-size: 16px;
+			}
+		}
+	}
+	.ci-service-count {
+		display: inline-block;
+		margin-bottom: 14px;
+		color: var(--tj-color-theme-primary);
+		font-size: 14px;
+		font-weight: var(--tj-fw-bold);
+		letter-spacing: 0.1em;
+	}
+	.ci-service-title {
+		font-size: 40px;
+		line-height: 1.15;
+		margin-bottom: 18px;
+		span {
+			color: var(--tj-color-theme-primary);
+		}
+		@media #{$lg, $md} {
+			font-size: 34px;
+		}
+		@media #{$sm, $xs} {
+			font-size: 28px;
+		}
+	}
+	.h10-service-wrapper .service-item.style-4.ci-home-service-card {
+		margin-bottom: 0;
+		.h10-service-sln {
+			font-family: var(--tj-ff-heading);
+			font-size: 18px;
+		}
+		.service-icon {
+			width: 84px;
+			height: 84px;
+			margin-bottom: 30px;
+			img {
+				width: 50px;
+				height: 50px;
+				object-fit: contain;
+			}
+			@media #{$md, $sm, $xs} {
+				width: 72px;
+				height: 72px;
+				margin-bottom: 24px;
+				img {
+					width: 42px;
+					height: 42px;
+				}
+			}
+		}
+		.title {
+			font-size: 20px;
+			line-height: 1.35;
+			margin-bottom: 14px;
+			max-width: calc(100% - 30px);
+		}
+		&:hover .title {
+			color: var(--tj-color-common-white);
+		}
+	}
+}
+
+/* ---------- Text marquee band ---------- */
+.ci-home-marquee {
+	.marquee-item {
+		.marquee-text {
+			display: inline-block;
+			white-space: nowrap;
+		}
+	}
+	.ci-marquee-sep {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		color: var(--tj-color-common-white);
+		font-size: 56px;
+		line-height: 1;
+		@media #{$md} {
+			font-size: 40px;
+		}
+		@media #{$sm, $xs} {
+			font-size: 28px;
+		}
+	}
+}
+
+/* ---------- Industries (Industries dress) ---------- */
+.ci-home-industries {
+	.ci-industries-heading {
+		align-items: flex-end;
+		.sec-heading {
+			max-width: 560px;
+		}
+		.desc {
+			max-width: 520px;
+			font-size: 18px;
+			line-height: 1.5;
+			@media #{$sm, $xs} {
+				font-size: 16px;
+			}
+		}
+	}
+	.industry-card.ci-industry-card {
+		padding: 14px 14px 26px;
+		border-radius: 12px;
+		.ci-industry-img {
+			position: relative;
+			width: 100%;
+			aspect-ratio: 400 / 250;
+			margin-bottom: 24px;
+			border-radius: 8px;
+			overflow: hidden;
+			background-color: var(--tj-color-common-white);
+			img {
+				display: block;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				transition: transform 0.6s ease-in-out;
+			}
+		}
+		// Round arrow chip on the image corner, only on cards the live site linked.
+		.ci-industry-link {
+			position: absolute;
+			inset-inline-end: 12px;
+			bottom: 12px;
+			z-index: 1;
+			width: 46px;
+			height: 46px;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 50%;
+			background-color: var(--tj-color-theme-dark);
+			color: var(--tj-color-common-white);
+			font-size: 18px;
+			line-height: 1;
+			transition: all 0.3s ease-in-out;
+			i {
+				display: inline-flex;
+				transform: rotate(-45deg);
+				transition: transform 0.3s ease-in-out;
+			}
+			&:focus-visible {
+				outline: 2px solid var(--tj-color-theme-primary);
+				outline-offset: 3px;
+			}
+		}
+		.industry-name {
+			font-size: 22px;
+			line-height: 1.3;
+			padding-inline: 14px;
+			margin-bottom: 14px;
+			a {
+				color: inherit;
+				&:hover {
+					color: var(--tj-color-theme-primary);
+				}
+			}
+		}
+		// Client count pinned to the card foot so every card in a row lines up.
+		.ci-industry-count {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			margin-top: auto;
+			padding-inline: 14px;
+			color: var(--tj-color-theme-primary);
+			font-weight: var(--tj-fw-sbold);
+			i {
+				font-size: 20px;
+				line-height: 1;
+				display: inline-flex;
+			}
+		}
+		&:hover {
+			border-color: var(--tj-color-theme-primary);
+			box-shadow: none;
+			.ci-industry-img img {
+				transform: scale(1.05);
+			}
+			.ci-industry-link {
+				background-color: var(--tj-color-theme-primary);
+				i {
+					transform: rotate(0deg);
+				}
+			}
+		}
+		// Phones: compact media-object rows instead of nine tall cards.
+		@media #{$sm, $xs} {
+			display: grid;
+			grid-template-columns: 116px minmax(0, 1fr);
+			grid-template-rows: auto auto;
+			align-content: center;
+			column-gap: 16px;
+			padding: 12px;
+			.ci-industry-img {
+				grid-row: 1 / span 2;
+				align-self: center;
+				aspect-ratio: 1;
+				margin-bottom: 0;
+			}
+			.ci-industry-link {
+				inset-inline-end: 6px;
+				bottom: 6px;
+				width: 32px;
+				height: 32px;
+				font-size: 14px;
+			}
+			.industry-name {
+				align-self: end;
+				padding-inline: 0;
+				margin-bottom: 6px;
+				font-size: 18px;
+			}
+			.ci-industry-count {
+				align-self: start;
+				margin-top: 0;
+				padding-inline: 0;
+				font-size: 14px;
+				line-height: 1.35;
+				margin-bottom: 0;
+				i {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+
+/* ---------- Quote band (tinted, large type) ---------- */
+.ci-home-quote {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	margin-bottom: 15px;
+	border-radius: 12px;
+	background-color: var(--tj-color-theme-bg);
+	text-align: center;
+	.ci-quote-icon {
+		width: 72px;
+		height: 72px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 30px;
+		border-radius: 50%;
+		background-color: var(--tj-color-theme-primary);
+		color: var(--tj-color-common-white);
+		font-size: 30px;
+		line-height: 1;
+		i {
+			display: inline-flex;
+		}
+	}
+	.ci-quote-title {
+		// Width in em so the line breaks after "goal." in both the fallback and
+		// the web font: SplitText measures lines once, so a later font swap can't
+		// push "Increase" onto a line of its own.
+		max-width: 12.2em;
+		margin-inline: auto;
+		font-size: 64px;
+		line-height: 1.12;
+		margin-bottom: 30px;
+		@media #{$xl} {
+			font-size: 58px;
+		}
+		@media #{$lg} {
+			font-size: 50px;
+		}
+		@media #{$md} {
+			font-size: 42px;
+		}
+		@media #{$sm} {
+			font-size: 32px;
+		}
+		// Phones: keep 12.2em inside the column (100vw minus the 12px band inset
+		// and 12px container padding per side) so the em cap still sets the break.
+		@media #{$xs} {
+			font-size: min(32px, calc((100vw - 48px) / 12.4));
+		}
+	}
+	.ci-quote-author {
+		margin: 0;
+		color: var(--tj-color-theme-primary);
+		font-size: 14px;
+		font-weight: var(--tj-fw-bold);
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+	}
+}
+
+/* ---------- Why BB Tech (Process4 dark band) ---------- */
+.ci-home-why {
+	.sec-heading.style-3 {
+		.sec-title span {
+			color: $ci-on-dark-accent;
+		}
+	}
+	.ci-why-reputation {
+		position: relative;
+		margin-top: 36px;
+		padding: 30px 30px 32px;
+		max-width: 460px;
+		border-radius: 12px;
+		border: 1px dashed var(--tj-color-border-2);
+		background-color: var(--tj-color-theme-bg-3);
+		&::before {
+			content: "";
+			position: absolute;
+			top: -1px;
+			inset-inline-start: 30px;
+			width: 40px;
+			height: 3px;
+			background-color: $ci-on-dark-accent;
+		}
+		@media #{$sm, $xs} {
+			padding: 24px 20px;
+		}
+	}
+	.ci-why-rep-title {
+		color: var(--tj-color-common-white);
+		font-size: 28px;
+		line-height: 1.25;
+		margin-bottom: 12px;
+		@media #{$sm, $xs} {
+			font-size: 24px;
+		}
+	}
+	.ci-why-rep-text {
+		margin: 0;
+		color: $ci-on-dark-accent;
+		font-size: 20px;
+		font-weight: var(--tj-fw-sbold);
+	}
+	.sec-heading .h10-process-more {
+		margin-top: 36px;
+	}
+	.h10-process-wrapper .h10-process-sln {
+		font-family: var(--tj-ff-heading);
+		font-size: 18px;
+	}
+	.h10-process-wrapper .h10-process-icon {
+		background-color: var(--tj-color-common-white);
+		img {
+			width: 52px;
+			height: 52px;
+			border-radius: 10px;
+			object-fit: contain;
+		}
+		@media #{$sm, $xs} {
+			img {
+				width: 42px;
+				height: 42px;
+			}
+		}
+	}
+	.h10-process-wrapper .h10-process-item .title {
+		max-width: none;
+	}
+}
+
+/* ---------- Latest news (blog cards) ---------- */
+.ci-home-news {
+	.ci-news-heading {
+		max-width: 640px;
+	}
+	.ci-news-card {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		padding: 14px;
+		border-radius: 12px;
+		background-color: var(--tj-color-common-white);
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			.ci-news-thumb img {
+				transform: scale(1.05);
+			}
+		}
+	}
+	.ci-news-thumb {
+		display: block;
+		aspect-ratio: 16 / 9;
+		overflow: hidden;
+		border-radius: 8px;
+		background-color: var(--tj-color-grey-1);
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: transform 0.6s ease-in-out;
+		}
+	}
+	.ci-news-body {
+		flex: 1 1 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 28px 16px 16px;
+		@media #{$sm, $xs} {
+			padding: 22px 8px 10px;
+		}
+		.desc {
+			margin-bottom: 0;
+		}
+	}
+	.ci-news-meta {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 10px 16px;
+		margin-bottom: 16px;
+		font-size: 14px;
+	}
+	.ci-news-date {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		color: var(--tj-color-text-body-3);
+		i {
+			color: var(--tj-color-theme-primary);
+			font-size: 16px;
+			display: inline-flex;
+		}
+	}
+	.ci-news-cat {
+		padding: 3px 10px;
+		border: 1px dashed var(--tj-color-border-1);
+		border-radius: 4px;
+		color: var(--tj-color-theme-primary);
+		font-size: 13px;
+		font-weight: var(--tj-fw-bold);
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		&:hover {
+			border-color: var(--tj-color-theme-primary);
+		}
+	}
+	.ci-news-title {
+		font-size: 24px;
+		line-height: 1.3;
+		margin-bottom: 12px;
+		a:hover {
+			color: var(--tj-color-theme-primary);
+		}
+		@media #{$sm, $xs} {
+			font-size: 20px;
+		}
+	}
+	.ci-news-link {
+		margin-top: auto;
+		padding-top: 22px;
+	}
+}
+
+/* ---------- ISO certifications (Brands3 band) ---------- */
+.ci-home-certs.tj-client-section-2 {
+	padding: 30px 0 45px;
+	.h6-client-title {
+		font-family: var(--tj-ff-body);
+		gap: 10px;
+	}
+	.h6-client-title-wrapper {
+		padding-bottom: 35px;
+	}
+	.client-logo.ci-cert-logo {
+		width: 100%;
+		height: auto;
+		aspect-ratio: 16 / 10;
+		padding: 0;
+		overflow: hidden;
+		background-color: var(--tj-color-common-white);
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: transform 0.5s ease-in-out;
+		}
+		&:hover img {
+			transform: scale(1.05);
+		}
+	}
+	@media #{$sm, $xs} {
+		padding: 20px 0 30px;
+		// .h6-client sets a 15px side margin; phones use the 12px section-gap-x inset
+		// like every other band and the footer below.
+		margin-inline: 12px;
+		.h6-client-title {
+			gap: 8px;
+		}
+	}
+}
+
+/* !END: content-import home styles */
