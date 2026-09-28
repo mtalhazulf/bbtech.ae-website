@@ -1,0 +1,67 @@
+{
+  "slug": "video-photography",
+  "path": "/video-photography/",
+  "source": "https://bbtech.ae/video-photography/",
+  "metadata": {
+    "title": "Video & Photography - BB Tech",
+    "description": null,
+    "canonical": "https://bbtech.ae/video-photography/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "Video & Photography",
+    "subtitle": "Capture Moments, Create Memories",
+    "image": {
+      "localPath": "/images/bbtech/services/istockphoto-1353929637-612x612-1.webp",
+      "alt": "Film clapperboard held in front of a video camera on a production set",
+      "width": 612,
+      "height": 408
+    }
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "blocks": [
+        {
+          "p": [
+            "At Binary Bridge Technology Services, we specialize in turning moments into lasting memories through exceptional video and photography services. Whether you’re looking to preserve cherished personal milestones or create captivating visuals for your business, our expert team is here to bring your vision to life."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "heading": "Why Choose Us?",
+      "items": [
+        "Creative Expertise: A team of skilled professionals dedicated to excellence.",
+        "Cutting-Edge Equipment: We use the latest technology to deliver stunning results.",
+        "Personalized Approach: Every project is tailored to meet your unique needs.",
+        "Timely Delivery: High-quality work delivered on schedule."
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "heading": "Our Services",
+      "items": [
+        {
+          "title": "Photography",
+          "list": [
+            "Portrait Photography: Professional headshots, family portraits, and more.",
+            "Event Photography: From weddings to corporate events, we capture every detail.",
+            "Product Photography: High-quality images that highlight your products.",
+            "Lifestyle Photography: Authentic and creative shots tailored to your style."
+          ]
+        },
+        {
+          "title": "Videography",
+          "list": [
+            "Event Videography: Immortalize your special occasions with cinematic quality.",
+            "Promotional Videos: Engage your audience with stunning visuals for your brand.",
+            "Documentaries: Tell compelling stories through powerful visuals.",
+            "Custom Projects: Bring your unique vision to life with our tailored video solutions."
+          ]
+        }
+      ]
+    }
+  ]
+}
