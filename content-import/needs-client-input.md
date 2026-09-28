@@ -4,6 +4,23 @@ Running list of items the content import surfaced that need an owner decision or
 content before launch. Updated as later phases add more. See `REPORT.md` for the full
 coverage picture once Phase 7/8 land.
 
+## ⚠️ Wrong-company boilerplate on `/about-us/`
+
+Three sentences in the live `/about-us/` page's main content read as leftover template
+copy from an **unrelated UK-based IT support company**, never fully swapped out for BB
+Tech:
+
+> "Operating 24 hours a day B2 provide a bespoke range of managed, hosted and support
+> services..." / "...allowed us to win, keep and grow a strong customer base across the
+> **UK**..." / "For more information ... at **B2**, or to speak to a business information
+> technology expert..."
+
+"B2" doesn't match the company's real name (BB Tech / Binary Bridge Technology Services),
+and "UK" contradicts a UAE company. Per the verbatim-copy rule this was **not** rewritten
+or removed — it's copied through exactly as it appears live, in
+`src/data/pages/about-us.json` — but it should not ship without the client rewriting that
+paragraph. This is the single highest-priority item in this file.
+
 ## Duplicate / overlapping content
 
 - **`/erp/` vs `/construction-management-system/`**: near-identical structure on the live
@@ -83,11 +100,23 @@ snapshot is otherwise the only record).
 
 ## Forms to wire (D5)
 
-18 `<form>` elements were detected across real pages in Phase 1 (rough count from raw
-HTML — Phase 3 will extract exact fields/labels/consent text per form). None will have a
-submission backend; every submit handler will call `preventDefault()` with a
-`// TODO(forms): wire submission` comment. Full per-form field list lands here once Phase
-3 completes.
+Phase 3's per-page extraction found only **one** distinct form actually inside main page
+content: `contact-default` on `/contact/` (4 fields). Phase 1's rough count of 18
+`<form>` tags was almost entirely the **same reusable sidebar widget** ("Have a project
+for us? Get in touch!" — name/email/telephone/message) repeated across most service
+pages (`adhics-medical-inspection-consultancy`, `cloud-computing-services`,
+`healthcare-and-medical-centre-software-services`, `it-outsourcing-2`,
+`network-solutions`, `privacy-policy`, `services/mobile-app-development`,
+`services/social-media-marketing`, `services/web-development`, `video-photography`,
+`school-system-isms`, and others), plus a longer variant with
+Country/City/Company/Website fields on some pages. These were treated as **site-wide
+chrome** (like the header/footer) and excluded from each page's own JSON, consistent with
+how the header/footer/nav are handled separately.
+
+**Decision needed:** should this "quick contact" sidebar form be modeled as a real
+shared component (so it renders on the service pages that had it live) instead of being
+dropped? If yes, it needs its own entry in Phase 5's site-wide chrome, not per-page JSON.
+Only `/contact/`'s form currently has a `// TODO(forms): wire submission` path guaranteed.
 
 ## Hidden sections awaiting real content (D4)
 
@@ -101,13 +130,9 @@ Per `AGENTS.md`'s existing open decisions — carried forward, not yet re-resolv
   1:1 URL-parity decision (D2) — this supersedes the old "fold into `/services/erp`"
   question from `AGENTS.md`, which will be removed in the Phase 8 doc update.
 
-## Conflicting facts (carried from `AGENTS.md`, reconfirmed live)
+## Conflicting facts
 
-- **Phone numbers**: live top bar shows `+971 3 7555069`; `AGENTS.md` also lists
-  `+971 54 405 6829` and `+971 56 128 6321` elsewhere on the site. Not resolving — each
-  page keeps its own number per the "don't pick one" rule; full per-page breakdown lands
-  with Phase 3/5 content extraction.
-- **Years of experience**: "5 years" (About) vs "6 years" / "10 years" (home) — still
-  unresolved, still present on the live site as of this crawl.
-- **Offices**: Lahore address mixed with UAE phone numbers in `src/data/site.json`; Lahore
-  belongs to sister company Vision Plus. Needs correcting in Phase 5.
+See `content-conflicts.md` for the full per-page breakdown (years of experience: now
+**four** different figures including a newly-found "7 years" on `/odoo-development/`;
+phone numbers; and a newly-found **third office address** in Islamabad, Pakistan on
+`/contact/` in addition to the Lahore/Vision Plus one already known from `AGENTS.md`).
