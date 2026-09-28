@@ -1,0 +1,133 @@
+{
+  "slug": "social-wifi",
+  "path": "/social-wifi/",
+  "source": "https://bbtech.ae/social-wifi/",
+  "metadata": {
+    "title": "social-wifi in UAE - BB Tech",
+    "description": "Our Social Wifi team of highly-skilled web portal developers understand every business is different and can build a bespoke solution",
+    "canonical": "https://bbtech.ae/social-wifi/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "Social Wifi"
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "heading": "Connect, Engage, Grow",
+      "blocks": [
+        {
+          "p": [
+            "Transform your WiFi into a powerful marketing tool with our Social WiFi solutions. By providing your customers with free internet access, you not only enhance their experience but also create valuable opportunities to connect and engage with them, driving your business forward."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "What is Social WiFi?",
+      "blocks": [
+        {
+          "p": [
+            "Social WiFi allows your customers to access free internet by signing in through their social media accounts, email, or phone number. In return, you gain valuable insights and tools to build stronger customer relationships and grow your business."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "heading": "Benefits of Social WiFi",
+      "items": [
+        {
+          "title": "Enhanced Customer Experience",
+          "text": "Offer free Wi-Fi to keep customers engaged and satisfied."
+        },
+        {
+          "title": "Boosted Marketing Efforts",
+          "text": "Amplify your reach with targeted campaigns and promotions."
+        },
+        {
+          "title": "Increased Loyalty",
+          "text": "Build meaningful connections with repeat customers."
+        },
+        {
+          "title": "Data-Driven",
+          "text": "Leverage insights to make smarter business decisions."
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "Our Services",
+      "blocks": [
+        {
+          "h": 3,
+          "text": "Seamless Connectivity"
+        },
+        {
+          "ul": [
+            "Hassle-free, high-speed internet access for your customers.",
+            "Intuitive login options via social media, email, or SMS."
+          ]
+        },
+        {
+          "h": 3,
+          "text": "Marketing Integration"
+        },
+        {
+          "ul": [
+            [
+              { "text": "Customer Data Collection", "bold": true },
+              { "text": ": Gain insights into customer demographics and behavior." }
+            ],
+            [
+              { "text": "Personalized Campaigns", "bold": true },
+              { "text": ": Send targeted promotions, discounts, and updates." }
+            ],
+            [
+              { "text": "Social Media Growth", "bold": true },
+              { "text": ": Increase likes, follows, and engagement for your business." }
+            ]
+          ]
+        },
+        {
+          "h": 3,
+          "text": "Analytics & Insights"
+        },
+        {
+          "ul": [
+            "Real-time dashboards to monitor user activity.",
+            "Detailed analytics to optimize your marketing strategies."
+          ]
+        },
+        {
+          "h": 3,
+          "text": "Custom Branding"
+        },
+        {
+          "ul": [
+            "Fully customizable login pages with your logo and branding.",
+            "Create a professional and consistent experience for your customers."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "Upgrade Your Business Today",
+      "blocks": [
+        {
+          "p": [
+            "Turn your WiFi into a business asset that keeps customers connected and helps you grow. Whether you’re a café, retail store, or hospitality business, our Social WiFi solutions are tailored to your needs."
+          ]
+        },
+        {
+          "p": [
+            { "text": "Contact us now", "bold": true },
+            " to learn more and get started!"
+          ]
+        }
+      ]
+    }
+  ]
+}
