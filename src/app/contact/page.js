@@ -25,7 +25,7 @@ export default function Contact() {
 	return (
 		<div>
 			<BackToTop />
-			<Header />
+			<Header isHeaderTop={true} />
 			<Header isStickyHeader={true} />
 			<div id="smooth-wrapper">
 				<div id="smooth-content">

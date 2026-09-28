@@ -43,7 +43,7 @@ export default async function ContentPage({ params }) {
 	return (
 		<div>
 			<BackToTop />
-			<Header />
+			<Header isHeaderTop={true} />
 			<Header isStickyHeader={true} />
 			<div id="smooth-wrapper">
 				<div id="smooth-content">

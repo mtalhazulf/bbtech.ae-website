@@ -25,7 +25,7 @@ export default function Home() {
 	return (
 		<div>
 			<BackToTop />
-			<Header headerType={10} />
+			<Header headerType={10} isHeaderTop={true} />
 			<Header headerType={10} isStickyHeader={true} />
 			<div id="smooth-wrapper">
 				<div id="smooth-content">
