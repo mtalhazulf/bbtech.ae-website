@@ -1,0 +1,156 @@
+{
+  "slug": "about-us",
+  "path": "/about-us/",
+  "source": "https://bbtech.ae/about-us/",
+  "metadata": {
+    "title": "About us - BB Tech",
+    "description": "We specialize in supporting the IT requirements of modern businesses which allows our clients to concentrate on what they do best, running",
+    "canonical": "https://bbtech.ae/about-us/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "About us"
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "heading": "WE MAKE IT HAPPEN",
+      "blocks": [
+        {
+          "p": [
+            "Binary Bridge technology services has been providing enterprise IT managed services and technology solutions across the UAE for over 5 years."
+          ]
+        },
+        {
+          "p": [
+            "We specialize in supporting the IT requirements of modern businesses which allows our clients to concentrate on what they do best, running their business. Working in partnership with our customers we ensure they are maximizing efficiencies with their current available resources and can move forward with new technologies and innovations as their business growth demands."
+          ]
+        },
+        {
+          "p": [
+            "Our scale-able IT support and hosted services accommodate everyone from large enterprises to business start-up’s, providing all the benefits you would expect from an internal IT department plus access to a range of specialists with up to the minute knowledge and qualifications across all areas of IT."
+          ]
+        },
+        {
+          "p": [
+            "Operating 24 hours a day B2 provide a bespoke range of managed, hosted and support services designed to fit your business model. We often work alongside existing IT departments especially on projects such as virtualization, hosted exchange, data back up , disaster recovery, security ,networks and technology refreshes."
+          ]
+        },
+        {
+          "p": [
+            "By working with you we continually monitor, manage and improve your business’s performance saving you time and money. All our services and solutions are fully supported with mutually-agreed SLA’s."
+          ]
+        },
+        {
+          "p": [
+            "Of course our biggest asset is our people. Our knowledgeable, approachable engineers and help desk technicians deliver a first class service without the jargon. Their professionalism and expertise have allowed us to win, keep and grow a strong customer base across the UK with an emphasis on service, flexibility and expertise."
+          ]
+        },
+        {
+          "p": [
+            "For more information about the range of IT support services available at B2, or to speak to a business information technology expert about how managed IT support could benefit your business, call (+971) 54 405 6829 or complete our online inquiry form"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "items": [
+        "Remote Managed Infrastructure Services",
+        "IT Monitoring",
+        "Customized ERP solutions",
+        "Traffic Analysis",
+        "Web Hosting",
+        "Domain Names",
+        "Web Marketing (Online Marketing )",
+        "Email Hosting",
+        "Website Development",
+        "Integration",
+        "Ecommerce",
+        "Network Manage By Net wall",
+        "User Monitor By Net-wall",
+        "Managed Servers",
+        "Structured Cabling Services",
+        "Network Integration Service",
+        "Social Media Marketing",
+        "Network Infrastructure and Optimization Services",
+        "Server and network management including operations, monitoring and management services for the customer’s network and server infrastructure while maintaining high performance"
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "We are providing Outsourcing IT services",
+      "blocks": [
+        {
+          "p": [
+            "– Consider us as your IT Department-"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "Vision Plus",
+      "blocks": [
+        {
+          "p": [
+            "Vision Plus is our trusted sister company, specializing in ERP, POS, HRM, HMIS, Real Estate Management, and custom web & mobile development."
+          ]
+        },
+        {
+          "p": [
+            "Their expertise complements our offerings, enabling us to deliver a full spectrum of technology solutions to clients in multiple industries."
+          ]
+        },
+        {
+          "p": [
+            {
+              "text": "Visit Vision Plus website",
+              "href": "https://www.visionplus.com.pk/",
+              "target": "_blank",
+              "rel": "noopener"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "heading": "ISO Certifications",
+      "items": [
+        {
+          "image": {
+            "src": "/images/bbtech/shared/45001.webp",
+            "alt": "ISO Certifications",
+            "width": 1200,
+            "height": 750
+          }
+        },
+        {
+          "image": {
+            "src": "/images/bbtech/shared/27001.webp",
+            "alt": "ISO Certifications",
+            "width": 1200,
+            "height": 750
+          }
+        },
+        {
+          "image": {
+            "src": "/images/bbtech/shared/14001.webp",
+            "alt": "ISO Certifications",
+            "width": 1200,
+            "height": 750
+          }
+        },
+        {
+          "image": {
+            "src": "/images/bbtech/shared/9001.webp",
+            "alt": "ISO Certifications",
+            "width": 1200,
+            "height": 750
+          }
+        }
+      ]
+    }
+  ]
+}
