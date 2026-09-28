@@ -1,0 +1,85 @@
+{
+  "slug": "it-outsourcing-2",
+  "path": "/it-outsourcing-2/",
+  "source": "https://bbtech.ae/it-outsourcing-2/",
+  "metadata": {
+    "title": "IT Outsourcing - BB Tech",
+    "description": null,
+    "canonical": "https://bbtech.ae/it-outsourcing-2/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "IT Outsourcing"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "title": "Focus on Growth, Leave IT to Us",
+      "subtitle": "In today’s fast-paced business environment, managing IT systems can be complex and time-consuming. With Binary Bridge Technology Services’s IT outsourcing services, you can focus on what you do best—growing your business—while we take care of your technology needs.",
+      "image": {
+        "localPath": "/images/bbtech/it-outsourcing-2/outsource.webp",
+        "alt": "it outsourcing",
+        "width": 1024,
+        "height": 532
+      }
+    },
+    {
+      "type": "checklist",
+      "heading": "Why Outsource IT to Us?",
+      "items": [
+        "Cost Efficiency: Save on hiring, training, and maintaining an in-house IT team.",
+        "Expertise: Access a team of certified professionals with diverse skills.",
+        "Scalability: Flexible solutions that grow with your business.",
+        "Focus on Core Business: Spend more time on strategic initiatives and less on IT management.",
+        "Reliability: Depend on our 24/7 support and proactive approach."
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "heading": "Our IT Outsourcing Services",
+      "items": [
+        {
+          "title": "Managed IT Services",
+          "text": "Comprehensive IT management for your business. 24/7 monitoring, maintenance, and troubleshooting. Proactive issue resolution to minimize downtime."
+        },
+        {
+          "title": "Helpdesk Support",
+          "text": "Friendly, professional support for your team. Quick resolution of hardware, software, and network issues. Scalable support solutions to match your business needs."
+        },
+        {
+          "title": "Cloud Services",
+          "text": "Migration to cloud-based platforms. Management of cloud infrastructure for scalability and efficiency. Data backups and disaster recovery solutions."
+        },
+        {
+          "title": "Cybersecurity",
+          "text": "Advanced security protocols to protect your business. Regular vulnerability assessments and threat detection. Implementation of firewalls, antivirus, and intrusion prevention systems."
+        },
+        {
+          "title": "IT Consulting",
+          "text": "Expert advice to align technology with your business goals. Roadmaps for IT strategy and digital transformation. Vendor management and technology procurement support."
+        },
+        {
+          "title": "Custom Solutions",
+          "text": "Development of tailored software and IT systems. Integration of new technologies into your existing infrastructure. Ongoing support for custom applications and tools."
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "heading": "Unlock Your Business Potential",
+      "blocks": [
+        {
+          "p": [
+            "With IT outsourcing, you gain a strategic partner committed to driving your success. Let us handle your IT challenges, so you can innovate, compete, and thrive in today’s digital landscape."
+          ]
+        },
+        {
+          "p": [
+            { "text": "Contact us today", "bold": true },
+            " to learn more about our IT outsourcing services and how we can support your business!"
+          ]
+        }
+      ]
+    }
+  ]
+}
