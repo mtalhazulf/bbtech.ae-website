@@ -46,9 +46,11 @@ src/app/layout.js             Root layout: fonts, global CSS imports, root metad
 src/app/globals.scss          @forward list of every SCSS partial (order matters)
 src/app/assets/sass/utilities Design tokens: _colors.scss, _typography.scss, _root.scss, _breakpoints.scss
 src/app/assets/sass/components|layout  106 partials, per component/section (h4-h10 = template home variants)
+src/app/assets/sass/content-import    _ci-*.scss: styles for the imported-content components (one partial per area, see Content import)
 src/app/assets/css|fonts      Vendored third-party CSS and icon fonts. Don't edit.
-src/components/layout/        Header (variants via headerType), Footer, Footer10, ServiceDetailsMain
+src/components/layout/        Header (variants via headerType), Footer, Footer10 (+ FooterParts), ServiceDetailsMain
 src/components/sections/      Page sections, grouped by type; numbered variants (About3, About9...)
+src/components/sections/dynamic|service|home|pages  Data-driven sections for the imported content (see Content import)
 src/components/shared/        Cards, buttons, sliders, wrappers (ClientWrapper = all animation init)
 src/data/site.json             Company, logos, contact, offices, Vision Plus, socials, footer content
 src/data/pages.json             Legacy per-page hero titles (only src/app/about's old route still uses it)
@@ -128,20 +130,36 @@ The real site content lives in `src/data/pages/*.json` (one file per live page, 
 its URL path — e.g. `/services/erp/` → `src/data/pages/services/erp.json`), registered in
 `src/data/pages/index.js`. Each file has `{ slug, path, source, metadata, hero, sections }`;
 `sections` is an ordered array of `{ type: "richText" | "cardGrid" | "checklist" | "cta" |
-"form", ... }` blocks, rendered by `src/components/sections/SectionRenderer.js` onto small
-data-driven components under `src/components/sections/dynamic/` (the template's own section
-components all hardcode their own `src/data/sections/*.json` instead of accepting props, so
-none of them could be reused directly for real content).
+"form", ... }` blocks. The template's own section components hardcode their own
+`src/data/sections/*.json`, so the imported content is rendered by data-driven components
+that **reuse the template's markup and classes** (`.sec-heading` + `.sub-title` eyebrow,
+`h2.sec-title` with a highlight `<span>`, service-details sidebar, numbered service cards,
+choose-box cards, `Cta` band, `bg-shape` tinted bands, WOW/`title-anim` animations). Plain
+text walls and generic blocks are a regression: the premium template look is a requirement.
+
+- `sections/dynamic/`: `SectionRenderer`'s 5 section types plus `textBlocks.js` (segments,
+  check lists, "Label:" bold leads, images).
+- `sections/service/`: the catch-all page layout (`ServicePage` → `SectionShell`,
+  `SecHeading`, `ServiceSidebar` with menus from `sidebarMenus.js`, `PostDetails` for the
+  two 2020 posts). `presentation.js` decides per-section layout from the JSON.
+- `sections/home/` (home page) and `sections/pages/` (about-us, contact, services).
+- Styles: `src/app/assets/sass/content-import/_ci-sections|_ci-home|_ci-pages|_ci-footer.scss`,
+  one partial per area, tokens only. The home top bar spacing in `_ci-footer.scss` relies on
+  the `#smooth-content > main` shell and the `.space-for-header` spacer; keep both.
+
+Page JSON may carry **presentation-only keys** next to the copy (`layout`, `sidebarMenu`,
+`variant`, `fit`, `mediaFit`, `mediaFrom`, `highlight`, `tabLabel`, `tabIcon`, `link`).
+They pick a layout or reuse an existing live label; they never add new copy.
 
 Routes: the 4 pages with a bespoke layout (`/`, `/about-us/`, `/contact/`, `/services/`) have
-their own `src/app/**/page.js`, each importing its JSON directly. Every other real page goes
-through the catch-all `src/app/[...slug]/page.js`, which looks up `slug.join("/")` in the
-registry (`dynamicParams = false`, so anything not registered 404s).
+their own `src/app/**/page.js`, each importing its JSON directly and placing sections by
+`variant`. Every other real page goes through the catch-all `src/app/[...slug]/page.js`, which
+looks up `slug.join("/")` in the registry (`dynamicParams = false`, so anything not
+registered 404s) and renders `HeroInner` + `ServicePage`.
 
 If you need to add or change a page's content, edit its JSON (or run the import tooling
-below to re-derive it) — don't hand-write JSX for it. If a new content shape doesn't fit
-`SectionRenderer`'s 5 types, add a new component under `sections/dynamic/` and a case in
-`SectionRenderer.js`, following the existing template CSS classes (see `DESIGN.md`) rather
+below to re-derive it) — don't hand-write JSX for it. If a new content shape doesn't fit,
+extend the components above using the template's existing classes (see `DESIGN.md`) rather
 than inventing new ones.
 
 **Tooling** (`scripts/import/*.mjs`, run with `bun scripts/import/<file>.mjs`):
@@ -155,6 +173,10 @@ than inventing new ones.
   the reliable number), image coverage, zero remote asset references, zero template
   residue, and internal links. Run against a production build: `bun run build && bun
   scripts/import/verify.mjs`.
+- `check-page.mjs` — the same text and image checks against a running server, for a quick
+  loop while editing: `bun scripts/import/check-page.mjs <slug|all> [--base=http://localhost:3000]`.
+  Both scripts share `lib/text-leaves.mjs` (what counts as copy, how rendered HTML is
+  normalized). Presentation may restyle copy but every JSON string must still render.
 
 **Working artefacts** in `content-import/` (all committed except `.cache/`/`originals/`,
 which are gitignored): `inventory.json`, `assets-manifest.json`, `copy-fixes.md` (every

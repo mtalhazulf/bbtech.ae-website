@@ -25,10 +25,14 @@ build's static HTML (`.next/server/app/`), plus route/image/remote-reference/lin
 
 1. **JSON text-leaf coverage (primary, precise)** — every visible-copy string actually
    present in each page's own `src/data/pages/*.json` (every paragraph, heading, list
-   item, card title, button label, form label) must appear in that page's rendered HTML.
+   item, card title, button label, form label) must appear in that page's rendered HTML
+   (header, footer, nav and sidebars excluded, so chrome can't mask a dropped string).
    This has no false positives: it tests "did the React rendering pipeline drop anything
    from content we already trust," which is exactly the risk surface after Phase 3's
-   extraction. **Result: 387/387 strings — 100%.**
+   extraction. **Result: 815/815 strings — 100%.** (An earlier run reported 387/387; the
+   check has since been tightened to also count plain-string paragraphs and list items,
+   and split multi-line strings into their lines. The same rules live in
+   `scripts/import/lib/text-leaves.mjs`, shared with `check-page.mjs` for running servers.)
 2. **Raw sentence diff against the Phase 1 snapshot (secondary, noisier)** — splits the
    *original* live page's stripped-chrome text into sentences and checks each against the
    rendered output. This is the coverage method the import brief originally specified, but
@@ -120,3 +124,21 @@ decision, ISO badge confirmation, generated alt text to review, and dead assets:
 - Independent verification (a fresh subagent re-running `verify.mjs` and spot-checking 5
   random live pages against the build) was run before this report was finalized — see the
   final chat summary for its result.
+
+## Design restoration (after the initial import)
+
+The first rendering pass used generic blocks that lost the Bexon template's premium look.
+It was rebuilt on the template's own markup and classes (see `AGENTS.md` → Content
+import): home on the h10 sections, inner pages on the service-details layout with a
+sidebar, and Footer10 with the live footer content. Page JSON only gained
+presentation keys; no copy changed. Re-verified afterwards: build passes, `verify.mjs`
+0 failures (815/815 strings, 64/64 images), no horizontal overflow at 390px on any of
+the 26 pages.
+
+Open design points for the owner:
+- The brand re-theme (teal → BB Tech palette per `DESIGN.md`) is a separate task; until
+  then highlights and some contrast pairs use the template's teal.
+- `DESIGN.md` specifies navy footers; the inner pages currently use the template's
+  tinted footer-1 and home uses Footer10. Pick one.
+- The sidebar call card shows the top-bar phone (+971 3 755 5069) while the footer shows
+  +971 54 405 6829, as on the live site (see `content-conflicts.md`).
