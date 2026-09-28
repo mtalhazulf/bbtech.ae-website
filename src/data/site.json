@@ -74,8 +74,25 @@
 	},
 	"footer": {
 		"shapes": ["/images/shape/pattern-2.svg", "/images/shape/pattern-3.svg"],
-		"intro": "BBTECH is providing outsourced IT services to businesses in UAE. The benefit we bring to you and your business is to have all of your IT services managed from one place, with one point of contact, just like your very own IT department but without all the costs. We will align all your domains, hosting, connectivity and support in one place. Our IT contracts and service level agreements (SLA) can also cover your hardware warranties and software developments.",
+		"tagline": "We Make IT Happen",
+		"intro": "BBTECH is providing outsourced IT services to businesses in UAE The benefit we bring to you and your business is to have all of your IT services managed from one place, with one point of contact, just like your very own IT department but without all the costs. We will align all your domains, hosting, connectivity and support in one place. Our IT contracts and service level agreements (SLA) can also cover your hardware warranties and software developments.",
+		"servicesTitle": "Services",
+		"contactTitle": "Contact info",
 		"getInTouchHeading": "Get in Touch for your Inquiries",
+		"phoneLabel": "Phone number",
+		"phone": { "display": "+971 54 405 6829", "tel": "+971544056829" },
+		"emailLabel": "Email",
+		"addressLabel": "Address",
+		"addresses": [
+			{ "label": "UAE:", "text": "Po Box. 202135, Al Ain , United Arab Emirates" },
+			{
+				"label": "Pakistan:",
+				"text": "Khiyaban-e-Faiz, H-13, street no#3, Ali block, Near Bread and Cake Bakery, Islamabad, Pakistan"
+			}
+		],
+		"socialsLabel": "Find us on:",
+		"button": { "text": "Get in touch!", "url": "/contact/" },
+		"usefulInfoTitle": "Useful info",
 		"usefulInfo": [
 			{
 				"title": "About BB Tech",
@@ -87,7 +104,13 @@
 			},
 			{
 				"title": "Privacy Policy",
-				"text": "1. Data Collection: BBTech is committed to protecting your privacy. We collect only the information necessary to provide and improve our services. 2. Data Usage: Your data is used solely to enhance your experience and is never sold or shared with third parties without your consent. 3. Security Measures: We implement advanced security protocols to safeguard your personal information from unauthorized access. 4. Transparency: You have full control over your data, and we provide clear options to manage your preferences. 5. Compliance: BBTech adheres to all applicable data protection laws and regulations to ensure your privacy is respected."
+				"points": [
+					"1. Data Collection: BBTech is committed to protecting your privacy. We collect only the information necessary to provide and improve our services.",
+					"2. Data Usage: Your data is used solely to enhance your experience and is never sold or shared with third parties without your consent.",
+					"3. Security Measures: We implement advanced security protocols to safeguard your personal information from unauthorized access.",
+					"4. Transparency: You have full control over your data, and we provide clear options to manage your preferences.",
+					"5. Compliance: BBTech adheres to all applicable data protection laws and regulations to ensure your privacy is respected."
+				]
 			},
 			{
 				"title": "Satisfaction Guarantee",
@@ -95,9 +118,11 @@
 			},
 			{
 				"title": "Copyright Information",
-				"text": "All content on this website, including text, graphics, logos, images, and software, is the exclusive property of BBTech and is protected under copyright laws. Unauthorized reproduction, distribution, or modification of any material without prior written consent from BBTech is strictly prohibited. We respect intellectual property rights and expect our users to do the same. For permissions or inquiries regarding the use of our content, please contact us directly. All rights reserved by Binary Bridge Technology Services"
+				"text": "All content on this website, including text, graphics, logos, images, and software, is the exclusive property of BBTech and is protected under copyright laws. Unauthorized reproduction, distribution, or modification of any material without prior written consent from BBTech is strictly prohibited. We respect intellectual property rights and expect our users to do the same. For permissions or inquiries regarding the use of our content, please contact us directly."
 			}
 		],
-		"copyrightText": "BB Tech - 2016-2020. All rights reserved."
+		"copyrightText": "BB Tech - 2016-2020. All rights reserved.",
+		"rightsText": "All rights reserved by Binary Bridge Technology Services 2023",
+		"copyrightMenu": [{ "label": "Privacy Policy", "url": "/privacy-policy/" }]
 	}
 }

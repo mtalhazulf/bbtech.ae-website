@@ -1,5 +1,657 @@
 @use "../utilities" as *;
 
 /**----------------------------------------
-START: content-import footer styles (tokens only - see DESIGN.md)
+START: content-import footer + top bar styles (tokens only - see DESIGN.md)
+Footer.js (template footer-1) and Footer10.js (template h10 footer) with the
+live bbtech.ae footer copy; HeaderTop.js (template header-top).
 ----------------------------------------*/
+
+/* ---------- shared footer pieces ---------- */
+.tj-footer-section.ci-footer {
+	// vertical rhythm between wrapped columns (tablet/mobile)
+	.footer-main-area {
+		> .container > .row {
+			--bs-gutter-y: 48px;
+			margin-top: calc(-1 * var(--bs-gutter-y));
+			> * {
+				margin-top: var(--bs-gutter-y);
+			}
+		}
+	}
+
+	.footer-widget {
+		.title {
+			margin-bottom: 26px;
+			@media #{$md, $sm, $xs} {
+				margin-bottom: 18px;
+			}
+		}
+		&.ci-footer-col {
+			padding-inline-start: 0;
+			margin-top: 0;
+		}
+	}
+
+	.footer-logo {
+		max-width: none;
+		img {
+			width: auto;
+			height: 64px;
+		}
+	}
+
+	.ci-footer-about {
+		@media (min-width: 1200px) {
+			padding-inline-end: 24px;
+		}
+		.footer-text {
+			max-width: none;
+			p {
+				font-size: 14px;
+				line-height: 1.6;
+				margin-top: 22px;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.widget-nav-menu {
+		ul {
+			li {
+				padding: 5px 0;
+				&:first-child {
+					padding-top: 0;
+				}
+			}
+		}
+	}
+
+	/* contact column */
+	.ci-footer-contact {
+		.title {
+			margin-bottom: 8px;
+		}
+	}
+	.ci-footer-lead {
+		font-size: 15px;
+		color: var(--tj-color-text-body); // AA on the tinted footer (DESIGN.md 3.3)
+		margin-bottom: 22px;
+	}
+	.ci-footer-contact-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			display: flex;
+			align-items: flex-start;
+			gap: 12px;
+			margin-bottom: 18px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		.icon {
+			flex: 0 0 34px;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 34px;
+			height: 34px;
+			border-radius: 50%;
+			background-color: var(--tj-color-theme-primary);
+			font-size: 16px;
+			line-height: 1;
+			i {
+				color: var(--tj-color-common-white);
+				display: inline-flex;
+			}
+			// the envelope glyph draws optically smaller than phone/location
+			.tji-envelop-2 {
+				font-size: 1.25em;
+			}
+		}
+		.ci-footer-contact-text {
+			display: flex;
+			flex-direction: column;
+			gap: 3px;
+			min-width: 0;
+			font-size: 15px;
+			line-height: 1.5;
+		}
+		.label {
+			font-size: 13px;
+			line-height: 1.4;
+			color: var(--tj-color-text-body);
+		}
+		a {
+			color: var(--tj-color-heading-primary);
+			font-weight: var(--tj-fw-sbold);
+			overflow-wrap: anywhere;
+			&:hover {
+				color: var(--tj-color-theme-primary);
+			}
+		}
+		.address {
+			color: var(--tj-color-text-body);
+			strong {
+				color: var(--tj-color-heading-primary);
+				font-weight: var(--tj-fw-sbold);
+			}
+			& + .address {
+				margin-top: 6px;
+			}
+		}
+	}
+
+	/* "Useful info" accordion (template FAQ accordion, compact) */
+	.ci-footer-accordion {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		.accordion-item {
+			background-color: var(--tj-color-common-white);
+			color: var(--tj-color-text-body);
+			border: 0;
+			border-radius: 8px;
+			padding: 0 18px;
+			overflow: hidden;
+		}
+		.faq-title {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 12px;
+			width: 100%;
+			padding: 13px 0;
+			background: transparent;
+			border: 0;
+			text-align: start;
+			font-family: var(--tj-ff-heading);
+			font-size: 16px;
+			line-height: 1.35;
+			font-weight: var(--tj-fw-sbold);
+			color: var(--tj-color-heading-primary);
+			transition: color 0.3s ease-in-out;
+			&::after {
+				content: "\e918";
+				flex: 0 0 26px;
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				width: 26px;
+				height: 26px;
+				border-radius: 50%;
+				border: 1px solid var(--tj-color-theme-primary);
+				color: var(--tj-color-theme-primary);
+				font-family: "bexon-icons" !important;
+				font-weight: normal;
+				font-size: 13px;
+				line-height: 1;
+			}
+			&.collapsed {
+				&::after {
+					content: "\e927";
+				}
+			}
+			&:not(.collapsed) {
+				border-bottom: 1px dashed var(--tj-color-border-1);
+			}
+			&:hover {
+				color: var(--tj-color-theme-primary);
+			}
+			&:focus-visible {
+				outline: 2px solid var(--tj-color-theme-primary);
+				outline-offset: 2px;
+			}
+		}
+		.accordion-body {
+			padding: 12px 0 16px;
+			font-size: 14px;
+			line-height: 1.6;
+			color: var(--tj-color-text-body);
+			p {
+				margin: 0;
+			}
+		}
+		.ci-footer-points {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			li {
+				& + li {
+					margin-top: 8px;
+				}
+			}
+		}
+	}
+
+	/* socials with the live "Find us on:" label */
+	.ci-footer-socials {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 12px;
+		ul {
+			margin: 0;
+			padding: 0;
+		}
+		&-label {
+			font-size: 15px;
+			font-weight: var(--tj-fw-sbold);
+			color: var(--tj-color-heading-primary);
+		}
+		// full-strength icons (the template fades them to .3 - too faint to find)
+		ul li a {
+			width: 32px;
+			height: 32px;
+			opacity: 1;
+			font-size: 15px;
+			background-color: var(--tj-color-theme-primary);
+			i {
+				color: var(--tj-color-common-white);
+			}
+			&:hover {
+				background-color: var(--tj-color-heading-primary);
+				i {
+					color: var(--tj-color-common-white);
+				}
+			}
+			&:focus-visible {
+				outline: 2px solid var(--tj-color-theme-primary);
+				outline-offset: 2px;
+			}
+		}
+		@media #{$sm, $xs} {
+			justify-content: center;
+		}
+	}
+
+	/* copyright bar */
+	.ci-footer-copyright {
+		.copyright-text {
+			p {
+				font-size: 15px;
+				line-height: 1.5;
+				& + p {
+					margin-top: 2px;
+					font-size: 14px;
+					color: var(--tj-color-text-body);
+				}
+			}
+		}
+		.copyright-menu {
+			ul {
+				li {
+					&::before {
+						background: var(--tj-color-border-1);
+					}
+					a {
+						font-size: 15px;
+						color: var(--tj-color-text-body);
+						&:hover {
+							color: var(--tj-color-theme-primary);
+						}
+					}
+				}
+			}
+		}
+		@media #{$md} {
+			justify-content: center;
+			text-align: center;
+		}
+	}
+}
+
+/* Inner-page footer (footer-1): no CTA band on the page -> no reserved top space */
+main:not(:has(.tj-cta-section)) + .tj-footer-section.footer-1.ci-footer {
+	padding-top: 0;
+}
+
+/* ---------- dark footer (Footer10 on home) ---------- */
+.tj-footer-section.ci-footer.ci-footer-dark {
+	.h10-footer-title {
+		margin-bottom: 0;
+	}
+	.footer-col-1 {
+		@media #{$lg} {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: flex-end;
+			justify-content: space-between;
+			gap: 20px;
+			.text-btn {
+				margin-top: 0;
+			}
+		}
+	}
+	.ci-footer-lead,
+	.ci-footer-contact-list .label {
+		color: var(--tj-color-text-body-2);
+	}
+	.ci-footer-contact-list {
+		a {
+			color: var(--tj-color-common-white);
+			&:hover {
+				color: var(--tj-color-text-body-2);
+			}
+		}
+		.address {
+			color: var(--tj-color-text-body-2);
+			strong {
+				color: var(--tj-color-common-white);
+			}
+		}
+	}
+	.ci-footer-accordion {
+		.accordion-item {
+			background-color: var(--tj-color-grey-3);
+			color: var(--tj-color-text-body-2);
+		}
+		.faq-title {
+			color: var(--tj-color-common-white);
+			&::after {
+				color: var(--tj-color-common-white);
+				border-color: var(--tj-color-border-4);
+			}
+			&:not(.collapsed) {
+				border-bottom-color: var(--tj-color-border-3);
+			}
+			&:hover {
+				color: var(--tj-color-text-body-2);
+			}
+			&:focus-visible {
+				outline-color: var(--tj-color-common-white);
+			}
+		}
+		.accordion-body {
+			color: var(--tj-color-text-body-2);
+		}
+	}
+	.ci-footer-socials-label {
+		color: var(--tj-color-common-white);
+	}
+	.ci-footer-socials ul li a {
+		background-color: var(--tj-color-grey-3);
+		border: 1px solid var(--tj-color-border-4);
+		i {
+			color: var(--tj-color-common-white);
+		}
+		&:hover {
+			background-color: var(--tj-color-theme-primary);
+			border-color: var(--tj-color-theme-primary);
+		}
+		&:focus-visible {
+			outline-color: var(--tj-color-common-white);
+		}
+	}
+	// "Find us on:" + socials under the email pill (where the template's award
+	// row sat), so the tall heading column does not end in empty space
+	.ci-footer-col1-socials {
+		margin-top: 40px;
+		.ci-footer-socials {
+			gap: 14px;
+			ul {
+				gap: 10px;
+			}
+			ul li a {
+				width: 40px;
+				height: 40px;
+				font-size: 16px;
+			}
+		}
+		@media #{$lg} {
+			flex-basis: 100%;
+			margin-top: 0;
+		}
+		@media #{$md, $sm, $xs} {
+			margin-top: 28px;
+			.ci-footer-socials {
+				justify-content: flex-start;
+			}
+		}
+	}
+	.ci-footer-copyright {
+		.copyright-text {
+			p + p {
+				color: var(--tj-color-text-body-2);
+			}
+		}
+		.copyright-menu {
+			ul {
+				li {
+					&::before {
+						background: var(--tj-color-border-2);
+					}
+					a {
+						color: var(--tj-color-text-body-2);
+						&:hover {
+							color: var(--tj-color-common-white);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/* the template's newsletter card, repurposed for the live intro + CTA */
+	.ci-footer-band {
+		margin-bottom: 30px;
+	}
+	.footer-subscribe.ci-footer-card {
+		margin-inline-start: 0;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		gap: 40px;
+		padding: 36px 40px;
+		@media #{$md, $sm, $xs} {
+			flex-wrap: wrap;
+			gap: 24px;
+			padding: 30px 24px;
+		}
+	}
+	.ci-footer-card-logo {
+		flex: 0 0 auto;
+		img {
+			width: auto;
+			height: 72px;
+		}
+		@media #{$md, $sm, $xs} {
+			img {
+				height: 56px;
+			}
+		}
+	}
+	.ci-footer-card-text {
+		flex: 1 1 auto;
+		max-width: 760px;
+		margin: 0;
+		font-size: 16px;
+		line-height: 1.7;
+		color: var(--tj-color-text-body-2);
+		@media #{$md, $sm, $xs} {
+			flex-basis: 100%;
+			max-width: 100%;
+			font-size: 15px;
+		}
+	}
+	.ci-footer-card-btn {
+		flex: 0 0 auto;
+		margin-inline-start: auto;
+		@media #{$md, $sm, $xs} {
+			margin-inline-start: 0;
+		}
+	}
+}
+
+/* ---------- top bar (HeaderTop.js) ---------- */
+.header-top.ci-header-top {
+	.header-top-content {
+		min-height: 44px;
+		flex-wrap: nowrap;
+		gap: 20px;
+		@media #{$md} {
+			min-height: 40px;
+			justify-content: center;
+		}
+		@media #{$sm, $xs} {
+			min-height: 36px;
+			justify-content: center;
+		}
+	}
+	.header-info {
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		.info-item {
+			font-size: 14px;
+			white-space: nowrap;
+			&:first-child {
+				border-inline-start: 0;
+				padding-inline-start: 0;
+			}
+			a:hover {
+				opacity: 0.8;
+			}
+			.tji-envelop-2 {
+				font-size: 1.25em;
+			}
+			@media #{$sm, $xs} {
+				font-size: 13px;
+				gap: 6px;
+				padding: 0 8px;
+				&:first-child {
+					padding-inline-start: 0;
+				}
+				&:nth-child(2) {
+					padding-inline-end: 0;
+				}
+			}
+		}
+	}
+	.ci-header-top-socials {
+		.info-item {
+			padding-inline-end: 0;
+		}
+		// full-strength white circles (template style-2 fades them to .4)
+		.social-links.style-2 ul li a {
+			width: 24px;
+			height: 24px;
+			opacity: 1;
+			background-color: var(--tj-color-common-white);
+			i {
+				color: var(--tj-color-theme-primary);
+			}
+			&:hover {
+				opacity: 1;
+				background-color: var(--tj-color-heading-primary);
+				i {
+					color: var(--tj-color-common-white);
+				}
+			}
+			&:focus-visible {
+				outline: 2px solid var(--tj-color-common-white);
+				outline-offset: 2px;
+			}
+		}
+		@media #{$md, $sm, $xs} {
+			display: none;
+		}
+	}
+}
+
+/* h10 (home) header: put the bar above the floating hero card, not over it */
+.h10-header.header-area.header-absolute:has(> .ci-header-top) {
+	top: 0;
+	padding-top: 0;
+	> .ci-header-top {
+		margin-bottom: 39px; // 15px card gap + the header's own 24px inset
+		@media #{$md} {
+			margin-bottom: 15px;
+		}
+		@media #{$sm, $xs} {
+			margin-bottom: 12px;
+		}
+	}
+}
+// Push the page down by the bar's own height. Deliberately on <main> (not on
+// home's .top-space-15 spacer), so the bar can never overlap the hero card even
+// if page.js drops or reorders that spacer; the spacer's template 15px/12px
+// still adds the card gap on top (bar 44/40/36px + gap = 59/55/48px).
+body:has(.h10-header.header-absolute > .ci-header-top) #smooth-content > main {
+	padding-top: 44px;
+	@media #{$md} {
+		padding-top: 40px;
+	}
+	@media #{$sm, $xs} {
+		padding-top: 36px;
+	}
+}
+
+/* inner-page header (header-1): reserve the bar's height above the page hero */
+.header-1.header-absolute > .ci-header-top {
+	@media #{$md, $sm, $xs} {
+		margin-bottom: 0;
+	}
+}
+body:has(.header-1.header-absolute > .ci-header-top) .space-for-header {
+	padding-top: 164px; // 105px header + 44px bar + 15px gap
+	@media #{$md} {
+		padding-top: 135px;
+	}
+	@media #{$sm, $xs} {
+		padding-top: 131px;
+	}
+}
+
+/* ---------- desktop offcanvas (ContactMenu.js) ---------- */
+.tj-offcanvas-area.ci-offcanvas {
+	.hamburger_logo {
+		.mobile_logo {
+			max-width: none;
+			width: auto;
+			img {
+				width: auto;
+				height: 64px;
+			}
+		}
+	}
+	// no search block here, so stack the socials under the contact list
+	// instead of pinning them to the panel bottom (large empty gap otherwise)
+	.hamburger_wrapper {
+		justify-content: flex-start;
+	}
+	.hamburger-infos {
+		margin-top: 50px;
+	}
+	.ci-offcanvas-lead {
+		color: var(--tj-color-text-body-2);
+		margin-top: -10px;
+		margin-bottom: 28px;
+	}
+	.contact-info .contact-item {
+		.contact-link.ci-offcanvas-address {
+			display: block;
+			strong {
+				font-weight: var(--tj-fw-sbold);
+			}
+			& + .ci-offcanvas-address {
+				margin-top: 8px;
+			}
+		}
+	}
+	.hamburger-socials .social-links ul li a {
+		width: 36px;
+		height: 36px;
+		opacity: 1;
+		background-color: var(--tj-color-grey-3);
+		border: 1px solid var(--tj-color-border-4);
+		i {
+			color: var(--tj-color-common-white);
+		}
+		&:hover {
+			background-color: var(--tj-color-theme-primary);
+			border-color: var(--tj-color-theme-primary);
+		}
+	}
+}
+
+/* !END: content-import footer + top bar styles */
