@@ -111,3 +111,9 @@
 @forward "./assets/sass/layout/h10-about";
 @forward "./assets/sass/layout/h10-process";
 @forward "./assets/sass/layout/h10-testimonial";
+
+// content import (real bbtech.ae content on template components) - one partial per owner area
+@forward "./assets/sass/content-import/ci-sections";
+@forward "./assets/sass/content-import/ci-home";
+@forward "./assets/sass/content-import/ci-pages";
+@forward "./assets/sass/content-import/ci-footer";
