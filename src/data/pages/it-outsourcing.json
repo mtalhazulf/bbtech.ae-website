@@ -1,0 +1,45 @@
+{
+  "slug": "it-outsourcing",
+  "path": "/it-outsourcing/",
+  "source": "https://bbtech.ae/it-outsourcing/",
+  "metadata": {
+    "title": "IT Outsourcing - BB Tech",
+    "description": "IT outsourcing services allow business executives to retain control over IT strategies while benefiting from reduced operating costs and risk",
+    "canonical": "https://bbtech.ae/it-outsourcing/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "IT Outsourcing",
+    "image": {
+      "localPath": "/images/bbtech/it-outsourcing/18907-scaled.webp",
+      "alt": "IT Outsourcing",
+      "width": 2400,
+      "height": 1807
+    }
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "heading": "IT Outsourcing",
+      "blocks": [
+        {
+          "p": [
+            "IT outsourcing services allow business executives to retain control over IT strategies while benefiting from reduced operating costs and risks without compromising service delivery to end users and their clients. With ",
+            { "text": "B²", "italic": true },
+            " managed service model, we assume responsibility for operations delivery, drawing on IT governance best practices."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "richText",
+      "blocks": [
+        {
+          "p": [
+            "IT solutions and strategies that help clients to obtain the optimum value from their IT investments. IT outsourcing services and IT consultancy includes the application of technical and business expertise to handle Database, IT infrastructure, and System management. We being IT outsourcing company and provider know importance of your time and resources hence to let you focus on your core business we have expert IT support services. The technology-driven solutions that assist business processes are tactfully designed enables the client to out-perform to achieve overall effective outcomes. Our expert IT solutions technology & digital team constantly endeavor to build & deploy custom tools to execute individual client’s requirement. IT outsourcing, a non-core business process, off to experts enhanced efficiencies and also serves the chances for improved performance and better results."
+          ]
+        }
+      ]
+    }
+  ]
+}
