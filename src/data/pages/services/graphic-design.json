@@ -1,0 +1,79 @@
+{
+  "slug": "services/graphic-design",
+  "path": "/services/graphic-design/",
+  "source": "https://bbtech.ae/services/graphic-design/",
+  "metadata": {
+    "title": "Graphic Design - BB Tech",
+    "description": "We have an extensive in-house graphic design team. With their exceptional skills and talent, Creative team can take an idea or concept and",
+    "canonical": "https://bbtech.ae/services/graphic-design/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/branding.png"
+  },
+  "hero": {
+    "title": "Graphic Design"
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "heading": "Graphic Design",
+      "blocks": [
+        {
+          "p": [
+            "We have an extensive in-house graphic design team. With their exceptional skills and talent, Creative team can take an idea or concept and turn it into a powerful and effective piece of visual communication. Our talented graphic designers in UAE can also act as a back-end partner for clients with resource and time restrictions."
+          ]
+        }
+      ],
+      "image": {
+        "localPath": "/images/bbtech/services/graphic-design/2172250.webp",
+        "alt": "Illustration of a design team collaborating around a giant lightbulb with design tool icons",
+        "width": 1995,
+        "height": 1857
+      }
+    },
+    {
+      "type": "richText",
+      "heading": "Graphic Design Services",
+      "blocks": [
+        {
+          "p": [
+            "At BBTech, our graphic design services bring your vision to life with creativity and precision. From branding and logos to marketing materials and web design, we craft visually stunning solutions tailored to your needs."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "checklist",
+      "heading": "Why Choose Us?",
+      "items": [
+        "Creative Expertise: Our designers combine artistic flair with technical skill to deliver exceptional designs.",
+        "Customized Solutions: We work closely with you to ensure every design reflects your brand’s identity and message.",
+        "High-Quality Standards: We prioritize attention to detail, ensuring professional and polished results every time."
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "heading": "Our Services",
+      "items": [
+        {
+          "title": "Logo and Branding Design",
+          "text": "Logo and Branding Design is at the heart of creating a strong and memorable identity for your business. At BBTech, we craft logos that reflect your vision and values, ensuring they resonate with your audience. Our branding solutions are designed to establish a cohesive and professional image that sets you apart in the market.",
+          "icon": "Defaults-trophy"
+        },
+        {
+          "title": "Social Media Graphics",
+          "text": "Social Media Graphics play a vital role in capturing attention and engaging your audience online. At BBTech, we create visually striking and on-brand graphics tailored for platforms like Instagram, Facebook, and LinkedIn. Our designs help you stand out, convey your message effectively, and boost your social media presence.",
+          "icon": "Defaults-group"
+        },
+        {
+          "title": "Marketing Collaterals",
+          "text": "Marketing Collaterals are essential tools for communicating your brand’s message and value to your audience. At BBTech, we design professional brochures, flyers, posters, and other materials that leave a lasting impression. Our creative approach ensures your marketing assets effectively capture attention and drive results.",
+          "icon": "Defaults-clipboard"
+        },
+        {
+          "title": "Web and App UI/UX Design",
+          "text": "Web and App UI/UX Design is crucial for creating intuitive and seamless digital experiences. At BBTech, we focus on designing user-friendly interfaces that prioritize both functionality and aesthetics. Our goal is to enhance usability and engagement, ensuring your website or app provides a smooth, enjoyable experience for every user.",
+          "icon": "Defaults-cogs"
+        }
+      ]
+    }
+  ]
+}
