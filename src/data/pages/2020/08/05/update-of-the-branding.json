@@ -1,0 +1,66 @@
+{
+  "slug": "2020/08/05/update-of-the-branding",
+  "path": "/2020/08/05/update-of-the-branding/",
+  "source": "https://bbtech.ae/2020/08/05/update-of-the-branding/",
+  "metadata": {
+    "title": "BB TechNew website - BBtech.com",
+    "description": "BB TECH is providing outsourced IT services to businesses in UAE The benefit we bring to you and your business is to have all of your IT",
+    "canonical": "https://bbtech.ae/2020/08/05/update-of-the-branding/",
+    "ogImage": "https://bbtech.ae/wp-content/uploads/2020/08/new-web.png"
+  },
+  "hero": {
+    "title": "New website",
+    "image": {
+      "src": "/images/bbtech/2020/08/05/new-corporate-logo-updated-branding/new-web.webp",
+      "alt": "BB Tech",
+      "width": 1200,
+      "height": 750
+    },
+    "meta": {
+      "date": "August 5, 2020",
+      "category": "news & updates",
+      "author": "admin"
+    }
+  },
+  "sections": [
+    {
+      "type": "richText",
+      "blocks": [
+        {
+          "p": [
+            "Year 2020 BB Tech has launched updated ",
+            { "text": "website", "href": "/2020/08/05/new-corporate-logo-updated-branding/" }
+          ]
+        },
+        {
+          "p": ["old website"]
+        },
+        {
+          "image": {
+            "src": "/images/bbtech/2020/08/05/update-of-the-branding/olweb.webp",
+            "alt": "BB Tech",
+            "width": 1200,
+            "height": 750
+          }
+        }
+      ]
+    },
+    {
+      "type": "cardGrid",
+      "heading": "Related Posts",
+      "items": [
+        {
+          "title": "New corporate logo & Updated Branding",
+          "href": "/2020/08/05/new-corporate-logo-updated-branding/",
+          "date": "August 5, 2020",
+          "image": {
+            "src": "/images/bbtech/shared/branding.webp",
+            "alt": "bbtech",
+            "width": 1200,
+            "height": 750
+          }
+        }
+      ]
+    }
+  ]
+}
