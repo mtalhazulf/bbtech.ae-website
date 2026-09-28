@@ -13,33 +13,15 @@
     "slides": [
       {
         "title": "BB. TECH",
-        "subtitle": "We Make IT Happen",
-        "image": {
-          "localPath": "/images/bbtech/services/depositphotos-12286955-stock-photo-technology-in-the-hands.webp",
-          "alt": "Technology In The Hands",
-          "width": 600,
-          "height": 416
-        }
+        "subtitle": "We Make IT Happen"
       },
       {
         "title": "ERP CUSTOMIZATION",
         "subtitle": "BBTECH Provide Customized ERP System for Range of Industries",
-        "image": {
-          "localPath": "/images/bbtech/shared/binary-bridge-technology-services.webp",
-          "alt": "Web design and development",
-          "width": 598,
-          "height": 582
-        },
         "cta": { "text": "Discover more", "href": "/services/erp/" }
       },
       {
         "title": "SOCIAL MEDIA MARKETING",
-        "image": {
-          "localPath": "/images/bbtech/shared/social-media-3070331-1280-1024x778-copy.webp",
-          "alt": "Social Media Marketing",
-          "width": 1024,
-          "height": 964
-        },
         "cta": { "text": "Discover more", "href": "/services/social-media-marketing/" }
       }
     ]
