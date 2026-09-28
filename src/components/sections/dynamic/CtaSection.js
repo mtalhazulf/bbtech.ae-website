@@ -1,27 +1,13 @@
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+import Cta from "@/components/sections/cta/Cta";
 
-/** Renders a { type: "cta", heading, button: { text, href } } content section. */
-const CtaSection = ({ heading, button }) => {
-	return (
-		<section className="tj-cta-section">
-			<div className="container">
-				<div className="row">
-					<div className="col-12">
-						<div className="cta-area">
-							<div className="cta-content">
-								<h2 className="title title-anim">{heading}</h2>
-								{button ? (
-									<div className="cta-btn wow fadeInUp">
-										<ButtonPrimary text={button.text} url={button.href} className="btn-dark" />
-									</div>
-								) : null}
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	);
+/**
+ * Renders a { type: "cta", heading, button: { text, href } } content section as the
+ * template's CTA band, which (like the template's own Cta) overlaps the top of the footer.
+ * Pass `inline` when it is not the last section of the page, so it keeps normal spacing
+ * instead of pulling the next section up.
+ */
+const CtaSection = ({ heading, button, inline = false }) => {
+	return <Cta title={heading} button={button || null} inline={inline} />;
 };
 
 export default CtaSection;

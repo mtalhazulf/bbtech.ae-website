@@ -8,15 +8,17 @@ const RENDERERS = {
 	richText: (s, i) => <RichTextSection key={i} heading={s.heading} blocks={s.blocks} image={s.image} />,
 	cardGrid: (s, i) => <CardGridSection key={i} heading={s.heading} text={s.text} image={s.image} items={s.items} />,
 	checklist: (s, i) => <ChecklistSection key={i} heading={s.heading} items={s.items} />,
-	cta: (s, i) => <CtaSection key={i} heading={s.heading} button={s.button} />,
+	cta: (s, i, isLast) => <CtaSection key={i} heading={s.heading} button={s.button} inline={!isLast} />,
 	form: (s, i) => <DynamicForm key={i} id={s.id} fields={s.fields} consent={s.consent} submitText={s.submitText} />,
 };
 
 /**
- * Maps the ordered `sections` array from a src/data/pages/*.json content file onto real
- * section components. Every section produced by the content import is one of the types
- * above (see content-import/ for the extraction rules) — an unrecognized type is skipped
- * rather than crashing the build, but that should never happen for real content.
+ * Maps the ordered `sections` array from a src/data/pages/*.json content file onto the
+ * data-driven section components (template-styled; see components/sections/dynamic/). Every
+ * section produced by the content import is one of the types above (see content-import/ for
+ * the extraction rules) — an unrecognized type is skipped rather than crashing the build,
+ * but that should never happen for real content. A "cta" section only overlaps the footer
+ * when it is the last section rendered here.
  */
 const SectionRenderer = ({ sections }) => {
 	if (!sections?.length) return null;
@@ -28,7 +30,7 @@ const SectionRenderer = ({ sections }) => {
 			}
 			return null;
 		}
-		return render(section, i);
+		return render(section, i, i === sections.length - 1);
 	});
 };
 

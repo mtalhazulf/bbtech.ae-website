@@ -1,6 +1,8 @@
 {
   "slug": "adhics-medical-inspection-consultancy",
   "path": "/adhics-medical-inspection-consultancy/",
+  "layout": "sidebar",
+  "sidebarMenu": "services",
   "source": "https://bbtech.ae/adhics-medical-inspection-consultancy/",
   "metadata": {
     "title": "ADHICS Medical Inspection & Consultancy - BB Tech",

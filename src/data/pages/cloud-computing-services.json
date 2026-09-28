@@ -1,6 +1,8 @@
 {
   "slug": "cloud-computing-services",
   "path": "/cloud-computing-services/",
+  "layout": "sidebar",
+  "sidebarMenu": "services",
   "source": "https://bbtech.ae/cloud-computing-services/",
   "metadata": {
     "title": "Cloud Computing Services - BB Tech",

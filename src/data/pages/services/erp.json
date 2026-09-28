@@ -1,6 +1,8 @@
 {
   "slug": "services/erp",
   "path": "/services/erp/",
+  "layout": "sidebar",
+  "sidebarMenu": "site",
   "source": "https://bbtech.ae/services/erp/",
   "metadata": {
     "title": "ERP - BB Tech",

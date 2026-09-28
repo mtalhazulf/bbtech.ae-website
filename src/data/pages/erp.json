@@ -1,6 +1,7 @@
 {
   "slug": "erp",
   "path": "/erp/",
+  "layout": "landing",
   "source": "https://bbtech.ae/erp/",
   "metadata": {
     "title": "ERP - Enterprise resource planning - BB Tech",

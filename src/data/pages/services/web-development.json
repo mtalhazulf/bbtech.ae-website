@@ -1,6 +1,8 @@
 {
   "slug": "services/web-development",
   "path": "/services/web-development/",
+  "layout": "sidebar",
+  "sidebarMenu": "services",
   "source": "https://bbtech.ae/services/web-development/",
   "metadata": {
     "title": "Web Development in UAE - BB Tech",

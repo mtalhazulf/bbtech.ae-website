@@ -2,10 +2,23 @@ import heroData from "@/data/sections/hero.json";
 import sliceText from "@/libs/sliceText";
 import Link from "next/link";
 import React from "react";
+
+/**
+ * Inner-page header: page title + breadcrumb on the template's dark rounded band. The
+ * template's stock background photo is not used; the band is decorated with the
+ * template's own line patterns and a token-based brand glow instead.
+ */
 const HeroInner = ({ title, text, breadcrums = [] }) => {
 	const { heroInner } = heroData;
 	return (
 		<section className="tj-page-header section-gap-x">
+			<div className="ci-page-header-glow" aria-hidden="true"></div>
+			<div className="ci-page-header-shape shape-1" aria-hidden="true">
+				<img src="/images/shape/pattern-2.svg" alt="" />
+			</div>
+			<div className="ci-page-header-shape shape-2" aria-hidden="true">
+				<img src="/images/shape/pattern-3.svg" alt="" />
+			</div>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-12">
@@ -36,7 +49,7 @@ const HeroInner = ({ title, text, breadcrums = [] }) => {
 									  ))
 									: ""}
 								<span>
-									<span>{sliceText(text, 28, true)}</span>
+									<span>{sliceText(text || title || "", 28, true)}</span>
 								</span>
 							</div>
 						</div>

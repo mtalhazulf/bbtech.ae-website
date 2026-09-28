@@ -1,6 +1,8 @@
 {
   "slug": "privacy-policy",
   "path": "/privacy-policy/",
+  "layout": "sidebar",
+  "sidebarMenu": "site",
   "source": "https://bbtech.ae/privacy-policy/",
   "metadata": {
     "title": "Privacy Policy - BB Tech",

@@ -1,6 +1,8 @@
 {
   "slug": "branding-rebranding",
   "path": "/branding-rebranding/",
+  "layout": "sidebar",
+  "sidebarMenu": "services",
   "source": "https://bbtech.ae/branding-rebranding/",
   "metadata": {
     "title": "Branding & Rebranding - BB Tech",

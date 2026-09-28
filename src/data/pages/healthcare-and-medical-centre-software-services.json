@@ -1,6 +1,8 @@
 {
   "slug": "healthcare-and-medical-centre-software-services",
   "path": "/healthcare-and-medical-centre-software-services/",
+  "layout": "sidebar",
+  "sidebarMenu": "services",
   "source": "https://bbtech.ae/healthcare-and-medical-centre-software-services/",
   "metadata": {
     "title": "Healthcare and Medical Centre Software Services - BB Tech",

@@ -1,6 +1,8 @@
 {
   "slug": "services/graphic-design",
   "path": "/services/graphic-design/",
+  "layout": "sidebar",
+  "sidebarMenu": "services",
   "source": "https://bbtech.ae/services/graphic-design/",
   "metadata": {
     "title": "Graphic Design - BB Tech",

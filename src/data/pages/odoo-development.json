@@ -1,6 +1,7 @@
 {
   "slug": "odoo-development",
   "path": "/odoo-development/",
+  "layout": "landing",
   "source": "https://bbtech.ae/odoo-development/",
   "metadata": {
     "title": "Odoo Development - BB Tech",

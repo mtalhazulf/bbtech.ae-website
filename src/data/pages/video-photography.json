@@ -1,6 +1,8 @@
 {
   "slug": "video-photography",
   "path": "/video-photography/",
+  "layout": "sidebar",
+  "sidebarMenu": "services",
   "source": "https://bbtech.ae/video-photography/",
   "metadata": {
     "title": "Video & Photography - BB Tech",

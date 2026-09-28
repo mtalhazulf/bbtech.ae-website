@@ -1,8 +1,7 @@
 import Footer from "@/components/layout/footer/Footer";
 import Header from "@/components/layout/header/Header";
-import RichTextSection from "@/components/sections/dynamic/RichTextSection";
 import HeroInner from "@/components/sections/hero/HeroInner";
-import SectionRenderer from "@/components/sections/SectionRenderer";
+import ServicePage from "@/components/sections/service/ServicePage";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
@@ -36,6 +35,13 @@ export async function generateMetadata({ params }) {
 	};
 }
 
+// Breadcrumb trail between "Home" and the page itself: /services/<x>/ pages sit under the
+// live "Services" menu entry.
+function breadcrumbsFor(page) {
+	if (page.path.startsWith("/services/")) return [{ name: "Services", path: "/services/" }];
+	return [];
+}
+
 export default async function ContentPage({ params }) {
 	const { slug } = await params;
 	const page = getPageData(slug.join("/"));
@@ -50,14 +56,8 @@ export default async function ContentPage({ params }) {
 				<div id="smooth-content">
 					<main>
 						<HeaderSpace />
-						<HeroInner title={page.hero?.title} text={page.hero?.title} />
-						{page.hero?.subtitle || page.hero?.image ? (
-							<RichTextSection
-								blocks={page.hero.subtitle ? [{ p: [page.hero.subtitle] }] : []}
-								image={page.hero.image}
-							/>
-						) : null}
-						<SectionRenderer sections={page.sections} />
+						<HeroInner title={page.hero?.title} text={page.hero?.title} breadcrums={breadcrumbsFor(page)} />
+						<ServicePage page={page} />
 					</main>
 					<Footer />
 				</div>

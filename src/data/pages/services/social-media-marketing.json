@@ -1,6 +1,8 @@
 {
   "slug": "services/social-media-marketing",
   "path": "/services/social-media-marketing/",
+  "layout": "sidebar",
+  "sidebarMenu": "services",
   "source": "https://bbtech.ae/services/social-media-marketing/",
   "metadata": {
     "title": "Social Media Marketing - BB Tech",

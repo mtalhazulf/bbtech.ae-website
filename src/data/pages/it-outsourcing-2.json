@@ -1,6 +1,8 @@
 {
   "slug": "it-outsourcing-2",
   "path": "/it-outsourcing-2/",
+  "layout": "sidebar",
+  "sidebarMenu": "services",
   "source": "https://bbtech.ae/it-outsourcing-2/",
   "metadata": {
     "title": "IT Outsourcing - BB Tech",

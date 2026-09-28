@@ -1,6 +1,8 @@
 {
   "slug": "social-wifi",
   "path": "/social-wifi/",
+  "layout": "sidebar",
+  "sidebarMenu": "services",
   "source": "https://bbtech.ae/social-wifi/",
   "metadata": {
     "title": "social-wifi in UAE - BB Tech",

@@ -1,6 +1,8 @@
 {
   "slug": "services/mobile-app-development",
   "path": "/services/mobile-app-development/",
+  "layout": "sidebar",
+  "sidebarMenu": "services",
   "source": "https://bbtech.ae/services/mobile-app-development/",
   "metadata": {
     "title": "Mobile App Development - BB Tech",

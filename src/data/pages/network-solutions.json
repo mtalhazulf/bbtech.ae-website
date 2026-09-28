@@ -1,6 +1,8 @@
 {
   "slug": "network-solutions",
   "path": "/network-solutions/",
+  "layout": "sidebar",
+  "sidebarMenu": "services",
   "source": "https://bbtech.ae/network-solutions/",
   "metadata": {
     "title": "Network Solutions - BB Tech",
