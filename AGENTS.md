@@ -30,7 +30,7 @@ IT outsourcing, cloud, and healthcare software/ADHICS compliance.
 ```bash
 bun install --frozen-lockfile   # install (never swap to npm/yarn/pnpm; keep bun.lock authoritative)
 bun run dev                     # dev server at http://localhost:3000 (Turbopack)
-bun run build                   # production build; currently prerenders 45 static pages
+bun run build                   # production build; currently prerenders 33 static pages/routes
 bun run start                   # serve the production build
 docker build -t bbtech-web .    # container image (runs `bun run build`)
 ```
@@ -50,13 +50,18 @@ src/app/assets/css|fonts      Vendored third-party CSS and icon fonts. Don't edi
 src/components/layout/        Header (variants via headerType), Footer, Footer10, ServiceDetailsMain
 src/components/sections/      Page sections, grouped by type; numbered variants (About3, About9...)
 src/components/shared/        Cards, buttons, sliders, wrappers (ClientWrapper = all animation init)
-src/data/site.json            Company, logos, contact, offices, socials, footer menus
-src/data/pages.json           Per-page hero titles and root metadata
-src/data/sections/*.json      Copy for each section component
-public/fakedata/*.json        Collection data: services, nav-items, team, careers, testimonials, brands
+src/data/site.json             Company, logos, contact, offices, Vision Plus, socials, footer content
+src/data/pages.json             Legacy per-page hero titles (only src/app/about's old route still uses it)
+src/data/pages/*.json           Real bbtech.ae content, one file per live page (see Content import below)
+src/data/pages/index.js         Static registry of every src/data/pages/*.json, keyed by path (no slashes)
+src/data/sections/*.json      Copy for the template's own hardcoded sections (unrelated to content import)
+public/fakedata/*.json        Collection data: services + nav-items (real, from content import); team/careers/testimonials/brands (still template -- hidden, see Hidden sections)
+public/images/bbtech/          Real harvested images from bbtech.ae, one subfolder per page + shared/
 src/libs/get*.js              Thin getters over the JSON (getALlServices, getNavItems, getSiteConfig...)
 src/libs/*Anim*.js, tj*.js    GSAP animation modules, all run from ClientWrapper
-public/images, public/video   Assets; most are still template stock
+public/images, public/video   Remaining assets; most are still template stock outside public/images/bbtech/
+content-import/                 Content-import working artifacts: inventory, snapshots, reports (see below)
+scripts/import/                 Content-import tooling (Bun scripts, see below)
 ```
 
 ## Architecture and patterns
@@ -103,62 +108,120 @@ public/images, public/video   Assets; most are still template stock
   or certifications. The live site has **no real testimonials, client logos, or team profiles**.
   Template placeholders (testimonials such as "Guy Hawkins", team members such as "Savannah Nguyen",
   London-based careers, `1-888-452-1505`) must be removed or hidden until the client supplies real data.
-- Where facts conflict, don't pick one yourself. Flag it for the owner. Known conflicts:
-  - **Experience:** "over 5 years" (About), "over 6 years" (home), and "10 Years" (home). The founding year is 2016 per third-party listings.
-  - **Phones:** +971 54 405 6829 (primary), +971 3 755 5069, and +971 56 128 6321.
-  - **Offices:** `site.json` gives Pakistan offices UAE phone numbers. The Lahore address
-    (574 Block G1, Johar Town) belongs to sister company **Vision Plus** (+92 numbers, info@visionplus.com.pk).
-    Verify before publishing.
+- Where facts conflict, don't pick one yourself. Flag it for the owner. Known conflicts
+  (full breakdown: `content-import/content-conflicts.md`):
+  - **Experience:** "over 5 years" (About), "over 6 years" and "10 years" (home, twice), and
+    "more than 7 years" (Odoo page). The founding year is 2016 per third-party listings.
+  - **Phones:** the live top bar shows +971 3 755 5069; About-us and the footer instead show
+    +971 54 405 6829; the Contact page also lists +971 56 128 6321.
+  - **Offices:** BB Tech itself has a UAE HQ (Al Ain) and a Pakistan office (Islamabad).
+    Separately, sister company **Vision Plus** has its own Lahore office (+92 numbers,
+    info@visionplus.com.pk) — modeled as `site.json`'s `visionPlus` key, not as a BB Tech
+    "office." (An earlier version of this repo's `site.json` incorrectly attached UAE phone
+    numbers to a Lahore "office" entry; that's been fixed.)
 - ISO badges shown on the live site: 45001, 27001, 14001, 9001. Only display them if the client confirms they're current.
 - Spelling: US English. Brand name is always "BB Tech" (not "BBTech", "BBTECH", or "B2").
 
+## Content import
+
+The real site content lives in `src/data/pages/*.json` (one file per live page, mirroring
+its URL path — e.g. `/services/erp/` → `src/data/pages/services/erp.json`), registered in
+`src/data/pages/index.js`. Each file has `{ slug, path, source, metadata, hero, sections }`;
+`sections` is an ordered array of `{ type: "richText" | "cardGrid" | "checklist" | "cta" |
+"form", ... }` blocks, rendered by `src/components/sections/SectionRenderer.js` onto small
+data-driven components under `src/components/sections/dynamic/` (the template's own section
+components all hardcode their own `src/data/sections/*.json` instead of accepting props, so
+none of them could be reused directly for real content).
+
+Routes: the 4 pages with a bespoke layout (`/`, `/about-us/`, `/contact/`, `/services/`) have
+their own `src/app/**/page.js`, each importing its JSON directly. Every other real page goes
+through the catch-all `src/app/[...slug]/page.js`, which looks up `slug.join("/")` in the
+registry (`dynamicParams = false`, so anything not registered 404s).
+
+If you need to add or change a page's content, edit its JSON (or run the import tooling
+below to re-derive it) — don't hand-write JSX for it. If a new content shape doesn't fit
+`SectionRenderer`'s 5 types, add a new component under `sections/dynamic/` and a case in
+`SectionRenderer.js`, following the existing template CSS classes (see `DESIGN.md`) rather
+than inventing new ones.
+
+**Tooling** (`scripts/import/*.mjs`, run with `bun scripts/import/<file>.mjs`):
+- `discover.mjs` — crawls bbtech.ae's sitemaps/REST API/menu, classifies every URL
+  real/filler against `lib/seed-inventory.mjs`, writes `content-import/inventory.json` +
+  raw snapshots.
+- `harvest-assets.mjs` — downloads and converts every image a real page references into
+  `public/images/bbtech/`, writes `content-import/assets-manifest.json`.
+- `verify.mjs` — run after any content or rendering change. Checks route coverage, a
+  per-page JSON-text-leaf coverage (every string in a page's JSON must render — this is
+  the reliable number), image coverage, zero remote asset references, zero template
+  residue, and internal links. Run against a production build: `bun run build && bun
+  scripts/import/verify.mjs`.
+
+**Working artefacts** in `content-import/` (all committed except `.cache/`/`originals/`,
+which are gitignored): `inventory.json`, `assets-manifest.json`, `copy-fixes.md` (every
+typo fix, with page attribution), `content-conflicts.md`, `needs-client-input.md`,
+`REPORT.md`, and `snapshot/` (the permanent archive of the live site's raw HTML/JSON, one
+folder per page, since bbtech.ae itself won't be around forever).
+
 ## Routing, redirects, and SEO
 
-Decision: **slug-based routes plus permanent redirects** from every live URL.
+Decision (locked): **1:1 URL parity** — every real page lives at the exact same path it had
+on the live site, with `trailingSlash: true` in `next.config.js` so URLs match byte for
+byte. This replaced an earlier plan to consolidate ERP/service variants under
+`/services/*` slugs; that plan is no longer in effect.
 
-- Convert `services/[id]` from numeric ids to slugs: add a `slug` field in `public/fakedata/services.json`,
-  look it up with `find(s => s.slug === slug)`, and return slugs from `generateStaticParams`. Update
-  every `/services/<n>` link (`nav-items.json`, `site.json` footer menus).
-- Reuse a live slug where the service matches 1:1, so no redirect is needed.
-- Put redirects in `next.config.js` `redirects()` with `permanent: true`. Next emits a 308, which
-  search engines treat like a 301. Proposed map (confirm the ERP consolidation first; see Open decisions):
-
-| Live URL | New route |
-|---|---|
-| `/about-us/` (+ `/about-us/company/`, `/team/`, `/gallery/`) | `/about` |
-| `/services/web-development/` | `/services/web-development` (same slug) |
-| `/services/mobile-app-development/` | `/services/mobile-app-development` (same slug) |
-| `/services/graphic-design/`, `/branding-rebranding/`, `/video-photography/` | `/services/graphic-design` |
-| `/services/social-media-marketing/` | `/services/social-media-marketing` (same slug) |
-| `/erp/`, `/services/erp/`, `/construction-management-system/`, `/odoo-development/`, `/school-system-isms/` | `/services/erp` |
-| `/social-wifi/`, `/services/social-wifi/` | `/services/social-wifi` |
-| `/network-solutions/`, `/it-outsourcing/`, `/it-outsourcing-2/` | `/services/it-network-security` |
-| `/cloud-computing-services/`, `/healthcare-and-medical-centre-software-services/`, `/adhics-medical-inspection-consultancy/` | `/services/cloud-healthcare` |
-| `/testimonials/`, `/projects/`, `/project/:slug*`, `/2020/:path*` | `/` |
-
-- **Metadata:** today only `src/app/layout.js` exports `metadata`. Every page needs its own
-  `metadata` (or `generateMetadata` for dynamic routes), sourced from `src/data/pages.json`. Keep
-  the live title pattern `"{Page} | BB Tech"` and port the live meta descriptions where they exist.
-  Set `metadataBase: new URL("https://bbtech.ae")` and a branded OG image.
-- Add `src/app/sitemap.js` and `src/app/robots.js` before launch.
-- A `/privacy-policy` page is required. The footer "Privacy Policy" link currently points to `/contact`.
+- `next.config.js` `redirects()` (all `permanent: true`, emitting a 308) covers every
+  filler/legacy path from `content-import/inventory.json` — named pages (testimonials,
+  projects, about-us/company|team|gallery, texture_test, my-account, services/service-page)
+  plus wildcard collections (`/project/:path*`, `/dt_portfolio/:path*`, `/dt_team/:path*`,
+  WordPress system archives) — plus `/about/ → /about-us/` for this repo's own pre-import
+  placeholder route. **Redirect `source` patterns need their own trailing slash to match
+  once `trailingSlash: true` has normalized the incoming path** — a source without one
+  silently never matches.
+- Numeric `/services/<n>` routes are gone; `src/app/services/[id]/` was deleted (it would
+  otherwise collide with the catch-all for paths like `/services/erp/`, since Next.js
+  prefers a more specific single-segment dynamic route over a catch-all).
+- **Metadata:** every real page's `generateMetadata`/`metadata` export reads
+  `page.metadata.{title,description,canonical,ogImage}` straight from its JSON (sourced
+  from the live Yoast data during import — `ogImage` was resolved to the locally-harvested
+  asset, not the original remote bbtech.ae URL). Root layout sets
+  `metadataBase: new URL("https://bbtech.ae")` and an `Organization` JSON-LD block from
+  `site.json` + the live Yoast schema graph.
+- `src/app/sitemap.js` and `src/app/robots.js` are in place, generated from the page registry.
+- `/privacy-policy/` is real content (735 words, not WP boilerplate) — see
+  `src/data/pages/privacy-policy.json`.
 
 ## Definition of done
 
 1. `bun run build` passes with no new warnings.
-2. Pages you changed render correctly at desktop (≥1200px) and mobile (≤575px) in `bun run dev`,
+2. `bun scripts/import/verify.mjs` (against that build) reports 0 failures if you touched
+   any content/rendering code.
+3. Pages you changed render correctly at desktop (≥1200px) and mobile (≤575px) in `bun run dev`,
    with no console errors and no leftover teal (`#1E8A8A`) or template copy.
-3. New copy traces to the live site or to the client; no placeholders presented as real content.
-4. New styles use tokens only; text contrast meets the pairs table in `DESIGN.md`.
-5. Changed or added URLs are reflected in redirects, nav JSON, and footer menus.
+4. New copy traces to the live site or to the client; no placeholders presented as real content.
+5. New styles use tokens only; text contrast meets the pairs table in `DESIGN.md`.
+6. Changed or added URLs are reflected in redirects, nav JSON, and footer content.
+
+## Hidden sections (D4 — no real content exists)
+
+Testimonials, team, careers, history, FAQ, solutions, and industries have **no real content
+on the live site** (confirmed during the import: `dt_team` entries are placeholder role
+names like "The Geeks", `dt_portfolio` entries are literally Lorem ipsum). Their routes are
+renamed to Next.js private folders (`src/app/_team/`, `_careers/`, `_history/`, `_faq/`,
+`_solutions/`, `_industries/`, `_terms-and-conditions/`) so they're non-routable; the
+component code stays in place for whenever the client supplies real content. Don't re-route
+them without checking `content-import/needs-client-input.md` first.
 
 ## Open decisions (ask the owner; don't decide silently)
 
-- Should ERP sub-products (ISMS school system, Odoo, Construction ERP) get their own pages
-  instead of folding into `/services/erp`?
-- Careers, Team, History, FAQ, Testimonials: keep them (they need real content) or remove them from nav for launch?
-- Contact form backend (the live site uses Contact Form 7). The current form doesn't submit anywhere.
+- Should the sidebar "quick contact" form widget (present on most service pages live, with
+  an extended Country/City/Company/Website variant on the ERP service page) be modeled as a
+  real shared component, or does the single `/contact/` form cover it? See
+  `content-import/needs-client-input.md`.
+- Contact form backend (the live site uses Contact Form 7). Every form here calls
+  `preventDefault()` with a `// TODO(forms): wire submission` comment; none submits anywhere.
 - A logo lockup with a wordmark and a branded OG image (the repo only has the icon mark).
+- `/erp/` and `/construction-management-system/` share near-identical structure/headings —
+  keep both as distinct real pages (current state) or treat one as canonical?
 
 ## Don't
 
