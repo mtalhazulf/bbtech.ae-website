@@ -374,7 +374,23 @@ Service detail uses `ServiceDetailsMain`: main content plus a sticky service lis
 
 ## 15. Open design items
 
-1. A logo lockup with a wordmark, plus a white/mono variant. The repo only has the icon mark.
-2. OG image and social avatars.
-3. Photography: commission or source real imagery (see §10).
-4. Whether to adopt the accent button (§7) or keep orange purely decorative.
+1. A logo lockup with a wordmark, plus a white/mono variant. The repo only has the icon
+   mark — the launch-completion task's OG image/favicons (§16) deliberately reuse the icon
+   mark rather than inventing a wordmark, per that task's own locked decision.
+2. Photography: commission or source real imagery (see §10).
+3. Whether to adopt the accent button (§7) or keep orange purely decorative.
+
+## 16. Email design
+
+Transactional email (the `/contact/` form's team notification and auto-reply,
+`src/emails/`) reuses the brand tokens but can't reference `--tj-color-*` CSS variables —
+email clients strip `<style>`/custom-property support unpredictably, so `src/emails/theme.json`
+holds the same palette as literal hex, inlined per-element by `juice` at render time
+(`src/libs/mail/render.js`). Layout is a single-column, 600px, table-based HTML email
+(`src/emails/layouts/base.hbs`) — no flexbox/grid, table cells with padding for spacing,
+`meta name="color-scheme"`/`supported-color-schemes` for dark-mode email clients, a hidden
+preheader span, and a plain-text sibling for every template (never HTML-only). Brand marks:
+navy (`#0b1832`) header band with the icon mark, sky (`#08a5e9`) for links/accents, the
+same button shape as `ButtonPrimary` reproduced in table-safe HTML (`partials/button.hbs`).
+`bun run email:preview` renders every template against its fixture to
+`tmp/email-previews/*.html` for a fast visual loop without sending real mail.

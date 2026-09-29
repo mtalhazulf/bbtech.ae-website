@@ -271,13 +271,24 @@ byte. This replaced an earlier plan to consolidate ERP/service variants under
 ## Definition of done
 
 1. `bun run build` passes with no new warnings.
-2. `bun scripts/import/verify.mjs` (against that build) reports 0 failures if you touched
+2. `bun run test` passes if you touched forms/email code.
+3. `bun scripts/import/verify.mjs` (against that build) reports 0 failures if you touched
    any content/rendering code.
-3. Pages you changed render correctly at desktop (≥1200px) and mobile (≤575px) in `bun run dev`,
+4. Pages you changed render correctly at desktop (≥1200px) and mobile (≤575px) in `bun run dev`,
    with no console errors and no leftover teal (`#1E8A8A`) or template copy.
-4. New copy traces to the live site or to the client; no placeholders presented as real content.
-5. New styles use tokens only; text contrast meets the pairs table in `DESIGN.md`.
-6. Changed or added URLs are reflected in redirects, nav JSON, and footer content.
+5. New copy traces to the live site or to the client; no placeholders presented as real content.
+6. New styles use tokens only; text contrast meets the pairs table in `DESIGN.md`.
+7. Changed or added URLs are reflected in redirects, nav JSON, and footer content.
+8. UI changes keep the `DESIGN.md` §13 accessibility checklist true for the pages touched
+   (heading order, accessible names on icon-only controls, keyboard-reachable interactive
+   elements — see `content-import/launch/phase-6-accessibility.md` and `phase-8-final-review.md`
+   for the classes of bug this has caught before: `<div onClick>` fake buttons, hover-only
+   dropdowns with no `:focus-within`, hardcoded heading levels that skip when a block has no
+   heading of its own).
+
+The site reached this bar site-wide as of `content-import/launch/REPORT.md` (brand
+re-theme, forms/SMTP, WCAG 2.1 AA, performance/SEO, a fresh security + design review) —
+these rules keep it there on every change after.
 
 ## Hidden sections (D4 — no real content exists)
 
@@ -293,13 +304,13 @@ them without checking `content-import/needs-client-input.md` first.
 
 - Should the sidebar "quick contact" form widget (present on most service pages live, with
   an extended Country/City/Company/Website variant on the ERP service page) be modeled as a
-  real shared component, or does the single `/contact/` form cover it? See
-  `content-import/needs-client-input.md`.
-- Contact form backend (the live site uses Contact Form 7). Every form here calls
-  `preventDefault()` with a `// TODO(forms): wire submission` comment; none submits anywhere.
-- A logo lockup with a wordmark and a branded OG image (the repo only has the icon mark).
+  real shared component, or does the single `/contact/` form cover it? See "Forms" above
+  and `content-import/needs-client-input.md`.
+- A logo lockup with a wordmark (the repo only has the icon mark; the OG image and
+  favicons deliberately reuse it rather than inventing one — see `DESIGN.md` §15/§16).
 - `/erp/` and `/construction-management-system/` share near-identical structure/headings —
-  keep both as distinct real pages (current state) or treat one as canonical?
+  kept as distinct real pages (locked decision, D7 of the launch-completion task: no
+  content removed unless a client-confirmed copy-overlap review says otherwise).
 
 ## Don't
 

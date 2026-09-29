@@ -1,8 +1,40 @@
-# Needs client input
+# Needs client input — final launch checklist
 
-Running list of items the content import surfaced that need an owner decision or real
-content before launch. Updated as later phases add more. See `REPORT.md` for the full
-coverage picture once Phase 7/8 land.
+Everything below this checklist is context; the checklist itself is the complete,
+current list of what only the client can do before or shortly after launch. See
+`content-import/launch/REPORT.md` for the full phase-by-phase picture of what's
+already done.
+
+## Launch checklist
+
+**Credentials/config (blocks real form email until supplied):**
+1. SMTP credentials for a bbtech.ae mailbox (host, port, user, password) — see "Forms" below.
+2. DNS records (SPF, DKIM, DMARC) for that mailbox's deliverability.
+3. Cloudflare Turnstile site key + secret key — see "Forms" below.
+4. Confirm (or set up) that the app server is only reachable through Cloudflare — see
+   "Deployment requirement" below. Required for the form's rate limit to mean anything.
+
+**Content decisions/sign-off (doesn't block launch, but shouldn't ship silently decided):**
+5. Rewrite the wrong-company ("B2"/UK) boilerplate paragraph on `/about-us/` — highest
+   priority content item, see below.
+6. Sign off on the canonical facts defaults (years of experience, which phone number is
+   "primary") in `src/data/site.json`'s `facts` block — see `content-conflicts.md`.
+7. Confirm the 4 ISO certifications (45001/27001/14001/9001) are still current.
+8. Decide the sidebar "quick contact" widget question — see "Forms" below.
+9. Supply replacement images for 2 dead background images (`/services/social-wifi/`,
+   `/services/`) and a working Vision Plus logo.
+10. Review the 6 vision-generated alt-text strings for accuracy — see below.
+11. Resolve the "Digital Marketing" vs "Social Media Marketing" naming mismatch.
+12. Decide on the 3 duplicate/overlapping content pairs (erp/construction-management-system,
+    it-outsourcing/-2, social-wifi/services-social-wifi) — see below.
+13. Add real meta descriptions in WordPress for the 10 pages that have none (or accept
+    they stay absent).
+14. Supply a logo lockup with a wordmark, if wanted (the repo only has the icon mark).
+15. Whenever real testimonials/team/case studies/brand logos exist, the hidden sections
+    (`_team`, `_careers`, etc.) are ready to be re-routed — see "Hidden sections" below.
+
+None of these block `bun run build`/deploy — they're either credentials the app fails
+closed without, or content/config decisions flagged rather than decided silently.
 
 ## ⚠️ Wrong-company boilerplate on `/about-us/`
 
