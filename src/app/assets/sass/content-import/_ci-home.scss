@@ -176,6 +176,14 @@ $ci-on-dark-accent: var(--tj-color-theme-sky, var(--tj-color-text-body-2));
 	.ci-hero-stage {
 		position: relative;
 	}
+	// Phase 3 visual polish: Swiper (no autoHeight) sizes every slide to the
+	// tallest one (slide 2/3, which both have a CTA button; slide 1 has none).
+	// Bootstrap's .row default-stretches columns to that matched height, so a
+	// shorter slide's content top-aligned inside it left empty space below.
+	// Centering balances it instead of padding it out with a fabricated button.
+	.ci-hero-row {
+		align-items: center;
+	}
 	.ci-hero-nav {
 		display: flex;
 		align-items: flex-end;
@@ -338,10 +346,17 @@ $ci-on-dark-accent: var(--tj-color-theme-sky, var(--tj-color-text-body-2));
 		}
 	}
 	// About9 photo slot: one rounded photo filling the column beside the copy.
+	// Phase 3 visual polish: the source photo (harvested from the live site,
+	// 600x416, landscape) is the only resolution available; a min-height tall
+	// enough to look portrait-ish next to the copy column forced object-fit:
+	// cover to upscale it ~40% to cover the box, reading soft/stretched. Down
+	// a bit so the crop needs less blow-up, plus a focal point favoring the
+	// hands/devices (the photo's actual subject) over the default dead-center
+	// crop, which landed mid-torso.
 	.ci-home-about-media.h10-about-banner {
 		position: relative;
 		height: 100%;
-		min-height: 520px;
+		min-height: 420px;
 		.about-img {
 			height: 100%;
 			border-radius: 12px;
@@ -351,11 +366,11 @@ $ci-on-dark-accent: var(--tj-color-theme-sky, var(--tj-color-text-body-2));
 				width: 100%;
 				height: 100%;
 				object-fit: cover;
-				object-position: center;
+				object-position: center 75%;
 			}
 		}
 		@media #{$lg} {
-			min-height: 480px;
+			min-height: 400px;
 		}
 		@media #{$md, $sm, $xs} {
 			height: auto;

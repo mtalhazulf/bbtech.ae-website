@@ -10,6 +10,13 @@ import pages from "@/data/pages.json";
 
 const { notFound } = pages;
 
+// Without its own metadata this inherits the root layout's title (home's), which
+// is what every "before" build here did — a real, not-rare page to land on.
+export const metadata = {
+	title: `${notFound.hero.title} - BB Tech`,
+	robots: { index: false, follow: true },
+};
+
 export default function NotFound() {
 	return (
 		<div>
