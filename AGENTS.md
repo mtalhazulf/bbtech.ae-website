@@ -110,12 +110,14 @@ scripts/import/                 Content-import tooling (Bun scripts, see below)
   or certifications. The live site has **no real testimonials, client logos, or team profiles**.
   Template placeholders (testimonials such as "Guy Hawkins", team members such as "Savannah Nguyen",
   London-based careers, `1-888-452-1505`) must be removed or hidden until the client supplies real data.
-- Where facts conflict, don't pick one yourself. Flag it for the owner. Known conflicts
-  (full breakdown: `content-import/content-conflicts.md`):
-  - **Experience:** "over 5 years" (About), "over 6 years" and "10 years" (home, twice), and
-    "more than 7 years" (Odoo page). The founding year is 2016 per third-party listings.
-  - **Phones:** the live top bar shows +971 3 755 5069; About-us and the footer instead show
-    +971 54 405 6829; the Contact page also lists +971 56 128 6321.
+- Where facts conflict, don't pick one yourself unless a locked decision says otherwise —
+  flag it for the owner (full breakdown: `content-import/content-conflicts.md`).
+  - **Experience and phone numbers are the one exception**, resolved by the launch-completion
+    task's D4 (overrides this rule for exactly these two categories): every page now reads
+    a `{{facts.<path>}}` token off `src/data/site.json`'s `facts` block instead of its own
+    hard-coded figure — see "Canonical facts" below. `facts._status` still flags them as
+    defaults pending the client's sign-off; the underlying disagreement isn't settled, only
+    centralized to one place to fix once instead of in every page's own copy.
   - **Offices:** BB Tech itself has a UAE HQ (Al Ain) and a Pakistan office (Islamabad).
     Separately, sister company **Vision Plus** has its own Lahore office (+92 numbers,
     info@visionplus.com.pk) — modeled as `site.json`'s `visionPlus` key, not as a BB Tech
@@ -183,6 +185,24 @@ which are gitignored): `inventory.json`, `assets-manifest.json`, `copy-fixes.md`
 typo fix, with page attribution), `content-conflicts.md`, `needs-client-input.md`,
 `REPORT.md`, and `snapshot/` (the permanent archive of the live site's raw HTML/JSON, one
 folder per page, since bbtech.ae itself won't be around forever).
+
+## Canonical facts
+
+`src/data/site.json`'s `facts` block is the one owner-editable source for every phone
+number, email, address, hour, and experience claim; page/section JSON references a leaf
+with a `{{facts.<path>}}` token (e.g. `{{facts.phonePrimary.display}}`,
+`{{facts.yearsExperience}}` — the one computed field, `new Date().getFullYear() -
+facts.foundedYear` rendered as "10+ years"). `src/libs/resolveFacts.js` resolves every
+token in a JSON value tree; it runs in Node at module load (`src/data/pages/index.js` for
+the catch-all registry, each bespoke `page.js` for `/`, `/about-us/`, `/contact/`,
+`/services/`, and `getSiteConfig.js` for site.json's own chrome fields) — never in the
+browser. `scripts/import/lib/text-leaves.mjs` calls the same resolver on every collected
+copy string, so `verify.mjs`/`check-page.mjs` check against the resolved text
+automatically; don't add a separate exceptions list when you add a new token. See
+`content-import/content-conflicts.md` → "Resolved via canonical facts" for what's been
+substituted and why. `facts._status` flags the current values as defaults pending the
+client's sign-off (`content-import/needs-client-input.md`) — don't add a new fact without
+also flagging it there if it isn't independently confirmed.
 
 ## Routing, redirects, and SEO
 

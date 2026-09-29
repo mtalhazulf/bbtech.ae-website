@@ -13,7 +13,10 @@ import HomeWhy from "@/components/sections/home/HomeWhy";
 import BackToTop from "@/components/shared/others/BackToTop";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import page from "@/data/pages/home.json";
+import rawPage from "@/data/pages/home.json";
+import { resolveFacts } from "@/libs/resolveFacts";
+
+const page = resolveFacts(rawPage);
 
 const { title, description, canonical, ogImage } = page.metadata;
 

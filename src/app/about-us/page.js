@@ -11,7 +11,10 @@ import SisterCompanyBand from "@/components/sections/pages/SisterCompanyBand";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import page from "@/data/pages/about-us.json";
+import rawPage from "@/data/pages/about-us.json";
+import { resolveFacts } from "@/libs/resolveFacts";
+
+const page = resolveFacts(rawPage);
 
 const { title, description, canonical, ogImage } = page.metadata;
 

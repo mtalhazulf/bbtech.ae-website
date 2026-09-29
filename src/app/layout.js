@@ -14,7 +14,9 @@ import "./assets/css/nice-select2.css";
 import "./assets/css/odometer-theme-default.css";
 import "./globals.scss";
 import page from "@/data/pages/home.json";
-import site from "@/data/site.json";
+import getSiteConfig from "@/libs/getSiteConfig";
+
+const site = getSiteConfig();
 
 // DESIGN.md §4: one Mona Sans instance, not two identical ones, and only the
 // weights the site actually uses (400/500/600/700, no italics — headings use 500,

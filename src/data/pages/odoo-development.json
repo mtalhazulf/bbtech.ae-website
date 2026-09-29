@@ -5,13 +5,13 @@
   "source": "https://bbtech.ae/odoo-development/",
   "metadata": {
     "title": "Odoo Development - BB Tech",
-    "description": "Odoo Development Team with experts having experience of more than 7 years. Customization as per the work flow of your business.",
+    "description": "Odoo Development Team with experts having experience of {{facts.yearsExperience}}. Customization as per the work flow of your business.",
     "canonical": "https://bbtech.ae/odoo-development/",
     "ogImage": "/images/bbtech/shared/branding.webp"
   },
   "hero": {
     "title": "Odoo Development Services We Offer",
-    "subtitle": "Odoo Development Team with experts having experience of more than 7 years. We are a full-service enterprise Odoo Development Company that combines our creative chops with trusted business sense and serving clients needs for Odoo development"
+    "subtitle": "Odoo Development Team with experts having experience of {{facts.yearsExperience}}. We are a full-service enterprise Odoo Development Company that combines our creative chops with trusted business sense and serving clients needs for Odoo development"
   },
   "sections": [
     {

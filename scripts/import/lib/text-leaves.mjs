@@ -1,6 +1,7 @@
 // Shared by check-page.mjs (dev server) and verify.mjs (production build): what counts as a
 // page's visible copy, and how rendered HTML is normalized before comparing against it.
 import * as cheerio from "cheerio";
+import { resolveFacts } from "@/libs/resolveFacts.js";
 
 // Keys whose string value is visible copy (as opposed to hrefs/ids/alt text/dimensions).
 const TEXT_KEYS = new Set(["text", "title", "heading", "subtitle", "label", "submitText", "consent"]);
@@ -8,8 +9,12 @@ const TEXT_KEYS = new Set(["text", "title", "heading", "subtitle", "label", "sub
 const ARRAY_COPY_KEYS = new Set(["p", "ul", "ol", "items", "list"]);
 
 function addPieces(str, out) {
+	// Phase 4 (launch-completion): page JSON may carry a {{facts.*}} token (site.json's
+	// facts block); resolve it the same way the real page does before checking presence,
+	// so the check expects "10+ years", not the literal token text.
+	const resolved = resolveFacts(str);
 	// A string may carry intentional line breaks that a layout renders as separate elements.
-	for (const piece of str.split("\n")) {
+	for (const piece of resolved.split("\n")) {
 		const t = piece.trim();
 		if (t.length > 1) out.add(t);
 	}

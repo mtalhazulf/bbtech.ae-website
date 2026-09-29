@@ -83,7 +83,7 @@
     {
       "type": "cardGrid",
       "heading": "ERP Design and Development",
-      "text": "Operating on the software development market for over 6 years, BBTECH has built its expertise in ERP consulting , development services by designing, implementing, and supporting enterprise resource planning software and its components.",
+      "text": "Operating on the software development market for {{facts.yearsExperience}}, BBTECH has built its expertise in ERP consulting , development services by designing, implementing, and supporting enterprise resource planning software and its components.",
       "image": {
         "localPath": "/images/bbtech/shared/binary-bridge-technology-services.webp",
         "alt": "Web design and development",
@@ -437,8 +437,8 @@
       "heading": "Why BB Tech",
       "items": [
         {
-          "title": "10 Years of Experience",
-          "text": "More than one decades of service excellence and rich experience in delivering various turnkey projects across the region.",
+          "title": "{{facts.yearsExperience}} of Experience",
+          "text": "{{facts.yearsExperience}} of service excellence and rich experience in delivering various turnkey projects across the region.",
           "image": {
             "localPath": "/images/bbtech/home/iconfinder-experience-project-246629-1.webp",
             "alt": "Iconfinder Experience Project 1",
@@ -458,7 +458,7 @@
         },
         {
           "title": "DOMAIN EXPERTS",
-          "text": "Over 10 years of domain experience and service excellence makes us best in the region to be your preferred technology partner.",
+          "text": "{{facts.yearsExperience}} of domain experience and service excellence makes us best in the region to be your preferred technology partner.",
           "image": {
             "localPath": "/images/bbtech/home/subject-matter.webp",
             "alt": "Subject Matter",
@@ -476,7 +476,7 @@
       "blocks": [
         {
           "p": [
-            "– Over 500+ Positive Customers –"
+            "– Over {{facts.customersClaim}} Positive Customers –"
           ]
         }
       ],

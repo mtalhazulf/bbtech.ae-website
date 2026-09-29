@@ -31,8 +31,14 @@ import page_services_social_wifi from "@/data/pages/services/social-wifi.json";
 import page_services_web_development from "@/data/pages/services/web-development.json";
 import page_social_wifi from "@/data/pages/social-wifi.json";
 import page_video_photography from "@/data/pages/video-photography.json";
+import { resolveFacts } from "@/libs/resolveFacts";
 
-export const pageRegistry = {
+// Every real page's JSON can carry a {{facts.<path>}} token (Phase 4, launch-
+// completion); resolved once here, at module load, so every consumer (the catch-all
+// route, sitemap.js, verify.mjs) sees plain resolved strings, never raw tokens. The
+// 4 bespoke routes (/, /about-us/, /contact/, /services/) import their JSON directly
+// instead of through this registry, so they call resolveFacts() themselves.
+const rawRegistry = {
 	"home": page_home,
 	"2020/08/05/new-corporate-logo-updated-branding": page_2020_08_05_new_corporate_logo_updated_branding,
 	"2020/08/05/update-of-the-branding": page_2020_08_05_update_of_the_branding,
@@ -60,6 +66,10 @@ export const pageRegistry = {
 	"social-wifi": page_social_wifi,
 	"video-photography": page_video_photography,
 };
+
+export const pageRegistry = Object.fromEntries(
+	Object.entries(rawRegistry).map(([slug, page]) => [slug, resolveFacts(page)])
+);
 
 // Slugs handled by their own dedicated route file, not the [...slug] catch-all.
 export const BESPOKE_SLUGS = new Set(["home","about-us","contact","services"]);

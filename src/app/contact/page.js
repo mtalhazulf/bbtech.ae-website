@@ -9,7 +9,10 @@ import pickSections from "@/components/sections/pages/pickSections";
 import BackToTop from "@/components/shared/others/BackToTop";
 import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import page from "@/data/pages/contact.json";
+import rawPage from "@/data/pages/contact.json";
+import { resolveFacts } from "@/libs/resolveFacts";
+
+const page = resolveFacts(rawPage);
 
 const { title, description, canonical, ogImage } = page.metadata;
 

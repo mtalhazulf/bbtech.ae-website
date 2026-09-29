@@ -19,7 +19,7 @@
       "blocks": [
         {
           "p": [
-            "Binary Bridge technology services has been providing enterprise IT managed services and technology solutions across the UAE for over 5 years."
+            "Binary Bridge technology services has been providing enterprise IT managed services and technology solutions across the UAE for {{facts.yearsExperience}}."
           ]
         },
         {
@@ -49,7 +49,7 @@
         },
         {
           "p": [
-            "For more information about the range of IT support services available at B2, or to speak to a business information technology expert about how managed IT support could benefit your business, call (+971) 54 405 6829 or complete our online inquiry form"
+            "For more information about the range of IT support services available at B2, or to speak to a business information technology expert about how managed IT support could benefit your business, call {{facts.phonePrimary.display}} or complete our online inquiry form"
           ]
         }
       ]

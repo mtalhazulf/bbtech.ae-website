@@ -12,21 +12,29 @@
 		"light": "/images/logos/logo-2.webp",
 		"alt": "BB Tech"
 	},
+	"facts": {
+		"_status": "DEFAULTS — pending client sign-off (see needs-client-input.md)",
+		"foundedYear": 2016,
+		"phonePrimary": { "display": "+971 54 405 6829", "tel": "+971544056829" },
+		"phoneOffice": { "display": "+971 3 755 5069", "tel": "+97137555069" },
+		"emailPrimary": "info@bbtech.ae",
+		"emailSupport": "muhammad@bbtech.ae",
+		"emailDirector": "director@bbtech.ae",
+		"addressHQ": "Al Hili Industrial Area, Al Ain, UAE. P.O. Box 202135",
+		"hours": "Sun–Wed 8am–5pm, Thu 8am–3pm (UAE time)",
+		"customersClaim": "500+"
+	},
 	"contact": {
 		"phone": {
-			"display": "+971 3 755 5069",
-			"tel": "+97137555069"
+			"display": "{{facts.phoneOffice.display}}",
+			"tel": "{{facts.phoneOffice.tel}}"
 		},
-		"phoneSecondary": {
-			"display": "+971 56 128 6321",
-			"tel": "+971561286321"
-		},
-		"email": "info@bbtech.ae",
-		"directorEmail": "director@bbtech.ae",
-		"supportEmail": "muhammad@bbtech.ae",
-		"location": "Al Hili Industrial Area, Al Ain, UAE. P.O. Box 202135",
+		"email": "{{facts.emailPrimary}}",
+		"directorEmail": "{{facts.emailDirector}}",
+		"supportEmail": "{{facts.emailSupport}}",
+		"location": "{{facts.addressHQ}}",
 		"topBarLocation": "Po Box. 202135, Al Ain, United Arab Emirates",
-		"hours": "Sun-Wed 8am-5pm, Thu 8am-3pm"
+		"hours": "{{facts.hours}}"
 	},
 	"offices": [
 		{
@@ -70,7 +78,7 @@
 	],
 	"header": {
 		"offcanvasText": null,
-		"variantPhone": { "display": "+971 3 755 5069", "tel": "+97137555069" }
+		"variantPhone": { "display": "{{facts.phoneOffice.display}}", "tel": "{{facts.phoneOffice.tel}}" }
 	},
 	"footer": {
 		"shapes": ["/images/shape/pattern-2.svg", "/images/shape/pattern-3.svg"],
@@ -80,7 +88,7 @@
 		"contactTitle": "Contact info",
 		"getInTouchHeading": "Get in Touch for your Inquiries",
 		"phoneLabel": "Phone number",
-		"phone": { "display": "+971 54 405 6829", "tel": "+971544056829" },
+		"phone": { "display": "{{facts.phonePrimary.display}}", "tel": "{{facts.phonePrimary.tel}}" },
 		"emailLabel": "Email",
 		"addressLabel": "Address",
 		"addresses": [

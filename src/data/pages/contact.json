@@ -22,7 +22,7 @@
         },
         {
           "p": [
-            "(+971) 3 755 5069\n(+971) 56 128 6321"
+            "{{facts.phoneOffice.display}}\n(+971) 56 128 6321"
           ]
         },
         {
@@ -41,21 +41,21 @@
         {
           "p": [
             {
-              "text": "info@bbtech.ae",
-              "href": "mailto:info@bbtech.ae"
+              "text": "{{facts.emailPrimary}}",
+              "href": "mailto:{{facts.emailPrimary}}"
             }
           ]
         },
         {
           "p": [
             {
-              "text": "muhammad@bbtech.ae",
-              "href": "mailto:muhammad@bbtech.ae"
+              "text": "{{facts.emailSupport}}",
+              "href": "mailto:{{facts.emailSupport}}"
             },
             "\n",
             {
-              "text": "director@bbtech.ae",
-              "href": "mailto:Director@bbtech.ae"
+              "text": "{{facts.emailDirector}}",
+              "href": "mailto:{{facts.emailDirector}}"
             }
           ]
         },
