@@ -1,5 +1,4 @@
 import { Mona_Sans } from "next/font/google";
-import "react-range-slider-input/dist/style.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/effect-fade";
@@ -10,7 +9,6 @@ import "./assets/css/animate.min.css";
 import "./assets/css/bexon-icons.css";
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/font-awesome-pro.min.css";
-import "./assets/css/glightbox.min.css";
 import "./assets/css/meanmenu.css";
 import "./assets/css/nice-select2.css";
 import "./assets/css/odometer-theme-default.css";

@@ -1,6 +1,15 @@
+const path = require("node:path");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: false,
+	// Pin the Turbopack workspace root to this repo. Without it, Next 16.3+ walks up
+	// looking for a lockfile and can pick up an unrelated one further up the tree
+	// (e.g. a stray package-lock.json in a parent folder on a dev machine), which
+	// prints a "Next.js ignored package-lock.json ..." warning on every build.
+	turbopack: {
+		root: path.join(__dirname),
+	},
 	// D2: 1:1 URL parity with the live bbtech.ae paths, which are all trailing-slashed.
 	trailingSlash: true,
 	// Every filler/duplicate/legacy live path from content-import/inventory.json, plus
