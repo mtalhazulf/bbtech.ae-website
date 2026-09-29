@@ -1,0 +1,22 @@
+{
+	"subject": "New enquiry: Contact form, <script>alert(1)</script>",
+	"preheaderText": "Rendering safety fixture - the name/message below contain markup and CRLF-like text",
+	"siteUrl": "https://bbtech.ae",
+	"formLabel": "Contact form",
+	"name": "<script>alert(1)</script>",
+	"pageUrl": "https://bbtech.ae/contact/",
+	"submittedAt": "2026-09-29T10:15:00.000Z",
+	"fields": [
+		{ "label": "Name", "value": "<script>alert(1)</script>" },
+		{ "label": "Email", "value": "\"><img src=x onerror=alert(1)>@example.com" },
+		{ "label": "Telephone", "value": "+971 50 000 0000" }
+	],
+	"message": "First line\nSecond line with <b>markup</b> and a fake header break: X-Injected: yes",
+	"replyMailto": "mailto:test@example.com",
+	"replyLabel": "Reply to <script>alert(1)</script>",
+	"facts": {
+		"addressHQ": "Al Hili Industrial Area, Al Ain, UAE. P.O. Box 202135",
+		"phonePrimary": { "display": "+971 54 405 6829", "tel": "+971544056829" },
+		"emailPrimary": "info@bbtech.ae"
+	}
+}

@@ -48,6 +48,43 @@ const nextConfig = {
 			{ source: "/dt_team_category/:path*", destination: "/", permanent: true },
 		];
 	},
+	// Phase 5 (launch-completion): no live page embeds a third-party iframe today
+	// (Contact3.js is a dead template component with a Google Maps embed, unreachable
+	// from any real route - see content-import/launch/phase-5-forms.md), so the CSP
+	// below omits maps.google.com; add it under frame-src if a map embed goes live.
+	// script-src/style-src need 'unsafe-inline' (and script-src needs 'unsafe-eval',
+	// for GSAP - ScrollSmoother/SplitText use it internally, confirmed via a live CSP
+	// violation in testing, not guessed): this app has no CSP-nonce plumbing,
+	// and both Next.js's own hydration script and every component's inline style={}
+	// prop (used throughout - not something a CSP change should have to rewrite) rely
+	// on it. A nonce-based CSP is stricter, but Next.js has shipped nonce-handling XSS
+	// bugs before, and getting that wrong is worse than this trade-off. Verified
+	// unbroken against a full build in Phase 5.
+	async headers() {
+		const csp = [
+			"default-src 'self'",
+			"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com",
+			"style-src 'self' 'unsafe-inline'",
+			"img-src 'self' data: blob:",
+			"font-src 'self' data:",
+			"connect-src 'self' https://challenges.cloudflare.com",
+			"frame-src https://challenges.cloudflare.com",
+			"frame-ancestors 'self'",
+			"base-uri 'self'",
+			"form-action 'self'",
+		].join("; ");
+		return [
+			{
+				source: "/:path*",
+				headers: [
+					{ key: "Content-Security-Policy", value: csp },
+					{ key: "X-Content-Type-Options", value: "nosniff" },
+					{ key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+					{ key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+				],
+			},
+		];
+	},
 };
 
 module.exports = nextConfig;

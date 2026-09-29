@@ -1,12 +1,14 @@
 import Link from "next/link";
 
-const ButtonPrimary = ({ className, text, isTextBtn, url, type, iconName }) => {
+const ButtonPrimary = ({ className, text, isTextBtn, url, type, iconName, disabled }) => {
 	return (
 		<>
 			{type ? (
 				<button
 					type={type ? type : "submit"}
 					className={`tj-primary-btn ${className ? className : ""}`}
+					disabled={disabled || undefined}
+					aria-disabled={disabled || undefined}
 				>
 					<span className="btn-text">
 						<span>{text}</span>

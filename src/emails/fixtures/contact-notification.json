@@ -1,0 +1,22 @@
+{
+	"subject": "New enquiry: Contact form, Jane Visitor",
+	"preheaderText": "New enquiry from Jane Visitor via the contact form",
+	"siteUrl": "https://bbtech.ae",
+	"formLabel": "Contact form",
+	"name": "Jane Visitor",
+	"pageUrl": "https://bbtech.ae/contact/",
+	"submittedAt": "2026-09-29T10:15:00.000Z",
+	"fields": [
+		{ "label": "Name", "value": "Jane Visitor" },
+		{ "label": "Email", "value": "jane@example.com" },
+		{ "label": "Telephone", "value": "+971 50 123 4567" }
+	],
+	"message": "Hi, I'm interested in a custom ERP quote for our logistics business.\nCould someone call me back this week?",
+	"replyMailto": "mailto:jane@example.com",
+	"replyLabel": "Reply to Jane Visitor",
+	"facts": {
+		"addressHQ": "Al Hili Industrial Area, Al Ain, UAE. P.O. Box 202135",
+		"phonePrimary": { "display": "+971 54 405 6829", "tel": "+971544056829" },
+		"emailPrimary": "info@bbtech.ae"
+	}
+}

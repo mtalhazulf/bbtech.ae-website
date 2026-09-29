@@ -1,0 +1,13 @@
+{
+	"navy": "#0B1832",
+	"accent": "#F48916",
+	"pageBg": "#EEF1F6",
+	"cardBg": "#FFFFFF",
+	"heading": "#0B1832",
+	"bodyText": "#35435F",
+	"primary": "#3057A8",
+	"primaryText": "#FFFFFF",
+	"footerText": "#A9B3C6",
+	"footerLink": "#FFFFFF",
+	"fontStack": "'Mona Sans', Arial, Helvetica, sans-serif"
+}

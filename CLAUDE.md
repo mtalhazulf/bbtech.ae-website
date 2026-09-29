@@ -31,10 +31,11 @@
 
 1. `bun run build`. It must pass. The `baseline-browser-mapping` "data is over two months old"
    notice is pre-existing noise; anything else new is a failure.
-2. For styling changes, grep that you didn't reintroduce raw colors:
+2. For forms/email changes, `bun run test` (vitest). It must pass.
+3. For styling changes, grep that you didn't reintroduce raw colors:
    `grep -rnE "#[0-9a-fA-F]{6}|rgba\(" <files you touched>`. Only token definitions in
    `utilities/_colors.scss` may contain literals.
-3. Report what you verified and what you couldn't (e.g. "didn't check mobile Safari").
+4. Report what you verified and what you couldn't (e.g. "didn't check mobile Safari").
 
 ## Guardrails
 

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="color-scheme" content="light dark" />
+<meta name="supported-color-schemes" content="light dark" />
+<title>{{subject}}</title>
+</head>
+<body style="margin:0;padding:0;background-color:{{theme.pageBg}};font-family:{{theme.fontStack}};">
+{{> preheader}}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:{{theme.pageBg}};">
+	<tr>
+		<td align="center" style="padding:24px 16px;">
+			<table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px;max-width:100%;background-color:{{theme.cardBg}};border-radius:12px;overflow:hidden;">
+				{{> header}}
+				<tr>
+					<td style="padding:32px;">
+						{{{body}}}
+					</td>
+				</tr>
+				{{> footer}}
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

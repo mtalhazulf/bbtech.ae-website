@@ -204,6 +204,42 @@ substituted and why. `facts._status` flags the current values as defaults pendin
 client's sign-off (`content-import/needs-client-input.md`) — don't add a new fact without
 also flagging it there if it isn't independently confirmed.
 
+## Forms
+
+`src/data/forms.json` lists every real form by `formId`, one entry today
+(`contact-default`, the only real `<form>` in the codebase — the service-enquiry/ERP/
+sidebar-widget variants an earlier plan called for were never built; see
+`content-import/launch/phase-5-forms.md`). `src/components/shared/forms/ContactForm.js`
+renders any of them and posts to the single `POST /api/contact` route handler
+(`src/app/api/contact/route.js`, `runtime: "nodejs"` — the only server code the whole
+site has, per D1). `DynamicForm.js`/`ContactFormCard.js` are thin wrappers that keep
+their own card markup and delegate the `<form>` itself to `ContactForm`.
+
+Adding a new form: add an entry to `forms.json`, a matching branch in
+`src/libs/forms/schemas.js` (`FORM_SCHEMAS`) — the route handler rejects any `formId`
+without one — and reuse `ContactForm` from the new section's component.
+
+Pipeline (in order): content-type/size check → per-IP rate limit
+(`src/libs/forms/spam.js`, in-memory, single-instance) → honeypot + minimum-fill-time
+→ Cloudflare Turnstile (`src/libs/forms/turnstile.js`) → zod validation
+(`src/libs/forms/schemas.js`, shared client+server) → SMTP send via `nodemailer`
+(`src/libs/mail/transport.js`) of a Handlebars-rendered, brand-themed HTML+text pair
+(`src/libs/mail/render.js`, templates in `src/emails/`) — a team notification, then a
+best-effort auto-reply that never echoes the visitor's own message (anti-relay). Every
+env var it needs is validated lazily by `src/libs/mail/env.js`, never at build time —
+see `.env.example`. `bun run email:preview` renders every template × fixture to
+`tmp/email-previews/` without needing SMTP configured; `bun run test` runs the vitest
+suite (`schemas`, `spam`, `render`, the route handler with a mocked transport).
+
+One deliberate trade-off: the minimum-fill-time check uses the client's own
+`Date.now()`, not a server-signed timestamp — a determined bot could forge it, but
+Turnstile is the real gate here, and this site is fully static (no per-request dynamic
+endpoint to issue a signed value from without breaking D1). Handlebars partials that
+need `theme` (the color tokens) inside an `{{#each}}` loop must pass it explicitly
+(`theme=../theme`) — Handlebars doesn't walk up to the parent context for a bare
+`{{theme.x}}` once the loop has changed `this` to the array item; see `field-row.hbs`'s
+call site in `contact-notification.html.hbs` for the pattern.
+
 ## Routing, redirects, and SEO
 
 Decision (locked): **1:1 URL parity** — every real page lives at the exact same path it had

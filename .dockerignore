@@ -7,3 +7,8 @@ Dockerfile
 README.md
 .DS_Store
 *.log
+
+# Secrets - runtime env vars are injected by the platform, never baked into the image.
+.env
+.env.*
+!.env.example

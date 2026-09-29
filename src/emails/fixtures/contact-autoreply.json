@@ -1,0 +1,12 @@
+{
+	"subject": "We've received your message | BB Tech",
+	"preheaderText": "Thanks for contacting BB Tech - here's what happens next",
+	"siteUrl": "https://bbtech.ae",
+	"firstName": "Jane",
+	"servicesUrl": "https://bbtech.ae/services/",
+	"facts": {
+		"hours": "Sun–Wed 8am–5pm, Thu 8am–3pm (UAE time)",
+		"phonePrimary": { "display": "+971 54 405 6829", "tel": "+971544056829" },
+		"emailPrimary": "info@bbtech.ae"
+	}
+}

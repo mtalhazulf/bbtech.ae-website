@@ -116,7 +116,7 @@ the brief we're keeping these as-is (absent) rather than writing new copy — fl
 the client can add real descriptions in WordPress before the old site goes away (the
 snapshot is otherwise the only record).
 
-## Forms to wire (D5)
+## Forms — wired (D5, launch-completion), sidebar widget still not rebuilt
 
 Phase 3's per-page extraction found only **one** distinct form actually inside main page
 content: `contact-default` on `/contact/` (4 fields). Phase 1's rough count of 18
@@ -131,10 +131,16 @@ Country/City/Company/Website fields on some pages. These were treated as **site-
 chrome** (like the header/footer) and excluded from each page's own JSON, consistent with
 how the header/footer/nav are handled separately.
 
+**`/contact/`'s form now sends real email** (SMTP + Turnstile + rate-limit + honeypot —
+see `AGENTS.md` "Forms" and `content-import/launch/phase-5-forms.md`) — the `// TODO
+(forms)` stub is gone. **The sidebar widget was never rebuilt as a real component** (it
+still doesn't exist anywhere in the codebase, confirmed again during Phase 5) — the
+decision below is still open, and would need its own `data/forms.json` entry + zod
+schema, not a code change to the pipeline itself, once decided:
+
 **Decision needed:** should this "quick contact" sidebar form be modeled as a real
 shared component (so it renders on the service pages that had it live) instead of being
-dropped? If yes, it needs its own entry in Phase 5's site-wide chrome, not per-page JSON.
-Only `/contact/`'s form currently has a `// TODO(forms): wire submission` path guaranteed.
+dropped?
 
 ## Hidden sections awaiting real content (D4)
 

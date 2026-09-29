@@ -1,0 +1,13 @@
+<h1 style="margin:0 0 4px;color:{{theme.heading}};font-size:20px;font-family:{{theme.fontStack}};">New enquiry: {{formLabel}}, {{name}}</h1>
+<p style="margin:0 0 24px;color:{{theme.bodyText}};font-size:13px;font-family:{{theme.fontStack}};">
+	Submitted {{formatDate submittedAt}} from
+	<a href="{{pageUrl}}" style="color:{{theme.primary}};">{{pageUrl}}</a>
+</p>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;margin-bottom:24px;font-family:{{theme.fontStack}};">
+	{{#each fields}}
+	{{> field-row label=this.label value=this.value theme=../theme}}
+	{{/each}}
+</table>
+<h2 style="margin:0 0 8px;color:{{theme.heading}};font-size:15px;font-family:{{theme.fontStack}};">Message</h2>
+<p style="margin:0 0 8px;color:{{theme.bodyText}};font-size:14px;line-height:1.6;font-family:{{theme.fontStack}};">{{nl2br message}}</p>
+{{> button url=replyMailto label=replyLabel}}

@@ -674,6 +674,52 @@ classes don't cover. Dark-surface highlights use the sky token when it exists
 		padding: 45px 35px;
 	}
 }
+/* ---------- shared form UI: honeypot, Turnstile slot, status region, field errors ---------- */
+/* (Phase 5, launch-completion) - used by ContactForm.js regardless of which card wraps it
+   (.ci-contact-form here, .ci-form-card in _ci-sections.scss), so left unscoped. */
+.ci-honeypot-wrap {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+}
+.ci-turnstile-wrap {
+	margin: 4px 0 18px;
+	min-height: 65px; // reserves space so the layout doesn't jump once the widget loads
+}
+.ci-form-status {
+	min-height: 1.4em;
+	margin-bottom: 14px;
+	font-size: 14px;
+	font-weight: var(--tj-fw-sbold);
+	color: var(--tj-color-text-body);
+	&.is-error {
+		color: var(--tj-color-red-1);
+	}
+	&.is-success {
+		color: var(--tj-color-theme-primary);
+	}
+}
+.ci-field-error {
+	margin: 6px 0 0;
+	font-size: 13px;
+	color: var(--tj-color-red-1);
+}
+.ci-field {
+	input[aria-invalid="true"],
+	textarea[aria-invalid="true"] {
+		border-color: var(--tj-color-red-1) !important;
+	}
+}
+.tj-primary-btn:disabled,
+.tj-primary-btn[aria-disabled="true"] {
+	opacity: 0.65;
+	cursor: not-allowed;
+	pointer-events: none;
+}
+
 .ci-sister-info {
 	position: relative;
 	z-index: 1;

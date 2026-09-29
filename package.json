@@ -5,7 +5,9 @@
 	"scripts": {
 		"dev": "next dev --turbopack",
 		"build": "next build --turbopack",
-		"start": "next start"
+		"start": "next start",
+		"test": "vitest run",
+		"email:preview": "bun scripts/email/preview.mjs"
 	},
 	"browserslist": [
 		">0.3%",
