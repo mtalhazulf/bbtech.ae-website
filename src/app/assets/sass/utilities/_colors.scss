@@ -1,42 +1,50 @@
+// BB Tech brand palette (DESIGN.md §3). Map keys are the template's original keys — only
+// values changed, so every existing --tj-color-* reference re-themes automatically. New
+// theme keys (primary-hover, sky, mid, accent, accent-hover) are additions, not renames.
 $colors: (
 	common: (
 		white: #ffffff,
 		black: #000000,
 	),
 	heading: (
-		primary: #0c1e21,
+		primary: #0b1832,
 	),
 	text: (
-		body: #364e52,
-		body-2: #a9b8b8,
-		body-3: #67787a,
-		body-4: #18292c,
+		body: #35435f,
+		body-2: #a9b3c6,
+		body-3: #5c687f,
+		body-4: #182744,
 		body-5: #ffffffcc,
 	),
 	theme: (
-		primary: #1e8a8a,
-		bg: #d8e5e5,
-		bg-2: #cee0e0,
-		bg-3: #202e30,
-		dark: #0c1e21,
-		dark-2: #18292c,
-		dark-3: #364e52,
-		dark-4: #67787a,
+		primary: #3057a8,
+		primary-hover: #264787,
+		sky: #08a5e9,
+		mid: #1d7bc6,
+		accent: #f48916,
+		accent-hover: #f59732,
+		bg: #d9e0ed,
+		bg-2: #cbd4e7,
+		bg-3: #1e293e,
+		dark: #0b1832,
+		dark-2: #182744,
+		dark-3: #35435f,
+		dark-4: #5c687f,
 		dark-5: #676e7a,
 	),
 	red: (
 		1: #ff0000,
 	),
 	grey: (
-		1: #ecf0f0,
-		2: #a9b8b8,
+		1: #eef1f6,
+		2: #a9b3c6,
 		3: #ffffff1a,
 	),
 	border: (
-		1: #c9d1d1,
-		2: #313d3d,
+		1: #cad0dd,
+		2: #2f3a50,
 		3: #ffffff26,
 		4: #ffffff33,
-		5: #1e8a8a26,
+		5: #3057a826,
 	),
 );

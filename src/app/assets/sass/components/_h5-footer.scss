@@ -36,7 +36,7 @@ START: Theme Footer CSS
 						a {
 							color: var(--tj-color-common-white);
 							&:hover {
-								color: var(--tj-color-theme-primary);
+								color: var(--tj-color-theme-sky); // dark-surface rule (DESIGN.md §3.3): h5-footer is combined with footer-2s theme-dark bg in Footer10
 							}
 						}
 					}

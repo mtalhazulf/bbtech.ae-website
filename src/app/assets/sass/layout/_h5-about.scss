@@ -104,7 +104,7 @@ START: Home 5 About CSS
 		overflow: hidden;
 		z-index: 0;
 		transition: all 0.5s ease-in-out;
-		background-color: rgba(255, 255, 255, 0.1);
+		background-color: tj-rgba(common, white, 0.1);
 		backdrop-filter: blur(10px);
 		@media #{$md,$sm} {
 			width: 200px;
@@ -138,13 +138,13 @@ START: Home 5 About CSS
 			pointer-events: none;
 		}
 		&::after {
-			background: rgba(30, 138, 138, 0.6);
+			background: tj-rgba(theme, primary, 0.6);
 		}
 
 		&:hover {
 			border-radius: 100%;
 			backdrop-filter: blur(0);
-			background: rgba(30, 138, 138, 0.7);
+			background: tj-rgba(theme, primary, 0.7);
 			&::before,
 			&::after {
 				opacity: 1;

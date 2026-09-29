@@ -58,7 +58,7 @@
 		font-family: var(--tj-ff-heading);
 		font-weight: 600;
 		font-size: 20px;
-		color: var(--tj-color-common-black-3);
+		color: var(--tj-color-text-body);
 		span {
 			color: var(--tj-color-text-body);
 			@include transition(all 0.3s ease-in-out 0s);
@@ -74,7 +74,7 @@
 		.location {
 			@include transition(all 0.3s ease-in-out 0s);
 			i {
-				color: var(--tj-color-common-black-3);
+				color: var(--tj-color-text-body);
 				margin-inline-end: 5px;
 			}
 		}
@@ -253,7 +253,7 @@
 				padding-bottom: 0;
 			}
 			span {
-				color: var(--tj-color-body-text);
+				color: var(--tj-color-text-body);
 				&.first-child {
 					min-width: 100px;
 					position: relative;
@@ -333,7 +333,7 @@
 			border-color: transparent;
 			border-radius: 8px;
 			&::placeholder {
-				color: var(--tj-color-common-black-2);
+				color: var(--tj-color-heading-primary);
 			}
 			&:focus {
 				border: 1px solid var(--tj-color-theme-primary);
@@ -343,7 +343,7 @@
 			min-height: 160px;
 		}
 		label {
-			color: var(--tj-color-common-black-2);
+			color: var(--tj-color-heading-primary);
 			display: block;
 			line-height: 1;
 			margin-bottom: 10px;

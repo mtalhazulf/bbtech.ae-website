@@ -19,9 +19,9 @@ START: Hero CSS
 				height: 100%;
 				background: linear-gradient(
 					-109deg,
-					rgba(12, 30, 33, 0.95) 20%,
-					rgba(12, 30, 33, 0.2) 40%,
-					rgba(12, 30, 33, 0.95) 70%
+					tj-rgba(theme, dark, 0.95) 20%,
+					tj-rgba(theme, dark, 0.2) 40%,
+					tj-rgba(theme, dark, 0.95) 70%
 				);
 				z-index: 1;
 			}
@@ -103,7 +103,7 @@ START: Hero CSS
 			min-height: 700px;
 		}
 		.solution-box {
-			background-color: rgba(255, 255, 255, 0.1);
+			background-color: tj-rgba(common, white, 0.1);
 			backdrop-filter: blur(5px);
 			border-radius: 10px;
 			max-width: 366px;

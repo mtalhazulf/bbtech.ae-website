@@ -1,5 +1,5 @@
 "use client";
-import Footer from "@/components/layout/footer/Footer";
+import Footer10 from "@/components/layout/footer/Footer10";
 import Header from "@/components/layout/header/Header";
 import Cta from "@/components/sections/cta/Cta";
 import ErrorPrimary from "@/components/sections/error/ErrorPrimary";
@@ -25,7 +25,7 @@ export default function Error() {
 						<ErrorPrimary />
 						<Cta />
 					</main>
-					<Footer />
+					<Footer10 />
 				</div>
 			</div>
 			<ClientWrapper />

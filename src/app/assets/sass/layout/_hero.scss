@@ -234,7 +234,7 @@ START: Hero CSS
 			width: 36px;
 			height: 36px;
 			font-size: 22px;
-			background-color: rgba(255, 255, 255, 0.1);
+			background-color: tj-rgba(common, white, 0.1);
 			border-radius: 50%;
 			transform: rotate(90deg);
 		}
@@ -573,7 +573,7 @@ START: Hero CSS
 		}
 		.brand-name {
 			-webkit-text-fill-color: transparent;
-			-webkit-text-stroke: 2px rgba(255, 255, 255, 0.6);
+			-webkit-text-stroke: 2px tj-rgba(common, white, 0.6);
 			font-weight: var(--tj-fw-sbold);
 			font-size: 120px;
 			writing-mode: sideways-lr;
@@ -596,7 +596,7 @@ START: Hero CSS
 			inset-inline-start: 15px;
 			bottom: 15px;
 			border-radius: 10px;
-			background-color: rgba(255, 255, 255, 0.1);
+			background-color: tj-rgba(common, white, 0.1);
 			backdrop-filter: blur(10px);
 			padding: 20px;
 			img {

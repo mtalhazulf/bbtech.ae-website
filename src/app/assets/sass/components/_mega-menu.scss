@@ -51,7 +51,7 @@
 }
 // .mainmenu ul > li {
 // 	.mega-menu {
-// 		box-shadow: 0 16px 15px rgba(0, 0, 0, 0.1);
+// 		box-shadow: 0 16px 15px tj-rgba(common, black, 0.1);
 // 	}
 // }
 .mainmenu ul > li,
@@ -293,7 +293,7 @@
 					flex-direction: column;
 					a {
 						font-weight: var(--tj-fw-medium);
-						color: var(--tj-color-common-black-2);
+						color: var(--tj-color-heading-primary);
 						padding: 12px 0;
 						line-height: 1;
 						position: relative;
@@ -389,9 +389,9 @@
 					text-align: center;
 					background: linear-gradient(
 						-45deg,
-						rgba(30, 138, 138, 0.3) 0%,
-						rgba(30, 138, 138, 0) 50%,
-						rgba(30, 138, 138, 0.3) 100%
+						tj-rgba(theme, primary, 0.3) 0%,
+						tj-rgba(theme, primary, 0) 50%,
+						tj-rgba(theme, primary, 0.3) 100%
 					);
 					color: var(--tj-color-theme-primary);
 					font-size: 40px;

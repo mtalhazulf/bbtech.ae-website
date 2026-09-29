@@ -1,3 +1,4 @@
+@use "sass:map";
 @use "colors" as *;
 @use "typography" as *;
 
@@ -10,6 +11,10 @@
 			--tj-#{"" + $ff}-#{"" + $shade}: #{$value};
 		}
 	}
+	// DESIGN.md §4: --tj-ff-body is the real next/font variable (src/app/layout.js);
+	// --tj-ff-heading rides the same family so there's still one font load, kept as
+	// its own token so the two can diverge later without touching every component.
+	--tj-ff-heading: var(--tj-ff-body);
 
 	/**
     @Font-weight Declaration
@@ -37,4 +42,21 @@
 			--tj-color-#{"" + $color}-#{"" + $shade}: #{$value};
 		}
 	}
+
+	/**
+    @Brand gradients (DESIGN.md §3.1). -brand follows the logo exactly (decorative only,
+    white text fails at the sky end); -brand-ui is safe under large/bold white text. Built
+    from the theme map (not pasted hex) so _colors.scss stays the only literal source.
+  */
+	$theme: map.get($colors, theme);
+	--tj-gradient-brand: linear-gradient(
+		135deg,
+		#{map.get($theme, sky)} 0%,
+		#{map.get($theme, primary)} 100%
+	);
+	--tj-gradient-brand-ui: linear-gradient(
+		135deg,
+		#{map.get($theme, mid)} 0%,
+		#{map.get($theme, primary)} 100%
+	);
 }

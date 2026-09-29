@@ -145,12 +145,12 @@ START: Animate CSS
 }
 @include keyframes(pulse2) {
 	0% {
-		-webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 1);
-		box-shadow: 0 0 0 0px rgba(255, 255, 255, 1);
+		-webkit-box-shadow: 0 0 0 0px tj-rgba(common, white, 1);
+		box-shadow: 0 0 0 0px tj-rgba(common, white, 1);
 	}
 	100% {
-		-webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
-		box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+		-webkit-box-shadow: 0 0 0 20px tj-rgba(common, black, 0);
+		box-shadow: 0 0 0 20px tj-rgba(common, black, 0);
 	}
 }
 .pulse3 {
@@ -158,12 +158,12 @@ START: Animate CSS
 }
 @include keyframes(pulse3) {
 	0% {
-		-webkit-box-shadow: 0 0 0 0px rgba(30, 138, 138, 0.4);
-		box-shadow: 0 0 0 0px rgba(30, 138, 138, 0.4);
+		-webkit-box-shadow: 0 0 0 0px tj-rgba(theme, primary, 0.4);
+		box-shadow: 0 0 0 0px tj-rgba(theme, primary, 0.4);
 	}
 	100% {
-		-webkit-box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
-		box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
+		-webkit-box-shadow: 0 0 0 8px tj-rgba(common, black, 0);
+		box-shadow: 0 0 0 8px tj-rgba(common, black, 0);
 	}
 }
 .pulse4 {
@@ -171,12 +171,12 @@ START: Animate CSS
 }
 @include keyframes(pulse4) {
 	0% {
-		-webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.05);
-		box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.5);
+		-webkit-box-shadow: 0 0 0 0px tj-rgba(common, white, 0.05);
+		box-shadow: 0 0 0 0px tj-rgba(common, white, 0.5);
 	}
 	100% {
-		-webkit-box-shadow: 0 0 0 12px rgba(0, 0, 0, 0);
-		box-shadow: 0 0 0 12px rgba(0, 0, 0, 0);
+		-webkit-box-shadow: 0 0 0 12px tj-rgba(common, black, 0);
+		box-shadow: 0 0 0 12px tj-rgba(common, black, 0);
 	}
 }
 @include keyframes(shine) {

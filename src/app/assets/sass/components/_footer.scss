@@ -93,7 +93,7 @@ START: Theme Footer CSS
 				width: 28px;
 				height: 28px;
 				border-radius: 50%;
-				background-color: rgba(12, 30, 33, 0.3);
+				background-color: tj-rgba(theme, dark, 0.3);
 				font-size: 16px;
 				line-height: 1;
 				i {
@@ -495,7 +495,7 @@ START: Theme Footer CSS
 					a {
 						color: var(--tj-color-text-body-2);
 						&:hover {
-							color: var(--tj-color-theme-primary);
+							color: var(--tj-color-theme-sky); // dark-surface rule (DESIGN.md §3.3): .footer-2 (used by Footer10) is on theme-dark
 						}
 					}
 				}
@@ -529,8 +529,8 @@ START: Theme Footer CSS
 	align-items: center;
 	justify-content: space-between;
 	gap: 20px;
-	background-color: rgba(255, 255, 255, 0.1);
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	background-color: tj-rgba(common, white, 0.1);
+	border: 1px solid tj-rgba(common, white, 0.1);
 	backdrop-filter: blur(10px);
 	padding: 40px 50px;
 	border-radius: 12px;
@@ -707,8 +707,8 @@ START: Theme Footer CSS
 .widget-subscribe-2 {
 	max-width: 850px;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.1);
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	background-color: tj-rgba(common, white, 0.1);
+	border: 1px solid tj-rgba(common, white, 0.1);
 	backdrop-filter: blur(10px);
 	padding: 40px 30px;
 	border-radius: 12px;

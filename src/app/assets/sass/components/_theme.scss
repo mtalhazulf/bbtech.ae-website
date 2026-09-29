@@ -210,11 +210,37 @@ h6 {
 }
 
 a:focus,
-button:focus,
-button:focus-visible {
+button:focus {
 	text-decoration: none;
 	outline: none;
 	box-shadow: 0 0 0;
+}
+
+// DESIGN.md §7: every interactive element needs a visible :focus-visible ring (the
+// template had none). Mouse/touch clicks still get no ring (the :focus reset above);
+// keyboard focus gets a 2px ring, 2px offset. Primary is the light-surface default;
+// :where() carries zero specificity, so any more specific per-component override
+// (e.g. the content-import dark-surface overrides) still wins over the sky swap below.
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+	outline: 2px solid var(--tj-color-theme-primary);
+	outline-offset: 2px;
+}
+:where(
+		.tj-page-header,
+		.hamburger-area,
+		.hamburger_bg,
+		.tj-offcanvas-area,
+		.h10-process,
+		.tj-footer-section.footer-2,
+		.tj-footer-section.footer-3
+	)
+	:focus-visible {
+	outline-color: var(--tj-color-theme-sky);
 }
 
 a:focus,
@@ -275,7 +301,7 @@ input[type="search"]::-webkit-search-results-decoration {
 ::-webkit-scrollbar-thumb {
 	background: var(--tj-color-theme-primary);
 	-webkit-border-radius: 1ex;
-	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 0px 0px 0px tj-rgba(common, black, 0.75);
 }
 ::-webkit-scrollbar-corner {
 	background: transparent;
@@ -530,6 +556,12 @@ img {
 .hero-text-anim {
 	opacity: 0;
 	&.start-anim {
+		opacity: 1;
+	}
+	// DESIGN.md §9 safety net: ClientWrapper skips the SplitText reveal that adds
+	// .start-anim under reduced motion and adds it directly instead, but this
+	// guarantees the content is never stuck invisible even if that ever races.
+	@media (prefers-reduced-motion: reduce) {
 		opacity: 1;
 	}
 }

@@ -42,7 +42,7 @@ START: Heading CSS
 			margin-bottom: 15px;
 		}
 		&.text-white {
-			border-color: rgba(255, 255, 255, 0.15);
+			border-color: tj-rgba(common, white, 0.15);
 		}
 		@media #{$md, $sm, $xs} {
 			font-size: 13px;

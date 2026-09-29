@@ -501,10 +501,10 @@ START: Testimonial CSS
 	.slider-prev {
 		margin-top: -52px;
 		margin-inline-start: -24px;
-		background-color: #ecf0f0;
+		background-color: var(--tj-color-grey-1);
 	}
 	.slider-next {
-		background-color: #ecf0f0;
+		background-color: var(--tj-color-grey-1);
 		margin-top: -52px;
 		margin-inline-end: -24px;
 	}

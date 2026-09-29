@@ -230,10 +230,10 @@ START: Faq CSS
 				background-color: var(--tj-color-theme-primary);
 				.faq-title {
 					color: var(--tj-color-common-white);
-					border-color: rgba(255, 255, 255, 0.15);
+					border-color: tj-rgba(common, white, 0.15);
 					&::after {
 						color: var(--tj-color-common-white);
-						border-color: rgba(255, 255, 255, 0.1);
+						border-color: tj-rgba(common, white, 0.1);
 					}
 				}
 				.accordion-body {

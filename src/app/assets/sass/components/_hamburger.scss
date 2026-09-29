@@ -9,7 +9,7 @@
 		top: 15px;
 		width: 450px;
 		height: calc(100% - 30px);
-		box-shadow: -5px 0 20px -5px rgba(0, 0, 0, 0.5);
+		box-shadow: -5px 0 20px -5px tj-rgba(common, black, 0.5);
 		transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 		transition-duration: 1s;
 		z-index: 9999;
@@ -166,10 +166,10 @@
 						text-transform: capitalize;
 						padding: 18px 0;
 						border-top: none;
-						border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+						border-bottom: 1px solid tj-rgba(common, white, 0.1);
 						transition: all 0.4s ease-in-out 0s;
 						&:hover {
-							color: var(--tj-color-theme-primary);
+							color: var(--tj-color-theme-sky); // dark-surface rule (DESIGN.md §3.3): mobile menu sits on the dark hamburger_bg backdrop
 						}
 					}
 					a.mean-expand,
@@ -190,7 +190,7 @@
 							font-size: 15px;
 						}
 						&.mean-clicked {
-							color: var(--tj-color-theme-primary);
+							color: var(--tj-color-theme-sky); // dark-surface rule (DESIGN.md §3.3): mobile menu sits on the dark hamburger_bg backdrop
 							transform: rotate(180deg);
 							& i {
 								transform: rotate(180deg);
@@ -218,7 +218,7 @@
 					&.dropdown-opened {
 						> a,
 						button {
-							color: var(--tj-color-theme-primary);
+							color: var(--tj-color-theme-sky); // dark-surface rule (DESIGN.md §3.3): mobile menu sits on the dark hamburger_bg backdrop
 						}
 					}
 				}
@@ -233,7 +233,7 @@
 	top: 15px;
 	width: 470px;
 	height: calc(100% - 30px);
-	box-shadow: -5px 0 20px -5px rgba(0, 0, 0, 0.5);
+	box-shadow: -5px 0 20px -5px tj-rgba(common, black, 0.5);
 	transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	transition-duration: 0.3s;
 	z-index: 9999;

@@ -38,7 +38,7 @@ START: Hero CSS
 	}
 	&-item {
 		min-height: 92.5vh;
-		background-color: #0c1e21;
+		background-color: var(--tj-color-theme-dark);
 		position: relative;
 		&::after {
 			position: absolute;
@@ -50,9 +50,9 @@ START: Hero CSS
 			z-index: 2;
 			background: linear-gradient(
 				90deg,
-				rgba(12, 30, 33, 1) 20%,
-				rgba(12, 30, 33, 0.4) 60%,
-				rgba(12, 30, 33, 0.1) 100%
+				tj-rgba(theme, dark, 1) 20%,
+				tj-rgba(theme, dark, 0.4) 60%,
+				tj-rgba(theme, dark, 0.1) 100%
 			);
 		}
 		&-wrapper {
@@ -125,9 +125,9 @@ START: Hero CSS
 							padding: 20px 19px 18px;
 							background: linear-gradient(
 								135deg,
-								rgba(30, 138, 138, 0.3) 0%,
-								rgba(30, 138, 138, 0) 50%,
-								rgba(30, 138, 138, 0.3) 100%
+								tj-rgba(theme, primary, 0.3) 0%,
+								tj-rgba(theme, primary, 0) 50%,
+								tj-rgba(theme, primary, 0.3) 100%
 							);
 							border: 3px solid var(--tj-color-theme-primary);
 							border: 2px solid var(--tj-color-border-5);

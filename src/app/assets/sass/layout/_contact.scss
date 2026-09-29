@@ -182,7 +182,7 @@ START: Contact CSS
 
 	&.style-2 {
 		max-width: 610px;
-		background-color: rgba(255, 255, 255, 0.1);
+		background-color: tj-rgba(common, white, 0.1);
 		backdrop-filter: blur(6px);
 		position: relative;
 		z-index: 2;
@@ -208,12 +208,12 @@ START: Contact CSS
 			input[type="email"] {
 				color: var(--tj-color-text-body-2);
 				padding: 11px 0;
-				border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+				border-bottom: 1px solid tj-rgba(common, white, 0.15);
 				@include placeholder {
 					color: var(--tj-color-text-body-2);
 				}
 				&:focus {
-					border-color: rgba(255, 255, 255, 1);
+					border-color: tj-rgba(common, white, 1);
 				}
 			}
 			.cf-label {
@@ -221,9 +221,9 @@ START: Contact CSS
 			}
 			.nice-select {
 				color: var(--tj-color-text-body-2);
-				border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+				border-bottom: 1px solid tj-rgba(common, white, 0.15);
 				&.open {
-					border-color: rgba(255, 255, 255, 1);
+					border-color: tj-rgba(common, white, 1);
 				}
 				&::after {
 					color: var(--tj-color-common-white);
@@ -408,7 +408,7 @@ START: Contact CSS
 		}
 		&::after {
 			content: "";
-			background: rgba(255, 255, 255, 0.1);
+			background: tj-rgba(common, white, 0.1);
 			width: 100%;
 			height: 100%;
 			z-index: -2;

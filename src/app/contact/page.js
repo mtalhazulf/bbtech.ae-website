@@ -1,4 +1,4 @@
-import Footer from "@/components/layout/footer/Footer";
+import Footer10 from "@/components/layout/footer/Footer10";
 import Header from "@/components/layout/header/Header";
 import HeroInner from "@/components/sections/hero/HeroInner";
 import SectionRenderer from "@/components/sections/SectionRenderer";
@@ -70,7 +70,7 @@ export default function Contact() {
 							image={CTA_IMAGE}
 						/>
 					</main>
-					<Footer />
+					<Footer10 />
 				</div>
 			</div>
 			<ClientWrapper />

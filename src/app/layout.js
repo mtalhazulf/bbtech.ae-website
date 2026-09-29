@@ -16,18 +16,15 @@ import "./globals.scss";
 import page from "@/data/pages/home.json";
 import site from "@/data/site.json";
 
+// DESIGN.md §4: one Mona Sans instance, not two identical ones, and only the
+// weights the site actually uses (400/500/600/700, no italics — headings use 500,
+// body uses 400/600/700). --tj-ff-heading is bound to the same font in _root.scss
+// so both tokens can diverge later without loading a second family now.
 const bodyFont = Mona_Sans({
 	variable: "--tj-ff-body",
 	subsets: ["latin"],
-	weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
-	style: ["normal", "italic"],
-	display: "swap",
-});
-const headingFont = Mona_Sans({
-	variable: "--tj-ff-heading",
-	subsets: ["latin"],
-	weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
-	style: ["normal", "italic"],
+	weight: ["400", "500", "600", "700"],
+	style: ["normal"],
 	display: "swap",
 });
 
@@ -62,7 +59,7 @@ const organizationJsonLd = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en" data-scroll-behavior="smooth" dir="ltr">
-			<body className={`${bodyFont.variable} ${headingFont.variable}`}>
+			<body className={bodyFont.variable}>
 				<script
 					type="application/ld+json"
 					// eslint-disable-next-line react/no-danger

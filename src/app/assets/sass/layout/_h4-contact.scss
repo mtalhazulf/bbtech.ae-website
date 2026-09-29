@@ -50,8 +50,8 @@ START: Contact CSS
 			input[type="email"] {
 				color: var(--tj-color-text-body-2);
 				padding: 12px 20px;
-				background-color: rgba(255, 255, 255, 0.1);
-				border: 1px solid rgba(255, 255, 255, 0.1);
+				background-color: tj-rgba(common, white, 0.1);
+				border: 1px solid tj-rgba(common, white, 0.1);
 				backdrop-filter: blur(10px);
 				border-radius: 6px;
 				@include placeholder {
@@ -69,8 +69,8 @@ START: Contact CSS
 			.nice-select {
 				color: var(--tj-color-text-body-2);
 				padding: 12px 20px;
-				background-color: rgba(255, 255, 255, 0.1);
-				border: 1px solid rgba(255, 255, 255, 0.1);
+				background-color: tj-rgba(common, white, 0.1);
+				border: 1px solid tj-rgba(common, white, 0.1);
 				backdrop-filter: blur(10px);
 				border-radius: 6px;
 				z-index: 2;

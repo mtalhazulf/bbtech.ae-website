@@ -120,8 +120,8 @@ START: Choose CSS
 	display: flex;
 	flex-wrap: wrap;
 	align-items: end;
-	border-top: 1px dashed rgba(0, 0, 0, 0.16);
-	border-bottom: 1px dashed rgba(0, 0, 0, 0.16);
+	border-top: 1px dashed tj-rgba(common, black, 0.16);
+	border-bottom: 1px dashed tj-rgba(common, black, 0.16);
 	.year-count {
 		color: var(--tj-color-theme-primary);
 		font-size: 404px;
@@ -131,7 +131,7 @@ START: Choose CSS
 		letter-spacing: -8.08px;
 		display: inline-flex;
 		padding: 17px 30px 38px 0;
-		border-inline-end: 1px dashed rgba(0, 0, 0, 0.16);
+		border-inline-end: 1px dashed tj-rgba(common, black, 0.16);
 		@media #{$lg, $md} {
 			font-size: 335px;
 		}

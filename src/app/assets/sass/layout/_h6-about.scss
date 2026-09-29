@@ -32,7 +32,7 @@ START: Home 5 About CSS
 	}
 	&-funfact {
 		&-wrapper {
-			background-color: rgba(255, 255, 255, 0.1);
+			background-color: tj-rgba(common, white, 0.1);
 			backdrop-filter: blur(10px);
 			width: 100%;
 			border-radius: 8px;
@@ -139,7 +139,7 @@ START: Home 5 About CSS
 		}
 		.customers-box {
 			border-radius: 10px;
-			background-color: rgba(255, 255, 255, 0.1);
+			background-color: tj-rgba(common, white, 0.1);
 			backdrop-filter: blur(10px);
 			.customers-text {
 				margin-top: 24px;

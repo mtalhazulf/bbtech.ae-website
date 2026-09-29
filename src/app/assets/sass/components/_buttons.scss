@@ -68,6 +68,8 @@
 		}
 	}
 	&:hover {
+		// DESIGN.md §7: primary-hover as the pressed/hover fill.
+		background-color: var(--tj-color-theme-primary-hover);
 		.btn-text {
 			span {
 				transform: translateY(-30px);
@@ -77,6 +79,24 @@
 			i {
 				transform: rotate(0);
 			}
+		}
+	}
+	&.btn-dark:hover {
+		// .btn-dark's own fill is theme-dark, not primary; don't relight it primary-hover.
+		background-color: var(--tj-color-theme-dark);
+	}
+	&.btn-accent {
+		// DESIGN.md §7: orange fill, navy text (white fails contrast on orange).
+		// At most one per page (§3.5's orange budget).
+		background-color: var(--tj-color-theme-accent);
+		.btn-text {
+			color: var(--tj-color-heading-primary);
+		}
+		.btn-icon {
+			background-color: var(--tj-color-heading-primary);
+		}
+		&:hover {
+			background-color: var(--tj-color-theme-accent-hover);
 		}
 	}
 	&-lg {

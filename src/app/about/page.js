@@ -1,4 +1,4 @@
-import Footer from "@/components/layout/footer/Footer";
+import Footer10 from "@/components/layout/footer/Footer10";
 import Header from "@/components/layout/header/Header";
 import About3 from "@/components/sections/about/About3";
 import Brands1 from "@/components/sections/brands/Brands1";
@@ -34,7 +34,7 @@ export default function About() {
 						<Faq2 type={3} />
 						<Cta />
 					</main>
-					<Footer />
+					<Footer10 />
 				</div>
 			</div>
 

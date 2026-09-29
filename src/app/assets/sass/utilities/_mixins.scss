@@ -1,3 +1,13 @@
+// DESIGN.md §3.4: the only place a color literal is allowed to originate from is
+// _colors.scss — everywhere else pulls a shade through this helper (or a --tj-color-*
+// var) instead of pasting hex/rgba. Compiles to a static rgba(), so there's no
+// browser-support concern.
+@use "sass:map";
+@use "colors" as *;
+@function tj-rgba($group, $shade, $alpha) {
+	@return rgba(map.get(map.get($colors, $group), $shade), $alpha);
+}
+
 // after before
 @mixin theme-afbf {
 	position: absolute;

@@ -11,7 +11,7 @@ START: Preloader CSS
 	height: 100%;
 	background-color: var(--tj-color-theme-dark);
 	z-index: 100000000;
-	color: #fdfdf9;
+	color: var(--tj-color-common-white);
 	user-select: none;
 }
 
@@ -93,11 +93,11 @@ START: Preloader CSS
 	height: 4px;
 	inset-inline-start: 50%;
 	transform: translateX(-50%);
-	background-color: #00ffc2;
+	background-color: var(--tj-color-theme-sky);
 	bottom: 0;
 	border-radius: 50%;
 	filter: blur(12px);
-	box-shadow: 0 4px 20px 0 #20e7b7;
+	box-shadow: 0 4px 20px 0 var(--tj-color-theme-sky);
 	transition: 0.7s cubic-bezier(0.77, 0, 0.175, 1);
 	animation-play-state: paused;
 	animation: tj-shadow-blur 1s linear infinite;
@@ -108,9 +108,9 @@ START: Preloader CSS
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
-	background-color: #00ffc2;
+	background-color: var(--tj-color-theme-sky);
 	animation: tj-bounce-anim 1s linear infinite;
-	box-shadow: 0 0 12px 0 #fdfdf9;
+	box-shadow: 0 0 12px 0 var(--tj-color-common-white);
 	transition: 0.7s cubic-bezier(0.77, 0, 0.175, 1);
 	animation-play-state: paused;
 }
@@ -128,8 +128,8 @@ START: Preloader CSS
 	inset-inline-start: 50%;
 	transform: translate(-50%, 50%);
 	border-radius: 50%;
-	background-color: rgba(0, 255, 194, 0.1);
-	box-shadow: 0 0 20px 0 #20e7b7;
+	background-color: tj-rgba(theme, sky, 0.1);
+	box-shadow: 0 0 20px 0 var(--tj-color-theme-sky);
 	filter: blur(10px);
 }
 

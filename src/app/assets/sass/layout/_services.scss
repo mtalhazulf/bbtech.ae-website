@@ -12,13 +12,13 @@ START: Services CSS
 		max-width: 550px;
 		.sub-title {
 			color: var(--tj-color-common-white);
-			border-color: rgba(255, 255, 255, 0.15);
+			border-color: tj-rgba(common, white, 0.15);
 		}
 		&.style-2 {
 			margin-inline-start: 0;
 			margin-inline-end: 0;
 			.sub-title {
-				color: var(--tj-color-theme-primary);
+				color: var(--tj-color-theme-sky); // dark-surface rule (DESIGN.md §3.3): sits on dark-2
 				background-color: var(--tj-color-theme-dark-2);
 			}
 		}
@@ -76,12 +76,12 @@ START: Services CSS
 		height: 80px;
 		background: linear-gradient(
 			-45deg,
-			rgba(30, 138, 138, 0.3) 0%,
-			rgba(30, 138, 138, 0) 50%,
-			rgba(30, 138, 138, 0.3) 100%
+			tj-rgba(theme, primary, 0.3) 0%,
+			tj-rgba(theme, primary, 0) 50%,
+			tj-rgba(theme, primary, 0.3) 100%
 		);
 		border-radius: 50%;
-		border: 1px solid rgba(30, 138, 138, 0.15);
+		border: 1px solid tj-rgba(theme, primary, 0.15);
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
@@ -190,7 +190,7 @@ START: Services CSS
 				a {
 					color: var(--tj-color-common-white);
 					&:hover {
-						color: var(--tj-color-theme-primary);
+						color: var(--tj-color-theme-sky); // dark-surface rule: .style-1 card sits on theme-dark
 					}
 				}
 				@media #{$xl, $lg, $md, $sm, $xs} {
@@ -344,11 +344,11 @@ START: Services CSS
 			.service-icon {
 				background: linear-gradient(
 					-45deg,
-					rgba(255, 255, 255, 0.3) 0%,
-					rgba(255, 255, 255, 0) 50%,
-					rgba(255, 255, 255, 0.3) 100%
+					tj-rgba(common, white, 0.3) 0%,
+					tj-rgba(common, white, 0) 50%,
+					tj-rgba(common, white, 0.3) 100%
 				);
-				border-color: rgba(255, 255, 255, 0.15);
+				border-color: tj-rgba(common, white, 0.15);
 				i {
 					color: var(--tj-color-common-white);
 				}

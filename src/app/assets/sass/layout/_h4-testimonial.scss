@@ -9,8 +9,8 @@ START: Testimonial CSS
 .h4-testimonial-wrapper {
 	max-width: 610px;
 	margin-inline-end: 0;
-	background-color: rgba(255, 255, 255, 0.1);
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	background-color: tj-rgba(common, white, 0.1);
+	border: 1px solid tj-rgba(common, white, 0.1);
 	backdrop-filter: blur(10px);
 	border-radius: 12px;
 	padding-top: 50px;

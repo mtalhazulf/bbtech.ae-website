@@ -35,7 +35,7 @@ START: About CSS
 			background-color: var(--tj-color-theme-bg);
 			&::after,
 			&::before {
-				background: url('data:image/svg+xml,<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11"><path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="%23d8e5e5"></path></svg>');
+				background: url('data:image/svg+xml,<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11"><path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="%23d9e0ed"></path></svg>');
 			}
 			@media #{$xs} {
 				max-width: 270px;
@@ -50,7 +50,7 @@ START: About CSS
 					display: none;
 				}
 				.progress-box {
-					background-color: rgba(255, 255, 255, 0.1);
+					background-color: tj-rgba(common, white, 0.1);
 					backdrop-filter: blur(6px);
 					.tj-progress-percent,
 					.tj-progress-title,
@@ -85,7 +85,7 @@ START: About CSS
 		top: -13px;
 		width: 13px;
 		height: 13px;
-		background: url('data:image/svg+xml,<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11"><path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="%23ecf0f0"></path></svg>');
+		background: url('data:image/svg+xml,<svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-11 h-11"><path d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z" fill="%23eef1f6"></path></svg>');
 		transform: rotate(-90deg);
 	}
 	&::after {
@@ -235,8 +235,8 @@ START: About CSS
 	height: 60px;
 	line-height: 1;
 	color: var(--tj-color-common-white);
-	background: rgba(255, 255, 255, 0.1);
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	background: tj-rgba(common, white, 0.1);
+	border: 1px solid tj-rgba(common, white, 0.1);
 	position: absolute;
 	top: 50%;
 	inset-inline-start: 50%;

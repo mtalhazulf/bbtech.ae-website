@@ -36,7 +36,7 @@ START: Theme Slider CSS
 
 .tj-slider-item {
 	min-height: 92.5vh;
-	background-color: #0c1e21;
+	background-color: var(--tj-color-theme-dark);
 	position: relative;
 	z-index: 1;
 	&::after {
@@ -49,9 +49,9 @@ START: Theme Slider CSS
 		z-index: 2;
 		background: linear-gradient(
 			90deg,
-			rgba(12, 30, 33, 1) 20%,
-			rgba(12, 30, 33, 0.4) 60%,
-			rgba(12, 30, 33, 0.1) 100%
+			tj-rgba(theme, dark, 1) 20%,
+			tj-rgba(theme, dark, 0.4) 60%,
+			tj-rgba(theme, dark, 0.1) 100%
 		);
 	}
 	.slider-wrapper {
@@ -267,7 +267,7 @@ START: Theme Slider CSS
 		height: 60px;
 		font-size: 28px;
 		background-color: transparent;
-		border-color: rgba(255, 255, 255, 0.15);
+		border-color: tj-rgba(common, white, 0.15);
 		margin-top: -60px;
 		@media #{$md} {
 			margin-top: 0;
@@ -303,7 +303,7 @@ START: Theme Slider CSS
 	height: 200px;
 	bottom: 60px;
 	inset-inline-end: 285px;
-	background-color: rgba(255, 255, 255, 0.1);
+	background-color: tj-rgba(common, white, 0.1);
 	backdrop-filter: blur(10px);
 	border-radius: 50%;
 	z-index: 5;

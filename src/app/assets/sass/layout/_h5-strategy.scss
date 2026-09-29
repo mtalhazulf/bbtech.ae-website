@@ -116,9 +116,9 @@ START: Strategy CSS
 			}
 		}
 		padding: 5px 8px 7px;
-		background-color: rgba(255, 255, 255, 0.1);
+		background-color: tj-rgba(common, white, 0.1);
 		backdrop-filter: blur(10px);
-		border: 1px solid rgba(255, 255, 255, 0.1);
+		border: 1px solid tj-rgba(common, white, 0.1);
 		border-radius: 4px;
 		line-height: 1;
 		color: var(--tj-color-common-white);
