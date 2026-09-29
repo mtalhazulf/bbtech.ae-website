@@ -3,6 +3,28 @@
 /**----------------------------------------
 START: Theme Footer CSS
 ----------------------------------------*/
+// The template's h10 home page never puts a .tj-cta-section before its footer, so this
+// reset was unconditional - but Footer10 (h10-footer) is now used site-wide (DESIGN.md),
+// including catch-all pages whose closing section IS a .tj-cta-section band that overlaps
+// upward by exactly the footer's own reserved padding-top (see _footer.scss and
+// _ci-footer.scss's matching :not(:has()) guard for the retired footer-1 case). Without
+// this guard, that reserved space was zeroed everywhere, so the CTA band's overlap ate
+// into the footer's real content instead of just its top padding.
+main:has(.tj-cta-section) + .tj-footer-section.h10-footer {
+	padding-top: 195px;
+	@media #{$xl} {
+		padding-top: 150px;
+	}
+	@media #{$lg} {
+		padding-top: 135px;
+	}
+	@media #{$md} {
+		padding-top: 320px;
+	}
+	@media #{$sm, $xs} {
+		padding-top: 270px;
+	}
+}
 .tj-footer-section {
 	&.h10-footer {
 		padding-top: 0;
