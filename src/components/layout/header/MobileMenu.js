@@ -1,3 +1,4 @@
+import getSocialLabel from "@/components/layout/footer/socialLabel";
 import getSiteConfig from "@/libs/getSiteConfig";
 import Link from "next/link";
 import MobileNavbar from "./MobileNavbar";
@@ -29,8 +30,13 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 								</Link>
 							</div>
 							<div className="hamburger_close">
-								<button className="hamburger_close_btn" onClick={handleClick}>
-									<i className="fa-thin fa-times"></i>
+								<button
+									type="button"
+									className="hamburger_close_btn"
+									onClick={handleClick}
+									aria-label="Close menu"
+								>
+									<i className="fa-thin fa-times" aria-hidden="true"></i>
 								</button>
 							</div>
 						</div>
@@ -63,8 +69,12 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 							<ul>
 								{socials.map((social, index) => (
 									<li key={index}>
-										<Link href={social.url} target="_blank">
-											<i className={social.icon}></i>
+										<Link
+											href={social.url}
+											target="_blank"
+											aria-label={getSocialLabel(social.platform)}
+										>
+											<i className={social.icon} aria-hidden="true"></i>
 										</Link>
 									</li>
 								))}

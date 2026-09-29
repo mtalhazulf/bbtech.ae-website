@@ -25,10 +25,23 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 							{industriesNav?.name}
 						</Link>
 					</li>
-					<li className={solutionsNav?.isActive ? "current-menu-ancestor" : ""}>
+					<li
+						className={`${solutionsNav?.submenu?.length ? "has-dropdown" : ""} ${
+							solutionsNav?.isActive ? "current-menu-ancestor" : ""
+						}`}
+					>
 						<Link href={solutionsNav?.path ? solutionsNav?.path : "#"}>
 							{solutionsNav?.name}
 						</Link>
+						{solutionsNav?.submenu?.length ? (
+							<ul className="sub-menu">
+								{solutionsNav.submenu.map((item, idx) => (
+									<li key={idx}>
+										<Link href={item?.path ? item.path : "/"}>{item?.name}</Link>
+									</li>
+								))}
+							</ul>
+						) : null}
 					</li>
 					<li
 						className={`has-dropdown ${

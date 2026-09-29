@@ -13,17 +13,6 @@ const MobileNavbar = () => {
 		<div className="hamburger_menu">
 			<div className="mobile_menu mean-container">
 				<div className="mean-bar">
-					<Link
-						href="#nav"
-						className="meanmenu-reveal"
-						style={{ right: 0, left: "auto" }}
-					>
-						<span>
-							<span>
-								<span></span>
-							</span>
-						</span>
-					</Link>
 					<nav className="mean-nav">
 						<ul>
 							<li>
@@ -36,11 +25,24 @@ const MobileNavbar = () => {
 									{industriesNav?.name}
 								</Link>
 							</li>
-							<li>
-								<Link href={solutionsNav?.path ? solutionsNav?.path : "#"}>
-									{solutionsNav?.name}
-								</Link>
-							</li>
+							{solutionsNav?.submenu?.length ? (
+								<MobileMenuItem
+									text={solutionsNav?.name}
+									url={solutionsNav?.path ? solutionsNav?.path : "#"}
+								>
+									{solutionsNav.submenu.map((item, idx) => (
+										<li key={idx}>
+											<Link href={item?.path ? item.path : "/"}>{item?.name}</Link>
+										</li>
+									))}
+								</MobileMenuItem>
+							) : (
+								<li>
+									<Link href={solutionsNav?.path ? solutionsNav?.path : "#"}>
+										{solutionsNav?.name}
+									</Link>
+								</li>
+							)}
 							<MobileMenuItem
 								text={serviceNav?.name}
 								url={serviceNav?.path ? serviceNav?.path : "#"}

@@ -111,12 +111,14 @@ const Header = ({
 									) : (
 										<div className="header-search">
 											<button
+												type="button"
 												className={`search  ${
 													isSearchOpen ? "search-hide" : ""
 												}`}
 												onClick={() => setIsSearchOpen(true)}
+												aria-label="Open search"
 											>
-												<i className="tji-search"></i>
+												<i className="tji-search" aria-hidden="true"></i>
 											</button>
 											<button
 												type="button"
@@ -124,6 +126,7 @@ const Header = ({
 													isSearchOpen ? "close-show" : ""
 												}`}
 												onClick={() => setIsSearchOpen(false)}
+												aria-label="Close search"
 											>
 												<svg
 													width="18"
@@ -163,25 +166,29 @@ const Header = ({
 									headerType === 10 ? (
 										""
 									) : (
-										<div
+										<button
+											type="button"
 											className="menu_bar menu_offcanvas d-none d-lg-inline-flex"
 											onClick={handleContactTogglerClick}
+											aria-label="Open contact menu"
 										>
-											<span></span>
-											<span></span>
-											<span></span>
-										</div>
+											<span aria-hidden="true"></span>
+											<span aria-hidden="true"></span>
+											<span aria-hidden="true"></span>
+										</button>
 									)}
 								</div>
 								{/* <!-- menu bar --> */}
-								<div
+								<button
+									type="button"
 									className="menu_bar mobile_menu_bar d-lg-none"
 									onClick={handleMobileTogglerClick}
+									aria-label="Open menu"
 								>
-									<span></span>
-									<span></span>
-									<span></span>
-								</div>
+									<span aria-hidden="true"></span>
+									<span aria-hidden="true"></span>
+									<span aria-hidden="true"></span>
+								</button>
 							</div>
 						</div>
 					</div>

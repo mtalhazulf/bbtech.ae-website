@@ -339,7 +339,8 @@ START: Theme Header CSS
 						@include transition(all 0.3s ease-in-out 0s);
 					}
 				}
-				&:hover {
+				&:hover,
+				&:focus-within {
 					> a {
 						&::after {
 							transform: rotate(-180deg);
@@ -430,7 +431,8 @@ START: Theme Header CSS
 					}
 				}
 			}
-			&:hover {
+			&:hover,
+			&:focus-within {
 				> .sub-menu {
 					opacity: 1;
 					visibility: visible;
@@ -578,6 +580,10 @@ START: Theme Header CSS
 	top: 0;
 	inset-inline-start: 0;
 	margin-inline-start: 5px;
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+	font: inherit;
 	cursor: pointer;
 	@include transition(all 0.3s ease-in-out 0s);
 
