@@ -34,23 +34,25 @@ const BackToTop = () => {
 	};
 
 	return (
-		<div
+		<button
+			type="button"
 			id="tj-back-to-top"
 			onClick={scrollToTop}
 			className={scrollTopPos > 100 ? "active" : ""}
+			aria-label="Back to top"
 			style={{
 				background: `conic-gradient(var(--tj-color-theme-primary) ${scrollValue}%, var(--tj-color-common-white) ${scrollValue}%)`,
 				cursor: "pointer",
 			}}
 		>
-			<span id="tj-back-to-top-percentage">
+			<span id="tj-back-to-top-percentage" aria-hidden="true">
 				{scrollValue < 96 ? (
 					`${scrollValue}%`
 				) : (
 					<i className="tji-arrow-up-long"></i>
 				)}
 			</span>
-		</div>
+		</button>
 	);
 };
 

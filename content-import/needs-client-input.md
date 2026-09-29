@@ -80,10 +80,11 @@ site returns 404 for the one bbtech.ae links to).
 ## Generated alt text to review
 
 29 of 64 harvested images had no usable alt text from WordPress or the page markup, so
-alt text was generated — either from a descriptive filename (24 images) or, where the
-filename was uninformative (a stock-photo ID or hash), from actually looking at the image
-(5 images, marked below). All are `altSource: "generated"` in `assets-manifest.json`;
-please review for accuracy before launch. The 5 vision-reviewed ones:
+alt text was generated — either from a descriptive filename (23 images) or, where the
+filename was uninformative (a stock-photo ID, hash, or a raw preview-file suffix like
+"600nw"), from actually looking at the image (6 images, marked below). All are
+`altSource: "generated"` in `assets-manifest.json`; please review for accuracy before
+launch. The 6 vision-reviewed ones:
 
 | File | Generated alt |
 |---|---|
@@ -92,6 +93,7 @@ please review for accuracy before launch. The 5 vision-reviewed ones:
 | `services/fotolia-194190212-subscription-monthly-m-1024x512-1.webp` | Healthcare technology collage showing digital health records, telemedicine devices, and medical staff |
 | `services/istockphoto-1353929637-612x612-1.webp` | Film clapperboard held in front of a video camera on a production set |
 | `services/istockphoto-1648044864-612x612-1.webp` | Hands typing on a laptop with digital marketing icons overlaid |
+| `shared/branding-concept-keywords-icons-600nw-197106008.webp` (used on `/services/` and `/branding-rebranding/`) | Hand-drawn sketch of branding concept icons and keywords: marketing, advertising, logo, design, value, trust, strategy, identity, arranged around the word BRAND — found and fixed during Phase 8's design audit (the alt text was previously just the humanized stock-photo filename, "Branding Concept Keywords Icons 600nw") |
 
 Also worth a look: the 4 ISO badges (45001/27001/14001/9001) all carry the **same**
 WordPress alt text, "ISO Certifications" — real source data, correctly carried over per
@@ -141,6 +143,27 @@ schema, not a code change to the pipeline itself, once decided:
 **Decision needed:** should this "quick contact" sidebar form be modeled as a real
 shared component (so it renders on the service pages that had it live) instead of being
 dropped?
+
+## Deployment requirement: the origin must not be reachable except through Cloudflare
+
+Found during Phase 8's independent security review. The contact form's per-IP rate limit
+(`src/libs/forms/spam.js`) trusts the `CF-Connecting-IP` header (falling back to the last
+`X-Forwarded-For` hop) to identify a submitter — correct **only if** every request
+genuinely passes through Cloudflare first, since Cloudflare is what overwrites any
+client-supplied copy of that header with the real connecting IP. Nothing in this repo
+enforces that: the Docker image exposes port 3000 directly with no reverse-proxy
+config, so if the container is reachable directly from the internet (common for a bare
+`next start` deployment), an attacker can hit the origin directly and forge a fresh
+`CF-Connecting-IP` value on every request, making the 5-per-10-minute limiter a no-op.
+Cloudflare Turnstile is unaffected by this (it's verified independently) so this isn't a
+way to bypass the form's real spam gate, but it does remove the one control that throttles
+*volume* independent of how fast an attacker can solve Turnstile challenges.
+
+**Before launch:** whoever configures hosting must ensure the app server is only reachable
+via Cloudflare — either a firewall/security-group rule allowlisting Cloudflare's published
+IP ranges, or Cloudflare's own Authenticated Origin Pulls. This is infrastructure/DNS
+configuration outside this codebase, so it can't be fixed by a code change here — flagging
+it as a required step, not an optional hardening suggestion.
 
 ## Hidden sections awaiting real content (D4)
 

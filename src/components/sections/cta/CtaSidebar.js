@@ -17,7 +17,7 @@ const CtaSidebar = ({ title = LIVE_TITLE, button = { text: "Let's Talk", href: "
 			<div className="ci-contact-card-shape" aria-hidden="true">
 				<img src="/images/shape/pattern-3.svg" alt="" />
 			</div>
-			<h4 className="title">{title}</h4>
+			<h3 className="title">{title}</h3>
 			<ul className="ci-contact-list">
 				<li>
 					<span className="icon" aria-hidden="true">

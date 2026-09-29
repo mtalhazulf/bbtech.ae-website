@@ -87,7 +87,9 @@ const PostDetails = ({ page }) => {
 						</article>
 						{related.map((s, i) => (
 							<div key={i} className="ci-post-related">
-								<PostsBlock block={{ heading: s.heading, items: s.items }} context="main" />
+								{/* No h2 elsewhere on this page (PostDetails has no BlockHeading of
+								    its own) - "Related Posts" is this page's only h2, not an h3. */}
+								<PostsBlock block={{ heading: s.heading, items: s.items }} context="main" headingAs="h2" />
 							</div>
 						))}
 					</div>

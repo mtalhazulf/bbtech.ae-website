@@ -167,4 +167,33 @@ describe("POST /api/contact", () => {
 		expect(notificationCall[0].html).not.toContain("evil.example");
 		expect(notificationCall[0].html).toContain("https://bbtech.ae/contact/");
 	});
+
+	it("rejects a JSON body that isn't an object (null, array, string, number) instead of throwing", async () => {
+		for (const body of ["null", "[]", '"just a string"', "42"]) {
+			const res = await POST(
+				new Request("http://localhost/api/contact", {
+					method: "POST",
+					headers: { "content-type": "application/json", "x-forwarded-for": `13.13.13.${Math.random()}` },
+					body,
+				})
+			);
+			expect(res.status).toBe(400);
+		}
+		expect(sendMail).not.toHaveBeenCalled();
+	});
+
+	it("rejects a body over the size cap by its Content-Length before reading it", async () => {
+		const oversized = "x".repeat(25 * 1024);
+		const res = await POST(makeRequest({ ...VALID_BODY, message: oversized }, { ip: `14.14.14.${Math.random()}` }));
+		expect(res.status).toBe(413);
+		expect(sendMail).not.toHaveBeenCalled();
+	});
+
+	it("a non-string honeypot value is treated as spam, not a crash", async () => {
+		const res = await POST(
+			makeRequest({ ...VALID_BODY, website: { toString: () => "spam" } }, { ip: `15.15.15.${Math.random()}` })
+		);
+		expect(res.status).toBe(200);
+		expect(sendMail).not.toHaveBeenCalled();
+	});
 });

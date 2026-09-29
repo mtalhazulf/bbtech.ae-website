@@ -18,6 +18,17 @@ describe("looksLikeBot", () => {
 	it("passes a real, slow, empty-honeypot submission", () => {
 		expect(looksLikeBot({ website: "", renderedAt: Date.now() - 10000 })).toBe(false);
 	});
+
+	it("flags (never throws on) a non-string honeypot value", () => {
+		expect(looksLikeBot({ website: true, renderedAt: Date.now() - 10000 })).toBe(true);
+		expect(looksLikeBot({ website: 123, renderedAt: Date.now() - 10000 })).toBe(true);
+		expect(looksLikeBot({ website: {}, renderedAt: Date.now() - 10000 })).toBe(true);
+	});
+
+	it("flags (never throws on) a missing fields object", () => {
+		expect(looksLikeBot(undefined)).toBe(true);
+		expect(looksLikeBot(null)).toBe(true);
+	});
 });
 
 describe("clientIpFromHeaders", () => {

@@ -13,8 +13,10 @@ const RATE_LIMIT_MAX = 5;
  * teaches it nothing, where a 4xx invites retries with adjusted timing/fields.
  * @param {{ website?: string, renderedAt: number }} fields
  */
-export function looksLikeBot({ website, renderedAt }) {
-	if (website && website.trim().length > 0) return true;
+export function looksLikeBot(fields) {
+	const { website, renderedAt } = fields || {};
+	if (typeof website === "string" && website.trim().length > 0) return true;
+	if (typeof website !== "string" && typeof website !== "undefined") return true;
 	if (typeof renderedAt !== "number" || Number.isNaN(renderedAt)) return true;
 	return Date.now() - renderedAt < MIN_FILL_TIME_MS;
 }
@@ -58,8 +60,13 @@ export function checkRateLimit(ip) {
  * is set by Cloudflare and can't be forged past it (Cloudflare overwrites any
  * client-supplied copy); short of that, the *last* x-forwarded-for entry is the one
  * appended by the reverse proxy nearest this server, not the client. Falls back to
- * "unknown" (never blocks) rather than guessing wrong, since there's no reverse proxy
- * in front of this app confirmed yet - see needs-client-input.md.
+ * "unknown" (never blocks) rather than guessing wrong.
+ *
+ * This is only sound if the origin is UNREACHABLE except through Cloudflare - otherwise
+ * an attacker hits the origin directly and forges cf-connecting-ip/x-forwarded-for
+ * themselves, making the rate limit a no-op (Turnstile is unaffected either way, since
+ * it's verified independently). That's a deployment/firewall requirement, not something
+ * this function can enforce - see needs-client-input.md, "Deployment requirement".
  */
 export function clientIpFromHeaders(headers) {
 	const cfIp = headers.get("cf-connecting-ip");

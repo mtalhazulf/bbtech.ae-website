@@ -38,8 +38,23 @@ function Lead({ blocks, className = "" }) {
 	);
 }
 
+/**
+ * The level one below whatever BlockHeading renders in this context (§13 "headings in
+ * order") - "main" context sits inside a page that already has its own h2 above this
+ * block, so BlockHeading itself is h3 and card/tile titles are h4; "full" context is a
+ * standalone section under the page's h1, so BlockHeading is h2 and titles are h3.
+ */
+function itemHeadingLevel(context, hasHeading = true) {
+	const level = context === "main" ? 3 : 2;
+	// A falsy `heading` means BlockHeading rendered nothing (§13 "headings in order") - the
+	// slot one level down from it was never actually filled, so item titles take that slot
+	// themselves instead of skipping past it.
+	return `h${hasHeading ? level + 1 : level}`;
+}
+
 /** Heading row used above card grids: title on the left, lead copy on the right. */
 function BlockHeading({ eyebrow, heading, lead, context, center }) {
+	const as = context === "main" ? "h3" : "h2";
 	if (!heading && !lead?.length && !eyebrow) return null;
 	if (!heading) {
 		return (
@@ -69,7 +84,7 @@ function BlockHeading({ eyebrow, heading, lead, context, center }) {
 		return (
 			<div className="ci-block-heading row align-items-end">
 				<div className="col-lg-6">
-					<SecHeading eyebrow={eyebrow} title={heading} className="mb-0" />
+					<SecHeading eyebrow={eyebrow} title={heading} as={as} className="mb-0" />
 				</div>
 				<div className="col-lg-6">
 					<Lead blocks={lead} className="wow fadeInUp" />
@@ -79,7 +94,7 @@ function BlockHeading({ eyebrow, heading, lead, context, center }) {
 	}
 	return (
 		<div className={`ci-block-heading ${center ? "text-center" : ""}`.trim()}>
-			<SecHeading eyebrow={eyebrow} title={heading} className={center ? "sec-heading-centered ci-centered" : ""} />
+			<SecHeading eyebrow={eyebrow} title={heading} as={as} className={center ? "sec-heading-centered ci-centered" : ""} />
 			<Lead blocks={lead} className="wow fadeInUp" />
 		</div>
 	);
@@ -208,7 +223,8 @@ export function IntroBlock({ block, context }) {
 	);
 }
 
-function CheckTiles({ items, columns, compact }) {
+function CheckTiles({ items, columns, compact, titleAs = "h4" }) {
+	const TitleTag = titleAs;
 	return (
 		<div className="row g-3 g-md-4 ci-tiles">
 			{items.map((item, i) => (
@@ -222,9 +238,9 @@ function CheckTiles({ items, columns, compact }) {
 						<div className="ci-tile-icon">
 							<i className={iconFor(typeof item === "string" ? item : "", null, i)} aria-hidden="true"></i>
 						</div>
-						<h5 className="ci-tile-title">
+						<TitleTag className="ci-tile-title">
 							<ItemText item={item} />
-						</h5>
+						</TitleTag>
 					</div>
 				</div>
 			))}
@@ -244,7 +260,11 @@ export function ChecksBlock({ block, context }) {
 		return (
 			<div className="ci-checks is-tiles">
 				<BlockHeading heading={heading} lead={lead} context={context} />
-				<CheckTiles items={items} columns={context === "main" ? "col-sm-6 col-md-4" : "col-lg-4 col-sm-6"} />
+				<CheckTiles
+					items={items}
+					columns={context === "main" ? "col-sm-6 col-md-4" : "col-lg-4 col-sm-6"}
+					titleAs={itemHeadingLevel(context, Boolean(heading))}
+				/>
 			</div>
 		);
 	}
@@ -312,6 +332,7 @@ export function GroupsBlock({ block, context }) {
 	const long = groups.some((g) => g.items.length > 8);
 	// Heading + short prose groups (e.g. contact details) are info cards: four across, unnumbered.
 	const info = groups.every((g) => !g.items.length);
+	const GroupTitleTag = itemHeadingLevel(context, Boolean(heading));
 	return (
 		<div className={`ci-groups ${long ? "is-long" : ""} ${info ? "is-info" : ""}`.trim()}>
 			<BlockHeading eyebrow={eyebrow} heading={heading} lead={lead} context={context} center={context === "full" && !lead?.length} />
@@ -329,7 +350,7 @@ export function GroupsBlock({ block, context }) {
 								)}
 								<CardIcon icon={group.icon} title={group.title} index={i} />
 								<div className="ci-card-body">
-									<h4 className="title">{group.title}</h4>
+									<GroupTitleTag className="title">{group.title}</GroupTitleTag>
 									{group.text ? (
 										<p className="desc">
 											<Segments segments={group.text} />
@@ -356,12 +377,13 @@ function iconCols(count, context) {
 	return count >= 8 ? "col-xl-3 col-lg-4 col-sm-6" : "col-lg-4 col-sm-6";
 }
 
-function CardTitle({ item }) {
-	return <h4 className="title">{item.href ? <Link href={item.href}>{item.title}</Link> : item.title}</h4>;
+function CardTitle({ item, as = "h4" }) {
+	const Tag = as;
+	return <Tag className="title">{item.href ? <Link href={item.href}>{item.title}</Link> : item.title}</Tag>;
 }
 
 /** One card of a CardsBlock grid, in the block's style ("service" | "image" | "icon"). */
-function CardItem({ item, index, style, wide }) {
+function CardItem({ item, index, style, wide, titleAs }) {
 	if (style === "image") {
 		return (
 			<div className="ci-image-card wow fadeInUp" data-wow-delay={delay(index)}>
@@ -369,7 +391,7 @@ function CardItem({ item, index, style, wide }) {
 					<ContentImage image={item.image} sizes="(max-width: 767px) 100vw, 400px" />
 				</div>
 				<div className="ci-image-card-body">
-					<CardTitle item={item} />
+					<CardTitle item={item} as={titleAs} />
 					{item.text ? (
 						<p className="desc">
 							<Segments segments={item.text} />
@@ -380,12 +402,13 @@ function CardItem({ item, index, style, wide }) {
 		);
 	}
 	if (style === "icon") {
+		const TitleTag = titleAs;
 		return (
 			<div className="ci-tile is-icon wow fadeInUp" data-wow-delay={delay(index)}>
 				<div className="ci-tile-icon">
 					<i className={iconFor(item.title, item.icon, index)} aria-hidden="true"></i>
 				</div>
-				<h5 className="ci-tile-title">{item.title}</h5>
+				<TitleTag className="ci-tile-title">{item.title}</TitleTag>
 			</div>
 		);
 	}
@@ -396,7 +419,7 @@ function CardItem({ item, index, style, wide }) {
 			</span>
 			<CardIcon icon={item.icon} title={item.title} index={index} />
 			<div className="ci-card-body">
-				<CardTitle item={item} />
+				<CardTitle item={item} as={titleAs} />
 				{item.text ? (
 					<p className="desc">
 						<Segments segments={item.text} />
@@ -421,6 +444,9 @@ function CardItem({ item, index, style, wide }) {
 export function CardsBlock({ block, context }) {
 	const { heading, lead, items, style, eyebrow, image } = block;
 	const splitIntro = image && context === "full";
+	// splitIntro forces BlockHeading into "main"-style (h3) regardless of the block's own
+	// context, so card titles must follow suit here rather than the outer context.
+	const titleAs = itemHeadingLevel(splitIntro ? "main" : context, Boolean(heading));
 	return (
 		<div className={`ci-cards is-${style}`}>
 			{splitIntro ? (
@@ -455,7 +481,7 @@ export function CardsBlock({ block, context }) {
 					const col = grid.wide && !wide ? "col-md-6" : grid.col;
 					return (
 						<div key={i} className={col}>
-							<CardItem item={item} index={i} style={style} wide={wide} />
+							<CardItem item={item} index={i} style={style} wide={wide} titleAs={titleAs} />
 						</div>
 					);
 				})}
@@ -518,7 +544,7 @@ export function TextBlock({ block, context }) {
 									<div className="ci-tile-icon">
 										<i className={iconFor(item.title, item.icon, i)} aria-hidden="true"></i>
 									</div>
-									<h5 className="ci-tile-title">{item.title}</h5>
+									<h4 className="ci-tile-title">{item.title}</h4>
 								</div>
 							</div>
 						))}
@@ -568,14 +594,19 @@ export function ArticleBlock({ block }) {
 	);
 }
 
-export function PostsBlock({ block, context }) {
+export function PostsBlock({ block, context, headingAs }) {
 	const { heading, items } = block;
 	// A single related post spans the row as a horizontal card instead of leaving half of it empty.
 	const lone = items.length === 1;
 	const col = lone ? "col-12" : context === "main" ? "col-md-6" : "col-lg-4 col-md-6";
+	// headingAs overrides the context-derived default for callers (PostDetails.js) that use
+	// "main"-style columns without a page h2 elsewhere to nest under - context alone isn't
+	// enough there to know what level this heading should actually be at.
+	const sectionAs = headingAs || (context === "main" ? "h3" : "h2");
+	const PostTitleTag = `h${Number(sectionAs[1]) + 1}`;
 	return (
 		<div className="ci-posts">
-			{heading ? <SecHeading title={heading} as="h2" /> : null}
+			{heading ? <SecHeading title={heading} as={sectionAs} /> : null}
 			<div className="row g-4">
 				{items.map((item, i) => (
 					<div key={i} className={col}>
@@ -592,9 +623,9 @@ export function PostsBlock({ block, context }) {
 										{item.date}
 									</span>
 								) : null}
-								<h4 className="title">
+								<PostTitleTag className="title">
 									<Link href={item.href}>{item.title}</Link>
-								</h4>
+								</PostTitleTag>
 								<Link className="text-btn" href={item.href}>
 									<span className="btn-text">
 										<span>Read More</span>

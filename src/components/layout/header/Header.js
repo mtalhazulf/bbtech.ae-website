@@ -210,8 +210,8 @@ const Header = ({
 														placeholder="Type Words and Hit Enter"
 														required
 													/>
-													<button type="submit">
-														<i className="tji-search"></i>
+													<button type="submit" aria-label="Search">
+														<i className="tji-search" aria-hidden="true"></i>
 													</button>
 												</div>
 											</div>

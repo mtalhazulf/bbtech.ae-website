@@ -45,6 +45,39 @@ function safePageUrl(candidate, siteUrl) {
 	return null;
 }
 
+// Reads the body incrementally and bails as soon as it exceeds the cap, instead of
+// buffering the whole thing first - a single Docker instance (D1: no load balancer to
+// shed this for us) has to reject an oversized/unbounded body without ever materializing
+// it in memory. A Content-Length over the cap short-circuits before reading anything;
+// that header can lie (or be absent for a chunked body), so the streamed byte count is
+// still the real enforcement, not just an optimization.
+async function readBodyWithLimit(request, maxBytes) {
+	const contentLength = request.headers.get("content-length");
+	if (contentLength && Number(contentLength) > maxBytes) return { tooLarge: true };
+	if (!request.body) return { text: await request.text() };
+
+	const reader = request.body.getReader();
+	const chunks = [];
+	let total = 0;
+	for (;;) {
+		const { done, value } = await reader.read();
+		if (done) break;
+		total += value.byteLength;
+		if (total > maxBytes) {
+			await reader.cancel().catch(() => {});
+			return { tooLarge: true };
+		}
+		chunks.push(value);
+	}
+	const bytes = new Uint8Array(total);
+	let offset = 0;
+	for (const chunk of chunks) {
+		bytes.set(chunk, offset);
+		offset += chunk.byteLength;
+	}
+	return { text: new TextDecoder().decode(bytes) };
+}
+
 function jsonError(code, status, extra) {
 	return NextResponse.json({ ok: false, code, ...extra }, { status });
 }
@@ -64,12 +97,13 @@ export async function POST(request) {
 
 	let raw;
 	try {
-		const text = await request.text();
-		if (new TextEncoder().encode(text).length > MAX_BODY_BYTES) {
-			return jsonError("payload_too_large", 413);
-		}
+		const { text, tooLarge } = await readBodyWithLimit(request, MAX_BODY_BYTES);
+		if (tooLarge) return jsonError("payload_too_large", 413);
 		raw = JSON.parse(text);
 	} catch {
+		return jsonError("invalid_json", 400);
+	}
+	if (raw === null || typeof raw !== "object" || Array.isArray(raw)) {
 		return jsonError("invalid_json", 400);
 	}
 
