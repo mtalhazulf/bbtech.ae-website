@@ -31,6 +31,20 @@ function firstNameFrom(name) {
 	return (stripped.split(/\s+/)[0] || "there").slice(0, 40);
 }
 
+// The notification email links back to the page the visitor submitted from - only
+// accept that if it's actually a same-origin URL. An arbitrary client-supplied value
+// would otherwise render as a clickable link straight into a staff inbox.
+function safePageUrl(candidate, siteUrl) {
+	try {
+		const url = new URL(candidate, siteUrl);
+		const site = new URL(siteUrl);
+		if (url.origin === site.origin) return url.toString();
+	} catch {
+		// fall through
+	}
+	return null;
+}
+
 function jsonError(code, status, extra) {
 	return NextResponse.json({ ok: false, code, ...extra }, { status });
 }
@@ -105,7 +119,7 @@ export async function POST(request) {
 	const facts = site.facts;
 	const name = stripHeaderUnsafe(data.name);
 	const email = stripHeaderUnsafe(data.email);
-	const pageUrl = stripHeaderUnsafe(raw?.pageUrl) || `${env.SITE_URL}/contact/`;
+	const pageUrl = safePageUrl(raw?.pageUrl, env.SITE_URL) || `${env.SITE_URL}/contact/`;
 	const formLabel = "Contact form";
 
 	const fields = [
@@ -138,7 +152,10 @@ export async function POST(request) {
 			from: env.MAIL_FROM,
 			to: env.MAIL_TO,
 			bcc: env.MAIL_BCC || undefined,
-			replyTo: `"${name}" <${email}>`,
+			// Structured form, not a hand-built "name <email>" string: nodemailer quotes
+			// and escapes `name` itself, so a name containing `"`, `<`/`>`, or a comma
+			// can't break out and inject an extra address or header.
+			replyTo: { name, address: email },
 			subject: notificationData.subject,
 			html: renderEmailHtml("contact-notification", notificationData),
 			text: renderEmailText("contact-notification", notificationData),

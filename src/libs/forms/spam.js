@@ -51,10 +51,24 @@ export function checkRateLimit(ip) {
 	return { limited: false };
 }
 
-/** First hop of x-forwarded-for, falling back to x-real-ip, else "unknown" (never blocks). */
+/**
+ * Best-effort client IP for the rate limiter. `x-forwarded-for`'s *first* entry is
+ * whatever the client itself sent - trivially spoofable, and trusting it would let
+ * anyone bypass the rate limit by sending a new value per request. `cf-connecting-ip`
+ * is set by Cloudflare and can't be forged past it (Cloudflare overwrites any
+ * client-supplied copy); short of that, the *last* x-forwarded-for entry is the one
+ * appended by the reverse proxy nearest this server, not the client. Falls back to
+ * "unknown" (never blocks) rather than guessing wrong, since there's no reverse proxy
+ * in front of this app confirmed yet - see needs-client-input.md.
+ */
 export function clientIpFromHeaders(headers) {
+	const cfIp = headers.get("cf-connecting-ip");
+	if (cfIp) return cfIp.trim();
 	const forwarded = headers.get("x-forwarded-for");
-	if (forwarded) return forwarded.split(",")[0].trim();
+	if (forwarded) {
+		const hops = forwarded.split(",").map(h => h.trim()).filter(Boolean);
+		if (hops.length) return hops[hops.length - 1];
+	}
 	return headers.get("x-real-ip") || "unknown";
 }
 

@@ -21,9 +21,25 @@ describe("looksLikeBot", () => {
 });
 
 describe("clientIpFromHeaders", () => {
-	it("prefers the first x-forwarded-for hop", () => {
+	it("prefers cf-connecting-ip over everything else", () => {
+		const headers = new Headers({
+			"cf-connecting-ip": "9.9.9.9",
+			"x-forwarded-for": "1.2.3.4, 5.6.7.8",
+		});
+		expect(clientIpFromHeaders(headers)).toBe("9.9.9.9");
+	});
+
+	it("prefers the LAST x-forwarded-for hop, not the client-controlled first one", () => {
 		const headers = new Headers({ "x-forwarded-for": "1.2.3.4, 5.6.7.8" });
-		expect(clientIpFromHeaders(headers)).toBe("1.2.3.4");
+		expect(clientIpFromHeaders(headers)).toBe("5.6.7.8");
+	});
+
+	it("isn't fooled by a spoofed first hop when a real proxy hop follows it", () => {
+		// A client can set any x-forwarded-for value it likes; a proxy in front of this
+		// app appends its own view of the connecting IP as the last hop.
+		const spoofedA = new Headers({ "x-forwarded-for": "attacker-controlled-1, 203.0.113.9" });
+		const spoofedB = new Headers({ "x-forwarded-for": "attacker-controlled-2, 203.0.113.9" });
+		expect(clientIpFromHeaders(spoofedA)).toBe(clientIpFromHeaders(spoofedB));
 	});
 
 	it("falls back to x-real-ip", () => {

@@ -136,7 +136,35 @@ describe("POST /api/contact", () => {
 		);
 		expect(res.status).toBe(200);
 		const [notificationCall] = sendMail.mock.calls;
-		expect(notificationCall[0].replyTo).not.toMatch(/[\r\n]/);
+		expect(notificationCall[0].replyTo.name).not.toMatch(/[\r\n]/);
 		expect(notificationCall[0].subject).not.toMatch(/[\r\n]/);
+	});
+
+	it("passes replyTo as a structured address, not a hand-built string, so a name with quotes/angle-brackets can't inject an extra address", async () => {
+		const res = await POST(
+			makeRequest(
+				{ ...VALID_BODY, name: 'Jane" <attacker@evil.example>, "Second' },
+				{ ip: `11.11.11.${Math.random()}` }
+			)
+		);
+		expect(res.status).toBe(200);
+		const [notificationCall] = sendMail.mock.calls;
+		expect(notificationCall[0].replyTo).toEqual({
+			name: 'Jane" <attacker@evil.example>, "Second',
+			address: "jane@example.com",
+		});
+	});
+
+	it("only links back to a same-origin pageUrl in the notification email", async () => {
+		const res = await POST(
+			makeRequest(
+				{ ...VALID_BODY, pageUrl: "https://evil.example/phish" },
+				{ ip: `12.12.12.${Math.random()}` }
+			)
+		);
+		expect(res.status).toBe(200);
+		const [notificationCall] = sendMail.mock.calls;
+		expect(notificationCall[0].html).not.toContain("evil.example");
+		expect(notificationCall[0].html).toContain("https://bbtech.ae/contact/");
 	});
 });
