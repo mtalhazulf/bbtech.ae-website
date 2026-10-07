@@ -1,0 +1,13 @@
+{
+	"collectionName": "components_sections_card_grid_items",
+	"info": {
+		"displayName": "Card Grid Item",
+		"icon": "grid"
+	},
+	"options": {},
+	"attributes": {
+		"title": { "type": "string", "required": true },
+		"text": { "type": "text", "required": true },
+		"icon": { "type": "string" }
+	}
+}
