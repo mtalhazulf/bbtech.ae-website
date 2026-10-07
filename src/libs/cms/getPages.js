@@ -1,11 +1,13 @@
 import { resolveFacts } from "@/libs/resolveFacts";
 import { strapiFetch } from "./client";
 import { mapStrapiPage } from "./mapStrapiPage";
+import { buildPopulateQuery, PAGE_POPULATE_STRUCTURE } from "./buildPopulateQuery";
 
 let pagesPromise = null;
 
 async function fetchAllPages() {
-	const json = await strapiFetch("/api/pages?populate=deep&pagination[pageSize]=100");
+	const populateQuery = buildPopulateQuery(PAGE_POPULATE_STRUCTURE);
+	const json = await strapiFetch(`/api/pages?${populateQuery}&pagination[pageSize]=100`);
 	const pages = {};
 	for (const entry of json.data) {
 		const page = resolveFacts(mapStrapiPage(entry));
