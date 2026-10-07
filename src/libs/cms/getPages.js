@@ -8,6 +8,14 @@ let pagesPromise = null;
 async function fetchAllPages() {
 	const populateQuery = buildPopulateQuery(PAGE_POPULATE_STRUCTURE);
 	const json = await strapiFetch(`/api/pages?${populateQuery}&pagination[pageSize]=100`);
+	if (!json.data || json.data.length === 0) {
+		throw new Error("Strapi returned 0 pages - refusing to build a site missing all catch-all content");
+	}
+	if (json.meta?.pagination?.total > json.data.length) {
+		throw new Error(
+			`Strapi reports ${json.meta.pagination.total} total pages but only ${json.data.length} were fetched - increase pagination[pageSize] in the request`,
+		);
+	}
 	const pages = {};
 	for (const entry of json.data) {
 		const page = resolveFacts(mapStrapiPage(entry));

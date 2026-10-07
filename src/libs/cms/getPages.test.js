@@ -30,12 +30,33 @@ describe("getAllPages", () => {
 
 	it("only calls strapiFetch once across repeated calls in the same build", async () => {
 		const { strapiFetch } = await import("./client");
-		strapiFetch.mockResolvedValue({ data: [] });
+		strapiFetch.mockResolvedValue({
+			data: [{ slug: "erp", path: "/erp/", hero: { title: "ERP" }, sections: [] }],
+		});
 		const { getAllPages } = await import("./getPages");
 
 		await getAllPages();
 		await getAllPages();
 
 		expect(strapiFetch).toHaveBeenCalledTimes(1);
+	});
+
+	it("refuses to build when Strapi returns 0 pages", async () => {
+		const { strapiFetch } = await import("./client");
+		strapiFetch.mockResolvedValue({ data: [] });
+		const { getAllPages } = await import("./getPages");
+
+		await expect(getAllPages()).rejects.toThrow(/returned 0 pages/);
+	});
+
+	it("refuses to build when the response is truncated below Strapi's reported total", async () => {
+		const { strapiFetch } = await import("./client");
+		strapiFetch.mockResolvedValue({
+			data: [{ slug: "erp", path: "/erp/", hero: { title: "ERP" }, sections: [] }],
+			meta: { pagination: { total: 22 } },
+		});
+		const { getAllPages } = await import("./getPages");
+
+		await expect(getAllPages()).rejects.toThrow(/only 1 were fetched/);
 	});
 });
