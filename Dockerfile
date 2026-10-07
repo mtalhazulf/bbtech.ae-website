@@ -13,6 +13,14 @@ ENV NEXT_TELEMETRY_DISABLED=1
 # come from the container's runtime environment, never baked in here.
 ARG NEXT_PUBLIC_TURNSTILE_SITE_KEY
 ENV NEXT_PUBLIC_TURNSTILE_SITE_KEY=$NEXT_PUBLIC_TURNSTILE_SITE_KEY
+
+# Needed during `next build` itself (Server Components run at build time for static
+# generation) - not inlined into the client bundle like NEXT_PUBLIC_* above, but still only
+# available to this RUN step via ARG/ENV, same mechanism.
+ARG STRAPI_URL
+ENV STRAPI_URL=$STRAPI_URL
+ARG STRAPI_API_TOKEN
+ENV STRAPI_API_TOKEN=$STRAPI_API_TOKEN
 RUN bun run build
 
 ENV NODE_ENV=production

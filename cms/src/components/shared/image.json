@@ -1,0 +1,14 @@
+{
+	"collectionName": "components_shared_images",
+	"info": {
+		"displayName": "Image Reference",
+		"icon": "image"
+	},
+	"options": {},
+	"attributes": {
+		"localPath": { "type": "string", "required": true },
+		"alt": { "type": "string", "required": true },
+		"width": { "type": "integer" },
+		"height": { "type": "integer" }
+	}
+}

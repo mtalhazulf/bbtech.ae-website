@@ -2,6 +2,10 @@
 node_modules/*
 .DS_Store
 
+# cms/ is a separate Strapi project with its own node_modules; the root node_modules/*
+# rule above is anchored to the repo root and doesn't reach into subdirectories.
+cms/node_modules/
+
 # Secrets (Phase 5 forms/SMTP). .env.example is the committed template.
 .env
 .env.*
@@ -20,3 +24,7 @@ content-import/.harvest-failures.json
 content-import/.phase3/
 content-import/.phase3-context.json
 content-import/.phase3-pages.json
+
+# Subagent-driven-development scratch workspace (ledgers, dispatch briefs, review
+# packages) - per-plan working state, not project output.
+.superpowers/

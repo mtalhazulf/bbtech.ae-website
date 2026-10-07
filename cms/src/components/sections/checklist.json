@@ -1,0 +1,16 @@
+{
+	"collectionName": "components_sections_checklists",
+	"info": {
+		"displayName": "Checklist",
+		"icon": "list"
+	},
+	"options": {},
+	"attributes": {
+		"heading": { "type": "string" },
+		"items": {
+			"type": "component",
+			"component": "sections.checklist-item",
+			"repeatable": true
+		}
+	}
+}

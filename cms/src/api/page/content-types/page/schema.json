@@ -1,0 +1,27 @@
+{
+	"kind": "collectionType",
+	"collectionName": "pages",
+	"info": {
+		"singularName": "page",
+		"pluralName": "pages",
+		"displayName": "Page",
+		"description": "A bbtech.ae catch-all content page: hero + ordered content sections."
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"slug": { "type": "string", "required": true, "unique": true },
+		"path": { "type": "string", "required": true, "unique": true },
+		"source": { "type": "string" },
+		"layout": { "type": "string" },
+		"sidebarMenu": { "type": "string" },
+		"metadata": { "type": "component", "component": "shared.metadata", "repeatable": false },
+		"hero": { "type": "component", "component": "shared.hero", "repeatable": false },
+		"sections": {
+			"type": "dynamiczone",
+			"components": ["sections.rich-text", "sections.card-grid", "sections.checklist"]
+		}
+	}
+}

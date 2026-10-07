@@ -13,12 +13,12 @@ import { notFound } from "next/navigation";
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-	return getCatchAllParams();
+	return await getCatchAllParams();
 }
 
 export async function generateMetadata({ params }) {
 	const { slug } = await params;
-	const page = getPageData(slug.join("/"));
+	const page = await getPageData(slug.join("/"));
 	if (!page) return {};
 
 	const { title, description, canonical, ogImage } = page.metadata;
@@ -44,7 +44,7 @@ function breadcrumbsFor(page) {
 
 export default async function ContentPage({ params }) {
 	const { slug } = await params;
-	const page = getPageData(slug.join("/"));
+	const page = await getPageData(slug.join("/"));
 	if (!page) notFound();
 
 	return (

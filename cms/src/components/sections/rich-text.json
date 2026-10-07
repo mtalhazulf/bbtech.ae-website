@@ -1,0 +1,13 @@
+{
+	"collectionName": "components_sections_rich_texts",
+	"info": {
+		"displayName": "Rich Text",
+		"icon": "align-left"
+	},
+	"options": {},
+	"attributes": {
+		"heading": { "type": "string" },
+		"blocks": { "type": "json", "required": true },
+		"image": { "type": "component", "component": "shared.image", "repeatable": false }
+	}
+}
