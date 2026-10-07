@@ -1,4 +1,4 @@
-New enquiry: {{formLabel}}, {{name}}
+export default `New enquiry: {{formLabel}}, {{name}}
 Submitted {{formatDate submittedAt}} from {{pageUrl}}
 
 {{#each fields}}
@@ -9,3 +9,4 @@ Message:
 {{message}}
 
 Reply to {{name}}: {{replyMailto}}
+`;

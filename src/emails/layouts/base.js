@@ -1,4 +1,4 @@
-<!doctype html>
+export default `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
@@ -27,3 +27,4 @@
 </table>
 </body>
 </html>
+`;

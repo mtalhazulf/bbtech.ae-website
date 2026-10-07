@@ -1,7 +1,6 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { ImageResponse } from "next/og";
-import sharp from "sharp";
 import site from "@/data/site.json";
 
 // D7: the repo only has the icon mark, no wordmark lockup - keep it that way, don't
@@ -17,12 +16,12 @@ const SKY = "#08a5e9";
 const ACCENT = "#f48916";
 
 export default async function Image() {
-	const iconBuffer = await sharp(
-		path.join(process.cwd(), "public/images/logos/logo-icon.webp")
-	)
-		.resize(160, 235)
-		.png()
-		.toBuffer();
+	// Pre-resized once (160x235 PNG, from public/images/logos/logo-icon.webp) instead of
+	// resizing via sharp at request time - sharp's native binary can't run on Cloudflare
+	// Workers, and this logo never changes, so there's nothing to recompute per-request.
+	const iconBuffer = await readFile(
+		path.join(process.cwd(), "public/images/logos/logo-icon-og.png")
+	);
 	const iconDataUri = `data:image/png;base64,${iconBuffer.toString("base64")}`;
 
 	return new ImageResponse(

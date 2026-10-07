@@ -1,7 +1,8 @@
-<table role="presentation" cellpadding="0" cellspacing="0" style="margin:24px 0;">
+export default `<table role="presentation" cellpadding="0" cellspacing="0" style="margin:24px 0;">
 	<tr>
 		<td style="border-radius:8px;background-color:{{theme.primary}};" role="presentation">
 			<a href="{{url}}" style="display:inline-block;padding:14px 28px;color:{{theme.primaryText}};font-weight:600;text-decoration:none;font-family:{{theme.fontStack}};font-size:15px;border-radius:8px;">{{label}}</a>
 		</td>
 	</tr>
 </table>
+`;

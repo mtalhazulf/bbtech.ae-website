@@ -1,4 +1,4 @@
-<h1 style="margin:0 0 16px;color:{{theme.heading}};font-size:20px;font-family:{{theme.fontStack}};">Hi {{firstName}}, thanks for contacting BB Tech.</h1>
+export default `<h1 style="margin:0 0 16px;color:{{theme.heading}};font-size:20px;font-family:{{theme.fontStack}};">Hi {{firstName}}, thanks for contacting BB Tech.</h1>
 <p style="margin:0 0 16px;color:{{theme.bodyText}};font-size:14px;line-height:1.6;font-family:{{theme.fontStack}};">
 	We've received your message and a member of our team will get back to you.
 </p>
@@ -12,3 +12,4 @@
 	<a href="mailto:{{facts.emailPrimary}}" style="color:{{theme.primary}};">{{facts.emailPrimary}}</a>
 </p>
 {{> button url=servicesUrl label="Explore our services"}}
+`;

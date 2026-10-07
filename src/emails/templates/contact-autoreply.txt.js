@@ -1,4 +1,4 @@
-Hi {{firstName}}, thanks for contacting BB Tech.
+export default `Hi {{firstName}}, thanks for contacting BB Tech.
 
 We've received your message and a member of our team will get back to you.
 
@@ -7,3 +7,4 @@ In the meantime, you can reach us directly:
 {{facts.phonePrimary.display}} - {{facts.emailPrimary}}
 
 Explore our services: {{servicesUrl}}
+`;

@@ -1,4 +1,4 @@
-<h1 style="margin:0 0 4px;color:{{theme.heading}};font-size:20px;font-family:{{theme.fontStack}};">New enquiry: {{formLabel}}, {{name}}</h1>
+export default `<h1 style="margin:0 0 4px;color:{{theme.heading}};font-size:20px;font-family:{{theme.fontStack}};">New enquiry: {{formLabel}}, {{name}}</h1>
 <p style="margin:0 0 24px;color:{{theme.bodyText}};font-size:13px;font-family:{{theme.fontStack}};">
 	Submitted {{formatDate submittedAt}} from
 	<a href="{{pageUrl}}" style="color:{{theme.primary}};">{{pageUrl}}</a>
@@ -11,3 +11,4 @@
 <h2 style="margin:0 0 8px;color:{{theme.heading}};font-size:15px;font-family:{{theme.fontStack}};">Message</h2>
 <p style="margin:0 0 8px;color:{{theme.bodyText}};font-size:14px;line-height:1.6;font-family:{{theme.fontStack}};">{{nl2br message}}</p>
 {{> button url=replyMailto label=replyLabel}}
+`;

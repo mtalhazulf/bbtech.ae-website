@@ -1,10 +1,37 @@
 import Handlebars from "handlebars";
 import juice from "juice";
-import fs from "node:fs";
-import path from "node:path";
 import theme from "@/emails/theme.json";
 
-const EMAILS_DIR = path.join(process.cwd(), "src", "emails");
+// Template/partial sources are static imports (not fs.readFileSync/readdirSync against
+// src/emails/**) so every deploy target's bundler includes them automatically - a runtime
+// directory scan isn't reachable by a bundler's import graph, so it silently went missing
+// in environments with no real filesystem (e.g. a Cloudflare Worker).
+import baseLayout from "@/emails/layouts/base.js";
+import buttonPartial from "@/emails/partials/button.js";
+import fieldRowPartial from "@/emails/partials/field-row.js";
+import footerPartial from "@/emails/partials/footer.js";
+import headerPartial from "@/emails/partials/header.js";
+import preheaderPartial from "@/emails/partials/preheader.js";
+import contactAutoreplyHtml from "@/emails/templates/contact-autoreply.html.js";
+import contactAutoreplyTxt from "@/emails/templates/contact-autoreply.txt.js";
+import contactNotificationHtml from "@/emails/templates/contact-notification.html.js";
+import contactNotificationTxt from "@/emails/templates/contact-notification.txt.js";
+
+const PARTIALS = {
+	button: buttonPartial,
+	"field-row": fieldRowPartial,
+	footer: footerPartial,
+	header: headerPartial,
+	preheader: preheaderPartial,
+};
+
+const TEMPLATES = {
+	"contact-autoreply.html": contactAutoreplyHtml,
+	"contact-autoreply.txt": contactAutoreplyTxt,
+	"contact-notification.html": contactNotificationHtml,
+	"contact-notification.txt": contactNotificationTxt,
+};
+
 const compiledCache = new Map();
 let helpersRegistered = false;
 let partialsRegistered = false;
@@ -32,20 +59,17 @@ function registerHelpersOnce() {
 
 function registerPartialsOnce() {
 	if (partialsRegistered) return;
-	const partialsDir = path.join(EMAILS_DIR, "partials");
-	for (const file of fs.readdirSync(partialsDir)) {
-		if (!file.endsWith(".hbs")) continue;
-		const name = file.replace(/\.hbs$/, "");
-		Handlebars.registerPartial(name, fs.readFileSync(path.join(partialsDir, file), "utf8"));
+	for (const [name, source] of Object.entries(PARTIALS)) {
+		Handlebars.registerPartial(name, source);
 	}
 	partialsRegistered = true;
 }
 
-function compile(relPath) {
-	if (compiledCache.has(relPath)) return compiledCache.get(relPath);
-	const source = fs.readFileSync(path.join(EMAILS_DIR, relPath), "utf8");
+function compile(key) {
+	if (compiledCache.has(key)) return compiledCache.get(key);
+	const source = key === "layout:base" ? baseLayout : TEMPLATES[key];
 	const template = Handlebars.compile(source);
-	compiledCache.set(relPath, template);
+	compiledCache.set(key, template);
 	return template;
 }
 
@@ -62,14 +86,14 @@ registerPartialsOnce();
  */
 export function renderEmailHtml(templateName, data) {
 	const context = { ...data, theme };
-	const bodyHtml = compile(path.join("templates", `${templateName}.html.hbs`))(context);
-	const fullHtml = compile(path.join("layouts", "base.hbs"))({ ...context, body: bodyHtml });
+	const bodyHtml = compile(`${templateName}.html`)(context);
+	const fullHtml = compile("layout:base")({ ...context, body: bodyHtml });
 	return juice(fullHtml);
 }
 
 /** Renders templates/<name>.txt.hbs - the plain-text alternative, no layout/juice. */
 export function renderEmailText(templateName, data) {
-	return compile(path.join("templates", `${templateName}.txt.hbs`))({ ...data, theme });
+	return compile(`${templateName}.txt`)({ ...data, theme });
 }
 
 /** Test-only: drops compiled-template/partial/helper caches so a test can re-register. */
