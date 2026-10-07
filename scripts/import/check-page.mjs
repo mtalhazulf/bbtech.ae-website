@@ -6,7 +6,7 @@
 // content checks in verify.mjs (shared via lib/text-leaves.mjs).
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import { pageRegistry } from "../../src/data/pages/index.js";
+import { getAllPages } from "../../src/data/pages/index.js";
 import { collectTextLeaves, renderedText } from "./lib/text-leaves.mjs";
 
 const args = process.argv.slice(2);
@@ -16,6 +16,7 @@ const base = (args.find((a) => a.startsWith("--base=")) || "--base=http://localh
 const CHROME_ONLY_ASSETS = new Set(["/images/bbtech/shared/logo-png.webp", "/images/bbtech/shared/small-logo.webp"]);
 
 const manifest = JSON.parse(await readFile(path.join(process.cwd(), "content-import", "assets-manifest.json"), "utf8"));
+const pageRegistry = await getAllPages();
 const slugs = target === "all" ? Object.keys(pageRegistry) : [target];
 let totalMissing = 0;
 
