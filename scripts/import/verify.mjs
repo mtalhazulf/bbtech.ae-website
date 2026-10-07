@@ -7,7 +7,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import * as cheerio from "cheerio";
-import { pageRegistry } from "../../src/data/pages/index.js";
+import { getAllPages } from "../../src/data/pages/index.js";
 
 import { collectTextLeaves, renderedText } from "./lib/text-leaves.mjs";
 
@@ -106,6 +106,7 @@ async function main() {
 	const failures = [];
 	const warnings = [];
 	const copyFixes = await loadCopyFixes();
+	const pageRegistry = await getAllPages();
 
 	// Load all built HTML once.
 	const realSlugs = Object.keys(pageRegistry);
