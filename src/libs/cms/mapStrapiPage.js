@@ -11,15 +11,17 @@ function mapImage(image) {
 }
 
 function mapCardGridItemFromStrapi(item) {
-	const mapped = { title: item.title };
-	if (item.text !== undefined) mapped.text = item.text;
-	if (item.icon !== undefined) mapped.icon = item.icon;
-	else if (item.iconImage) mapped.icon = mapImage(item.iconImage);
-	if (item.href !== undefined) mapped.href = item.href;
-	if (item.date !== undefined) mapped.date = item.date;
-	if (item.image !== undefined) mapped.image = mapImage(item.image);
-	if (item.list !== undefined) mapped.list = item.list.map((li) => li.text);
-	return mapped;
+	return {
+		title: item.title,
+		...(item.text ? { text: item.text } : {}),
+		...(typeof item.icon === "string"
+			? { icon: item.icon }
+			: item.iconImage ? { icon: mapImage(item.iconImage) } : {}),
+		...(item.href ? { href: item.href } : {}),
+		...(item.date ? { date: item.date } : {}),
+		...(item.image ? { image: mapImage(item.image) } : {}),
+		...(item.list && item.list.length > 0 ? { list: item.list.map((li) => li.text) } : {}),
+	};
 }
 
 function mapSection(section) {

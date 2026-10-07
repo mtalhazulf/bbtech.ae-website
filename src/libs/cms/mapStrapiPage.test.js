@@ -115,8 +115,8 @@ describe("mapStrapiPage", () => {
 			slug: "x", path: "/x/", hero: { title: "X" },
 			sections: [{
 				__component: "sections.card-grid",
-				items: [{ id: 1, title: "A Post", href: "/blog/a-post/", date: "2020-08-05",
-					image: { id: 2, localPath: "/images/a.webp", alt: "A", width: 100, height: 100 } }],
+				items: [{ id: 1, title: "A Post", text: null, icon: null, iconImage: null, href: "/blog/a-post/", date: "2020-08-05",
+					image: { id: 2, localPath: "/images/a.webp", alt: "A", width: 100, height: 100 }, list: [] }],
 			}],
 		};
 		expect(mapStrapiPage(entry).sections[0].items).toEqual([
@@ -130,7 +130,8 @@ describe("mapStrapiPage", () => {
 			slug: "x", path: "/x/", hero: { title: "X" },
 			sections: [{
 				__component: "sections.card-grid",
-				items: [{ id: 1, title: "Features", list: [{ id: 10, text: "One" }, { id: 11, text: "Two" }] }],
+				items: [{ id: 1, title: "Features", text: null, icon: null, iconImage: null, href: null, date: null, image: null,
+					list: [{ id: 10, text: "One" }, { id: 11, text: "Two" }] }],
 			}],
 		};
 		expect(mapStrapiPage(entry).sections[0].items).toEqual([
@@ -141,7 +142,10 @@ describe("mapStrapiPage", () => {
 	it("maps a sections.card-grid icon-only item with no text invented", () => {
 		const entry = {
 			slug: "x", path: "/x/", hero: { title: "X" },
-			sections: [{ __component: "sections.card-grid", items: [{ id: 1, title: "English", icon: "fa-language" }] }],
+			sections: [{
+				__component: "sections.card-grid",
+				items: [{ id: 1, title: "English", text: null, icon: "fa-language", iconImage: null, href: null, date: null, image: null, list: [] }],
+			}],
 		};
 		expect(mapStrapiPage(entry).sections[0].items).toEqual([
 			{ title: "English", icon: "fa-language" },
@@ -153,8 +157,9 @@ describe("mapStrapiPage", () => {
 			slug: "x", path: "/x/", hero: { title: "X" },
 			sections: [{
 				__component: "sections.card-grid",
-				items: [{ id: 1, title: "Mobile", text: "desc",
-					iconImage: { id: 2, localPath: "/images/i.webp", alt: "I", width: 50, height: 50 } }],
+				items: [{ id: 1, title: "Mobile", text: "desc", icon: null,
+					iconImage: { id: 2, localPath: "/images/i.webp", alt: "I", width: 50, height: 50 },
+					href: null, date: null, image: null, list: [] }],
 			}],
 		};
 		expect(mapStrapiPage(entry).sections[0].items).toEqual([
@@ -167,12 +172,23 @@ describe("mapStrapiPage", () => {
 			slug: "x", path: "/x/", hero: { title: "X" },
 			sections: [{
 				__component: "sections.card-grid",
-				items: [{ id: 1, title: "Social", text: "desc",
-					image: { id: 2, localPath: "/images/s.webp", alt: "S", width: 80, height: 80 } }],
+				items: [{ id: 1, title: "Social", text: "desc", icon: null, iconImage: null, href: null, date: null,
+					image: { id: 2, localPath: "/images/s.webp", alt: "S", width: 80, height: 80 }, list: [] }],
 			}],
 		};
 		expect(mapStrapiPage(entry).sections[0].items).toEqual([
 			{ title: "Social", text: "desc", image: { localPath: "/images/s.webp", alt: "S", width: 80, height: 80 } },
 		]);
+	});
+
+	it("does not invent a list key for a plain item that never uses the sub-list shape", () => {
+		const entry = {
+			slug: "x", path: "/x/", hero: { title: "X" },
+			sections: [{
+				__component: "sections.card-grid",
+				items: [{ id: 1, title: "Plain Card", text: "desc", icon: "fa-icon", iconImage: null, href: null, date: null, image: null, list: [] }],
+			}],
+		};
+		expect(mapStrapiPage(entry).sections[0].items[0]).not.toHaveProperty("list");
 	});
 });
