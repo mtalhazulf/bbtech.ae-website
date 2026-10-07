@@ -7,7 +7,12 @@
 	"options": {},
 	"attributes": {
 		"title": { "type": "string", "required": true },
-		"text": { "type": "text", "required": true },
-		"icon": { "type": "string" }
+		"text": { "type": "text" },
+		"icon": { "type": "string" },
+		"iconImage": { "type": "component", "component": "shared.image", "repeatable": false },
+		"href": { "type": "string" },
+		"date": { "type": "string" },
+		"image": { "type": "component", "component": "shared.image", "repeatable": false },
+		"list": { "type": "component", "component": "sections.checklist-item", "repeatable": true }
 	}
 }
