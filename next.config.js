@@ -12,6 +12,12 @@ const nextConfig = {
 	},
 	// D2: 1:1 URL parity with the live bbtech.ae paths, which are all trailing-slashed.
 	trailingSlash: true,
+	// Cloudflare (the deploy target) doesn't run Next's image optimizer without a paid
+	// Cloudflare Images binding; images are already pre-sized/converted by the
+	// content-import harvest, so serve them as-is instead of adding that dependency.
+	images: {
+		unoptimized: true,
+	},
 	// Every filler/duplicate/legacy live path from content-import/inventory.json, plus
 	// /about/ (this repo's pre-import placeholder) -> /about-us/. See
 	// scripts/import/lib/seed-inventory.mjs for where these patterns come from and

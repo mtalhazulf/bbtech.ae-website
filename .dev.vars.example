@@ -1,0 +1,18 @@
+# Local-preview secrets for `bun run cf:preview` (wrangler/Workers runtime - NOT read by
+# `bun run dev`, which still uses .env). Copy to .dev.vars and fill in; .dev.vars is
+# gitignored like .env. These are the same runtime vars as .env.example's SMTP_*/
+# TURNSTILE_SECRET_KEY block - see that file for what each one means.
+SITE_URL=https://bbtech.ae
+SMTP_HOST=
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=
+SMTP_PASS=
+MAIL_FROM="BB Tech <no-reply@bbtech.ae>"
+MAIL_TO=info@bbtech.ae
+MAIL_BCC=
+TURNSTILE_SECRET_KEY=
+
+# NEXT_PUBLIC_TURNSTILE_SITE_KEY is inlined at BUILD time (read by `next build`, not the
+# running worker), so it must be set as a real env var before `bun run cf:build`/`cf:preview`,
+# e.g. in `.env.local` - not here.

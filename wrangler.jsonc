@@ -1,0 +1,14 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "bbtech-ae-website",
+	"main": ".open-next/worker.js",
+	"compatibility_date": "2026-10-07",
+	// nodejs_compat is required by OpenNext's worker runtime and by nodemailer's SMTP
+	// transport (src/libs/mail/transport.js). global_fetch_strictly_public matches
+	// Cloudflare's own recommended default.
+	"compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+	"assets": {
+		"directory": ".open-next/assets",
+		"binding": "ASSETS"
+	}
+}

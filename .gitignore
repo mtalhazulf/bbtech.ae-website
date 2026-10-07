@@ -10,6 +10,15 @@ node_modules/*
 # scripts/email/preview.mjs output.
 tmp/email-previews/
 
+# Cloudflare deploy (@opennextjs/cloudflare + wrangler): build output and local
+# worker-runtime state. .dev.vars is wrangler's local-preview secrets file (the Workers
+# equivalent of .env, not read by `bun run dev`) - .dev.vars.example is the committed template.
+.open-next/
+.wrangler/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
 # content-import: keep the crawl cache and full-resolution originals out of git.
 # inventory.json, snapshot/, copy-fixes.md, content-conflicts.md, needs-client-input.md,
 # assets-manifest.json, and REPORT.md ARE committed (see content-import brief).
