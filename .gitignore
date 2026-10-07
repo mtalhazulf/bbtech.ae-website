@@ -20,3 +20,7 @@ content-import/.harvest-failures.json
 content-import/.phase3/
 content-import/.phase3-context.json
 content-import/.phase3-pages.json
+
+# Subagent-driven-development scratch workspace (ledgers, dispatch briefs, review
+# packages) - per-plan working state, not project output.
+.superpowers/
