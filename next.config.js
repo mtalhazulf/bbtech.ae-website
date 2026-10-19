@@ -2,6 +2,7 @@ const path = require("node:path");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+	output: 'standalone',
 	reactStrictMode: false,
 	// Pin the Turbopack workspace root to this repo. Without it, Next 16.3+ walks up
 	// looking for a lockfile and can pick up an unrelated one further up the tree
